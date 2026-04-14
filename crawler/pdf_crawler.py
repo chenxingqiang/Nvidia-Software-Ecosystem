@@ -18,7 +18,7 @@ from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig
 
 import sys
 sys.path.insert(0, str(__file__).rsplit("/", 2)[0])
-from config import BROWSER_CONFIG, OUTPUT_DIR, SEED_URLS
+from config import BROWSER_CONFIG, NON_TARGET_LOCALE_PATH_MARKERS, OUTPUT_DIR, SEED_URLS
 from crawler.rate_limiter import RateLimiter
 
 # Configure logging
@@ -66,6 +66,9 @@ class NvidiaPDFCrawler:
         "https://resources.nvidia.com/",
         "https://www.nvidia.com/content/dam/",
         "https://images.nvidia.com/",
+        "https://www.nvidia.cn/",
+        "https://www.nvidia.com/zh-cn/",
+        "https://images.nvidia.cn/",
     ]
 
     # Patterns to identify PDF links
@@ -149,13 +152,18 @@ class NvidiaPDFCrawler:
         normalized = f"{parsed.scheme}://{parsed.netloc}{parsed.path}"
         return normalized.rstrip("/")
 
-    def _is_nvidia_domain(self, url: str) -> bool:
-        """Check if URL is from NVIDIA domain."""
+    def _is_allowed_nvidia_url(self, url: str) -> bool:
+        """True for NVIDIA PDF/page URLs we crawl (English + Chinese; other locales excluded)."""
         parsed = urlparse(url)
         domain = parsed.netloc.lower()
-        return any(d in domain for d in [
-            "nvidia.com", "nvidia.cn", "nvidianews.nvidia.com"
-        ])
+        if not domain:
+            return False
+        on_com = domain == "nvidia.com" or domain.endswith(".nvidia.com")
+        on_cn = domain == "nvidia.cn" or domain.endswith(".nvidia.cn")
+        if not (on_com or on_cn):
+            return False
+        url_lower = url.lower()
+        return not any(m in url_lower for m in NON_TARGET_LOCALE_PATH_MARKERS)
 
     def _extract_pdf_links(self, html: str, base_url: str) -> List[str]:
         """Extract PDF links from HTML content."""
@@ -167,8 +175,7 @@ class NvidiaPDFCrawler:
                 # Convert relative to absolute URL
                 absolute_url = urljoin(base_url, match)
                 
-                # Only include NVIDIA PDFs
-                if self._is_nvidia_domain(absolute_url):
+                if self._is_allowed_nvidia_url(absolute_url):
                     pdf_urls.add(absolute_url)
         
         # Also look for common PDF URL patterns
@@ -177,7 +184,8 @@ class NvidiaPDFCrawler:
             re.IGNORECASE
         )
         for match in pdf_pattern.findall(html):
-            pdf_urls.add(match)
+            if self._is_allowed_nvidia_url(match):
+                pdf_urls.add(match)
         
         return list(pdf_urls)
 
@@ -194,13 +202,12 @@ class NvidiaPDFCrawler:
             
             absolute_url = urljoin(base_url, match)
             
-            if self._is_nvidia_domain(absolute_url):
+            if self._is_allowed_nvidia_url(absolute_url):
                 # Filter out unwanted pages
                 url_lower = absolute_url.lower()
                 if any(x in url_lower for x in [
                     "/login", "/signin", "/cart", "/checkout",
                     ".jpg", ".png", ".gif", ".mp4", ".zip",
-                    "/zh-cn/", "/zh-tw/", "/ja-jp/", "/ko-kr/",
                 ]):
                     continue
                 links.add(self._normalize_url(absolute_url))

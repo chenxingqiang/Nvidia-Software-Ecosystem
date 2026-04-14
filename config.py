@@ -38,6 +38,10 @@ SEED_URLS: List[str] = [
     "https://www.nvidia.com/en-us/design-visualization/",
     "https://www.nvidia.com/en-us/self-driving-cars/",
     "https://www.nvidia.com/en-us/high-performance-computing/",
+    # Chinese (simplified + traditional on .com, plus China site)
+    "https://www.nvidia.com/zh-cn/",
+    "https://www.nvidia.com/zh-tw/",
+    "https://www.nvidia.cn/",
 ]
 
 # URL filtering patterns
@@ -69,6 +73,20 @@ URL_INCLUDE_PATTERNS: List[str] = [
     "/design-visualization/",
     "/self-driving-cars/",
     "/high-performance-computing/",
+    "/zh-cn/",
+    "/zh-tw/",
+]
+
+# Locales we do not crawl (English + Chinese only).
+NON_TARGET_LOCALE_PATH_MARKERS: List[str] = [
+    "/ja-jp/",
+    "/ko-kr/",
+    "/de-de/",
+    "/fr-fr/",
+    "/es-es/",
+    "/it-it/",
+    "/pt-br/",
+    "/ru-ru/",
 ]
 
 URL_EXCLUDE_PATTERNS: List[str] = [
@@ -91,17 +109,7 @@ URL_EXCLUDE_PATTERNS: List[str] = [
     ".mp3",
     ".avi",
     ".mov",
-    "/zh-cn/",
-    "/zh-tw/",
-    "/ja-jp/",
-    "/ko-kr/",
-    "/de-de/",
-    "/fr-fr/",
-    "/es-es/",
-    "/it-it/",
-    "/pt-br/",
-    "/ru-ru/",
-]
+] + NON_TARGET_LOCALE_PATH_MARKERS
 
 # Allowed domains for crawling
 ALLOWED_DOMAINS: Set[str] = {
@@ -110,6 +118,8 @@ ALLOWED_DOMAINS: Set[str] = {
     "developer.nvidia.com",
     "docs.nvidia.com",
     "ngc.nvidia.com",
+    "nvidia.cn",
+    "www.nvidia.cn",
 }
 
 # Ecosystem classification patterns

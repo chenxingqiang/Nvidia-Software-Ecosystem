@@ -127,8 +127,16 @@ class URLManager:
         parsed = urlparse(url)
         path = parsed.path.lower()
         
-        # Include root and main sections
-        if path in ("/", "/en-us/", "/en-us"):
+        # Include root and main locale entry paths
+        if path in (
+            "/",
+            "/en-us/",
+            "/en-us",
+            "/zh-cn/",
+            "/zh-cn",
+            "/zh-tw/",
+            "/zh-tw",
+        ):
             return True
         
         # Check include patterns

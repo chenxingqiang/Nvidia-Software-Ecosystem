@@ -4,7 +4,7 @@ A comprehensive web crawler and analyzer for mapping NVIDIA's complete ecosystem
 
 ## Features
 
-- **Deep Web Crawling**: Uses `crawl4ai` for efficient async crawling of NVIDIA's website
+- **Deep Web Crawling**: Uses `crawl4ai` for efficient async crawling of NVIDIA's website (English and Chinese: `*.nvidia.com`, `*.nvidia.cn`, and paths `/en-us/`, `/zh-cn/`, `/zh-tw/`; other locale paths such as `/ja-jp/` are excluded)
 - **Ecosystem Classification**: Automatically categorizes pages into 5 major ecosystems:
   - Hardware Ecosystem (GPUs, DGX, Jetson, DRIVE, Networking)
   - Software Ecosystem (CUDA, TensorRT, Omniverse, Clara, Isaac)
@@ -49,15 +49,17 @@ python main.py --load-data output/crawl_data.json
 
 ### Command Line Options
 
-| Option | Default | Description |
-|--------|---------|-------------|
-| `--max-depth` | 5 | Maximum crawl depth |
-| `--max-pages` | 10000 | Maximum pages to crawl |
-| `--concurrent` | 5 | Maximum concurrent requests |
-| `--delay` | 1.5 | Delay between requests (seconds) |
-| `--output-dir` | ./output | Output directory |
-| `--load-data` | - | Load existing crawl data instead of crawling |
-| `--seed-urls` | - | Custom seed URLs to start crawling |
+
+| Option         | Default  | Description                                  |
+| -------------- | -------- | -------------------------------------------- |
+| `--max-depth`  | 5        | Maximum crawl depth                          |
+| `--max-pages`  | 10000    | Maximum pages to crawl                       |
+| `--concurrent` | 5        | Maximum concurrent requests                  |
+| `--delay`      | 1.5      | Delay between requests (seconds)             |
+| `--output-dir` | ./output | Output directory                             |
+| `--load-data`  | -        | Load existing crawl data instead of crawling |
+| `--seed-urls`  | -        | Custom seed URLs to start crawling           |
+
 
 ### 2. PDF Document Crawler
 
@@ -76,14 +78,16 @@ python -m crawler.pdf_crawler --max-pages 1000 --download
 
 #### PDF Crawler Options
 
-| Option | Default | Description |
-|--------|---------|-------------|
-| `--max-depth` | 4 | Maximum crawl depth |
-| `--max-pages` | 2000 | Maximum pages to crawl |
-| `--concurrent` | 5 | Concurrent requests |
-| `--delay` | 1.5 | Request delay (seconds) |
-| `--download` | False | Download PDFs to local folder |
-| `--output-dir` | ./output | Output directory |
+
+| Option         | Default  | Description                   |
+| -------------- | -------- | ----------------------------- |
+| `--max-depth`  | 4        | Maximum crawl depth           |
+| `--max-pages`  | 2000     | Maximum pages to crawl        |
+| `--concurrent` | 5        | Concurrent requests           |
+| `--delay`      | 1.5      | Request delay (seconds)       |
+| `--download`   | False    | Download PDFs to local folder |
+| `--output-dir` | ./output | Output directory              |
+
 
 #### PDF Crawler Output
 
@@ -96,16 +100,18 @@ python -m crawler.pdf_crawler --max-pages 1000 --download
 
 After running the ecosystem crawler, you'll find these files in the output directory:
 
-| File | Description |
-|------|-------------|
-| `nvidia_ecosystem_report.md` | Comprehensive Markdown report |
-| `nvidia_ecosystem.json` | Full ecosystem data in JSON |
-| `nvidia_products.json` | Product catalog JSON |
-| `nvidia_technologies.json` | Technology stack JSON |
-| `nvidia_ecosystem_diagrams.md` | Mermaid diagrams document |
-| `classified_pages.json` | All classified page data |
-| `crawl_data.json` | Raw crawl data (for reprocessing) |
-| `crawl.log` | Crawl log file |
+
+| File                           | Description                       |
+| ------------------------------ | --------------------------------- |
+| `nvidia_ecosystem_report.md`   | Comprehensive Markdown report     |
+| `nvidia_ecosystem.json`        | Full ecosystem data in JSON       |
+| `nvidia_products.json`         | Product catalog JSON              |
+| `nvidia_technologies.json`     | Technology stack JSON             |
+| `nvidia_ecosystem_diagrams.md` | Mermaid diagrams document         |
+| `classified_pages.json`        | All classified page data          |
+| `crawl_data.json`              | Raw crawl data (for reprocessing) |
+| `crawl.log`                    | Crawl log file                    |
+
 
 ## Project Structure
 
@@ -137,6 +143,7 @@ nvidia-ecosystem/
 The classifier uses URL patterns and content keywords to categorize pages:
 
 ### Hardware Ecosystem
+
 - GPU product lines (GeForce, Quadro, Tesla, A100, H100, B100)
 - DGX systems and HGX platforms
 - Jetson embedded platforms
@@ -144,6 +151,7 @@ The classifier uses URL patterns and content keywords to categorize pages:
 - Networking (Mellanox, InfiniBand, BlueField)
 
 ### Software Ecosystem
+
 - CUDA platform and libraries (cuDNN, cuBLAS, NCCL)
 - TensorRT and Triton Inference Server
 - Omniverse platform
@@ -151,6 +159,7 @@ The classifier uses URL patterns and content keywords to categorize pages:
 - RAPIDS, NeMo, Merlin, Morpheus
 
 ### Developer Ecosystem
+
 - SDKs and APIs
 - NGC (NVIDIA GPU Cloud)
 - Documentation and tutorials
@@ -158,12 +167,14 @@ The classifier uses URL patterns and content keywords to categorize pages:
 - Open source projects
 
 ### Business Ecosystem
+
 - Enterprise solutions (AI Enterprise)
 - Cloud partnerships (AWS, Azure, GCP)
 - Industry solutions (Gaming, Automotive, Healthcare)
 - Partner programs
 
 ### Technology Ecosystem
+
 - AI/Deep Learning technologies
 - High Performance Computing (HPC)
 - Computer Vision and NLP
