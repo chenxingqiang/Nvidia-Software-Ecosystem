@@ -16,11 +16,23 @@ A comprehensive web crawler and analyzer for mapping NVIDIA's complete ecosystem
 
 ## Installation
 
-```bash
-# Install dependencies
-pip install -r requirements.txt
+Use a virtual environment if your Python is **PEP 668** “externally managed” (common with Homebrew):
 
-# Setup crawl4ai browser dependencies
+```bash
+python3 -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+Otherwise:
+
+```bash
+pip install -r requirements.txt
+```
+
+Then install crawl4ai browser dependencies:
+
+```bash
 crawl4ai-setup
 ```
 
@@ -112,6 +124,7 @@ After running the ecosystem crawler, you'll find these files in the output direc
 | `crawl_data.json`              | Raw crawl data (for reprocessing) |
 | `crawl.log`                    | Crawl log file                    |
 
+`crawl_data.json` and `classified_pages.json` can be very large; they are listed in `.gitignore` so they are not committed by default. The PDF crawler adds `nvidia_pdf_catalog.json`, `nvidia_pdf_urls.txt`, and `nvidia_pdf_report.md` (see above). You may also have extra Markdown under `output/` from past runs or manual notes; only the files in this table are produced by `main.py` in one pass.
 
 ## Project Structure
 
@@ -120,6 +133,7 @@ nvidia-ecosystem/
 ├── crawler/
 │   ├── __init__.py
 │   ├── nvidia_crawler.py      # Main crawler using crawl4ai
+│   ├── pdf_crawler.py         # PDF link discovery and optional download
 │   ├── url_manager.py         # URL queue and filtering
 │   └── rate_limiter.py        # Request rate limiting
 ├── processors/
