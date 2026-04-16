@@ -1,6 +1,6 @@
 # NVIDIA Ecosystem Diagrams / NVIDIA 生态系统图表
 
-> Generated: 2026-01-26 17:32:20
+> Generated: 2026-04-16 03:32:11
 
 ## Ecosystem Overview / 生态系统概览
 
@@ -8,35 +8,33 @@
 mindmap
   root((NVIDIA Ecosystem))
     Hardware Ecosystem
-      En Gb
-      En Au
-      En In
-      En Sg
-      En Eu
+      Geforce
+      Data Center
+      Networking
+      Autonomous Machines
+      Self Driving Cars
     Software Ecosystem
-      Tag
-      C
-      Cuda
-      Orgs
-      Clara
+      Autonomous Machines
+      Deep Learning Ai
+      Cudnn
+      Omniverse
+      Data Center
     Developer Ecosystem
-      Search
-      Tag
-      Docs
-      Nvidia
-      Downloads
+      Cuda Toolkit
+      Triton Inference Server
+      Maxine
+      Riva
+      Nsight Systems
     Business Ecosystem
-      En In
-      En Au
-      En Gb
-      En Sg
-      En Eu
+      Deep Learning Ai
+      Solutions
+      Industries
     Technology Ecosystem
       Data Center
-      En In
-      En Sg
-      En Au
-      En Gb
+      Ai
+      Deep Learning Ai
+      High Performance Computing
+      Tensorrt
 ```
 
 ## Ecosystem Relationships / 生态系统关系
@@ -65,11 +63,11 @@ flowchart TD
 
 ```mermaid
 pie title "NVIDIA Ecosystem Distribution"
-    "Hardware Ecosystem" : 4732
-    "Software Ecosystem" : 812
-    "Developer Ecosystem" : 1017
-    "Business Ecosystem" : 1836
-    "Technology Ecosystem" : 1603
+    "Hardware Ecosystem" : 24
+    "Software Ecosystem" : 9
+    "Developer Ecosystem" : 8
+    "Business Ecosystem" : 3
+    "Technology Ecosystem" : 16
 ```
 
 ## Product Hierarchy / 产品层级
@@ -78,79 +76,43 @@ pie title "NVIDIA Ecosystem Distribution"
 mindmap
   root((NVIDIA Products))
     Automotive
-      drive agx
-      DRIVE ORIN
+      DRIVE Thor
+      DRIVE Sim
+      DRIVE AGX
       DRIVE Hyperion
-      Drive orin
-      Drive AGX
-      DRIVE SIM
-      DRIVE Orin
-      Drive Sim
     Consumer GPU
-      GeForce RTX 30
-      GeForce 940
-      RTX 3050 Ti
-      RTX 4080 Super
-      GeForce 8300
-      RTX  
-2060 Super
-      GeForce 10
-      Geforce GTX 16
+      RTX 4090
+      RTX 4070 Ti
+      GeForce RTX 40
+      RTX 4500
+      RTX 5070
+      RTX 4000
+      GeForce RTX 4080
+      RTX 5080
     DGX Systems
-      DGX station
-      DGX SUPERPOD
-      DGX STATION
-      DGX Station
-      DGX Superpod
-      DGX SuperPod
-      DGX CLoud
       DGX Cloud
+      DGX Station
+      DGX SuperPOD
     Data Center GPU
-      a100
+      H100
       DGX H100
-      Tesla A100
-      Tesla V100
-      b100
-      Tesla K20
+      L40
+      DGX A100
       A100
-      Tesla v100
     Data Center Platform
-      Grace CPU
       Grace Hopper
+      Grace CPU
     Edge AI / Embedded
-      Jetson AGX orin
-      JETSON ORIN
-      JETSON AGX Xavier
-      Jetson xavier
-      Jetson AGX ORIN
-      jetson agx xavier
-      Jetson TX2
-      JETSON AGX ORIN
+      Jetson AGX Xavier
+      Jetson Orin
+      Jetson AGX Orin
     Networking
-      spectrum-2
-      connectX-5
-      connectX
-      Spectrum-3
-      Bluefield-3
-      Connectx-7
-      Connectx-6
+      BlueField-3
+      Spectrum-4
       BlueField
+      ConnectX-7
     Other Hardware
-      l4
-      B200
-      b200
-      h200
-      L4
       H200
-    Professional GPU
-      Quadro K500
-      Quadro 1200
-      Quadro K5200
-      Quadro K600
-      Quadro 5000
-      Quadro K6000
-      Quadro K2000
-      Quadro 4000
 ```
 
 ## Technology Stack / 技术栈
@@ -159,121 +121,82 @@ mindmap
 mindmap
   root((NVIDIA Software))
     AI Frameworks
-      NeMo 
-B
-      NeMo tutorials
-      RAPIDS RAFT
-      NeMo 
-NVIDIA
-      Merlin roadmap
-      NeMo 
-Framework
-      NeMo Curator50
-      nemo Q
+      NeMo is
+      RAPIDS container
+      NeMo framework
+      NeMo Retriever
+      Morpheus
+      NeMo large
+      Merlin recommender
+      RAPIDS suite
     AI Inference
+      TensorRT 10
       TensorRT
-  4
-      triton inference server
-      TensorRT 8.4
-      TensorRT 10.14
-      Triton inference Server
-      TensorRT 8.6
-      TensorRT 6.3
-      TensorRT 7.2
+      Triton Inference Server
     CUDA Platform
-      CUDA 11.7
-      cudnn
-      CUDA 396.64
-      cuDNN 8.0
-      cuda 
-  3
-      cuda 7
-      CUDNN
-      CUDA 4.2
+      CUDA
+      cuDNN
+      cuDNN 9
     Cloud & Containers
-      NGC Login
-      NGC Remove
-      NGC login
+      NGC Catalog
+      NGC catalog
       NGC
-El
-      NGC umożliwia
-      NGC Portal
-      NGC SDK
-      NGC for
+      NGC is
     Computer Vision
-      Metropolis mikro
-      DeepStream with
-      Deepstream yolov8
-      Metropolis NVIDIA
-      Deepstream efficient
-      Deepstream Trilogy
-      DeepStream Libraries
-      DeepStream 7
+      Metropolis
+      DeepStream SDK
+      DeepStream video
+      Metropolis platform
+      DeepStream for
+      DeepStream
     Graphics Technology
-      DLSS 2
-      RAY TRACING
-      DLSS 3
       DLSS 3
-      DLSS 2
-      ray tracing
       Reflex
-      DLSS 4
+      ray tracing
+      Ray Tracing
+      DLSS 4
+      Ray tracing
+      DLSS
     Healthcare AI
-      clara
-      Clara  
-San
-      CLARA for
       Clara
-      CLARA
-      Clara para
-      Clara Parabricks
-      Clara Guardian
+      Clara healthcare
+      Clara Holoscan
+      Clara Imaging
+      Clara Discovery
+      Clara is
     Interconnect Technology
-      NVLINK
-      NVSWITCH
       NVLink
-      nvSwitch
-      nvlink
       NVSwitch
-      NVlink
-      nvswitch
     Omniverse Platform
-      Omniverse Opens
-      Omniverse with
-      Omniverse app
-      Omniverse Plugin
-      Omniverse isaac
-      Omniverse Wind
-      Omniverse Blueprintを活用しクラウドとAIでスケールするOmn
-      OMNIVERSE LICENSING
+      Omniverse platform
+      Omniverse is
+      Omniverse 3D協作平台
+      Omniverse Platform
+      Omniverse Cloud
+      Omniverse Enterprise
+      Omniverse for
+      Omniverse 3D协作平台
     Other Software
-      Canvas
-      NVIDIA AI Enterprise
-      TAO toolkit
       Base Command
-      tao toolkit
-      Fleet Command
-      canvas
-      Tao Toolkit
+      NVIDIA enterprise
+      TAO Toolkit
+      NVIDIA AI Enterprise
+      Canvas
     Robotics
-      Isaac 
-The
-      Isaac platforms
-      Isaac ROS3
-      ISAAC argus
-      Isaac Dispatch
+      Isaac robotics
+      Isaac 机器人平台
+      Isaac 平台
+      Isaac Perceptor
+      Isaac SDK
+      Isaac Sim
+      Isaac ROS
       Isaac
-  3
-      Isaac simulator
-      ISAAC Gym
     Speech & Audio AI
-      Maxine 50
-      Riva Documentation
-      Maxine Surveys
+      Riva is
+      riva
+      Maxine SDK
+      Maxine
+      Broadcast
       Riva
-Use
-      NGC privata
-      Riva Benchmarks
-      riva conversion
-      RIva para
+      Riva speech
 ```

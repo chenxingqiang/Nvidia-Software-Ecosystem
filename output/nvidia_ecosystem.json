@@ -1,0 +1,492 @@
+{
+  "metadata": {
+    "generated_at": "2026-04-16T03:32:11.622252",
+    "crawl_start": "2026-04-16T03:32:05.931295",
+    "crawl_end": "2026-04-16T03:32:05.931295",
+    "total_pages": 60,
+    "elapsed_seconds": 15.9
+  },
+  "summary": {
+    "total_ecosystems": 5,
+    "ecosystem_distribution": {
+      "hardware": 24,
+      "software": 9,
+      "developer": 8,
+      "business": 3,
+      "technology": 16
+    }
+  },
+  "ecosystems": {
+    "hardware": {
+      "name": "Hardware Ecosystem",
+      "name_cn": "硬件生态",
+      "total_pages": 24,
+      "subcategories": {
+        "Geforce": 11,
+        "Data Center": 3,
+        "Networking": 3,
+        "Autonomous Machines": 2,
+        "Self Driving Cars": 1,
+        "Design Visualization": 1
+      },
+      "products": {
+        "Consumer GPU": [
+          "GeForce RTX 5090",
+          "GeForce RTX 5080",
+          "GeForce RTX 5070 Ti",
+          "GeForce RTX 5070",
+          "GeForce RTX 4090",
+          "GeForce RTX 4080",
+          "GeForce RTX 4070 Ti",
+          "GeForce RTX 4070",
+          "GeForce RTX 4060 Ti",
+          "GeForce RTX 4060",
+          "RTX 5090",
+          "RTX 5080",
+          "RTX 5070 Ti",
+          "RTX 5070",
+          "RTX 4090",
+          "RTX 4080 SUPER",
+          "RTX 4070 Ti",
+          "RTX 4070 SUPER",
+          "RTX 4070",
+          "RTX 4060 Ti",
+          "RTX 4060",
+          "GeForce RTX 50",
+          "RTX 50",
+          "GeForce RTX 40",
+          "RTX 40",
+          "RTX 6000",
+          "RTX 5000",
+          "RTX 4500",
+          "RTX 4000"
+        ],
+        "Data Center GPU": [
+          "H100",
+          "A100"
+        ],
+        "Networking": [
+          "BlueField",
+          "BlueField-3",
+          "ConnectX-7",
+          "Spectrum-4"
+        ],
+        "Edge AI / Embedded": [
+          "Jetson AGX Orin",
+          "Jetson Orin",
+          "Jetson AGX Xavier"
+        ],
+        "Automotive": [
+          "DRIVE AGX",
+          "DRIVE Thor",
+          "DRIVE Hyperion",
+          "DRIVE Sim"
+        ],
+        "Other Hardware": [
+          "H200"
+        ]
+      },
+      "technologies": {
+        "Graphics Technology": [
+          "DLSS",
+          "ray tracing",
+          "Reflex",
+          "DLSS 4",
+          "DLSS 3",
+          "Ray Tracing",
+          "Ray tracing"
+        ],
+        "Speech & Audio AI": [
+          "Broadcast"
+        ],
+        "Other Software": [
+          "Canvas"
+        ],
+        "Interconnect Technology": [
+          "NVLink",
+          "NVSwitch"
+        ],
+        "Robotics": [
+          "Isaac",
+          "Isaac platform",
+          "Isaac Sim",
+          "Isaac ROS",
+          "Isaac 平台",
+          "Isaac 机器人平台"
+        ],
+        "Omniverse Platform": [
+          "Omniverse for",
+          "Omniverse 3D协作平台",
+          "Omniverse 3D協作平台"
+        ],
+        "CUDA Platform": [
+          "CUDA"
+        ]
+      },
+      "keywords": {
+        "ai": 18,
+        "gpu": 13,
+        "hpc": 8,
+        "gaming": 6,
+        "data center": 5,
+        "cuda": 3,
+        "cloud": 3,
+        "training": 2,
+        "professional visualization": 2,
+        "deep learning": 2,
+        "inference": 1,
+        "robotics": 1,
+        "edge": 1,
+        "automotive": 1,
+        "accelerated computing": 1
+      },
+      "urls": [
+        "https://www.nvidia.com/en-us/geforce/",
+        "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+        "https://www.nvidia.com/en-us/geforce/technologies/",
+        "https://www.nvidia.com/en-us/data-center/h100/",
+        "https://www.nvidia.com/en-us/data-center/a100/",
+        "https://www.nvidia.com/en-us/networking/",
+        "https://www.nvidia.com/en-us/autonomous-machines/",
+        "https://www.nvidia.com/en-us/self-driving-cars/",
+        "https://www.nvidia.com/en-us/design-visualization/",
+        "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+        "https://www.nvidia.com/en-us/geforce/technologies/ray-tracing/",
+        "https://www.nvidia.com/zh-cn/",
+        "https://www.nvidia.com/zh-cn/geforce/",
+        "https://www.nvidia.com/zh-tw/",
+        "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
+        "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/",
+        "https://www.nvidia.com/en-us/data-center/hgx/",
+        "https://www.nvidia.com/en-us/networking/infiniband/",
+        "https://www.nvidia.com/en-us/networking/ethernet/"
+      ]
+    },
+    "software": {
+      "name": "Software Ecosystem",
+      "name_cn": "软件生态",
+      "total_pages": 9,
+      "subcategories": {
+        "Autonomous Machines": 2,
+        "Deep Learning Ai": 1,
+        "Cudnn": 1,
+        "Omniverse": 1,
+        "Data Center": 1,
+        "Clara": 1,
+        "Gpu Cloud": 1,
+        "Morpheus Cybersecurity": 1
+      },
+      "products": {
+        "Edge AI / Embedded": [
+          "Jetson AGX Orin",
+          "Jetson Orin",
+          "Jetson AGX Xavier"
+        ]
+      },
+      "technologies": {
+        "CUDA Platform": [
+          "CUDA",
+          "cuDNN",
+          "cuDNN 9"
+        ],
+        "AI Inference": [
+          "TensorRT",
+          "Triton Inference Server"
+        ],
+        "Robotics": [
+          "Isaac for"
+        ],
+        "Computer Vision": [
+          "DeepStream for",
+          "DeepStream video",
+          "DeepStream",
+          "DeepStream SDK",
+          "Metropolis",
+          "Metropolis platform"
+        ],
+        "Other Software": [
+          "TAO Toolkit",
+          "NVIDIA AI Enterprise"
+        ],
+        "AI Frameworks": [
+          "RAPIDS data",
+          "NeMo large",
+          "Merlin recommender",
+          "Morpheus cybersecurity",
+          "RAPIDS",
+          "NeMo",
+          "Merlin",
+          "Morpheus",
+          "RAPIDS container",
+          "NeMo framework",
+          "Morpheus AI"
+        ],
+        "Omniverse Platform": [
+          "Omniverse Platform",
+          "Omniverse is",
+          "Omniverse platform",
+          "Omniverse Cloud",
+          "Omniverse Enterprise",
+          "Omniverse for"
+        ],
+        "Graphics Technology": [
+          "ray tracing"
+        ],
+        "Healthcare AI": [
+          "Clara",
+          "Clara is",
+          "Clara healthcare",
+          "Clara Holoscan",
+          "Clara Discovery",
+          "Clara Imaging"
+        ],
+        "Speech & Audio AI": [
+          "riva"
+        ],
+        "Cloud & Containers": [
+          "NGC Catalog",
+          "NGC is",
+          "NGC catalog"
+        ]
+      },
+      "keywords": {
+        "ai": 7,
+        "gpu": 4,
+        "cuda": 3,
+        "inference": 3,
+        "cloud": 3,
+        "edge": 2,
+        "neural network": 2,
+        "deep learning": 2,
+        "robotics": 1,
+        "training": 1,
+        "healthcare": 1,
+        "hpc": 1
+      },
+      "urls": [
+        "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/",
+        "https://www.nvidia.com/en-us/deep-learning-ai/",
+        "https://developer.nvidia.com/cudnn",
+        "https://www.nvidia.com/en-us/omniverse/",
+        "https://www.nvidia.com/en-us/data-center/products/ai-enterprise/",
+        "https://www.nvidia.com/en-us/clara/",
+        "https://www.nvidia.com/en-us/autonomous-machines/intelligent-video-analytics/",
+        "https://developer.nvidia.com/gpu-cloud",
+        "https://developer.nvidia.com/morpheus-cybersecurity"
+      ]
+    },
+    "developer": {
+      "name": "Developer Ecosystem",
+      "name_cn": "开发者生态",
+      "total_pages": 8,
+      "subcategories": {
+        "Cuda Toolkit": 1,
+        "Triton Inference Server": 1,
+        "Maxine": 1,
+        "Riva": 1,
+        "Nsight Systems": 1,
+        "Nsight Compute": 1
+      },
+      "products": {},
+      "technologies": {
+        "CUDA Platform": [
+          "CUDA",
+          "cuDNN"
+        ],
+        "AI Inference": [
+          "TensorRT",
+          "Triton Inference Server"
+        ],
+        "AI Frameworks": [
+          "RAPIDS",
+          "RAPIDS suite",
+          "RAPIDS open"
+        ],
+        "Speech & Audio AI": [
+          "Maxine",
+          "Maxine SDK",
+          "Riva",
+          "Riva is",
+          "Riva speech"
+        ],
+        "Cloud & Containers": [
+          "NGC catalog"
+        ]
+      },
+      "keywords": {
+        "gpu": 7,
+        "ai": 5,
+        "cuda": 4,
+        "inference": 3,
+        "machine learning": 1,
+        "accelerated computing": 1,
+        "training": 1,
+        "deep learning": 1
+      },
+      "urls": [
+        "https://developer.nvidia.com/cuda-toolkit",
+        "https://developer.nvidia.com/triton-inference-server",
+        "https://rapids.ai/",
+        "https://developer.nvidia.com/maxine",
+        "https://developer.nvidia.com/riva",
+        "https://developer.nvidia.com/",
+        "https://developer.nvidia.com/nsight-systems",
+        "https://developer.nvidia.com/nsight-compute"
+      ]
+    },
+    "business": {
+      "name": "Business Ecosystem",
+      "name_cn": "商业生态",
+      "total_pages": 3,
+      "subcategories": {
+        "Deep Learning Ai": 1,
+        "Solutions": 1,
+        "Industries": 1
+      },
+      "products": {},
+      "technologies": {
+        "Robotics": [
+          "Isaac",
+          "Isaac platform",
+          "Isaac robotics",
+          "Isaac Sim",
+          "Isaac ROS",
+          "Isaac SDK",
+          "Isaac Perceptor",
+          "Isaac Manipulator",
+          "Isaac Lab"
+        ],
+        "Other Software": [
+          "NVIDIA enterprise"
+        ]
+      },
+      "keywords": {
+        "ai": 3,
+        "robotics": 2,
+        "automotive": 2,
+        "healthcare": 2,
+        "training": 1,
+        "cloud": 1,
+        "inference": 1,
+        "edge": 1
+      },
+      "urls": [
+        "https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/",
+        "https://www.nvidia.com/en-us/solutions/",
+        "https://www.nvidia.com/en-us/industries/"
+      ]
+    },
+    "technology": {
+      "name": "Technology Ecosystem",
+      "name_cn": "技术生态",
+      "total_pages": 16,
+      "subcategories": {
+        "Data Center": 8,
+        "High Performance Computing": 1,
+        "Tensorrt": 1,
+        "Ai Data Science": 1,
+        "Ai": 2,
+        "Deep Learning Ai": 2,
+        "Merlin": 1
+      },
+      "products": {
+        "Other Hardware": [
+          "H200"
+        ],
+        "Data Center GPU": [
+          "H100",
+          "A100",
+          "L40",
+          "DGX H100",
+          "DGX A100"
+        ],
+        "Data Center Platform": [
+          "Grace Hopper",
+          "Grace CPU"
+        ],
+        "DGX Systems": [
+          "DGX Station",
+          "DGX Cloud",
+          "DGX SuperPOD"
+        ]
+      },
+      "technologies": {
+        "Interconnect Technology": [
+          "NVLink",
+          "NVSwitch"
+        ],
+        "Other Software": [
+          "Base Command",
+          "NVIDIA AI Enterprise"
+        ],
+        "CUDA Platform": [
+          "CUDA",
+          "cuDNN"
+        ],
+        "AI Inference": [
+          "TensorRT",
+          "TensorRT 10",
+          "Triton Inference Server"
+        ],
+        "AI Frameworks": [
+          "NeMo Framework",
+          "NeMo is",
+          "NeMo framework",
+          "NeMo Guardrails",
+          "NeMo Curator",
+          "NeMo Retriever",
+          "RAPIDS",
+          "Merlin",
+          "Morpheus",
+          "Merlin is",
+          "Merlin recommender",
+          "Merlin Models",
+          "Merlin Systems"
+        ],
+        "Cloud & Containers": [
+          "NGC"
+        ],
+        "Computer Vision": [
+          "DeepStream"
+        ],
+        "Speech & Audio AI": [
+          "Riva"
+        ]
+      },
+      "keywords": {
+        "ai": 14,
+        "gpu": 13,
+        "inference": 9,
+        "training": 8,
+        "cloud": 4,
+        "llm": 4,
+        "hpc": 3,
+        "deep learning": 3,
+        "generative ai": 3,
+        "accelerated computing": 2,
+        "data center": 2,
+        "cuda": 1,
+        "healthcare": 1
+      },
+      "urls": [
+        "https://www.nvidia.com/en-us/data-center/",
+        "https://www.nvidia.com/en-us/data-center/h200/",
+        "https://www.nvidia.com/en-us/data-center/dgx-platform/",
+        "https://www.nvidia.com/en-us/data-center/grace-hopper-superchip/",
+        "https://www.nvidia.com/en-us/high-performance-computing/",
+        "https://developer.nvidia.com/tensorrt",
+        "https://www.nvidia.com/en-us/ai-data-science/products/nemo/",
+        "https://www.nvidia.com/en-us/data-center/cloud-computing/",
+        "https://www.nvidia.com/en-us/ai/",
+        "https://www.nvidia.com/en-us/deep-learning-ai/generative-ai/",
+        "https://www.nvidia.com/en-us/deep-learning-ai/inference/",
+        "https://www.nvidia.com/en-us/data-center/nvlink/",
+        "https://www.nvidia.com/zh-cn/data-center/",
+        "https://www.nvidia.com/en-us/data-center/l40s/",
+        "https://developer.nvidia.com/merlin",
+        "https://www.nvidia.com/en-us/ai/"
+      ]
+    }
+  }
+}

@@ -32,6 +32,7 @@ class URLManager:
         allowed_domains: Optional[Set[str]] = None,
         include_patterns: Optional[List[str]] = None,
         exclude_patterns: Optional[List[str]] = None,
+        crawl_all: bool = False,
     ):
         """
         Initialize URL manager.
@@ -41,11 +42,14 @@ class URLManager:
             allowed_domains: Set of allowed domains.
             include_patterns: URL patterns to include.
             exclude_patterns: URL patterns to exclude.
+            crawl_all: When True, skip include-pattern filtering and
+                       traverse ALL sub-pages under allowed domains.
         """
         self.max_depth = max_depth
         self.allowed_domains = allowed_domains or ALLOWED_DOMAINS
         self.include_patterns = include_patterns or URL_INCLUDE_PATTERNS
         self.exclude_patterns = exclude_patterns or URL_EXCLUDE_PATTERNS
+        self.crawl_all = crawl_all
         
         self._queue: Deque[URLItem] = deque()
         self._visited: Set[str] = set()
@@ -121,6 +125,12 @@ class URLManager:
         Returns:
             True if URL should be included.
         """
+        # When crawl_all is enabled, include every valid URL under
+        # allowed domains (is_valid_url already handles domain and
+        # exclude-pattern checks).
+        if self.crawl_all:
+            return True
+
         url_lower = url.lower()
         
         # Always include main pages

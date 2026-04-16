@@ -1,0 +1,410 @@
+{
+  "generated_at": "2026-04-16T03:32:11.622857",
+  "total_products": 51,
+  "categories": {
+    "Automotive": {
+      "count": 4,
+      "products": [
+        {
+          "name": "DRIVE AGX",
+          "urls": [
+            "https://www.nvidia.com/en-us/self-driving-cars/"
+          ]
+        },
+        {
+          "name": "DRIVE Hyperion",
+          "urls": [
+            "https://www.nvidia.com/en-us/self-driving-cars/"
+          ]
+        },
+        {
+          "name": "DRIVE Sim",
+          "urls": [
+            "https://www.nvidia.com/en-us/self-driving-cars/"
+          ]
+        },
+        {
+          "name": "DRIVE Thor",
+          "urls": [
+            "https://www.nvidia.com/en-us/self-driving-cars/"
+          ]
+        }
+      ]
+    },
+    "Consumer GPU": {
+      "count": 29,
+      "products": [
+        {
+          "name": "GeForce RTX 40",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/"
+          ]
+        },
+        {
+          "name": "GeForce RTX 4060",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+            "https://www.nvidia.com/en-us/geforce/"
+          ]
+        },
+        {
+          "name": "GeForce RTX 4060 Ti",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+            "https://www.nvidia.com/en-us/geforce/"
+          ]
+        },
+        {
+          "name": "GeForce RTX 4070",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+            "https://www.nvidia.com/en-us/geforce/"
+          ]
+        },
+        {
+          "name": "GeForce RTX 4070 Ti",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+            "https://www.nvidia.com/en-us/geforce/"
+          ]
+        },
+        {
+          "name": "GeForce RTX 4080",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+            "https://www.nvidia.com/en-us/geforce/"
+          ]
+        },
+        {
+          "name": "GeForce RTX 4090",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+            "https://www.nvidia.com/en-us/geforce/"
+          ]
+        },
+        {
+          "name": "GeForce RTX 50",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/"
+          ]
+        },
+        {
+          "name": "GeForce RTX 5070",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+            "https://www.nvidia.com/zh-cn/geforce/",
+            "https://www.nvidia.com/en-us/geforce/"
+          ]
+        },
+        {
+          "name": "GeForce RTX 5070 Ti",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+            "https://www.nvidia.com/zh-cn/geforce/",
+            "https://www.nvidia.com/en-us/geforce/"
+          ]
+        },
+        {
+          "name": "GeForce RTX 5080",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+            "https://www.nvidia.com/zh-cn/geforce/",
+            "https://www.nvidia.com/en-us/geforce/"
+          ]
+        },
+        {
+          "name": "GeForce RTX 5090",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+            "https://www.nvidia.com/zh-cn/geforce/",
+            "https://www.nvidia.com/en-us/geforce/"
+          ]
+        },
+        {
+          "name": "RTX 40",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/"
+          ]
+        },
+        {
+          "name": "RTX 4000",
+          "urls": [
+            "https://www.nvidia.com/en-us/design-visualization/"
+          ]
+        },
+        {
+          "name": "RTX 4060",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+            "https://www.nvidia.com/en-us/geforce/"
+          ]
+        },
+        {
+          "name": "RTX 4060 Ti",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+            "https://www.nvidia.com/en-us/geforce/"
+          ]
+        },
+        {
+          "name": "RTX 4070",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+            "https://www.nvidia.com/en-us/geforce/"
+          ]
+        },
+        {
+          "name": "RTX 4070 SUPER",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+            "https://www.nvidia.com/en-us/geforce/"
+          ]
+        },
+        {
+          "name": "RTX 4070 Ti",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+            "https://www.nvidia.com/en-us/geforce/"
+          ]
+        },
+        {
+          "name": "RTX 4080 SUPER",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+            "https://www.nvidia.com/en-us/geforce/"
+          ]
+        },
+        {
+          "name": "RTX 4090",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+            "https://www.nvidia.com/en-us/geforce/"
+          ]
+        },
+        {
+          "name": "RTX 4500",
+          "urls": [
+            "https://www.nvidia.com/en-us/design-visualization/"
+          ]
+        },
+        {
+          "name": "RTX 50",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/"
+          ]
+        },
+        {
+          "name": "RTX 5000",
+          "urls": [
+            "https://www.nvidia.com/en-us/design-visualization/"
+          ]
+        },
+        {
+          "name": "RTX 5070",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+            "https://www.nvidia.com/zh-cn/geforce/",
+            "https://www.nvidia.com/en-us/geforce/"
+          ]
+        },
+        {
+          "name": "RTX 5070 Ti",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+            "https://www.nvidia.com/zh-cn/geforce/",
+            "https://www.nvidia.com/en-us/geforce/"
+          ]
+        },
+        {
+          "name": "RTX 5080",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+            "https://www.nvidia.com/zh-cn/geforce/",
+            "https://www.nvidia.com/en-us/geforce/"
+          ]
+        },
+        {
+          "name": "RTX 5090",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+            "https://www.nvidia.com/zh-cn/geforce/",
+            "https://www.nvidia.com/en-us/geforce/"
+          ]
+        },
+        {
+          "name": "RTX 6000",
+          "urls": [
+            "https://www.nvidia.com/en-us/design-visualization/"
+          ]
+        }
+      ]
+    },
+    "DGX Systems": {
+      "count": 3,
+      "products": [
+        {
+          "name": "DGX Cloud",
+          "urls": [
+            "https://www.nvidia.com/en-us/data-center/dgx-platform/",
+            "https://www.nvidia.com/en-us/data-center/cloud-computing/"
+          ]
+        },
+        {
+          "name": "DGX Station",
+          "urls": [
+            "https://www.nvidia.com/en-us/data-center/dgx-platform/"
+          ]
+        },
+        {
+          "name": "DGX SuperPOD",
+          "urls": [
+            "https://www.nvidia.com/en-us/data-center/dgx-platform/"
+          ]
+        }
+      ]
+    },
+    "Data Center GPU": {
+      "count": 5,
+      "products": [
+        {
+          "name": "A100",
+          "urls": [
+            "https://www.nvidia.com/en-us/data-center/",
+            "https://www.nvidia.com/en-us/data-center/dgx-platform/",
+            "https://www.nvidia.com/en-us/data-center/a100/",
+            "https://www.nvidia.com/zh-cn/data-center/",
+            "https://www.nvidia.com/en-us/data-center/hgx/"
+          ]
+        },
+        {
+          "name": "DGX A100",
+          "urls": [
+            "https://www.nvidia.com/en-us/data-center/dgx-platform/"
+          ]
+        },
+        {
+          "name": "DGX H100",
+          "urls": [
+            "https://www.nvidia.com/en-us/data-center/dgx-platform/"
+          ]
+        },
+        {
+          "name": "H100",
+          "urls": [
+            "https://www.nvidia.com/en-us/data-center/",
+            "https://www.nvidia.com/en-us/data-center/grace-hopper-superchip/",
+            "https://www.nvidia.com/en-us/data-center/dgx-platform/",
+            "https://www.nvidia.com/zh-cn/data-center/",
+            "https://www.nvidia.com/en-us/data-center/h100/"
+          ]
+        },
+        {
+          "name": "L40",
+          "urls": [
+            "https://www.nvidia.com/en-us/data-center/",
+            "https://www.nvidia.com/en-us/data-center/l40s/"
+          ]
+        }
+      ]
+    },
+    "Data Center Platform": {
+      "count": 2,
+      "products": [
+        {
+          "name": "Grace CPU",
+          "urls": [
+            "https://www.nvidia.com/en-us/data-center/grace-hopper-superchip/"
+          ]
+        },
+        {
+          "name": "Grace Hopper",
+          "urls": [
+            "https://www.nvidia.com/zh-cn/data-center/",
+            "https://www.nvidia.com/en-us/data-center/",
+            "https://www.nvidia.com/en-us/data-center/grace-hopper-superchip/"
+          ]
+        }
+      ]
+    },
+    "Edge AI / Embedded": {
+      "count": 3,
+      "products": [
+        {
+          "name": "Jetson AGX Orin",
+          "urls": [
+            "https://www.nvidia.com/zh-cn/autonomous-machines/",
+            "https://www.nvidia.com/en-us/autonomous-machines/",
+            "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/"
+          ]
+        },
+        {
+          "name": "Jetson AGX Xavier",
+          "urls": [
+            "https://www.nvidia.com/en-us/autonomous-machines/",
+            "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/"
+          ]
+        },
+        {
+          "name": "Jetson Orin",
+          "urls": [
+            "https://www.nvidia.com/zh-cn/autonomous-machines/",
+            "https://www.nvidia.com/en-us/autonomous-machines/",
+            "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/"
+          ]
+        }
+      ]
+    },
+    "Networking": {
+      "count": 4,
+      "products": [
+        {
+          "name": "BlueField",
+          "urls": [
+            "https://www.nvidia.com/en-us/networking/"
+          ]
+        },
+        {
+          "name": "BlueField-3",
+          "urls": [
+            "https://www.nvidia.com/en-us/networking/",
+            "https://www.nvidia.com/en-us/networking/ethernet/"
+          ]
+        },
+        {
+          "name": "ConnectX-7",
+          "urls": [
+            "https://www.nvidia.com/en-us/networking/",
+            "https://www.nvidia.com/en-us/networking/ethernet/",
+            "https://www.nvidia.com/en-us/networking/infiniband/"
+          ]
+        },
+        {
+          "name": "Spectrum-4",
+          "urls": [
+            "https://www.nvidia.com/en-us/networking/",
+            "https://www.nvidia.com/en-us/networking/ethernet/"
+          ]
+        }
+      ]
+    },
+    "Other Hardware": {
+      "count": 1,
+      "products": [
+        {
+          "name": "H200",
+          "urls": [
+            "https://www.nvidia.com/en-us/data-center/hgx/",
+            "https://www.nvidia.com/en-us/data-center/h200/",
+            "https://www.nvidia.com/zh-cn/data-center/",
+            "https://www.nvidia.com/en-us/data-center/"
+          ]
+        }
+      ]
+    }
+  }
+}

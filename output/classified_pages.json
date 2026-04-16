@@ -1,0 +1,3574 @@
+[
+  {
+    "url": "https://www.nvidia.com/en-us/geforce/",
+    "title": "GeForce Gaming GPUs - The Ultimate PC Gaming Experience | NVIDIA",
+    "description": "NVIDIA GeForce GPUs deliver the ultimate PC gaming experience. From the newest RTX series to classic GTX models.",
+    "depth": 0,
+    "ecosystem": "hardware",
+    "confidence": 1.0,
+    "subcategory": "Geforce",
+    "matched_patterns": [
+      "/geforce/"
+    ],
+    "matched_keywords": [
+      "gpu",
+      "graphics card",
+      "geforce",
+      "rtx",
+      "blackwell",
+      "turing"
+    ],
+    "products": [
+      {
+        "name": "GeForce RTX 5090",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "GeForce RTX 5080",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "GeForce RTX 5070 Ti",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "GeForce RTX 5070",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "GeForce RTX 4090",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "GeForce RTX 4080",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "GeForce RTX 4070 Ti",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "GeForce RTX 4070",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "GeForce RTX 4060 Ti",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "GeForce RTX 4060",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 5090",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 5080",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 5070 Ti",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 5070",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 4090",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 4080 SUPER",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 4070 Ti",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 4070 SUPER",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 4070",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 4060 Ti",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 4060",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/",
+        "features": [],
+        "specifications": {}
+      }
+    ],
+    "technologies": [
+      {
+        "name": "DLSS",
+        "category": "Graphics Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/",
+        "related_products": []
+      },
+      {
+        "name": "ray tracing",
+        "category": "Graphics Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/",
+        "related_products": []
+      },
+      {
+        "name": "Reflex",
+        "category": "Graphics Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "gaming",
+      "gpu",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+    "title": "GeForce RTX 50 Series Graphics Cards | NVIDIA",
+    "description": "The GeForce RTX 50 Series, powered by NVIDIA Blackwell architecture, delivers the most realistic graphics and AI-powered gaming.",
+    "depth": 1,
+    "ecosystem": "hardware",
+    "confidence": 1.0,
+    "subcategory": "Geforce",
+    "matched_patterns": [
+      "/geforce/"
+    ],
+    "matched_keywords": [
+      "gpu",
+      "graphics card",
+      "geforce",
+      "rtx",
+      "blackwell"
+    ],
+    "products": [
+      {
+        "name": "GeForce RTX 50",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "GeForce RTX 5090",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "GeForce RTX 5080",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "GeForce RTX 5070 Ti",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "GeForce RTX 5070",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 50",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 5090",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 5080",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 5070 Ti",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 5070",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "features": [],
+        "specifications": {}
+      }
+    ],
+    "technologies": [
+      {
+        "name": "DLSS 4",
+        "category": "Graphics Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "related_products": []
+      },
+      {
+        "name": "ray tracing",
+        "category": "Graphics Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "gaming",
+      "gpu",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+    "title": "GeForce RTX 40 Series Graphics Cards | NVIDIA",
+    "description": "Powered by NVIDIA Ada Lovelace architecture, the GeForce RTX 40 Series delivers up to 2X performance and efficiency.",
+    "depth": 1,
+    "ecosystem": "hardware",
+    "confidence": 1.0,
+    "subcategory": "Geforce",
+    "matched_patterns": [
+      "/geforce/"
+    ],
+    "matched_keywords": [
+      "graphics card",
+      "geforce",
+      "rtx",
+      "ada lovelace"
+    ],
+    "products": [
+      {
+        "name": "GeForce RTX 40",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "GeForce RTX 4090",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "GeForce RTX 4080",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "GeForce RTX 4070 Ti",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "GeForce RTX 4070",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "GeForce RTX 4060 Ti",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "GeForce RTX 4060",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 40",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 4090",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 4080 SUPER",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 4070 Ti",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 4070 SUPER",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 4070",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 4060 Ti",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 4060",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+        "features": [],
+        "specifications": {}
+      }
+    ],
+    "technologies": [
+      {
+        "name": "DLSS 3",
+        "category": "Graphics Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+        "related_products": []
+      },
+      {
+        "name": "ray tracing",
+        "category": "Graphics Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+        "related_products": []
+      }
+    ],
+    "keywords": []
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/geforce/technologies/",
+    "title": "GeForce Technologies | NVIDIA",
+    "description": "NVIDIA GeForce technologies including DLSS, Ray Tracing, Reflex, Broadcast, and more.",
+    "depth": 1,
+    "ecosystem": "hardware",
+    "confidence": 0.76,
+    "subcategory": "Geforce",
+    "matched_patterns": [
+      "/geforce/"
+    ],
+    "matched_keywords": [
+      "geforce"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "DLSS",
+        "category": "Graphics Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/technologies/",
+        "related_products": []
+      },
+      {
+        "name": "DLSS 4",
+        "category": "Graphics Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/technologies/",
+        "related_products": []
+      },
+      {
+        "name": "Ray Tracing",
+        "category": "Graphics Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/technologies/",
+        "related_products": []
+      },
+      {
+        "name": "Reflex",
+        "category": "Graphics Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/technologies/",
+        "related_products": []
+      },
+      {
+        "name": "Broadcast",
+        "category": "Speech & Audio AI",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/technologies/",
+        "related_products": []
+      },
+      {
+        "name": "Canvas",
+        "category": "Other Software",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/technologies/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "gaming",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/data-center/",
+    "title": "Data Center Solutions | NVIDIA",
+    "description": "NVIDIA data center solutions for AI, HPC, and cloud computing with the latest GPU technology.",
+    "depth": 0,
+    "ecosystem": "technology",
+    "confidence": 1.0,
+    "subcategory": "Data Center",
+    "matched_patterns": [
+      "/data-center/"
+    ],
+    "matched_keywords": [
+      "hpc",
+      "high performance computing",
+      "data center",
+      "inference",
+      "training"
+    ],
+    "products": [
+      {
+        "name": "H200",
+        "category": "Other Hardware",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "H100",
+        "category": "Data Center GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "A100",
+        "category": "Data Center GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "L40",
+        "category": "Data Center GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "Grace Hopper",
+        "category": "Data Center Platform",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/",
+        "features": [],
+        "specifications": {}
+      }
+    ],
+    "technologies": [
+      {
+        "name": "NVLink",
+        "category": "Interconnect Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/",
+        "related_products": []
+      },
+      {
+        "name": "NVSwitch",
+        "category": "Interconnect Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "cloud",
+      "gpu",
+      "hpc",
+      "inference",
+      "accelerated computing",
+      "training",
+      "data center",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/data-center/h200/",
+    "title": "NVIDIA H200 Tensor Core GPU | NVIDIA",
+    "description": "NVIDIA H200 Tensor Core GPU delivers unprecedented performance for AI and HPC workloads.",
+    "depth": 1,
+    "ecosystem": "technology",
+    "confidence": 0.84,
+    "subcategory": "Data Center",
+    "matched_patterns": [
+      "/data-center/"
+    ],
+    "matched_keywords": [
+      "hpc",
+      "inference",
+      "training"
+    ],
+    "products": [
+      {
+        "name": "H200",
+        "category": "Other Hardware",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/h200/",
+        "features": [],
+        "specifications": {}
+      }
+    ],
+    "technologies": [
+      {
+        "name": "NVLink",
+        "category": "Interconnect Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/h200/",
+        "related_products": []
+      },
+      {
+        "name": "NVSwitch",
+        "category": "Interconnect Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/h200/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "gpu",
+      "hpc",
+      "inference",
+      "training",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/data-center/h100/",
+    "title": "NVIDIA H100 Tensor Core GPU | NVIDIA",
+    "description": "NVIDIA H100 Tensor Core GPU is the leading AI and HPC GPU for the data center.",
+    "depth": 1,
+    "ecosystem": "hardware",
+    "confidence": 1.0,
+    "subcategory": "Data Center",
+    "matched_patterns": [
+      "/h100/"
+    ],
+    "matched_keywords": [
+      "gpu",
+      "h100",
+      "nvlink",
+      "hopper"
+    ],
+    "products": [
+      {
+        "name": "H100",
+        "category": "Data Center GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/h100/",
+        "features": [],
+        "specifications": {}
+      }
+    ],
+    "technologies": [
+      {
+        "name": "NVLink",
+        "category": "Interconnect Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/h100/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "gpu",
+      "hpc",
+      "data center",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/data-center/a100/",
+    "title": "NVIDIA A100 Tensor Core GPU | NVIDIA",
+    "description": "NVIDIA A100 the universal AI and HPC GPU for the modern data center.",
+    "depth": 1,
+    "ecosystem": "hardware",
+    "confidence": 1.0,
+    "subcategory": "Data Center",
+    "matched_patterns": [
+      "/a100/"
+    ],
+    "matched_keywords": [
+      "gpu",
+      "a100",
+      "nvlink",
+      "ampere"
+    ],
+    "products": [
+      {
+        "name": "A100",
+        "category": "Data Center GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/a100/",
+        "features": [],
+        "specifications": {}
+      }
+    ],
+    "technologies": [
+      {
+        "name": "NVLink",
+        "category": "Interconnect Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/a100/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "gpu",
+      "hpc",
+      "inference",
+      "training",
+      "data center",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/data-center/dgx-platform/",
+    "title": "NVIDIA DGX Platform | NVIDIA",
+    "description": "NVIDIA DGX systems are purpose-built for enterprise AI infrastructure.",
+    "depth": 1,
+    "ecosystem": "technology",
+    "confidence": 0.6799999999999999,
+    "subcategory": "Data Center",
+    "matched_patterns": [
+      "/data-center/"
+    ],
+    "matched_keywords": [
+      "training"
+    ],
+    "products": [
+      {
+        "name": "DGX H100",
+        "category": "Data Center GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/dgx-platform/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "DGX A100",
+        "category": "Data Center GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/dgx-platform/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "DGX Station",
+        "category": "DGX Systems",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/dgx-platform/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "DGX Cloud",
+        "category": "DGX Systems",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/dgx-platform/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "DGX SuperPOD",
+        "category": "DGX Systems",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/dgx-platform/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "H100",
+        "category": "Data Center GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/dgx-platform/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "A100",
+        "category": "Data Center GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/dgx-platform/",
+        "features": [],
+        "specifications": {}
+      }
+    ],
+    "technologies": [
+      {
+        "name": "Base Command",
+        "category": "Other Software",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/dgx-platform/",
+        "related_products": []
+      },
+      {
+        "name": "NVSwitch",
+        "category": "Interconnect Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/dgx-platform/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "cloud",
+      "gpu",
+      "training",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/data-center/grace-hopper-superchip/",
+    "title": "NVIDIA Grace Hopper Superchip | NVIDIA",
+    "description": "NVIDIA Grace Hopper Superchip combines Grace CPU with Hopper GPU for accelerated computing.",
+    "depth": 1,
+    "ecosystem": "technology",
+    "confidence": 0.6,
+    "subcategory": "Data Center",
+    "matched_patterns": [
+      "/data-center/"
+    ],
+    "matched_keywords": [],
+    "products": [
+      {
+        "name": "H100",
+        "category": "Data Center GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/grace-hopper-superchip/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "Grace Hopper",
+        "category": "Data Center Platform",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/grace-hopper-superchip/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "Grace CPU",
+        "category": "Data Center Platform",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/grace-hopper-superchip/",
+        "features": [],
+        "specifications": {}
+      }
+    ],
+    "technologies": [
+      {
+        "name": "NVLink",
+        "category": "Interconnect Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/grace-hopper-superchip/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "gpu",
+      "accelerated computing",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/networking/",
+    "title": "NVIDIA Networking Solutions | NVIDIA",
+    "description": "NVIDIA networking solutions including Mellanox InfiniBand, Ethernet, and BlueField DPUs.",
+    "depth": 0,
+    "ecosystem": "hardware",
+    "confidence": 1.0,
+    "subcategory": "Networking",
+    "matched_patterns": [
+      "/networking/"
+    ],
+    "matched_keywords": [
+      "mellanox",
+      "infiniband",
+      "connectx",
+      "bluefield",
+      "spectrum"
+    ],
+    "products": [
+      {
+        "name": "BlueField",
+        "category": "Networking",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/networking/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "BlueField-3",
+        "category": "Networking",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/networking/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "ConnectX-7",
+        "category": "Networking",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/networking/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "Spectrum-4",
+        "category": "Networking",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/networking/",
+        "features": [],
+        "specifications": {}
+      }
+    ],
+    "technologies": [],
+    "keywords": [
+      "hpc",
+      "data center",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/autonomous-machines/",
+    "title": "Autonomous Machines - Jetson and Isaac | NVIDIA",
+    "description": "NVIDIA Jetson and Isaac platform for autonomous machines, robotics, and edge AI.",
+    "depth": 0,
+    "ecosystem": "hardware",
+    "confidence": 0.16000000000000003,
+    "subcategory": "Autonomous Machines",
+    "matched_patterns": [],
+    "matched_keywords": [
+      "jetson"
+    ],
+    "products": [
+      {
+        "name": "Jetson AGX Orin",
+        "category": "Edge AI / Embedded",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/autonomous-machines/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "Jetson Orin",
+        "category": "Edge AI / Embedded",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/autonomous-machines/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "Jetson AGX Xavier",
+        "category": "Edge AI / Embedded",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/autonomous-machines/",
+        "features": [],
+        "specifications": {}
+      }
+    ],
+    "technologies": [
+      {
+        "name": "Isaac",
+        "category": "Robotics",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/autonomous-machines/",
+        "related_products": []
+      },
+      {
+        "name": "Isaac platform",
+        "category": "Robotics",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/autonomous-machines/",
+        "related_products": []
+      },
+      {
+        "name": "Isaac Sim",
+        "category": "Robotics",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/autonomous-machines/",
+        "related_products": []
+      },
+      {
+        "name": "Isaac ROS",
+        "category": "Robotics",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/autonomous-machines/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "robotics",
+      "edge",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/",
+    "title": "NVIDIA Jetson Embedded Systems | NVIDIA",
+    "description": "NVIDIA Jetson embedded systems for edge AI and robotics applications.",
+    "depth": 1,
+    "ecosystem": "software",
+    "confidence": 0.4,
+    "subcategory": "Autonomous Machines",
+    "matched_patterns": [],
+    "matched_keywords": [
+      "cuda",
+      "cudnn",
+      "tensorrt",
+      "isaac",
+      "deepstream",
+      "tao toolkit"
+    ],
+    "products": [
+      {
+        "name": "Jetson AGX Orin",
+        "category": "Edge AI / Embedded",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "Jetson Orin",
+        "category": "Edge AI / Embedded",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "Jetson AGX Xavier",
+        "category": "Edge AI / Embedded",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/",
+        "features": [],
+        "specifications": {}
+      }
+    ],
+    "technologies": [
+      {
+        "name": "CUDA",
+        "category": "CUDA Platform",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/",
+        "related_products": []
+      },
+      {
+        "name": "cuDNN",
+        "category": "CUDA Platform",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/",
+        "related_products": []
+      },
+      {
+        "name": "TensorRT",
+        "category": "AI Inference",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/",
+        "related_products": []
+      },
+      {
+        "name": "Isaac for",
+        "category": "Robotics",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/",
+        "related_products": []
+      },
+      {
+        "name": "DeepStream for",
+        "category": "Computer Vision",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/",
+        "related_products": []
+      },
+      {
+        "name": "TAO Toolkit",
+        "category": "Other Software",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "cuda",
+      "robotics",
+      "edge",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/self-driving-cars/",
+    "title": "NVIDIA DRIVE - Autonomous Vehicle Platform | NVIDIA",
+    "description": "NVIDIA DRIVE platform for autonomous vehicles, from development to deployment.",
+    "depth": 0,
+    "ecosystem": "hardware",
+    "confidence": 0.16000000000000003,
+    "subcategory": "Self Driving Cars",
+    "matched_patterns": [],
+    "matched_keywords": [
+      "drive"
+    ],
+    "products": [
+      {
+        "name": "DRIVE AGX",
+        "category": "Automotive",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/self-driving-cars/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "DRIVE Thor",
+        "category": "Automotive",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/self-driving-cars/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "DRIVE Hyperion",
+        "category": "Automotive",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/self-driving-cars/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "DRIVE Sim",
+        "category": "Automotive",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/self-driving-cars/",
+        "features": [],
+        "specifications": {}
+      }
+    ],
+    "technologies": [],
+    "keywords": [
+      "automotive",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/design-visualization/",
+    "title": "NVIDIA Professional Visualization | NVIDIA",
+    "description": "NVIDIA professional visualization solutions for design, engineering, and content creation.",
+    "depth": 0,
+    "ecosystem": "hardware",
+    "confidence": 0.16000000000000003,
+    "subcategory": "Design Visualization",
+    "matched_patterns": [],
+    "matched_keywords": [
+      "quadro",
+      "rtx"
+    ],
+    "products": [
+      {
+        "name": "RTX 6000",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/design-visualization/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 5000",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/design-visualization/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 4500",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/design-visualization/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 4000",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/design-visualization/",
+        "features": [],
+        "specifications": {}
+      }
+    ],
+    "technologies": [
+      {
+        "name": "Omniverse for",
+        "category": "Omniverse Platform",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/design-visualization/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "professional visualization"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/high-performance-computing/",
+    "title": "High Performance Computing (HPC) | NVIDIA",
+    "description": "NVIDIA HPC solutions accelerate scientific computing and research with GPU-powered supercomputers.",
+    "depth": 0,
+    "ecosystem": "technology",
+    "confidence": 0.4,
+    "subcategory": "High Performance Computing",
+    "matched_patterns": [],
+    "matched_keywords": [
+      "deep learning",
+      "hpc",
+      "high performance computing",
+      "supercomputer"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "CUDA",
+        "category": "CUDA Platform",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/high-performance-computing/",
+        "related_products": []
+      },
+      {
+        "name": "cuDNN",
+        "category": "CUDA Platform",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/high-performance-computing/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "cuda",
+      "gpu",
+      "hpc",
+      "deep learning"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/deep-learning-ai/",
+    "title": "Deep Learning & AI Software | NVIDIA",
+    "description": "NVIDIA deep learning and AI software stack for training and deploying AI models.",
+    "depth": 0,
+    "ecosystem": "software",
+    "confidence": 0.4,
+    "subcategory": "Deep Learning Ai",
+    "matched_patterns": [],
+    "matched_keywords": [
+      "cuda",
+      "cudnn",
+      "tensorrt",
+      "triton",
+      "deepstream",
+      "ai enterprise",
+      "nemo",
+      "merlin",
+      "morpheus",
+      "rapids",
+      "tao toolkit",
+      "dali"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "CUDA",
+        "category": "CUDA Platform",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/deep-learning-ai/",
+        "related_products": []
+      },
+      {
+        "name": "cuDNN",
+        "category": "CUDA Platform",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/deep-learning-ai/",
+        "related_products": []
+      },
+      {
+        "name": "TensorRT",
+        "category": "AI Inference",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/deep-learning-ai/",
+        "related_products": []
+      },
+      {
+        "name": "Triton Inference Server",
+        "category": "AI Inference",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/deep-learning-ai/",
+        "related_products": []
+      },
+      {
+        "name": "NVIDIA AI Enterprise",
+        "category": "Other Software",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/deep-learning-ai/",
+        "related_products": []
+      },
+      {
+        "name": "RAPIDS data",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/deep-learning-ai/",
+        "related_products": []
+      },
+      {
+        "name": "NeMo large",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/deep-learning-ai/",
+        "related_products": []
+      },
+      {
+        "name": "Merlin recommender",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/deep-learning-ai/",
+        "related_products": []
+      },
+      {
+        "name": "Morpheus cybersecurity",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/deep-learning-ai/",
+        "related_products": []
+      },
+      {
+        "name": "DeepStream video",
+        "category": "Computer Vision",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/deep-learning-ai/",
+        "related_products": []
+      },
+      {
+        "name": "TAO Toolkit",
+        "category": "Other Software",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/deep-learning-ai/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "neural network",
+      "cuda",
+      "gpu",
+      "inference",
+      "training",
+      "ai",
+      "deep learning"
+    ]
+  },
+  {
+    "url": "https://developer.nvidia.com/cuda-toolkit",
+    "title": "CUDA Toolkit | NVIDIA Developer",
+    "description": "CUDA Toolkit provides a development environment for GPU-accelerated applications.",
+    "depth": 1,
+    "ecosystem": "developer",
+    "confidence": 0.4,
+    "subcategory": "Cuda Toolkit",
+    "matched_patterns": [],
+    "matched_keywords": [
+      "api",
+      "developer",
+      "compiler",
+      "nvcc"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "CUDA",
+        "category": "CUDA Platform",
+        "description": "",
+        "url": "https://developer.nvidia.com/cuda-toolkit",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "cuda",
+      "gpu"
+    ]
+  },
+  {
+    "url": "https://developer.nvidia.com/cudnn",
+    "title": "NVIDIA cuDNN | NVIDIA Developer",
+    "description": "NVIDIA CUDA Deep Neural Network library for accelerating deep learning frameworks.",
+    "depth": 1,
+    "ecosystem": "software",
+    "confidence": 0.24000000000000005,
+    "subcategory": "Cudnn",
+    "matched_patterns": [],
+    "matched_keywords": [
+      "cuda",
+      "cudnn"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "CUDA",
+        "category": "CUDA Platform",
+        "description": "",
+        "url": "https://developer.nvidia.com/cudnn",
+        "related_products": []
+      },
+      {
+        "name": "cuDNN",
+        "category": "CUDA Platform",
+        "description": "",
+        "url": "https://developer.nvidia.com/cudnn",
+        "related_products": []
+      },
+      {
+        "name": "cuDNN 9",
+        "category": "CUDA Platform",
+        "description": "",
+        "url": "https://developer.nvidia.com/cudnn",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "neural network",
+      "cuda",
+      "gpu",
+      "deep learning"
+    ]
+  },
+  {
+    "url": "https://developer.nvidia.com/tensorrt",
+    "title": "NVIDIA TensorRT | NVIDIA Developer",
+    "description": "TensorRT is an SDK for high-performance deep learning inference.",
+    "depth": 1,
+    "ecosystem": "technology",
+    "confidence": 0.32000000000000006,
+    "subcategory": "Tensorrt",
+    "matched_patterns": [],
+    "matched_keywords": [
+      "deep learning",
+      "llm",
+      "large language model",
+      "inference"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "TensorRT",
+        "category": "AI Inference",
+        "description": "",
+        "url": "https://developer.nvidia.com/tensorrt",
+        "related_products": []
+      },
+      {
+        "name": "TensorRT 10",
+        "category": "AI Inference",
+        "description": "",
+        "url": "https://developer.nvidia.com/tensorrt",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "llm",
+      "inference",
+      "deep learning"
+    ]
+  },
+  {
+    "url": "https://developer.nvidia.com/triton-inference-server",
+    "title": "Triton Inference Server | NVIDIA Developer",
+    "description": "NVIDIA Triton Inference Server for scalable AI model serving in production.",
+    "depth": 1,
+    "ecosystem": "developer",
+    "confidence": 0.32000000000000006,
+    "subcategory": "Triton Inference Server",
+    "matched_patterns": [],
+    "matched_keywords": [
+      "api",
+      "developer",
+      "kubernetes"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "TensorRT",
+        "category": "AI Inference",
+        "description": "",
+        "url": "https://developer.nvidia.com/triton-inference-server",
+        "related_products": []
+      },
+      {
+        "name": "Triton Inference Server",
+        "category": "AI Inference",
+        "description": "",
+        "url": "https://developer.nvidia.com/triton-inference-server",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "gpu",
+      "inference",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/omniverse/",
+    "title": "NVIDIA Omniverse Platform | NVIDIA",
+    "description": "NVIDIA Omniverse is a computing platform for building and operating 3D applications and virtual worlds.",
+    "depth": 0,
+    "ecosystem": "software",
+    "confidence": 0.76,
+    "subcategory": "Omniverse",
+    "matched_patterns": [
+      "/omniverse/"
+    ],
+    "matched_keywords": [
+      "omniverse"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "Omniverse Platform",
+        "category": "Omniverse Platform",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/omniverse/",
+        "related_products": []
+      },
+      {
+        "name": "Omniverse is",
+        "category": "Omniverse Platform",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/omniverse/",
+        "related_products": []
+      },
+      {
+        "name": "Omniverse platform",
+        "category": "Omniverse Platform",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/omniverse/",
+        "related_products": []
+      },
+      {
+        "name": "Omniverse Cloud",
+        "category": "Omniverse Platform",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/omniverse/",
+        "related_products": []
+      },
+      {
+        "name": "Omniverse Enterprise",
+        "category": "Omniverse Platform",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/omniverse/",
+        "related_products": []
+      },
+      {
+        "name": "Omniverse for",
+        "category": "Omniverse Platform",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/omniverse/",
+        "related_products": []
+      },
+      {
+        "name": "ray tracing",
+        "category": "Graphics Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/omniverse/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "cloud",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/data-center/products/ai-enterprise/",
+    "title": "NVIDIA AI Enterprise Software Suite | NVIDIA",
+    "description": "NVIDIA AI Enterprise is an end-to-end cloud-native AI software suite for enterprise AI deployment.",
+    "depth": 1,
+    "ecosystem": "software",
+    "confidence": 1.0,
+    "subcategory": "Data Center",
+    "matched_patterns": [
+      "/ai-enterprise/"
+    ],
+    "matched_keywords": [
+      "tensorrt",
+      "triton",
+      "deepstream",
+      "ai enterprise",
+      "nemo",
+      "merlin",
+      "morpheus",
+      "rapids"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "TensorRT",
+        "category": "AI Inference",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/products/ai-enterprise/",
+        "related_products": []
+      },
+      {
+        "name": "Triton Inference Server",
+        "category": "AI Inference",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/products/ai-enterprise/",
+        "related_products": []
+      },
+      {
+        "name": "NVIDIA AI Enterprise",
+        "category": "Other Software",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/products/ai-enterprise/",
+        "related_products": []
+      },
+      {
+        "name": "RAPIDS",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/products/ai-enterprise/",
+        "related_products": []
+      },
+      {
+        "name": "NeMo",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/products/ai-enterprise/",
+        "related_products": []
+      },
+      {
+        "name": "Merlin",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/products/ai-enterprise/",
+        "related_products": []
+      },
+      {
+        "name": "Morpheus",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/products/ai-enterprise/",
+        "related_products": []
+      },
+      {
+        "name": "DeepStream",
+        "category": "Computer Vision",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/products/ai-enterprise/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "cloud",
+      "inference",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/ai-data-science/products/nemo/",
+    "title": "NVIDIA NeMo Framework | NVIDIA",
+    "description": "NVIDIA NeMo is a scalable generative AI framework for building and deploying large language models.",
+    "depth": 1,
+    "ecosystem": "technology",
+    "confidence": 0.24,
+    "subcategory": "Ai Data Science",
+    "matched_patterns": [],
+    "matched_keywords": [
+      "large language model",
+      "generative ai",
+      "training"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "NeMo Framework",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/ai-data-science/products/nemo/",
+        "related_products": []
+      },
+      {
+        "name": "NeMo is",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/ai-data-science/products/nemo/",
+        "related_products": []
+      },
+      {
+        "name": "NeMo framework",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/ai-data-science/products/nemo/",
+        "related_products": []
+      },
+      {
+        "name": "NeMo Guardrails",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/ai-data-science/products/nemo/",
+        "related_products": []
+      },
+      {
+        "name": "NeMo Curator",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/ai-data-science/products/nemo/",
+        "related_products": []
+      },
+      {
+        "name": "NeMo Retriever",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/ai-data-science/products/nemo/",
+        "related_products": []
+      },
+      {
+        "name": "NGC",
+        "category": "Cloud & Containers",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/ai-data-science/products/nemo/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "gpu",
+      "training",
+      "ai",
+      "generative ai"
+    ]
+  },
+  {
+    "url": "https://rapids.ai/",
+    "title": "RAPIDS - GPU Accelerated Data Science | NVIDIA",
+    "description": "RAPIDS suite of open-source software libraries for GPU-accelerated data science and analytics.",
+    "depth": 1,
+    "ecosystem": "developer",
+    "confidence": 0.24000000000000005,
+    "subcategory": null,
+    "matched_patterns": [],
+    "matched_keywords": [
+      "api",
+      "open source"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "RAPIDS",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://rapids.ai/",
+        "related_products": []
+      },
+      {
+        "name": "RAPIDS suite",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://rapids.ai/",
+        "related_products": []
+      },
+      {
+        "name": "RAPIDS open",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://rapids.ai/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "gpu",
+      "machine learning"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/clara/",
+    "title": "NVIDIA Clara - Healthcare AI Platform | NVIDIA",
+    "description": "NVIDIA Clara is an AI computing platform for healthcare and life sciences.",
+    "depth": 1,
+    "ecosystem": "software",
+    "confidence": 0.76,
+    "subcategory": "Clara",
+    "matched_patterns": [
+      "/clara/"
+    ],
+    "matched_keywords": [
+      "clara"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "Clara",
+        "category": "Healthcare AI",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/clara/",
+        "related_products": []
+      },
+      {
+        "name": "Clara is",
+        "category": "Healthcare AI",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/clara/",
+        "related_products": []
+      },
+      {
+        "name": "Clara healthcare",
+        "category": "Healthcare AI",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/clara/",
+        "related_products": []
+      },
+      {
+        "name": "Clara Holoscan",
+        "category": "Healthcare AI",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/clara/",
+        "related_products": []
+      },
+      {
+        "name": "Clara Discovery",
+        "category": "Healthcare AI",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/clara/",
+        "related_products": []
+      },
+      {
+        "name": "Clara Imaging",
+        "category": "Healthcare AI",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/clara/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "healthcare",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/",
+    "title": "NVIDIA Isaac - Robotics Platform | NVIDIA",
+    "description": "NVIDIA Isaac platform for developing and deploying AI-powered robots.",
+    "depth": 1,
+    "ecosystem": "business",
+    "confidence": 0.6,
+    "subcategory": "Deep Learning Ai",
+    "matched_patterns": [
+      "/industries/"
+    ],
+    "matched_keywords": [],
+    "products": [],
+    "technologies": [
+      {
+        "name": "Isaac",
+        "category": "Robotics",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/",
+        "related_products": []
+      },
+      {
+        "name": "Isaac platform",
+        "category": "Robotics",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/",
+        "related_products": []
+      },
+      {
+        "name": "Isaac robotics",
+        "category": "Robotics",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/",
+        "related_products": []
+      },
+      {
+        "name": "Isaac Sim",
+        "category": "Robotics",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/",
+        "related_products": []
+      },
+      {
+        "name": "Isaac ROS",
+        "category": "Robotics",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/",
+        "related_products": []
+      },
+      {
+        "name": "Isaac SDK",
+        "category": "Robotics",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/",
+        "related_products": []
+      },
+      {
+        "name": "Isaac Perceptor",
+        "category": "Robotics",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/",
+        "related_products": []
+      },
+      {
+        "name": "Isaac Manipulator",
+        "category": "Robotics",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/",
+        "related_products": []
+      },
+      {
+        "name": "Isaac Lab",
+        "category": "Robotics",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "robotics",
+      "training",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/autonomous-machines/intelligent-video-analytics/",
+    "title": "NVIDIA DeepStream & Metropolis | NVIDIA",
+    "description": "NVIDIA video analytics platform for intelligent video understanding at scale.",
+    "depth": 1,
+    "ecosystem": "software",
+    "confidence": 0.4,
+    "subcategory": "Autonomous Machines",
+    "matched_patterns": [],
+    "matched_keywords": [
+      "deepstream",
+      "metropolis",
+      "tao toolkit"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "DeepStream",
+        "category": "Computer Vision",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/autonomous-machines/intelligent-video-analytics/",
+        "related_products": []
+      },
+      {
+        "name": "DeepStream SDK",
+        "category": "Computer Vision",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/autonomous-machines/intelligent-video-analytics/",
+        "related_products": []
+      },
+      {
+        "name": "Metropolis",
+        "category": "Computer Vision",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/autonomous-machines/intelligent-video-analytics/",
+        "related_products": []
+      },
+      {
+        "name": "Metropolis platform",
+        "category": "Computer Vision",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/autonomous-machines/intelligent-video-analytics/",
+        "related_products": []
+      },
+      {
+        "name": "TAO Toolkit",
+        "category": "Other Software",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/autonomous-machines/intelligent-video-analytics/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "cloud",
+      "edge"
+    ]
+  },
+  {
+    "url": "https://developer.nvidia.com/maxine",
+    "title": "NVIDIA Maxine - AI Video and Audio | NVIDIA Developer",
+    "description": "NVIDIA Maxine SDK for AI-powered video conferencing and streaming features.",
+    "depth": 1,
+    "ecosystem": "developer",
+    "confidence": 0.24000000000000005,
+    "subcategory": "Maxine",
+    "matched_patterns": [],
+    "matched_keywords": [
+      "sdk",
+      "developer"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "Maxine",
+        "category": "Speech & Audio AI",
+        "description": "",
+        "url": "https://developer.nvidia.com/maxine",
+        "related_products": []
+      },
+      {
+        "name": "Maxine SDK",
+        "category": "Speech & Audio AI",
+        "description": "",
+        "url": "https://developer.nvidia.com/maxine",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "ai"
+    ]
+  },
+  {
+    "url": "https://developer.nvidia.com/riva",
+    "title": "NVIDIA Riva - Speech AI | NVIDIA Developer",
+    "description": "NVIDIA Riva is a GPU-accelerated SDK for real-time speech AI applications.",
+    "depth": 1,
+    "ecosystem": "developer",
+    "confidence": 0.32000000000000006,
+    "subcategory": "Riva",
+    "matched_patterns": [],
+    "matched_keywords": [
+      "sdk",
+      "api",
+      "developer"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "Riva",
+        "category": "Speech & Audio AI",
+        "description": "",
+        "url": "https://developer.nvidia.com/riva",
+        "related_products": []
+      },
+      {
+        "name": "Riva is",
+        "category": "Speech & Audio AI",
+        "description": "",
+        "url": "https://developer.nvidia.com/riva",
+        "related_products": []
+      },
+      {
+        "name": "Riva speech",
+        "category": "Speech & Audio AI",
+        "description": "",
+        "url": "https://developer.nvidia.com/riva",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "gpu",
+      "inference",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://developer.nvidia.com/",
+    "title": "NVIDIA Developer Program | NVIDIA Developer",
+    "description": "NVIDIA Developer Program provides tools, SDKs, and resources for GPU-accelerated computing.",
+    "depth": 0,
+    "ecosystem": "developer",
+    "confidence": 0.4,
+    "subcategory": null,
+    "matched_patterns": [],
+    "matched_keywords": [
+      "sdk",
+      "developer",
+      "documentation",
+      "tutorial",
+      "sample code",
+      "ngc",
+      "container",
+      "nsight"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "CUDA",
+        "category": "CUDA Platform",
+        "description": "",
+        "url": "https://developer.nvidia.com/",
+        "related_products": []
+      },
+      {
+        "name": "TensorRT",
+        "category": "AI Inference",
+        "description": "",
+        "url": "https://developer.nvidia.com/",
+        "related_products": []
+      },
+      {
+        "name": "Triton Inference Server",
+        "category": "AI Inference",
+        "description": "",
+        "url": "https://developer.nvidia.com/",
+        "related_products": []
+      },
+      {
+        "name": "NGC catalog",
+        "category": "Cloud & Containers",
+        "description": "",
+        "url": "https://developer.nvidia.com/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "cuda",
+      "gpu",
+      "inference",
+      "accelerated computing",
+      "training",
+      "ai",
+      "deep learning"
+    ]
+  },
+  {
+    "url": "https://developer.nvidia.com/gpu-cloud",
+    "title": "NVIDIA NGC Catalog | NVIDIA Developer",
+    "description": "NGC is a GPU-optimized hub for AI and HPC containers, pre-trained models, and SDKs.",
+    "depth": 1,
+    "ecosystem": "software",
+    "confidence": 0.4,
+    "subcategory": "Gpu Cloud",
+    "matched_patterns": [],
+    "matched_keywords": [
+      "tensorrt",
+      "triton",
+      "riva",
+      "nemo",
+      "rapids"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "TensorRT",
+        "category": "AI Inference",
+        "description": "",
+        "url": "https://developer.nvidia.com/gpu-cloud",
+        "related_products": []
+      },
+      {
+        "name": "Triton Inference Server",
+        "category": "AI Inference",
+        "description": "",
+        "url": "https://developer.nvidia.com/gpu-cloud",
+        "related_products": []
+      },
+      {
+        "name": "RAPIDS container",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://developer.nvidia.com/gpu-cloud",
+        "related_products": []
+      },
+      {
+        "name": "NeMo framework",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://developer.nvidia.com/gpu-cloud",
+        "related_products": []
+      },
+      {
+        "name": "riva",
+        "category": "Speech & Audio AI",
+        "description": "",
+        "url": "https://developer.nvidia.com/gpu-cloud",
+        "related_products": []
+      },
+      {
+        "name": "NGC Catalog",
+        "category": "Cloud & Containers",
+        "description": "",
+        "url": "https://developer.nvidia.com/gpu-cloud",
+        "related_products": []
+      },
+      {
+        "name": "NGC is",
+        "category": "Cloud & Containers",
+        "description": "",
+        "url": "https://developer.nvidia.com/gpu-cloud",
+        "related_products": []
+      },
+      {
+        "name": "NGC catalog",
+        "category": "Cloud & Containers",
+        "description": "",
+        "url": "https://developer.nvidia.com/gpu-cloud",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "gpu",
+      "hpc",
+      "inference",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://developer.nvidia.com/nsight-systems",
+    "title": "NVIDIA Nsight Systems | NVIDIA Developer",
+    "description": "Nsight Systems is a system-wide performance analysis tool for GPU-accelerated applications.",
+    "depth": 1,
+    "ecosystem": "developer",
+    "confidence": 0.4,
+    "subcategory": "Nsight Systems",
+    "matched_patterns": [],
+    "matched_keywords": [
+      "api",
+      "developer",
+      "nsight",
+      "profiler"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "CUDA",
+        "category": "CUDA Platform",
+        "description": "",
+        "url": "https://developer.nvidia.com/nsight-systems",
+        "related_products": []
+      },
+      {
+        "name": "cuDNN",
+        "category": "CUDA Platform",
+        "description": "",
+        "url": "https://developer.nvidia.com/nsight-systems",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "cuda",
+      "gpu"
+    ]
+  },
+  {
+    "url": "https://developer.nvidia.com/nsight-compute",
+    "title": "NVIDIA Nsight Compute | NVIDIA Developer",
+    "description": "Nsight Compute is an interactive kernel profiler for CUDA applications.",
+    "depth": 1,
+    "ecosystem": "developer",
+    "confidence": 0.4,
+    "subcategory": "Nsight Compute",
+    "matched_patterns": [],
+    "matched_keywords": [
+      "developer",
+      "nsight",
+      "profiler"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "CUDA",
+        "category": "CUDA Platform",
+        "description": "",
+        "url": "https://developer.nvidia.com/nsight-compute",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "cuda",
+      "gpu",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/solutions/",
+    "title": "NVIDIA Solutions | NVIDIA",
+    "description": "NVIDIA solutions for enterprise AI, cloud computing, and industry-specific applications.",
+    "depth": 0,
+    "ecosystem": "business",
+    "confidence": 1.0,
+    "subcategory": "Solutions",
+    "matched_patterns": [
+      "/solutions/"
+    ],
+    "matched_keywords": [
+      "enterprise",
+      "partner",
+      "industry",
+      "solution",
+      "cloud",
+      "automotive",
+      "healthcare",
+      "retail",
+      "manufacturing",
+      "government",
+      "startup",
+      "inception program"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "NVIDIA enterprise",
+        "category": "Other Software",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/solutions/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "automotive",
+      "healthcare",
+      "cloud",
+      "inference",
+      "edge",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/industries/",
+    "title": "NVIDIA Industry Solutions | NVIDIA",
+    "description": "NVIDIA solutions across industries including healthcare, automotive, financial services, and more.",
+    "depth": 0,
+    "ecosystem": "business",
+    "confidence": 1.0,
+    "subcategory": "Industries",
+    "matched_patterns": [
+      "/industries/"
+    ],
+    "matched_keywords": [
+      "industry",
+      "solution",
+      "automotive",
+      "healthcare",
+      "retail",
+      "manufacturing",
+      "media",
+      "entertainment",
+      "education",
+      "research"
+    ],
+    "products": [],
+    "technologies": [],
+    "keywords": [
+      "automotive",
+      "healthcare",
+      "robotics",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/data-center/cloud-computing/",
+    "title": "NVIDIA Cloud Computing | NVIDIA",
+    "description": "NVIDIA GPU cloud computing solutions available on major cloud platforms.",
+    "depth": 1,
+    "ecosystem": "technology",
+    "confidence": 0.6,
+    "subcategory": "Data Center",
+    "matched_patterns": [
+      "/data-center/"
+    ],
+    "matched_keywords": [],
+    "products": [
+      {
+        "name": "DGX Cloud",
+        "category": "DGX Systems",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/cloud-computing/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "H100",
+        "category": "Data Center GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/cloud-computing/",
+        "features": [],
+        "specifications": {}
+      }
+    ],
+    "technologies": [
+      {
+        "name": "NVIDIA AI Enterprise",
+        "category": "Other Software",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/cloud-computing/",
+        "related_products": []
+      },
+      {
+        "name": "NGC",
+        "category": "Cloud & Containers",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/cloud-computing/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "cloud",
+      "gpu",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/ai/",
+    "title": "NVIDIA AI Platform | NVIDIA",
+    "description": "NVIDIA AI platform for training and deploying artificial intelligence at scale.",
+    "depth": 1,
+    "ecosystem": "technology",
+    "confidence": 1.0,
+    "subcategory": "Ai",
+    "matched_patterns": [
+      "/ai/"
+    ],
+    "matched_keywords": [
+      "artificial intelligence",
+      "large language model",
+      "computer vision",
+      "reinforcement learning",
+      "generative ai",
+      "inference",
+      "training"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "TensorRT",
+        "category": "AI Inference",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/ai/",
+        "related_products": []
+      },
+      {
+        "name": "RAPIDS",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/ai/",
+        "related_products": []
+      },
+      {
+        "name": "NeMo framework",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/ai/",
+        "related_products": []
+      },
+      {
+        "name": "Merlin",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/ai/",
+        "related_products": []
+      },
+      {
+        "name": "Morpheus",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/ai/",
+        "related_products": []
+      },
+      {
+        "name": "DeepStream",
+        "category": "Computer Vision",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/ai/",
+        "related_products": []
+      },
+      {
+        "name": "Riva",
+        "category": "Speech & Audio AI",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/ai/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "inference",
+      "training",
+      "ai",
+      "generative ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/deep-learning-ai/generative-ai/",
+    "title": "Generative AI | NVIDIA",
+    "description": "NVIDIA generative AI solutions for building and deploying large language models and image generators.",
+    "depth": 2,
+    "ecosystem": "technology",
+    "confidence": 0.4,
+    "subcategory": "Deep Learning Ai",
+    "matched_patterns": [],
+    "matched_keywords": [
+      "llm",
+      "large language model",
+      "generative ai",
+      "inference"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "TensorRT",
+        "category": "AI Inference",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/deep-learning-ai/generative-ai/",
+        "related_products": []
+      },
+      {
+        "name": "NeMo framework",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/deep-learning-ai/generative-ai/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "llm",
+      "inference",
+      "ai",
+      "generative ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/deep-learning-ai/inference/",
+    "title": "AI Inference | NVIDIA",
+    "description": "NVIDIA AI inference solutions for deploying models at scale in production.",
+    "depth": 2,
+    "ecosystem": "technology",
+    "confidence": 0.32000000000000006,
+    "subcategory": "Deep Learning Ai",
+    "matched_patterns": [],
+    "matched_keywords": [
+      "llm",
+      "large language model",
+      "inference"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "TensorRT",
+        "category": "AI Inference",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/deep-learning-ai/inference/",
+        "related_products": []
+      },
+      {
+        "name": "Triton Inference Server",
+        "category": "AI Inference",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/deep-learning-ai/inference/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "llm",
+      "gpu",
+      "inference",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/data-center/nvlink/",
+    "title": "NVIDIA NVLink & NVSwitch | NVIDIA",
+    "description": "NVIDIA NVLink and NVSwitch provide high-speed GPU interconnect for multi-GPU systems.",
+    "depth": 1,
+    "ecosystem": "technology",
+    "confidence": 0.6799999999999999,
+    "subcategory": "Data Center",
+    "matched_patterns": [
+      "/data-center/"
+    ],
+    "matched_keywords": [
+      "training"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "NVLink",
+        "category": "Interconnect Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/nvlink/",
+        "related_products": []
+      },
+      {
+        "name": "NVSwitch",
+        "category": "Interconnect Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/nvlink/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "gpu",
+      "training",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+    "title": "NVIDIA DLSS - AI Graphics Technology | NVIDIA",
+    "description": "NVIDIA DLSS uses AI to boost frame rates while generating beautiful, sharp images.",
+    "depth": 2,
+    "ecosystem": "hardware",
+    "confidence": 0.84,
+    "subcategory": "Geforce",
+    "matched_patterns": [
+      "/geforce/"
+    ],
+    "matched_keywords": [
+      "gpu",
+      "geforce",
+      "rtx"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "DLSS",
+        "category": "Graphics Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+        "related_products": []
+      },
+      {
+        "name": "DLSS 4",
+        "category": "Graphics Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+        "related_products": []
+      },
+      {
+        "name": "DLSS 3",
+        "category": "Graphics Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+        "related_products": []
+      },
+      {
+        "name": "ray tracing",
+        "category": "Graphics Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "gpu",
+      "ai",
+      "deep learning"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/geforce/technologies/ray-tracing/",
+    "title": "Ray Tracing Technology | NVIDIA",
+    "description": "Real-time ray tracing technology for photorealistic lighting, reflections, and shadows in games.",
+    "depth": 2,
+    "ecosystem": "hardware",
+    "confidence": 0.6799999999999999,
+    "subcategory": "Geforce",
+    "matched_patterns": [
+      "/geforce/"
+    ],
+    "matched_keywords": [
+      "rtx"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "Ray Tracing",
+        "category": "Graphics Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/technologies/ray-tracing/",
+        "related_products": []
+      },
+      {
+        "name": "ray tracing",
+        "category": "Graphics Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/technologies/ray-tracing/",
+        "related_products": []
+      }
+    ],
+    "keywords": []
+  },
+  {
+    "url": "https://www.nvidia.com/zh-cn/",
+    "title": "NVIDIA 英伟达中国 | 人工智能计算领域的引领者",
+    "description": "NVIDIA 英伟达中国官方网站，了解 NVIDIA GPU、AI、深度学习等解决方案。",
+    "depth": 0,
+    "ecosystem": "hardware",
+    "confidence": 0.24,
+    "subcategory": null,
+    "matched_patterns": [],
+    "matched_keywords": [
+      "gpu",
+      "geforce",
+      "rtx"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "CUDA",
+        "category": "CUDA Platform",
+        "description": "",
+        "url": "https://www.nvidia.com/zh-cn/",
+        "related_products": []
+      },
+      {
+        "name": "Omniverse 3D协作平台",
+        "category": "Omniverse Platform",
+        "description": "",
+        "url": "https://www.nvidia.com/zh-cn/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "cuda",
+      "gpu",
+      "hpc",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/zh-cn/geforce/",
+    "title": "GeForce 游戏显卡 | NVIDIA",
+    "description": "NVIDIA GeForce 游戏显卡，体验极致游戏性能。",
+    "depth": 1,
+    "ecosystem": "hardware",
+    "confidence": 0.92,
+    "subcategory": "Geforce",
+    "matched_patterns": [
+      "/geforce/"
+    ],
+    "matched_keywords": [
+      "geforce",
+      "rtx",
+      "blackwell"
+    ],
+    "products": [
+      {
+        "name": "GeForce RTX 5090",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/zh-cn/geforce/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "GeForce RTX 5080",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/zh-cn/geforce/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "GeForce RTX 5070 Ti",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/zh-cn/geforce/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "GeForce RTX 5070",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/zh-cn/geforce/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 5090",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/zh-cn/geforce/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 5080",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/zh-cn/geforce/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 5070 Ti",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/zh-cn/geforce/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 5070",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/zh-cn/geforce/",
+        "features": [],
+        "specifications": {}
+      }
+    ],
+    "technologies": [
+      {
+        "name": "DLSS",
+        "category": "Graphics Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/zh-cn/geforce/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/zh-cn/data-center/",
+    "title": "数据中心解决方案 | NVIDIA",
+    "description": "NVIDIA 数据中心 GPU 解决方案，用于 AI 训练、推理和高性能计算。",
+    "depth": 1,
+    "ecosystem": "technology",
+    "confidence": 0.6,
+    "subcategory": "Data Center",
+    "matched_patterns": [
+      "/data-center/"
+    ],
+    "matched_keywords": [],
+    "products": [
+      {
+        "name": "H200",
+        "category": "Other Hardware",
+        "description": "",
+        "url": "https://www.nvidia.com/zh-cn/data-center/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "H100",
+        "category": "Data Center GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/zh-cn/data-center/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "A100",
+        "category": "Data Center GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/zh-cn/data-center/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "Grace Hopper",
+        "category": "Data Center Platform",
+        "description": "",
+        "url": "https://www.nvidia.com/zh-cn/data-center/",
+        "features": [],
+        "specifications": {}
+      }
+    ],
+    "technologies": [
+      {
+        "name": "NVLink",
+        "category": "Interconnect Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/zh-cn/data-center/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "gpu",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/zh-tw/",
+    "title": "NVIDIA 台灣官方網站 | 人工智慧運算的領導者",
+    "description": "NVIDIA 台灣官方網站，了解 NVIDIA GPU、AI、深度學習等解決方案。",
+    "depth": 0,
+    "ecosystem": "hardware",
+    "confidence": 0.24,
+    "subcategory": null,
+    "matched_patterns": [],
+    "matched_keywords": [
+      "gpu",
+      "geforce",
+      "rtx"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "CUDA",
+        "category": "CUDA Platform",
+        "description": "",
+        "url": "https://www.nvidia.com/zh-tw/",
+        "related_products": []
+      },
+      {
+        "name": "Omniverse 3D協作平台",
+        "category": "Omniverse Platform",
+        "description": "",
+        "url": "https://www.nvidia.com/zh-tw/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "cuda",
+      "gpu",
+      "hpc",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
+    "title": "GeForce RTX 5090 | NVIDIA",
+    "description": "The GeForce RTX 5090 is the ultimate enthusiast GPU powered by NVIDIA Blackwell architecture.",
+    "depth": 2,
+    "ecosystem": "hardware",
+    "confidence": 1.0,
+    "subcategory": "Geforce",
+    "matched_patterns": [
+      "/geforce/"
+    ],
+    "matched_keywords": [
+      "gpu",
+      "geforce",
+      "rtx",
+      "blackwell"
+    ],
+    "products": [
+      {
+        "name": "GeForce RTX 5090",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 5090",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 4090",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
+        "features": [],
+        "specifications": {}
+      }
+    ],
+    "technologies": [
+      {
+        "name": "DLSS 4",
+        "category": "Graphics Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "gpu"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/",
+    "title": "GeForce RTX 5080 | NVIDIA",
+    "description": "The GeForce RTX 5080 delivers flagship performance for gamers and creators.",
+    "depth": 2,
+    "ecosystem": "hardware",
+    "confidence": 1.0,
+    "subcategory": "Geforce",
+    "matched_patterns": [
+      "/geforce/"
+    ],
+    "matched_keywords": [
+      "geforce",
+      "rtx",
+      "blackwell"
+    ],
+    "products": [
+      {
+        "name": "GeForce RTX 5080",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "RTX 5080",
+        "category": "Consumer GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/",
+        "features": [],
+        "specifications": {}
+      }
+    ],
+    "technologies": [
+      {
+        "name": "DLSS 4",
+        "category": "Graphics Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/",
+        "related_products": []
+      },
+      {
+        "name": "Ray tracing",
+        "category": "Graphics Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "gaming"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/data-center/l40s/",
+    "title": "NVIDIA L40S GPU | NVIDIA",
+    "description": "NVIDIA L40S is a universal GPU for AI inference, training, graphics, and video workloads.",
+    "depth": 1,
+    "ecosystem": "technology",
+    "confidence": 0.84,
+    "subcategory": "Data Center",
+    "matched_patterns": [
+      "/data-center/"
+    ],
+    "matched_keywords": [
+      "data center",
+      "inference",
+      "training"
+    ],
+    "products": [
+      {
+        "name": "L40",
+        "category": "Data Center GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/l40s/",
+        "features": [],
+        "specifications": {}
+      }
+    ],
+    "technologies": [],
+    "keywords": [
+      "gpu",
+      "inference",
+      "training",
+      "data center",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/data-center/hgx/",
+    "title": "NVIDIA HGX Platform | NVIDIA",
+    "description": "NVIDIA HGX is a multi-GPU server platform for the most demanding AI and HPC workloads.",
+    "depth": 1,
+    "ecosystem": "hardware",
+    "confidence": 1.0,
+    "subcategory": "Data Center",
+    "matched_patterns": [
+      "/hgx/"
+    ],
+    "matched_keywords": [
+      "gpu",
+      "a100",
+      "h100",
+      "hgx",
+      "nvlink",
+      "nvswitch"
+    ],
+    "products": [
+      {
+        "name": "H200",
+        "category": "Other Hardware",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/hgx/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "H100",
+        "category": "Data Center GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/hgx/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "A100",
+        "category": "Data Center GPU",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/hgx/",
+        "features": [],
+        "specifications": {}
+      }
+    ],
+    "technologies": [
+      {
+        "name": "NVLink",
+        "category": "Interconnect Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/hgx/",
+        "related_products": []
+      },
+      {
+        "name": "NVSwitch",
+        "category": "Interconnect Technology",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/data-center/hgx/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "gpu",
+      "hpc",
+      "training",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/networking/infiniband/",
+    "title": "NVIDIA InfiniBand | NVIDIA",
+    "description": "NVIDIA InfiniBand networking for high-performance AI and HPC clusters.",
+    "depth": 1,
+    "ecosystem": "hardware",
+    "confidence": 0.92,
+    "subcategory": "Networking",
+    "matched_patterns": [
+      "/networking/",
+      "/infiniband/"
+    ],
+    "matched_keywords": [
+      "gpu",
+      "infiniband",
+      "connectx"
+    ],
+    "products": [
+      {
+        "name": "ConnectX-7",
+        "category": "Networking",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/networking/infiniband/",
+        "features": [],
+        "specifications": {}
+      }
+    ],
+    "technologies": [],
+    "keywords": [
+      "cloud",
+      "gpu",
+      "hpc",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/networking/ethernet/",
+    "title": "NVIDIA Ethernet Solutions | NVIDIA",
+    "description": "NVIDIA Ethernet networking solutions for AI and cloud data centers.",
+    "depth": 1,
+    "ecosystem": "hardware",
+    "confidence": 0.92,
+    "subcategory": "Networking",
+    "matched_patterns": [
+      "/networking/"
+    ],
+    "matched_keywords": [
+      "gpu",
+      "connectx",
+      "bluefield",
+      "spectrum"
+    ],
+    "products": [
+      {
+        "name": "BlueField-3",
+        "category": "Networking",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/networking/ethernet/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "ConnectX-7",
+        "category": "Networking",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/networking/ethernet/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "Spectrum-4",
+        "category": "Networking",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/networking/ethernet/",
+        "features": [],
+        "specifications": {}
+      }
+    ],
+    "technologies": [],
+    "keywords": [
+      "cloud",
+      "gpu",
+      "data center",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://developer.nvidia.com/merlin",
+    "title": "NVIDIA Merlin - Recommender Systems | NVIDIA Developer",
+    "description": "NVIDIA Merlin is a framework for building deep learning recommender systems.",
+    "depth": 2,
+    "ecosystem": "technology",
+    "confidence": 0.24,
+    "subcategory": "Merlin",
+    "matched_patterns": [],
+    "matched_keywords": [
+      "deep learning",
+      "inference",
+      "training"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "Merlin",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://developer.nvidia.com/merlin",
+        "related_products": []
+      },
+      {
+        "name": "Merlin is",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://developer.nvidia.com/merlin",
+        "related_products": []
+      },
+      {
+        "name": "Merlin recommender",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://developer.nvidia.com/merlin",
+        "related_products": []
+      },
+      {
+        "name": "Merlin Models",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://developer.nvidia.com/merlin",
+        "related_products": []
+      },
+      {
+        "name": "Merlin Systems",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://developer.nvidia.com/merlin",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "gpu",
+      "inference",
+      "training",
+      "ai",
+      "deep learning"
+    ]
+  },
+  {
+    "url": "https://developer.nvidia.com/morpheus-cybersecurity",
+    "title": "NVIDIA Morpheus - Cybersecurity AI | NVIDIA Developer",
+    "description": "NVIDIA Morpheus AI framework for cybersecurity threat detection.",
+    "depth": 2,
+    "ecosystem": "software",
+    "confidence": 0.16000000000000003,
+    "subcategory": "Morpheus Cybersecurity",
+    "matched_patterns": [],
+    "matched_keywords": [
+      "morpheus"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "Morpheus",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://developer.nvidia.com/morpheus-cybersecurity",
+        "related_products": []
+      },
+      {
+        "name": "Morpheus AI",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://developer.nvidia.com/morpheus-cybersecurity",
+        "related_products": []
+      },
+      {
+        "name": "Morpheus cybersecurity",
+        "category": "AI Frameworks",
+        "description": "",
+        "url": "https://developer.nvidia.com/morpheus-cybersecurity",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "gpu",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-app/",
+    "title": "NVIDIA Broadcast App | NVIDIA",
+    "description": "NVIDIA Broadcast transforms any room into a home studio with AI-powered voice and video effects.",
+    "depth": 2,
+    "ecosystem": "hardware",
+    "confidence": 0.84,
+    "subcategory": "Geforce",
+    "matched_patterns": [
+      "/geforce/"
+    ],
+    "matched_keywords": [
+      "gpu",
+      "geforce",
+      "rtx"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "Broadcast",
+        "category": "Speech & Audio AI",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-app/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "gpu",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/ai/",
+    "title": "NVIDIA NIM - AI Inference Microservices | NVIDIA",
+    "description": "NVIDIA NIM delivers optimized AI inference microservices for deploying AI models at scale.",
+    "depth": 1,
+    "ecosystem": "technology",
+    "confidence": 0.8400000000000001,
+    "subcategory": "Ai",
+    "matched_patterns": [
+      "/ai/"
+    ],
+    "matched_keywords": [
+      "llm",
+      "inference"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "NVIDIA AI Enterprise",
+        "category": "Other Software",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/ai/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "healthcare",
+      "llm",
+      "cloud",
+      "gpu",
+      "inference",
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/geforce/drivers/",
+    "title": "NVIDIA GeForce Drivers | NVIDIA",
+    "description": "Download the latest NVIDIA GeForce drivers for optimal gaming performance.",
+    "depth": 1,
+    "ecosystem": "hardware",
+    "confidence": 0.92,
+    "subcategory": "Geforce",
+    "matched_patterns": [
+      "/geforce/"
+    ],
+    "matched_keywords": [
+      "geforce",
+      "drive"
+    ],
+    "products": [],
+    "technologies": [],
+    "keywords": [
+      "gaming"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/zh-cn/autonomous-machines/",
+    "title": "自主机器 - Jetson 和 Isaac | NVIDIA",
+    "description": "NVIDIA Jetson 和 Isaac 平台，用于自主机器、机器人和边缘 AI。",
+    "depth": 1,
+    "ecosystem": "hardware",
+    "confidence": 0.16000000000000003,
+    "subcategory": "Autonomous Machines",
+    "matched_patterns": [],
+    "matched_keywords": [
+      "jetson"
+    ],
+    "products": [
+      {
+        "name": "Jetson AGX Orin",
+        "category": "Edge AI / Embedded",
+        "description": "",
+        "url": "https://www.nvidia.com/zh-cn/autonomous-machines/",
+        "features": [],
+        "specifications": {}
+      },
+      {
+        "name": "Jetson Orin",
+        "category": "Edge AI / Embedded",
+        "description": "",
+        "url": "https://www.nvidia.com/zh-cn/autonomous-machines/",
+        "features": [],
+        "specifications": {}
+      }
+    ],
+    "technologies": [
+      {
+        "name": "Isaac",
+        "category": "Robotics",
+        "description": "",
+        "url": "https://www.nvidia.com/zh-cn/autonomous-machines/",
+        "related_products": []
+      },
+      {
+        "name": "Isaac 平台",
+        "category": "Robotics",
+        "description": "",
+        "url": "https://www.nvidia.com/zh-cn/autonomous-machines/",
+        "related_products": []
+      },
+      {
+        "name": "Isaac 机器人平台",
+        "category": "Robotics",
+        "description": "",
+        "url": "https://www.nvidia.com/zh-cn/autonomous-machines/",
+        "related_products": []
+      },
+      {
+        "name": "Isaac Sim",
+        "category": "Robotics",
+        "description": "",
+        "url": "https://www.nvidia.com/zh-cn/autonomous-machines/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "ai"
+    ]
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/",
+    "title": "NVIDIA - AI Computing Company | NVIDIA",
+    "description": "NVIDIA is the world leader in AI computing. Products include GeForce, Data Center, Autonomous Machines, and more.",
+    "depth": 0,
+    "ecosystem": "hardware",
+    "confidence": 0.4,
+    "subcategory": null,
+    "matched_patterns": [],
+    "matched_keywords": [
+      "gpu",
+      "geforce",
+      "jetson",
+      "drive",
+      "rtx"
+    ],
+    "products": [],
+    "technologies": [
+      {
+        "name": "CUDA",
+        "category": "CUDA Platform",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/",
+        "related_products": []
+      },
+      {
+        "name": "Omniverse for",
+        "category": "Omniverse Platform",
+        "description": "",
+        "url": "https://www.nvidia.com/en-us/",
+        "related_products": []
+      }
+    ],
+    "keywords": [
+      "gaming",
+      "cuda",
+      "professional visualization",
+      "cloud",
+      "gpu",
+      "hpc",
+      "accelerated computing",
+      "data center",
+      "ai",
+      "deep learning"
+    ]
+  }
+]

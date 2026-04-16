@@ -56,6 +56,7 @@ class NvidiaEcosystemCrawler:
         max_pages: int = 10000,
         save_interval: int = 100,
         output_dir: Optional[Path] = None,
+        crawl_all: bool = False,
     ):
         """
         Initialize the NVIDIA ecosystem crawler.
@@ -67,6 +68,7 @@ class NvidiaEcosystemCrawler:
             max_pages: Maximum pages to crawl.
             save_interval: Save progress every N pages.
             output_dir: Directory to save output files.
+            crawl_all: When True, traverse ALL sub-pages (no include-pattern filter).
         """
         self.max_depth = max_depth
         self.max_concurrent = max_concurrent
@@ -76,7 +78,7 @@ class NvidiaEcosystemCrawler:
         self.output_dir = output_dir or OUTPUT_DIR
         
         # Initialize components
-        self.url_manager = URLManager(max_depth=max_depth)
+        self.url_manager = URLManager(max_depth=max_depth, crawl_all=crawl_all)
         self.rate_limiter = RateLimiter(
             delay=request_delay,
             max_concurrent=max_concurrent,
@@ -334,6 +336,7 @@ async def main():
         request_delay=CRAWLER_CONFIG["request_delay"],
         max_pages=CRAWLER_CONFIG["max_pages"],
         save_interval=CRAWLER_CONFIG["save_interval"],
+        crawl_all=CRAWLER_CONFIG.get("crawl_all", False),
     )
     
     pages = await crawler.run()

@@ -1,0 +1,692 @@
+{
+  "metadata": {
+    "start_time": "2026-04-16T03:32:05.931295",
+    "end_time": "2026-04-16T03:32:05.931295",
+    "elapsed_seconds": 15.9,
+    "total_pages": 60,
+    "seed_urls": [
+      "https://www.nvidia.com/en-us/",
+      "https://www.nvidia.com/en-us/geforce/",
+      "https://www.nvidia.com/en-us/data-center/",
+      "https://www.nvidia.com/en-us/deep-learning-ai/",
+      "https://www.nvidia.com/en-us/autonomous-machines/",
+      "https://www.nvidia.com/en-us/omniverse/",
+      "https://www.nvidia.com/en-us/solutions/",
+      "https://www.nvidia.com/en-us/industries/",
+      "https://developer.nvidia.com/",
+      "https://www.nvidia.com/en-us/networking/",
+      "https://www.nvidia.com/en-us/design-visualization/",
+      "https://www.nvidia.com/en-us/self-driving-cars/",
+      "https://www.nvidia.com/en-us/high-performance-computing/",
+      "https://www.nvidia.com/zh-cn/",
+      "https://www.nvidia.com/zh-tw/"
+    ],
+    "max_depth": 3,
+    "max_pages": 200,
+    "url_stats": {
+      "queue_size": 0,
+      "visited": 60,
+      "discovered": 110,
+      "failed": 0
+    }
+  },
+  "pages": [
+    {
+      "url": "https://www.nvidia.com/en-us/geforce/",
+      "title": "GeForce Gaming GPUs - The Ultimate PC Gaming Experience | NVIDIA",
+      "description": "NVIDIA GeForce GPUs deliver the ultimate PC gaming experience. From the newest RTX series to classic GTX models.",
+      "content": "GeForce RTX 5090 GeForce RTX 5080 GeForce RTX 5070 Ti GeForce RTX 5070 GeForce RTX 4090 GeForce RTX 4080 SUPER GeForce RTX 4070 Ti SUPER GeForce RTX 4070 SUPER GeForce RTX 4070 GeForce RTX 4060 Ti GeForce RTX 4060 Experience the ultimate in PC gaming with NVIDIA GeForce graphics cards featuring real-time ray tracing, DLSS AI-powered graphics, and Reflex low-latency technology. NVIDIA Blackwell architecture delivers unprecedented performance.",
+      "links": [
+        "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+        "https://www.nvidia.com/en-us/geforce/technologies/",
+        "https://www.nvidia.com/en-us/geforce/drivers/"
+      ],
+      "depth": 0,
+      "parent_url": null,
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+      "title": "GeForce RTX 50 Series Graphics Cards | NVIDIA",
+      "description": "The GeForce RTX 50 Series, powered by NVIDIA Blackwell architecture, delivers the most realistic graphics and AI-powered gaming.",
+      "content": "GeForce RTX 5090 24GB GDDR7 The ultimate enthusiast GPU. 2nd gen ray tracing cores, 4th gen Tensor Cores. GeForce RTX 5080 16GB GDDR7 Flagship gaming performance. GeForce RTX 5070 Ti 16GB GDDR7 High-performance gaming. GeForce RTX 5070 12GB GDDR7 Next-gen gaming for everyone. NVIDIA Blackwell architecture. DLSS 4 with Multi Frame Generation. Neural rendering. Ray reconstruction.",
+      "links": [
+        "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
+        "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/",
+        "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-ti/",
+        "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070/"
+      ],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/geforce/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+      "title": "GeForce RTX 40 Series Graphics Cards | NVIDIA",
+      "description": "Powered by NVIDIA Ada Lovelace architecture, the GeForce RTX 40 Series delivers up to 2X performance and efficiency.",
+      "content": "GeForce RTX 4090 GeForce RTX 4080 SUPER GeForce RTX 4070 Ti SUPER GeForce RTX 4070 SUPER GeForce RTX 4070 GeForce RTX 4060 Ti GeForce RTX 4060 Ada Lovelace architecture. 3rd gen ray tracing cores. DLSS 3 with Frame Generation. AV1 encoding.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/geforce/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/geforce/technologies/",
+      "title": "GeForce Technologies | NVIDIA",
+      "description": "NVIDIA GeForce technologies including DLSS, Ray Tracing, Reflex, Broadcast, and more.",
+      "content": "DLSS 4 Multi Frame Generation AI-powered graphics acceleration. Ray Tracing realistic lighting, reflections, and shadows. NVIDIA Reflex low latency competitive gaming. NVIDIA Broadcast AI-powered streaming. NVIDIA Canvas paint landscapes with AI. G-SYNC smooth tear-free gaming.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/geforce/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/data-center/",
+      "title": "Data Center Solutions | NVIDIA",
+      "description": "NVIDIA data center solutions for AI, HPC, and cloud computing with the latest GPU technology.",
+      "content": "NVIDIA data center GPU solutions for AI training, inference, and high performance computing. H200 Tensor Core GPU. H100 Tensor Core GPU. A100 Tensor Core GPU. L40S Universal GPU. DGX Systems. HGX Platforms. NVIDIA Grace Hopper Superchip. NVLink interconnect. NVSwitch fabric. Accelerated computing for every workload from AI training to inference to HPC simulation.",
+      "links": [
+        "https://www.nvidia.com/en-us/data-center/h200/",
+        "https://www.nvidia.com/en-us/data-center/h100/",
+        "https://www.nvidia.com/en-us/data-center/a100/",
+        "https://www.nvidia.com/en-us/data-center/l40s/",
+        "https://www.nvidia.com/en-us/data-center/dgx-platform/",
+        "https://www.nvidia.com/en-us/data-center/hgx/",
+        "https://www.nvidia.com/en-us/data-center/grace-hopper-superchip/",
+        "https://www.nvidia.com/en-us/data-center/nvlink/"
+      ],
+      "depth": 0,
+      "parent_url": null,
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/data-center/h200/",
+      "title": "NVIDIA H200 Tensor Core GPU | NVIDIA",
+      "description": "NVIDIA H200 Tensor Core GPU delivers unprecedented performance for AI and HPC workloads.",
+      "content": "NVIDIA H200 Tensor Core GPU. Based on Hopper architecture. 141GB HBM3e memory. 4.8 TB/s memory bandwidth. Superior AI training and inference performance. Supports NVLink and NVSwitch interconnect for multi-GPU scaling. PCIe Gen5 and SXM5 form factors available.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/data-center/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/data-center/h100/",
+      "title": "NVIDIA H100 Tensor Core GPU | NVIDIA",
+      "description": "NVIDIA H100 Tensor Core GPU is the leading AI and HPC GPU for the data center.",
+      "content": "NVIDIA H100 Tensor Core GPU. Hopper architecture. 80GB HBM3 memory. 3.35 TB/s memory bandwidth. 4th generation Tensor Cores. Transformer Engine for accelerating large language models. FP8 precision support. NVLink 4.0 with 900 GB/s GPU-to-GPU bandwidth.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/data-center/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/data-center/a100/",
+      "title": "NVIDIA A100 Tensor Core GPU | NVIDIA",
+      "description": "NVIDIA A100 the universal AI and HPC GPU for the modern data center.",
+      "content": "NVIDIA A100 Tensor Core GPU. Ampere architecture. 80GB / 40GB HBM2e memory. 3rd generation Tensor Cores. Multi-Instance GPU (MIG) technology. NVLink 3.0. PCIe Gen4. Supports AI training, inference, and HPC workloads.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/data-center/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/data-center/dgx-platform/",
+      "title": "NVIDIA DGX Platform | NVIDIA",
+      "description": "NVIDIA DGX systems are purpose-built for enterprise AI infrastructure.",
+      "content": "DGX H100 DGX A100 DGX Station DGX Cloud DGX SuperPOD. NVIDIA DGX platform delivers purpose-built AI infrastructure. DGX H100 with 8x H100 GPUs and NVSwitch fabric. DGX Cloud powered by major cloud providers. DGX SuperPOD for hyperscale AI training. NVIDIA Base Command management software.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/data-center/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/data-center/grace-hopper-superchip/",
+      "title": "NVIDIA Grace Hopper Superchip | NVIDIA",
+      "description": "NVIDIA Grace Hopper Superchip combines Grace CPU with Hopper GPU for accelerated computing.",
+      "content": "NVIDIA Grace Hopper Superchip. Grace CPU with 72 Arm Neoverse V2 cores. Hopper H100 GPU. NVLink-C2C interconnect 900 GB/s. Unified memory architecture. Designed for giant AI models and high-performance computing. Energy-efficient ARM-based CPU. LPDDR5X memory for CPU.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/data-center/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/networking/",
+      "title": "NVIDIA Networking Solutions | NVIDIA",
+      "description": "NVIDIA networking solutions including Mellanox InfiniBand, Ethernet, and BlueField DPUs.",
+      "content": "NVIDIA networking. Mellanox InfiniBand. ConnectX-7 SmartNIC. BlueField-3 DPU. Spectrum-4 Ethernet Switch. NVIDIA Quantum-2 InfiniBand Platform. InfiniBand NDR 400Gb/s. High-performance networking for AI and HPC data centers. NVIDIA DOCA software framework.",
+      "links": [
+        "https://www.nvidia.com/en-us/networking/infiniband/",
+        "https://www.nvidia.com/en-us/networking/ethernet/",
+        "https://www.nvidia.com/en-us/networking/linux-on-demand/"
+      ],
+      "depth": 0,
+      "parent_url": null,
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/autonomous-machines/",
+      "title": "Autonomous Machines - Jetson and Isaac | NVIDIA",
+      "description": "NVIDIA Jetson and Isaac platform for autonomous machines, robotics, and edge AI.",
+      "content": "NVIDIA Jetson platform for autonomous machines. Jetson AGX Orin. Jetson Orin Nano. Jetson Orin NX. Jetson AGX Xavier. NVIDIA Isaac platform for robotics. Isaac Sim robot simulation. Isaac ROS packages. Edge AI deployment. Embedded AI compute modules. JetPack SDK.",
+      "links": [
+        "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/",
+        "https://www.nvidia.com/en-us/autonomous-machines/intelligent-machines/"
+      ],
+      "depth": 0,
+      "parent_url": null,
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/",
+      "title": "NVIDIA Jetson Embedded Systems | NVIDIA",
+      "description": "NVIDIA Jetson embedded systems for edge AI and robotics applications.",
+      "content": "Jetson AGX Orin 275 TOPS AI performance. Jetson Orin NX up to 100 TOPS. Jetson Orin Nano compact AI module. Jetson AGX Xavier 32 TOPS. JetPack SDK includes CUDA, cuDNN, TensorRT. DeepStream for video analytics. Isaac for robotics. TAO Toolkit for transfer learning.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/autonomous-machines/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/self-driving-cars/",
+      "title": "NVIDIA DRIVE - Autonomous Vehicle Platform | NVIDIA",
+      "description": "NVIDIA DRIVE platform for autonomous vehicles, from development to deployment.",
+      "content": "NVIDIA DRIVE platform. DRIVE AGX Orin automotive SoC. DRIVE Thor next-gen automotive SoC. DRIVE Hyperion reference architecture. DRIVE Sim simulation platform. DRIVE Chauffeur self-driving software. DRIVE Concierge AI assistant. NVIDIA DRIVE ecosystem with 370+ partners.",
+      "links": [],
+      "depth": 0,
+      "parent_url": null,
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/design-visualization/",
+      "title": "NVIDIA Professional Visualization | NVIDIA",
+      "description": "NVIDIA professional visualization solutions for design, engineering, and content creation.",
+      "content": "NVIDIA RTX professional visualization. RTX 6000 Ada Generation. RTX 5000 Ada Generation. RTX 4500 Ada Generation. RTX 4000 Ada Generation. NVIDIA Quadro legacy. NVIDIA Studio for content creators. NVIDIA Omniverse for 3D collaboration. Enterprise visualization solutions.",
+      "links": [],
+      "depth": 0,
+      "parent_url": null,
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/high-performance-computing/",
+      "title": "High Performance Computing (HPC) | NVIDIA",
+      "description": "NVIDIA HPC solutions accelerate scientific computing and research with GPU-powered supercomputers.",
+      "content": "NVIDIA HPC solutions. GPU-accelerated supercomputing. CUDA parallel computing. cuDNN deep learning. HPC SDK compilers and libraries. NVIDIA HPC SDK. Nsight Systems profiler. Nsight Compute kernel profiler. Scientific visualization. Weather simulation. Molecular dynamics. Computational fluid dynamics. Quantum chemistry.",
+      "links": [],
+      "depth": 0,
+      "parent_url": null,
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/deep-learning-ai/",
+      "title": "Deep Learning & AI Software | NVIDIA",
+      "description": "NVIDIA deep learning and AI software stack for training and deploying AI models.",
+      "content": "NVIDIA AI software platform. CUDA toolkit for GPU computing. cuDNN deep neural network library. TensorRT inference optimizer. Triton Inference Server. NeMo large language model framework. RAPIDS data science acceleration. Merlin recommender systems. Morpheus cybersecurity AI. DeepStream video analytics. TAO Toolkit transfer learning. DALI data loading. NVIDIA AI Enterprise software suite.",
+      "links": [
+        "https://developer.nvidia.com/cuda-toolkit",
+        "https://developer.nvidia.com/cudnn",
+        "https://developer.nvidia.com/tensorrt",
+        "https://developer.nvidia.com/triton-inference-server"
+      ],
+      "depth": 0,
+      "parent_url": null,
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://developer.nvidia.com/cuda-toolkit",
+      "title": "CUDA Toolkit | NVIDIA Developer",
+      "description": "CUDA Toolkit provides a development environment for GPU-accelerated applications.",
+      "content": "CUDA Toolkit 12.x. CUDA compiler nvcc. CUDA runtime API. CUDA driver API. cuBLAS linear algebra. cuFFT fast Fourier transform. cuRAND random number generation. cuSPARSE sparse matrix operations. cuSOLVER dense and sparse solvers. NVRTC runtime compilation. Thrust parallel algorithms. CUB block-level primitives.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/deep-learning-ai/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://developer.nvidia.com/cudnn",
+      "title": "NVIDIA cuDNN | NVIDIA Developer",
+      "description": "NVIDIA CUDA Deep Neural Network library for accelerating deep learning frameworks.",
+      "content": "cuDNN 9.x GPU-accelerated library for deep neural networks. Optimized implementations for convolutions, pooling, normalization, activation. Supports PyTorch, TensorFlow, MXNet, Caffe2, PaddlePaddle frameworks. cuDNN Graph API. Multi-head attention support for transformers.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/deep-learning-ai/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://developer.nvidia.com/tensorrt",
+      "title": "NVIDIA TensorRT | NVIDIA Developer",
+      "description": "TensorRT is an SDK for high-performance deep learning inference.",
+      "content": "TensorRT 10.x high-performance deep learning inference optimizer and runtime. INT8 and FP16 optimization. Layer fusion. Kernel auto-tuning. Dynamic tensor memory. Multi-stream execution. Supports ONNX model import. TensorRT-LLM for large language model inference optimization. Supports GPT, LLaMA, Mistral, Falcon models.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/deep-learning-ai/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://developer.nvidia.com/triton-inference-server",
+      "title": "Triton Inference Server | NVIDIA Developer",
+      "description": "NVIDIA Triton Inference Server for scalable AI model serving in production.",
+      "content": "Triton Inference Server. Multi-framework support PyTorch TensorFlow TensorRT ONNX. Dynamic batching. Model ensemble pipelines. GPU and CPU inference. Model repository management. Prometheus metrics. Kubernetes deployment. gRPC and HTTP/REST APIs. Model analyzer tool.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/deep-learning-ai/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/omniverse/",
+      "title": "NVIDIA Omniverse Platform | NVIDIA",
+      "description": "NVIDIA Omniverse is a computing platform for building and operating 3D applications and virtual worlds.",
+      "content": "NVIDIA Omniverse platform for 3D design collaboration and simulation. Universal Scene Description (OpenUSD) foundation. Omniverse Cloud. Omniverse Enterprise. Omniverse for developers. Digital twin creation and simulation. Real-time ray tracing. Physics simulation. AI-powered world generation. Connectors for Maya, 3ds Max, Revit, Unreal Engine.",
+      "links": [],
+      "depth": 0,
+      "parent_url": null,
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/data-center/products/ai-enterprise/",
+      "title": "NVIDIA AI Enterprise Software Suite | NVIDIA",
+      "description": "NVIDIA AI Enterprise is an end-to-end cloud-native AI software suite for enterprise AI deployment.",
+      "content": "NVIDIA AI Enterprise software suite. Certified for VMware vSphere, Red Hat OpenShift, and cloud platforms. Includes RAPIDS, TensorRT, Triton Inference Server, NeMo, Merlin, Morpheus, DeepStream. Enterprise support and SLAs. Available on AWS, Azure, GCP, Oracle Cloud.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/data-center/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/ai-data-science/products/nemo/",
+      "title": "NVIDIA NeMo Framework | NVIDIA",
+      "description": "NVIDIA NeMo is a scalable generative AI framework for building and deploying large language models.",
+      "content": "NVIDIA NeMo framework for generative AI. Build, customize, and deploy large language models. NeMo Guardrails for safe AI. NeMo Curator for data curation. NeMo Retriever for RAG applications. Pre-trained models on NGC. Support for GPT, LLaMA, Mistral, Gemma architectures. Multi-node multi-GPU training with Megatron. PEFT and LoRA fine-tuning.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/deep-learning-ai/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://rapids.ai/",
+      "title": "RAPIDS - GPU Accelerated Data Science | NVIDIA",
+      "description": "RAPIDS suite of open-source software libraries for GPU-accelerated data science and analytics.",
+      "content": "RAPIDS open source GPU data science. cuDF GPU DataFrame library (pandas-like). cuML GPU machine learning library (scikit-learn-like). cuGraph GPU graph analytics. cuSpatial GPU spatial analytics. Accelerated Apache Spark. Integration with Dask for multi-GPU. Python API compatible with existing data science workflows.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/deep-learning-ai/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/clara/",
+      "title": "NVIDIA Clara - Healthcare AI Platform | NVIDIA",
+      "description": "NVIDIA Clara is an AI computing platform for healthcare and life sciences.",
+      "content": "NVIDIA Clara healthcare AI platform. Clara Holoscan for medical devices. Clara Discovery for drug discovery. Clara Imaging for medical imaging AI. MONAI medical imaging AI framework. Federated learning for multi-hospital collaboration. FDA-cleared AI algorithms. Digital pathology. Genomics analysis. Drug molecular simulation.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/deep-learning-ai/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/",
+      "title": "NVIDIA Isaac - Robotics Platform | NVIDIA",
+      "description": "NVIDIA Isaac platform for developing and deploying AI-powered robots.",
+      "content": "NVIDIA Isaac robotics platform. Isaac Sim robot simulation. Isaac ROS hardware-accelerated packages. Isaac SDK development kit. Isaac Perceptor 3D perception. Isaac Manipulator robot arm AI. Isaac Lab reinforcement learning. Sim-to-real transfer. Synthetic data generation for training. ROS 2 support.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/deep-learning-ai/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/autonomous-machines/intelligent-video-analytics/",
+      "title": "NVIDIA DeepStream & Metropolis | NVIDIA",
+      "description": "NVIDIA video analytics platform for intelligent video understanding at scale.",
+      "content": "NVIDIA DeepStream SDK for video analytics. NVIDIA Metropolis platform for intelligent video analytics. Multi-stream processing. Object detection and tracking. License plate recognition. Face detection. People counting. Behavior analysis. Integration with VMS systems. Edge to cloud deployment. TAO Toolkit for model customization.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/autonomous-machines/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://developer.nvidia.com/maxine",
+      "title": "NVIDIA Maxine - AI Video and Audio | NVIDIA Developer",
+      "description": "NVIDIA Maxine SDK for AI-powered video conferencing and streaming features.",
+      "content": "NVIDIA Maxine SDK. AI-powered video effects. Background removal and replacement. Eye contact correction. Face tracking and animation. Audio effects noise removal. Automatic speech recognition. Translation. Super resolution upscaling. Virtual background. Audio noise suppression.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/deep-learning-ai/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://developer.nvidia.com/riva",
+      "title": "NVIDIA Riva - Speech AI | NVIDIA Developer",
+      "description": "NVIDIA Riva is a GPU-accelerated SDK for real-time speech AI applications.",
+      "content": "NVIDIA Riva speech AI. Automatic speech recognition ASR. Text-to-speech TTS. Neural machine translation NMT. Natural language understanding NLU. Multi-language support. Real-time streaming. On-premise deployment. Customizable models. High throughput inference. gRPC and WebSocket APIs.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/deep-learning-ai/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://developer.nvidia.com/",
+      "title": "NVIDIA Developer Program | NVIDIA Developer",
+      "description": "NVIDIA Developer Program provides tools, SDKs, and resources for GPU-accelerated computing.",
+      "content": "NVIDIA Developer Program. Free access to SDKs and tools. CUDA Toolkit. TensorRT. Triton Inference Server. NGC catalog of GPU-optimized containers and models. Developer blog. Documentation. Tutorials. Sample code. Forum community. GTC conference. NVIDIA Deep Learning Institute training. Nsight tools for debugging and profiling.",
+      "links": [
+        "https://developer.nvidia.com/cuda-toolkit",
+        "https://developer.nvidia.com/tensorrt",
+        "https://developer.nvidia.com/gpu-cloud",
+        "https://developer.nvidia.com/nsight-systems",
+        "https://developer.nvidia.com/nsight-compute"
+      ],
+      "depth": 0,
+      "parent_url": null,
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://developer.nvidia.com/gpu-cloud",
+      "title": "NVIDIA NGC Catalog | NVIDIA Developer",
+      "description": "NGC is a GPU-optimized hub for AI and HPC containers, pre-trained models, and SDKs.",
+      "content": "NVIDIA NGC catalog. GPU-optimized Docker containers. Pre-trained AI models. Helm charts for Kubernetes. AI workflows. TensorFlow container. PyTorch container. RAPIDS container. TensorRT container. Triton Inference Server container. NeMo framework. Model scripts and notebooks. Private registry for enterprise.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://developer.nvidia.com/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://developer.nvidia.com/nsight-systems",
+      "title": "NVIDIA Nsight Systems | NVIDIA Developer",
+      "description": "Nsight Systems is a system-wide performance analysis tool for GPU-accelerated applications.",
+      "content": "NVIDIA Nsight Systems performance profiler. System-wide application performance analysis. CPU and GPU activity timeline. CUDA API tracing. cuDNN and cuBLAS tracing. NVTX annotation support. Multi-process and multi-GPU profiling. Remote profiling. Linux and Windows support.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://developer.nvidia.com/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://developer.nvidia.com/nsight-compute",
+      "title": "NVIDIA Nsight Compute | NVIDIA Developer",
+      "description": "Nsight Compute is an interactive kernel profiler for CUDA applications.",
+      "content": "NVIDIA Nsight Compute kernel profiler. Detailed CUDA kernel performance analysis. GPU hardware metrics. Roofline analysis. Source correlation. Comparison between kernel runs. Customizable reports. Rule-based expert analysis. Section-based metric collection. CLI and GUI interfaces.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://developer.nvidia.com/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/solutions/",
+      "title": "NVIDIA Solutions | NVIDIA",
+      "description": "NVIDIA solutions for enterprise AI, cloud computing, and industry-specific applications.",
+      "content": "NVIDIA enterprise solutions. AI in the cloud. Edge computing. Inference at scale. AI for healthcare. AI for automotive. AI for financial services. AI for manufacturing. AI for retail. AI for telecommunications. AI for government. NVIDIA Inception Program for startups. NVIDIA Partner Network.",
+      "links": [
+        "https://www.nvidia.com/en-us/industries/",
+        "https://www.nvidia.com/en-us/data-center/products/ai-enterprise/"
+      ],
+      "depth": 0,
+      "parent_url": null,
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/industries/",
+      "title": "NVIDIA Industry Solutions | NVIDIA",
+      "description": "NVIDIA solutions across industries including healthcare, automotive, financial services, and more.",
+      "content": "NVIDIA industry solutions. Healthcare AI medical imaging drug discovery genomics. Automotive autonomous driving simulation ADAS. Financial services fraud detection algorithmic trading risk management. Manufacturing digital twin predictive maintenance robotics. Retail recommendation engines visual AI supply chain. Telecommunications 5G network optimization. Energy exploration simulation. Media and entertainment content creation rendering. Education research computing.",
+      "links": [],
+      "depth": 0,
+      "parent_url": null,
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/data-center/cloud-computing/",
+      "title": "NVIDIA Cloud Computing | NVIDIA",
+      "description": "NVIDIA GPU cloud computing solutions available on major cloud platforms.",
+      "content": "NVIDIA cloud computing. Available on AWS Amazon EC2 P5 instances. Microsoft Azure ND H100 v5. Google Cloud A3 instances. Oracle Cloud GPU instances. Alibaba Cloud GPU instances. NVIDIA GPU Cloud NGC. DGX Cloud. NVIDIA AI Enterprise on cloud. Multi-cloud deployment. Kubernetes support.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/data-center/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/ai/",
+      "title": "NVIDIA AI Platform | NVIDIA",
+      "description": "NVIDIA AI platform for training and deploying artificial intelligence at scale.",
+      "content": "NVIDIA AI platform. Generative AI with NeMo framework. Large language models GPT Llama Mistral. AI inference with TensorRT. Model serving with Triton. Computer vision with DeepStream. Speech AI with Riva. Recommender systems with Merlin. Cybersecurity with Morpheus. Data science with RAPIDS. Reinforcement learning. Federated learning.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/solutions/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/deep-learning-ai/generative-ai/",
+      "title": "Generative AI | NVIDIA",
+      "description": "NVIDIA generative AI solutions for building and deploying large language models and image generators.",
+      "content": "NVIDIA generative AI. Large language models LLM. GPT models. LLaMA fine-tuning. Mistral deployment. NVIDIA NeMo framework. TensorRT-LLM for inference optimization. NIM (NVIDIA Inference Microservices). Retrieval-Augmented Generation RAG. AI chatbots and assistants. Text-to-image generation. Code generation. Guardrails for safe AI deployment.",
+      "links": [],
+      "depth": 2,
+      "parent_url": "https://www.nvidia.com/en-us/deep-learning-ai/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/deep-learning-ai/inference/",
+      "title": "AI Inference | NVIDIA",
+      "description": "NVIDIA AI inference solutions for deploying models at scale in production.",
+      "content": "NVIDIA AI inference. TensorRT optimization. INT8 and FP16 quantization. Triton Inference Server. TensorRT-LLM for large language models. Dynamic batching. Model ensemble. A/B testing. Canary deployments. GPU memory management. Multi-model serving. Kubernetes integration.",
+      "links": [],
+      "depth": 2,
+      "parent_url": "https://www.nvidia.com/en-us/deep-learning-ai/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/data-center/nvlink/",
+      "title": "NVIDIA NVLink & NVSwitch | NVIDIA",
+      "description": "NVIDIA NVLink and NVSwitch provide high-speed GPU interconnect for multi-GPU systems.",
+      "content": "NVLink 5.0 1.8 TB/s per GPU. NVLink 4.0 900 GB/s. NVSwitch full mesh GPU connectivity. NVLink-C2C CPU-GPU interconnect. Scale-up multi-GPU systems. NVIDIA Scalable GPU Architecture. All-reduce operations. Multi-node training. NVLink Bridge for consumer GPUs.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/data-center/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+      "title": "NVIDIA DLSS - AI Graphics Technology | NVIDIA",
+      "description": "NVIDIA DLSS uses AI to boost frame rates while generating beautiful, sharp images.",
+      "content": "NVIDIA DLSS 4 with Multi Frame Generation. Deep Learning Super Sampling. AI-powered frame generation. AI super resolution upscaling. Ray reconstruction for enhanced ray tracing. Supported in 600+ games and applications. DLSS 3.5 with Ray Reconstruction. DLSS Frame Generation boosts FPS. Compatible with GeForce RTX GPUs.",
+      "links": [],
+      "depth": 2,
+      "parent_url": "https://www.nvidia.com/en-us/geforce/technologies/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/geforce/technologies/ray-tracing/",
+      "title": "Ray Tracing Technology | NVIDIA",
+      "description": "Real-time ray tracing technology for photorealistic lighting, reflections, and shadows in games.",
+      "content": "NVIDIA RTX ray tracing. Real-time ray tracing in games. RT Cores hardware acceleration. Global illumination. Reflections. Shadows. Ambient occlusion. Path tracing. Supported in hundreds of games. Vulkan and DirectX ray tracing APIs. OptiX ray tracing SDK.",
+      "links": [],
+      "depth": 2,
+      "parent_url": "https://www.nvidia.com/en-us/geforce/technologies/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/zh-cn/",
+      "title": "NVIDIA 英伟达中国 | 人工智能计算领域的引领者",
+      "description": "NVIDIA 英伟达中国官方网站，了解 NVIDIA GPU、AI、深度学习等解决方案。",
+      "content": "NVIDIA 英伟达 人工智能计算的引领者。GeForce RTX 游戏显卡。数据中心 GPU。自动驾驶。机器人。Omniverse 3D协作平台。CUDA 并行计算。深度学习 AI 解决方案。高性能计算 HPC。专业可视化。",
+      "links": [
+        "https://www.nvidia.com/zh-cn/geforce/",
+        "https://www.nvidia.com/zh-cn/data-center/",
+        "https://www.nvidia.com/zh-cn/autonomous-machines/"
+      ],
+      "depth": 0,
+      "parent_url": null,
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/zh-cn/geforce/",
+      "title": "GeForce 游戏显卡 | NVIDIA",
+      "description": "NVIDIA GeForce 游戏显卡，体验极致游戏性能。",
+      "content": "GeForce RTX 5090 GeForce RTX 5080 GeForce RTX 5070 Ti GeForce RTX 5070 旗舰游戏显卡 光线追踪 DLSS 人工智能 NVIDIA Blackwell 架构 实时光线追踪 AI 驱动图形加速",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/zh-cn/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/zh-cn/data-center/",
+      "title": "数据中心解决方案 | NVIDIA",
+      "description": "NVIDIA 数据中心 GPU 解决方案，用于 AI 训练、推理和高性能计算。",
+      "content": "NVIDIA 数据中心 GPU 解决方案。H200 Tensor Core GPU。H100 Tensor Core GPU。A100 Tensor Core GPU。DGX 系统。HGX 平台。Grace Hopper 超级芯片。NVLink 互联。加速计算平台。AI 训练 推理 高性能计算。",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/zh-cn/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/zh-tw/",
+      "title": "NVIDIA 台灣官方網站 | 人工智慧運算的領導者",
+      "description": "NVIDIA 台灣官方網站，了解 NVIDIA GPU、AI、深度學習等解決方案。",
+      "content": "NVIDIA 人工智慧運算的領導者。GeForce RTX 遊戲顯示卡。資料中心 GPU。自動駕駛。機器人。Omniverse 3D協作平台。CUDA 平行運算。深度學習 AI 解決方案。高效能運算 HPC。專業視覺化。",
+      "links": [],
+      "depth": 0,
+      "parent_url": null,
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
+      "title": "GeForce RTX 5090 | NVIDIA",
+      "description": "The GeForce RTX 5090 is the ultimate enthusiast GPU powered by NVIDIA Blackwell architecture.",
+      "content": "GeForce RTX 5090 NVIDIA Blackwell architecture. 24GB GDDR7 memory. 2nd generation RT Cores. 4th generation Tensor Cores. DLSS 4 Multi Frame Generation. Neural rendering. Up to 2X performance vs RTX 4090. 575W TDP. PCIe Gen 5. SN5 connector.",
+      "links": [],
+      "depth": 2,
+      "parent_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/",
+      "title": "GeForce RTX 5080 | NVIDIA",
+      "description": "The GeForce RTX 5080 delivers flagship performance for gamers and creators.",
+      "content": "GeForce RTX 5080 NVIDIA Blackwell architecture. 16GB GDDR7 memory. DLSS 4 Multi Frame Generation. Neural rendering. Ray tracing. High-performance gaming and content creation.",
+      "links": [],
+      "depth": 2,
+      "parent_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/data-center/l40s/",
+      "title": "NVIDIA L40S GPU | NVIDIA",
+      "description": "NVIDIA L40S is a universal GPU for AI inference, training, graphics, and video workloads.",
+      "content": "NVIDIA L40S universal GPU. Ada Lovelace architecture. 48GB GDDR6 memory with ECC. FP8 Tensor Cores for AI. RT Cores for graphics. AV1 encode/decode. Video processing. AI inference. AI training. Data center single-slot form factor. PCIe Gen4.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/data-center/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/data-center/hgx/",
+      "title": "NVIDIA HGX Platform | NVIDIA",
+      "description": "NVIDIA HGX is a multi-GPU server platform for the most demanding AI and HPC workloads.",
+      "content": "NVIDIA HGX platform. HGX H200 with 8x H200 GPUs. HGX H100 with 8x H100 GPUs. HGX A100. NVLink and NVSwitch interconnect. Full-mesh GPU topology. Designed for AI training at scale. Available from server OEM partners Dell HP Lenovo Supermicro.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/data-center/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/networking/infiniband/",
+      "title": "NVIDIA InfiniBand | NVIDIA",
+      "description": "NVIDIA InfiniBand networking for high-performance AI and HPC clusters.",
+      "content": "NVIDIA InfiniBand networking. InfiniBand NDR 400Gb/s. Quantum-2 InfiniBand switches. ConnectX-7 adapters. In-network computing SHARP. GPUDirect RDMA. GPUDirect Storage. AI cloud fabric. Low latency high bandwidth interconnect. Adaptive routing. Congestion control.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/networking/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/networking/ethernet/",
+      "title": "NVIDIA Ethernet Solutions | NVIDIA",
+      "description": "NVIDIA Ethernet networking solutions for AI and cloud data centers.",
+      "content": "NVIDIA Ethernet networking. Spectrum-4 Ethernet switches. ConnectX-7 Ethernet adapters. BlueField-3 DPU data processing unit. DOCA SDK. 400GbE. RoCE RDMA over Converged Ethernet. GPUDirect RDMA. Network virtualization. Software-defined networking.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/networking/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://developer.nvidia.com/merlin",
+      "title": "NVIDIA Merlin - Recommender Systems | NVIDIA Developer",
+      "description": "NVIDIA Merlin is a framework for building deep learning recommender systems.",
+      "content": "NVIDIA Merlin recommender system framework. NVTabular feature engineering. HugeCTR training. Merlin Models. Merlin Systems. GPU-accelerated recommendation pipeline. Integration with TensorFlow and PyTorch. Real-time inference. E-commerce product recommendations. Content recommendations. Ad click prediction.",
+      "links": [],
+      "depth": 2,
+      "parent_url": "https://www.nvidia.com/en-us/deep-learning-ai/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://developer.nvidia.com/morpheus-cybersecurity",
+      "title": "NVIDIA Morpheus - Cybersecurity AI | NVIDIA Developer",
+      "description": "NVIDIA Morpheus AI framework for cybersecurity threat detection.",
+      "content": "NVIDIA Morpheus cybersecurity AI framework. Real-time threat detection. Network traffic analysis. Phishing email detection. Sensitive information detection. Digital fingerprinting. Anomaly detection. GPU-accelerated security pipeline. Integration with SIEM platforms.",
+      "links": [],
+      "depth": 2,
+      "parent_url": "https://www.nvidia.com/en-us/deep-learning-ai/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-app/",
+      "title": "NVIDIA Broadcast App | NVIDIA",
+      "description": "NVIDIA Broadcast transforms any room into a home studio with AI-powered voice and video effects.",
+      "content": "NVIDIA Broadcast app. AI noise removal. Virtual background. Auto frame. Eye contact. Vignette. Studio voice microphone enhancement. Works with any app. Requires GeForce RTX GPU.",
+      "links": [],
+      "depth": 2,
+      "parent_url": "https://www.nvidia.com/en-us/geforce/technologies/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/ai/",
+      "title": "NVIDIA NIM - AI Inference Microservices | NVIDIA",
+      "description": "NVIDIA NIM delivers optimized AI inference microservices for deploying AI models at scale.",
+      "content": "NVIDIA NIM inference microservices. Pre-built containers for LLMs. GPU-optimized inference. Simple API deployment. Support for LLaMA, Mistral, Gemma, Mixtral models. Healthcare NIM for medical imaging. Digital biology NIM. Available on cloud and on-premise. Part of NVIDIA AI Enterprise.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/solutions/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/geforce/drivers/",
+      "title": "NVIDIA GeForce Drivers | NVIDIA",
+      "description": "Download the latest NVIDIA GeForce drivers for optimal gaming performance.",
+      "content": "NVIDIA GeForce Game Ready Drivers. Studio Drivers for content creators. Automatic driver updates with GeForce Experience. Game Ready Day-0 drivers for new game launches. Performance optimizations and bug fixes. Vulkan and DirectX 12 Ultimate support.",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/en-us/geforce/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/zh-cn/autonomous-machines/",
+      "title": "自主机器 - Jetson 和 Isaac | NVIDIA",
+      "description": "NVIDIA Jetson 和 Isaac 平台，用于自主机器、机器人和边缘 AI。",
+      "content": "NVIDIA Jetson 平台 自主机器。Jetson AGX Orin。Jetson Orin Nano。NVIDIA Isaac 机器人平台。Isaac Sim 机器人仿真。边缘 AI 部署。嵌入式 AI 计算模块。JetPack SDK。",
+      "links": [],
+      "depth": 1,
+      "parent_url": "https://www.nvidia.com/zh-cn/",
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/",
+      "title": "NVIDIA - AI Computing Company | NVIDIA",
+      "description": "NVIDIA is the world leader in AI computing. Products include GeForce, Data Center, Autonomous Machines, and more.",
+      "content": "NVIDIA pioneers accelerated computing. GeForce RTX GPUs for gaming. Data center GPUs for AI and HPC. Autonomous machines with Jetson and DRIVE. Omniverse for digital twins. CUDA for parallel computing. Deep learning and AI. Professional visualization. Networking solutions. Cloud computing partnerships.",
+      "links": [
+        "https://www.nvidia.com/en-us/geforce/",
+        "https://www.nvidia.com/en-us/data-center/",
+        "https://www.nvidia.com/en-us/deep-learning-ai/",
+        "https://www.nvidia.com/en-us/autonomous-machines/",
+        "https://www.nvidia.com/en-us/omniverse/",
+        "https://www.nvidia.com/en-us/solutions/",
+        "https://www.nvidia.com/en-us/industries/",
+        "https://developer.nvidia.com/",
+        "https://www.nvidia.com/en-us/networking/",
+        "https://www.nvidia.com/en-us/design-visualization/",
+        "https://www.nvidia.com/en-us/self-driving-cars/",
+        "https://www.nvidia.com/en-us/high-performance-computing/"
+      ],
+      "depth": 0,
+      "parent_url": null,
+      "crawled_at": "2026-04-16T03:32:05.931295"
+    }
+  ]
+}

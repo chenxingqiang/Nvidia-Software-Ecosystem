@@ -1,0 +1,638 @@
+{
+  "generated_at": "2026-04-16T03:32:11.623482",
+  "total_technologies": 84,
+  "categories": {
+    "AI Frameworks": {
+      "count": 21,
+      "technologies": [
+        {
+          "name": "Merlin",
+          "urls": [
+            "https://developer.nvidia.com/merlin",
+            "https://www.nvidia.com/en-us/ai/",
+            "https://www.nvidia.com/en-us/data-center/products/ai-enterprise/"
+          ]
+        },
+        {
+          "name": "Merlin Models",
+          "urls": [
+            "https://developer.nvidia.com/merlin"
+          ]
+        },
+        {
+          "name": "Merlin Systems",
+          "urls": [
+            "https://developer.nvidia.com/merlin"
+          ]
+        },
+        {
+          "name": "Merlin is",
+          "urls": [
+            "https://developer.nvidia.com/merlin"
+          ]
+        },
+        {
+          "name": "Merlin recommender",
+          "urls": [
+            "https://www.nvidia.com/en-us/deep-learning-ai/",
+            "https://developer.nvidia.com/merlin"
+          ]
+        },
+        {
+          "name": "Morpheus",
+          "urls": [
+            "https://developer.nvidia.com/morpheus-cybersecurity",
+            "https://www.nvidia.com/en-us/ai/",
+            "https://www.nvidia.com/en-us/data-center/products/ai-enterprise/"
+          ]
+        },
+        {
+          "name": "Morpheus AI",
+          "urls": [
+            "https://developer.nvidia.com/morpheus-cybersecurity"
+          ]
+        },
+        {
+          "name": "Morpheus cybersecurity",
+          "urls": [
+            "https://developer.nvidia.com/morpheus-cybersecurity",
+            "https://www.nvidia.com/en-us/deep-learning-ai/"
+          ]
+        },
+        {
+          "name": "NeMo",
+          "urls": [
+            "https://www.nvidia.com/en-us/data-center/products/ai-enterprise/"
+          ]
+        },
+        {
+          "name": "NeMo Curator",
+          "urls": [
+            "https://www.nvidia.com/en-us/ai-data-science/products/nemo/"
+          ]
+        },
+        {
+          "name": "NeMo Framework",
+          "urls": [
+            "https://www.nvidia.com/en-us/ai-data-science/products/nemo/"
+          ]
+        },
+        {
+          "name": "NeMo Guardrails",
+          "urls": [
+            "https://www.nvidia.com/en-us/ai-data-science/products/nemo/"
+          ]
+        },
+        {
+          "name": "NeMo Retriever",
+          "urls": [
+            "https://www.nvidia.com/en-us/ai-data-science/products/nemo/"
+          ]
+        },
+        {
+          "name": "NeMo framework",
+          "urls": [
+            "https://www.nvidia.com/en-us/ai/",
+            "https://www.nvidia.com/en-us/deep-learning-ai/generative-ai/",
+            "https://www.nvidia.com/en-us/ai-data-science/products/nemo/",
+            "https://developer.nvidia.com/gpu-cloud"
+          ]
+        },
+        {
+          "name": "NeMo is",
+          "urls": [
+            "https://www.nvidia.com/en-us/ai-data-science/products/nemo/"
+          ]
+        },
+        {
+          "name": "NeMo large",
+          "urls": [
+            "https://www.nvidia.com/en-us/deep-learning-ai/"
+          ]
+        },
+        {
+          "name": "RAPIDS",
+          "urls": [
+            "https://www.nvidia.com/en-us/ai/",
+            "https://rapids.ai/",
+            "https://www.nvidia.com/en-us/data-center/products/ai-enterprise/"
+          ]
+        },
+        {
+          "name": "RAPIDS container",
+          "urls": [
+            "https://developer.nvidia.com/gpu-cloud"
+          ]
+        },
+        {
+          "name": "RAPIDS data",
+          "urls": [
+            "https://www.nvidia.com/en-us/deep-learning-ai/"
+          ]
+        },
+        {
+          "name": "RAPIDS open",
+          "urls": [
+            "https://rapids.ai/"
+          ]
+        },
+        {
+          "name": "RAPIDS suite",
+          "urls": [
+            "https://rapids.ai/"
+          ]
+        }
+      ]
+    },
+    "AI Inference": {
+      "count": 3,
+      "technologies": [
+        {
+          "name": "TensorRT",
+          "urls": [
+            "https://www.nvidia.com/en-us/data-center/products/ai-enterprise/",
+            "https://www.nvidia.com/en-us/deep-learning-ai/generative-ai/",
+            "https://www.nvidia.com/en-us/ai/",
+            "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/",
+            "https://www.nvidia.com/en-us/deep-learning-ai/inference/"
+          ]
+        },
+        {
+          "name": "TensorRT 10",
+          "urls": [
+            "https://developer.nvidia.com/tensorrt"
+          ]
+        },
+        {
+          "name": "Triton Inference Server",
+          "urls": [
+            "https://www.nvidia.com/en-us/data-center/products/ai-enterprise/",
+            "https://www.nvidia.com/en-us/deep-learning-ai/inference/",
+            "https://developer.nvidia.com/gpu-cloud",
+            "https://developer.nvidia.com/",
+            "https://www.nvidia.com/en-us/deep-learning-ai/"
+          ]
+        }
+      ]
+    },
+    "CUDA Platform": {
+      "count": 3,
+      "technologies": [
+        {
+          "name": "CUDA",
+          "urls": [
+            "https://developer.nvidia.com/cudnn",
+            "https://www.nvidia.com/en-us/",
+            "https://www.nvidia.com/zh-tw/",
+            "https://www.nvidia.com/en-us/high-performance-computing/",
+            "https://www.nvidia.com/zh-cn/"
+          ]
+        },
+        {
+          "name": "cuDNN",
+          "urls": [
+            "https://developer.nvidia.com/cudnn",
+            "https://www.nvidia.com/en-us/high-performance-computing/",
+            "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/",
+            "https://developer.nvidia.com/nsight-systems",
+            "https://www.nvidia.com/en-us/deep-learning-ai/"
+          ]
+        },
+        {
+          "name": "cuDNN 9",
+          "urls": [
+            "https://developer.nvidia.com/cudnn"
+          ]
+        }
+      ]
+    },
+    "Cloud & Containers": {
+      "count": 4,
+      "technologies": [
+        {
+          "name": "NGC",
+          "urls": [
+            "https://www.nvidia.com/en-us/ai-data-science/products/nemo/",
+            "https://www.nvidia.com/en-us/data-center/cloud-computing/"
+          ]
+        },
+        {
+          "name": "NGC Catalog",
+          "urls": [
+            "https://developer.nvidia.com/gpu-cloud"
+          ]
+        },
+        {
+          "name": "NGC catalog",
+          "urls": [
+            "https://developer.nvidia.com/gpu-cloud",
+            "https://developer.nvidia.com/"
+          ]
+        },
+        {
+          "name": "NGC is",
+          "urls": [
+            "https://developer.nvidia.com/gpu-cloud"
+          ]
+        }
+      ]
+    },
+    "Computer Vision": {
+      "count": 6,
+      "technologies": [
+        {
+          "name": "DeepStream",
+          "urls": [
+            "https://www.nvidia.com/en-us/ai/",
+            "https://www.nvidia.com/en-us/data-center/products/ai-enterprise/",
+            "https://www.nvidia.com/en-us/autonomous-machines/intelligent-video-analytics/"
+          ]
+        },
+        {
+          "name": "DeepStream SDK",
+          "urls": [
+            "https://www.nvidia.com/en-us/autonomous-machines/intelligent-video-analytics/"
+          ]
+        },
+        {
+          "name": "DeepStream for",
+          "urls": [
+            "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/"
+          ]
+        },
+        {
+          "name": "DeepStream video",
+          "urls": [
+            "https://www.nvidia.com/en-us/deep-learning-ai/"
+          ]
+        },
+        {
+          "name": "Metropolis",
+          "urls": [
+            "https://www.nvidia.com/en-us/autonomous-machines/intelligent-video-analytics/"
+          ]
+        },
+        {
+          "name": "Metropolis platform",
+          "urls": [
+            "https://www.nvidia.com/en-us/autonomous-machines/intelligent-video-analytics/"
+          ]
+        }
+      ]
+    },
+    "Graphics Technology": {
+      "count": 7,
+      "technologies": [
+        {
+          "name": "DLSS",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/technologies/",
+            "https://www.nvidia.com/zh-cn/geforce/",
+            "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+            "https://www.nvidia.com/en-us/geforce/"
+          ]
+        },
+        {
+          "name": "DLSS 3",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/"
+          ]
+        },
+        {
+          "name": "DLSS 4",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+            "https://www.nvidia.com/en-us/geforce/technologies/",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/"
+          ]
+        },
+        {
+          "name": "Ray Tracing",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/technologies/ray-tracing/",
+            "https://www.nvidia.com/en-us/geforce/technologies/"
+          ]
+        },
+        {
+          "name": "Ray tracing",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/"
+          ]
+        },
+        {
+          "name": "Reflex",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/technologies/",
+            "https://www.nvidia.com/en-us/geforce/"
+          ]
+        },
+        {
+          "name": "ray tracing",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+            "https://www.nvidia.com/en-us/geforce/technologies/ray-tracing/",
+            "https://www.nvidia.com/en-us/omniverse/",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/",
+            "https://www.nvidia.com/en-us/geforce/"
+          ]
+        }
+      ]
+    },
+    "Healthcare AI": {
+      "count": 6,
+      "technologies": [
+        {
+          "name": "Clara",
+          "urls": [
+            "https://www.nvidia.com/en-us/clara/"
+          ]
+        },
+        {
+          "name": "Clara Discovery",
+          "urls": [
+            "https://www.nvidia.com/en-us/clara/"
+          ]
+        },
+        {
+          "name": "Clara Holoscan",
+          "urls": [
+            "https://www.nvidia.com/en-us/clara/"
+          ]
+        },
+        {
+          "name": "Clara Imaging",
+          "urls": [
+            "https://www.nvidia.com/en-us/clara/"
+          ]
+        },
+        {
+          "name": "Clara healthcare",
+          "urls": [
+            "https://www.nvidia.com/en-us/clara/"
+          ]
+        },
+        {
+          "name": "Clara is",
+          "urls": [
+            "https://www.nvidia.com/en-us/clara/"
+          ]
+        }
+      ]
+    },
+    "Interconnect Technology": {
+      "count": 2,
+      "technologies": [
+        {
+          "name": "NVLink",
+          "urls": [
+            "https://www.nvidia.com/en-us/data-center/h200/",
+            "https://www.nvidia.com/en-us/data-center/nvlink/",
+            "https://www.nvidia.com/en-us/data-center/",
+            "https://www.nvidia.com/en-us/data-center/grace-hopper-superchip/",
+            "https://www.nvidia.com/en-us/data-center/a100/"
+          ]
+        },
+        {
+          "name": "NVSwitch",
+          "urls": [
+            "https://www.nvidia.com/en-us/data-center/h200/",
+            "https://www.nvidia.com/en-us/data-center/nvlink/",
+            "https://www.nvidia.com/en-us/data-center/",
+            "https://www.nvidia.com/en-us/data-center/dgx-platform/",
+            "https://www.nvidia.com/en-us/data-center/hgx/"
+          ]
+        }
+      ]
+    },
+    "Omniverse Platform": {
+      "count": 8,
+      "technologies": [
+        {
+          "name": "Omniverse 3D协作平台",
+          "urls": [
+            "https://www.nvidia.com/zh-cn/"
+          ]
+        },
+        {
+          "name": "Omniverse 3D協作平台",
+          "urls": [
+            "https://www.nvidia.com/zh-tw/"
+          ]
+        },
+        {
+          "name": "Omniverse Cloud",
+          "urls": [
+            "https://www.nvidia.com/en-us/omniverse/"
+          ]
+        },
+        {
+          "name": "Omniverse Enterprise",
+          "urls": [
+            "https://www.nvidia.com/en-us/omniverse/"
+          ]
+        },
+        {
+          "name": "Omniverse Platform",
+          "urls": [
+            "https://www.nvidia.com/en-us/omniverse/"
+          ]
+        },
+        {
+          "name": "Omniverse for",
+          "urls": [
+            "https://www.nvidia.com/en-us/omniverse/",
+            "https://www.nvidia.com/en-us/",
+            "https://www.nvidia.com/en-us/design-visualization/"
+          ]
+        },
+        {
+          "name": "Omniverse is",
+          "urls": [
+            "https://www.nvidia.com/en-us/omniverse/"
+          ]
+        },
+        {
+          "name": "Omniverse platform",
+          "urls": [
+            "https://www.nvidia.com/en-us/omniverse/"
+          ]
+        }
+      ]
+    },
+    "Other Software": {
+      "count": 5,
+      "technologies": [
+        {
+          "name": "Base Command",
+          "urls": [
+            "https://www.nvidia.com/en-us/data-center/dgx-platform/"
+          ]
+        },
+        {
+          "name": "Canvas",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/technologies/"
+          ]
+        },
+        {
+          "name": "NVIDIA AI Enterprise",
+          "urls": [
+            "https://www.nvidia.com/en-us/ai/",
+            "https://www.nvidia.com/en-us/deep-learning-ai/",
+            "https://www.nvidia.com/en-us/data-center/products/ai-enterprise/",
+            "https://www.nvidia.com/en-us/data-center/cloud-computing/"
+          ]
+        },
+        {
+          "name": "NVIDIA enterprise",
+          "urls": [
+            "https://www.nvidia.com/en-us/solutions/"
+          ]
+        },
+        {
+          "name": "TAO Toolkit",
+          "urls": [
+            "https://www.nvidia.com/en-us/deep-learning-ai/",
+            "https://www.nvidia.com/en-us/autonomous-machines/intelligent-video-analytics/",
+            "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/"
+          ]
+        }
+      ]
+    },
+    "Robotics": {
+      "count": 12,
+      "technologies": [
+        {
+          "name": "Isaac",
+          "urls": [
+            "https://www.nvidia.com/zh-cn/autonomous-machines/",
+            "https://www.nvidia.com/en-us/autonomous-machines/",
+            "https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/"
+          ]
+        },
+        {
+          "name": "Isaac Lab",
+          "urls": [
+            "https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/"
+          ]
+        },
+        {
+          "name": "Isaac Manipulator",
+          "urls": [
+            "https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/"
+          ]
+        },
+        {
+          "name": "Isaac Perceptor",
+          "urls": [
+            "https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/"
+          ]
+        },
+        {
+          "name": "Isaac ROS",
+          "urls": [
+            "https://www.nvidia.com/en-us/autonomous-machines/",
+            "https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/"
+          ]
+        },
+        {
+          "name": "Isaac SDK",
+          "urls": [
+            "https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/"
+          ]
+        },
+        {
+          "name": "Isaac Sim",
+          "urls": [
+            "https://www.nvidia.com/zh-cn/autonomous-machines/",
+            "https://www.nvidia.com/en-us/autonomous-machines/",
+            "https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/"
+          ]
+        },
+        {
+          "name": "Isaac for",
+          "urls": [
+            "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/"
+          ]
+        },
+        {
+          "name": "Isaac platform",
+          "urls": [
+            "https://www.nvidia.com/en-us/autonomous-machines/",
+            "https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/"
+          ]
+        },
+        {
+          "name": "Isaac robotics",
+          "urls": [
+            "https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/"
+          ]
+        },
+        {
+          "name": "Isaac 平台",
+          "urls": [
+            "https://www.nvidia.com/zh-cn/autonomous-machines/"
+          ]
+        },
+        {
+          "name": "Isaac 机器人平台",
+          "urls": [
+            "https://www.nvidia.com/zh-cn/autonomous-machines/"
+          ]
+        }
+      ]
+    },
+    "Speech & Audio AI": {
+      "count": 7,
+      "technologies": [
+        {
+          "name": "Broadcast",
+          "urls": [
+            "https://www.nvidia.com/en-us/geforce/technologies/",
+            "https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-app/"
+          ]
+        },
+        {
+          "name": "Maxine",
+          "urls": [
+            "https://developer.nvidia.com/maxine"
+          ]
+        },
+        {
+          "name": "Maxine SDK",
+          "urls": [
+            "https://developer.nvidia.com/maxine"
+          ]
+        },
+        {
+          "name": "Riva",
+          "urls": [
+            "https://www.nvidia.com/en-us/ai/",
+            "https://developer.nvidia.com/riva"
+          ]
+        },
+        {
+          "name": "Riva is",
+          "urls": [
+            "https://developer.nvidia.com/riva"
+          ]
+        },
+        {
+          "name": "Riva speech",
+          "urls": [
+            "https://developer.nvidia.com/riva"
+          ]
+        },
+        {
+          "name": "riva",
+          "urls": [
+            "https://developer.nvidia.com/gpu-cloud"
+          ]
+        }
+      ]
+    }
+  }
+}

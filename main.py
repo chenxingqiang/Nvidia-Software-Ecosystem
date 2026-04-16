@@ -40,6 +40,7 @@ class NvidiaEcosystemPipeline:
         max_concurrent: int = 5,
         request_delay: float = 1.5,
         output_dir: Optional[Path] = None,
+        crawl_all: bool = False,
     ):
         """
         Initialize the pipeline.
@@ -50,6 +51,7 @@ class NvidiaEcosystemPipeline:
             max_concurrent: Maximum concurrent requests.
             request_delay: Delay between requests.
             output_dir: Directory for output files.
+            crawl_all: When True, traverse ALL sub-pages (no include-pattern filter).
         """
         self.output_dir = output_dir or OUTPUT_DIR
         self.output_dir.mkdir(parents=True, exist_ok=True)
@@ -61,6 +63,7 @@ class NvidiaEcosystemPipeline:
             max_concurrent=max_concurrent,
             request_delay=request_delay,
             output_dir=self.output_dir,
+            crawl_all=crawl_all,
         )
         self.classifier = EcosystemClassifier()
         self.extractor = DataExtractor()
@@ -356,6 +359,13 @@ def parse_args() -> argparse.Namespace:
         help="Custom seed URLs to start crawling",
     )
     
+    parser.add_argument(
+        "--crawl-all",
+        action="store_true",
+        default=CRAWLER_CONFIG.get("crawl_all", False),
+        help="Traverse ALL sub-pages under allowed domains (skip include-pattern filter)",
+    )
+    
     return parser.parse_args()
 
 
@@ -381,6 +391,7 @@ async def main():
         max_concurrent=args.concurrent,
         request_delay=args.delay,
         output_dir=args.output_dir,
+        crawl_all=args.crawl_all,
     )
     
     if args.load_data:

@@ -46,9 +46,9 @@ Thumbs.db
 *.log
 output/*.log
 
-# Large crawl data files (can be regenerated)
-output/crawl_data.json
-output/classified_pages.json
+# Large crawl data files (uncomment to exclude from git)
+# output/crawl_data.json
+# output/classified_pages.json
 
 # Downloaded PDFs (if any)
 output/pdfs/
