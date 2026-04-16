@@ -54,8 +54,15 @@ class JSONGenerator:
                 "urls": [],
             }
         
-        # Process pages
+        # Process pages (deduplicated by URL)
+        seen_urls: set = set()
         for page in classified_pages:
+            url = page.get("url", "")
+            if url and url in seen_urls:
+                continue
+            if url:
+                seen_urls.add(url)
+            
             eco = page.get("ecosystem", "technology")
             if eco not in ecosystems:
                 eco = "technology"
@@ -159,7 +166,13 @@ class JSONGenerator:
             lambda: defaultdict(set)
         )
         
+        seen_urls: set = set()
         for page in classified_pages:
+            url = page.get("url", "")
+            if url and url in seen_urls:
+                continue
+            if url:
+                seen_urls.add(url)
             for product in page.get("products", []):
                 if isinstance(product, dict):
                     name = product.get("name", "")
@@ -208,7 +221,13 @@ class JSONGenerator:
             lambda: defaultdict(set)
         )
         
+        seen_urls: set = set()
         for page in classified_pages:
+            url = page.get("url", "")
+            if url and url in seen_urls:
+                continue
+            if url:
+                seen_urls.add(url)
             for tech in page.get("technologies", []):
                 if isinstance(tech, dict):
                     name = tech.get("name", "")

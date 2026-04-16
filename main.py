@@ -36,7 +36,7 @@ class NvidiaEcosystemPipeline:
     def __init__(
         self,
         max_depth: int = 5,
-        max_pages: int = 10000,
+        max_pages: int = 5000,
         max_concurrent: int = 5,
         request_delay: float = 1.5,
         output_dir: Optional[Path] = None,
@@ -98,14 +98,42 @@ class NvidiaEcosystemPipeline:
         
         return self.pages
 
+    def _deduplicate_pages(self) -> int:
+        """
+        Remove duplicate pages by URL, keeping the first occurrence.
+
+        Returns:
+            Number of duplicates removed.
+        """
+        seen_urls: set = set()
+        unique_pages: List[PageData] = []
+        
+        for page in self.pages:
+            url = (page.url or "").strip()
+            if url and url in seen_urls:
+                continue
+            if url:
+                seen_urls.add(url)
+            unique_pages.append(page)
+        
+        removed = len(self.pages) - len(unique_pages)
+        self.pages = unique_pages
+        return removed
+
     def classify_pages(self) -> List[Dict[str, Any]]:
         """
         Classify all crawled pages into ecosystems.
+        Deduplicates pages by URL before classification.
 
         Returns:
             List of classified page data.
         """
         logger.info("Classifying pages into ecosystems...")
+        
+        # Deduplicate pages by URL
+        removed = self._deduplicate_pages()
+        if removed > 0:
+            logger.info(f"Removed {removed} duplicate pages, {len(self.pages)} unique pages remain")
         
         self.classified_pages = []
         
@@ -269,9 +297,17 @@ class NvidiaEcosystemPipeline:
             self.metadata = data.get("metadata", {})
             pages_data = data.get("pages", [])
             
-            # Convert to PageData objects
+            # Convert to PageData objects, deduplicating by URL
             self.pages = []
+            seen_urls: set = set()
+            duplicates = 0
             for p in pages_data:
+                url = (p.get("url", "") or "").strip()
+                if url and url in seen_urls:
+                    duplicates += 1
+                    continue
+                if url:
+                    seen_urls.add(url)
                 self.pages.append(PageData(
                     url=p.get("url", ""),
                     title=p.get("title", ""),
@@ -283,7 +319,9 @@ class NvidiaEcosystemPipeline:
                     crawled_at=p.get("crawled_at", ""),
                 ))
             
-            logger.info(f"Loaded {len(self.pages)} pages from {data_file}")
+            logger.info(f"Loaded {len(self.pages)} unique pages from {data_file}")
+            if duplicates > 0:
+                logger.info(f"Removed {duplicates} duplicate pages during loading")
             return True
             
         except Exception as e:

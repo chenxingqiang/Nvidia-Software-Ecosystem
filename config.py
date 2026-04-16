@@ -13,7 +13,7 @@ CRAWLER_CONFIG = {
     "max_concurrent": 5,
     "request_delay": 1.5,  # seconds between requests
     "timeout": 30,  # seconds
-    "max_pages": 10000,  # maximum pages to crawl
+    "max_pages": 5000,  # maximum pages to crawl
     "save_interval": 100,  # save progress every N pages
     "crawl_all": False,  # when True, traverse ALL sub-pages (no include-pattern filter)
 }

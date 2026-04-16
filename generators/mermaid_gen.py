@@ -238,8 +238,8 @@ class MermaidGenerator:
         """
         # Organize data
         ecosystem_data: Dict[str, Dict[str, Any]] = {}
-        products: Dict[str, List[str]] = defaultdict(list)
-        technologies: Dict[str, List[str]] = defaultdict(list)
+        products: Dict[str, Set[str]] = defaultdict(set)
+        technologies: Dict[str, Set[str]] = defaultdict(set)
         
         for eco_id in ["hardware", "software", "developer", "business", "technology"]:
             ecosystem_data[eco_id] = {
@@ -247,7 +247,14 @@ class MermaidGenerator:
                 "subcategories": defaultdict(int),
             }
         
+        seen_urls: set = set()
         for page in classified_pages:
+            url = page.get("url", "")
+            if url and url in seen_urls:
+                continue
+            if url:
+                seen_urls.add(url)
+            
             eco = page.get("ecosystem", "technology")
             if eco not in ecosystem_data:
                 eco = "technology"
@@ -266,7 +273,7 @@ class MermaidGenerator:
                     name = str(product)
                     category = "Other"
                 if name:
-                    products[category].append(name)
+                    products[category].add(name)
             
             for tech in page.get("technologies", []):
                 if isinstance(tech, dict):
@@ -276,7 +283,7 @@ class MermaidGenerator:
                     name = str(tech)
                     category = "Other"
                 if name:
-                    technologies[category].append(name)
+                    technologies[category].add(name)
         
         # Generate document
         lines = []
@@ -310,21 +317,23 @@ class MermaidGenerator:
         lines.append("```")
         lines.append("")
         
-        # Product tree
+        # Product tree (convert sets to sorted lists)
         if products:
             lines.append("## Product Hierarchy / 产品层级")
             lines.append("")
             lines.append("```mermaid")
-            lines.append(self.generate_product_tree(dict(products)))
+            products_list = {cat: sorted(names) for cat, names in products.items()}
+            lines.append(self.generate_product_tree(products_list))
             lines.append("```")
             lines.append("")
         
-        # Technology tree
+        # Technology tree (convert sets to sorted lists)
         if technologies:
             lines.append("## Technology Stack / 技术栈")
             lines.append("")
             lines.append("```mermaid")
-            lines.append(self.generate_technology_tree(dict(technologies)))
+            tech_list = {cat: sorted(names) for cat, names in technologies.items()}
+            lines.append(self.generate_technology_tree(tech_list))
             lines.append("```")
             lines.append("")
         
