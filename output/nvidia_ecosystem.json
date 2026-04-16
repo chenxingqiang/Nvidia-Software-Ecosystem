@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "generated_at": "2026-04-16T03:27:33.762185",
+    "crawl_start": "2026-04-16T03:27:17.890922",
+    "crawl_end": "2026-04-16T03:27:33.761014",
+    "total_pages": 0,
+    "elapsed_seconds": 15.870089530944824
+  },
+  "summary": {
+    "total_ecosystems": 5,
+    "ecosystem_distribution": {
+      "hardware": 0,
+      "software": 0,
+      "developer": 0,
+      "business": 0,
+      "technology": 0
+    }
+  },
+  "ecosystems": {
+    "hardware": {
+      "name": "Hardware Ecosystem",
+      "name_cn": "硬件生态",
+      "total_pages": 0,
+      "subcategories": {},
+      "products": {},
+      "technologies": {},
+      "keywords": {},
+      "urls": []
+    },
+    "software": {
+      "name": "Software Ecosystem",
+      "name_cn": "软件生态",
+      "total_pages": 0,
+      "subcategories": {},
+      "products": {},
+      "technologies": {},
+      "keywords": {},
+      "urls": []
+    },
+    "developer": {
+      "name": "Developer Ecosystem",
+      "name_cn": "开发者生态",
+      "total_pages": 0,
+      "subcategories": {},
+      "products": {},
+      "technologies": {},
+      "keywords": {},
+      "urls": []
+    },
+    "business": {
+      "name": "Business Ecosystem",
+      "name_cn": "商业生态",
+      "total_pages": 0,
+      "subcategories": {},
+      "products": {},
+      "technologies": {},
+      "keywords": {},
+      "urls": []
+    },
+    "technology": {
+      "name": "Technology Ecosystem",
+      "name_cn": "技术生态",
+      "total_pages": 0,
+      "subcategories": {},
+      "products": {},
+      "technologies": {},
+      "keywords": {},
+      "urls": []
+    }
+  }
+}
