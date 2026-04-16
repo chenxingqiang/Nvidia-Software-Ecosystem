@@ -15,6 +15,7 @@ CRAWLER_CONFIG = {
     "timeout": 30,  # seconds
     "max_pages": 10000,  # maximum pages to crawl
     "save_interval": 100,  # save progress every N pages
+    "crawl_all": False,  # when True, traverse ALL sub-pages (no include-pattern filter)
 }
 
 # Browser configuration

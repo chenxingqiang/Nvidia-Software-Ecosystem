@@ -44,6 +44,9 @@ crawl4ai-setup
 # Default settings (5 layers deep, up to 10000 pages)
 python main.py
 
+# Traverse ALL sub-pages (no include-pattern filtering)
+python main.py --crawl-all
+
 # Custom settings
 python main.py --max-depth 3 --max-pages 500 --concurrent 10 --delay 1.0
 
@@ -71,6 +74,7 @@ python main.py --load-data output/crawl_data.json
 | `--output-dir` | ./output | Output directory                             |
 | `--load-data`  | -        | Load existing crawl data instead of crawling |
 | `--seed-urls`  | -        | Custom seed URLs to start crawling           |
+| `--crawl-all`  | False    | Traverse ALL sub-pages (skip include-pattern filter) |
 
 
 ### 2. PDF Document Crawler
