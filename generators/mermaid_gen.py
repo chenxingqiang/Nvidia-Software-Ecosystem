@@ -247,7 +247,7 @@ class MermaidGenerator:
                 "subcategories": defaultdict(int),
             }
         
-        seen_urls: set = set()
+        seen_urls: Set[str] = set()
         for page in classified_pages:
             url = page.get("url", "")
             if url and url in seen_urls:

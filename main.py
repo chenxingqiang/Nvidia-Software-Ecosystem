@@ -8,7 +8,7 @@ import sys
 from dataclasses import asdict
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Set
 
 from config import CRAWLER_CONFIG, OUTPUT_DIR, SEED_URLS
 from crawler.nvidia_crawler import NvidiaEcosystemCrawler, PageData
@@ -105,7 +105,7 @@ class NvidiaEcosystemPipeline:
         Returns:
             Number of duplicates removed.
         """
-        seen_urls: set = set()
+        seen_urls: Set[str] = set()
         unique_pages: List[PageData] = []
         
         for page in self.pages:
@@ -299,7 +299,7 @@ class NvidiaEcosystemPipeline:
             
             # Convert to PageData objects, deduplicating by URL
             self.pages = []
-            seen_urls: set = set()
+            seen_urls: Set[str] = set()
             duplicates = 0
             for p in pages_data:
                 url = (p.get("url", "") or "").strip()

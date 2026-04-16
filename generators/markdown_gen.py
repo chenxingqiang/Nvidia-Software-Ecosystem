@@ -2,7 +2,7 @@
 from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Set
 
 import sys
 sys.path.insert(0, str(__file__).rsplit("/", 2)[0])
@@ -250,10 +250,10 @@ class MarkdownGenerator:
             }
         )
         
-        all_products: Dict[str, set] = defaultdict(set)
-        all_technologies: Dict[str, set] = defaultdict(set)
+        all_products: Dict[str, Set[str]] = defaultdict(set)
+        all_technologies: Dict[str, Set[str]] = defaultdict(set)
         keyword_counts: Dict[str, Dict[str, int]] = defaultdict(lambda: defaultdict(int))
-        seen_urls: set = set()
+        seen_urls: Set[str] = set()
         
         for page in classified_pages:
             url = page.get("url", "")
