@@ -1,6 +1,6 @@
 # NVIDIA Ecosystem Diagrams / NVIDIA 生态系统图表
 
-> Generated: 2026-04-16 03:32:11
+> Generated: 2026-04-17 01:19:34
 
 ## Ecosystem Overview / 生态系统概览
 
@@ -31,10 +31,10 @@ mindmap
       Industries
     Technology Ecosystem
       Data Center
-      Ai
       Deep Learning Ai
       High Performance Computing
       Tensorrt
+      Ai Data Science
 ```
 
 ## Ecosystem Relationships / 生态系统关系
@@ -67,7 +67,7 @@ pie title "NVIDIA Ecosystem Distribution"
     "Software Ecosystem" : 9
     "Developer Ecosystem" : 8
     "Business Ecosystem" : 3
-    "Technology Ecosystem" : 16
+    "Technology Ecosystem" : 15
 ```
 
 ## Product Hierarchy / 产品层级
@@ -78,27 +78,27 @@ mindmap
     Automotive
       DRIVE Thor
       DRIVE Sim
-      DRIVE AGX
       DRIVE Hyperion
+      DRIVE AGX
     Consumer GPU
-      RTX 4090
-      RTX 4070 Ti
+      RTX 6000
       GeForce RTX 40
+      GeForce RTX 5070 Ti
+      RTX 5000
       RTX 4500
-      RTX 5070
-      RTX 4000
-      GeForce RTX 4080
       RTX 5080
+      GeForce RTX 4090
+      RTX 4000
     DGX Systems
       DGX Cloud
-      DGX Station
       DGX SuperPOD
+      DGX Station
     Data Center GPU
-      H100
       DGX H100
+      H100
       L40
-      DGX A100
       A100
+      DGX A100
     Data Center Platform
       Grace Hopper
       Grace CPU
@@ -107,10 +107,10 @@ mindmap
       Jetson Orin
       Jetson AGX Orin
     Networking
-      BlueField-3
       Spectrum-4
-      BlueField
       ConnectX-7
+      BlueField
+      BlueField-3
     Other Hardware
       H200
 ```
@@ -121,82 +121,82 @@ mindmap
 mindmap
   root((NVIDIA Software))
     AI Frameworks
-      NeMo is
-      RAPIDS container
-      NeMo framework
-      NeMo Retriever
-      Morpheus
       NeMo large
-      Merlin recommender
-      RAPIDS suite
+      RAPIDS
+      Merlin is
+      RAPIDS container
+      NeMo is
+      Morpheus AI
+      Merlin
+      NeMo Curator
     AI Inference
-      TensorRT 10
-      TensorRT
       Triton Inference Server
+      TensorRT
+      TensorRT 10
     CUDA Platform
       CUDA
-      cuDNN
       cuDNN 9
+      cuDNN
     Cloud & Containers
-      NGC Catalog
       NGC catalog
       NGC
+      NGC Catalog
       NGC is
     Computer Vision
       Metropolis
-      DeepStream SDK
-      DeepStream video
-      Metropolis platform
       DeepStream for
       DeepStream
+      DeepStream video
+      Metropolis platform
+      DeepStream SDK
     Graphics Technology
-      DLSS 3
-      Reflex
-      ray tracing
       Ray Tracing
+      DLSS
       DLSS 4
       Ray tracing
-      DLSS
+      DLSS 3
+      ray tracing
+      Reflex
     Healthcare AI
-      Clara
       Clara healthcare
-      Clara Holoscan
-      Clara Imaging
       Clara Discovery
+      Clara
+      Clara Imaging
+      Clara Holoscan
       Clara is
     Interconnect Technology
-      NVLink
       NVSwitch
+      NVLink
     Omniverse Platform
       Omniverse platform
       Omniverse is
-      Omniverse 3D協作平台
       Omniverse Platform
-      Omniverse Cloud
       Omniverse Enterprise
+      Omniverse Cloud
       Omniverse for
+      Omniverse 3D協作平台
       Omniverse 3D协作平台
     Other Software
-      Base Command
+      Canvas
       NVIDIA enterprise
       TAO Toolkit
       NVIDIA AI Enterprise
-      Canvas
+      Base Command
     Robotics
-      Isaac robotics
-      Isaac 机器人平台
-      Isaac 平台
-      Isaac Perceptor
-      Isaac SDK
-      Isaac Sim
-      Isaac ROS
       Isaac
+      Isaac Lab
+      Isaac SDK
+      Isaac Manipulator
+      Isaac for
+      Isaac 平台
+      Isaac 机器人平台
+      Isaac Sim
     Speech & Audio AI
-      Riva is
-      riva
       Maxine SDK
       Maxine
       Broadcast
-      Riva
       Riva speech
+      riva
+      Riva
+      Riva is
 ```

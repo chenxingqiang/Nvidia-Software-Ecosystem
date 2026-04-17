@@ -212,8 +212,8 @@
       }
     ],
     "keywords": [
-      "gaming",
       "gpu",
+      "gaming",
       "ai"
     ]
   },
@@ -334,8 +334,8 @@
       }
     ],
     "keywords": [
-      "gaming",
       "gpu",
+      "gaming",
       "ai"
     ]
   },
@@ -637,14 +637,14 @@
       }
     ],
     "keywords": [
-      "cloud",
       "gpu",
-      "hpc",
-      "inference",
       "accelerated computing",
       "training",
-      "data center",
-      "ai"
+      "hpc",
+      "cloud",
+      "ai",
+      "inference",
+      "data center"
     ]
   },
   {
@@ -691,10 +691,10 @@
     ],
     "keywords": [
       "gpu",
-      "hpc",
-      "inference",
       "training",
-      "ai"
+      "hpc",
+      "ai",
+      "inference"
     ]
   },
   {
@@ -736,8 +736,8 @@
     "keywords": [
       "gpu",
       "hpc",
-      "data center",
-      "ai"
+      "ai",
+      "data center"
     ]
   },
   {
@@ -778,11 +778,11 @@
     ],
     "keywords": [
       "gpu",
-      "hpc",
-      "inference",
       "training",
-      "data center",
-      "ai"
+      "hpc",
+      "ai",
+      "inference",
+      "data center"
     ]
   },
   {
@@ -874,9 +874,9 @@
       }
     ],
     "keywords": [
-      "cloud",
       "gpu",
       "training",
+      "cloud",
       "ai"
     ]
   },
@@ -988,8 +988,8 @@
     "technologies": [],
     "keywords": [
       "hpc",
-      "data center",
-      "ai"
+      "ai",
+      "data center"
     ]
   },
   {
@@ -1154,10 +1154,10 @@
       }
     ],
     "keywords": [
-      "cuda",
       "robotics",
       "edge",
-      "ai"
+      "ai",
+      "cuda"
     ]
   },
   {
@@ -1305,10 +1305,10 @@
       }
     ],
     "keywords": [
-      "cuda",
       "gpu",
       "hpc",
-      "deep learning"
+      "deep learning",
+      "cuda"
     ]
   },
   {
@@ -1415,13 +1415,13 @@
       }
     ],
     "keywords": [
-      "neural network",
-      "cuda",
       "gpu",
-      "inference",
+      "neural network",
       "training",
+      "deep learning",
       "ai",
-      "deep learning"
+      "inference",
+      "cuda"
     ]
   },
   {
@@ -1450,8 +1450,8 @@
       }
     ],
     "keywords": [
-      "cuda",
-      "gpu"
+      "gpu",
+      "cuda"
     ]
   },
   {
@@ -1492,10 +1492,10 @@
       }
     ],
     "keywords": [
-      "neural network",
-      "cuda",
       "gpu",
-      "deep learning"
+      "neural network",
+      "deep learning",
+      "cuda"
     ]
   },
   {
@@ -1532,8 +1532,8 @@
     ],
     "keywords": [
       "llm",
-      "inference",
-      "deep learning"
+      "deep learning",
+      "inference"
     ]
   },
   {
@@ -1569,8 +1569,8 @@
     ],
     "keywords": [
       "gpu",
-      "inference",
-      "ai"
+      "ai",
+      "inference"
     ]
   },
   {
@@ -1726,8 +1726,8 @@
     ],
     "keywords": [
       "cloud",
-      "inference",
-      "ai"
+      "ai",
+      "inference"
     ]
   },
   {
@@ -1799,8 +1799,8 @@
     "keywords": [
       "gpu",
       "training",
-      "ai",
-      "generative ai"
+      "generative ai",
+      "ai"
     ]
   },
   {
@@ -1905,8 +1905,8 @@
       }
     ],
     "keywords": [
-      "healthcare",
-      "ai"
+      "ai",
+      "healthcare"
     ]
   },
   {
@@ -2046,8 +2046,8 @@
       }
     ],
     "keywords": [
-      "cloud",
-      "edge"
+      "edge",
+      "cloud"
     ]
   },
   {
@@ -2124,8 +2124,8 @@
     ],
     "keywords": [
       "gpu",
-      "inference",
-      "ai"
+      "ai",
+      "inference"
     ]
   },
   {
@@ -2179,13 +2179,13 @@
       }
     ],
     "keywords": [
-      "cuda",
       "gpu",
-      "inference",
       "accelerated computing",
       "training",
+      "deep learning",
       "ai",
-      "deep learning"
+      "inference",
+      "cuda"
     ]
   },
   {
@@ -2266,8 +2266,8 @@
     "keywords": [
       "gpu",
       "hpc",
-      "inference",
-      "ai"
+      "ai",
+      "inference"
     ]
   },
   {
@@ -2303,8 +2303,8 @@
       }
     ],
     "keywords": [
-      "cuda",
-      "gpu"
+      "gpu",
+      "cuda"
     ]
   },
   {
@@ -2332,9 +2332,9 @@
       }
     ],
     "keywords": [
-      "cuda",
       "gpu",
-      "ai"
+      "ai",
+      "cuda"
     ]
   },
   {
@@ -2374,11 +2374,11 @@
     ],
     "keywords": [
       "automotive",
-      "healthcare",
-      "cloud",
-      "inference",
       "edge",
-      "ai"
+      "cloud",
+      "ai",
+      "healthcare",
+      "inference"
     ]
   },
   {
@@ -2407,10 +2407,10 @@
     "products": [],
     "technologies": [],
     "keywords": [
-      "automotive",
-      "healthcare",
       "robotics",
-      "ai"
+      "automotive",
+      "ai",
+      "healthcare"
     ]
   },
   {
@@ -2460,8 +2460,8 @@
       }
     ],
     "keywords": [
-      "cloud",
       "gpu",
+      "cloud",
       "ai"
     ]
   },
@@ -2538,10 +2538,10 @@
       }
     ],
     "keywords": [
-      "inference",
       "training",
+      "generative ai",
       "ai",
-      "generative ai"
+      "inference"
     ]
   },
   {
@@ -2578,9 +2578,9 @@
     ],
     "keywords": [
       "llm",
-      "inference",
+      "generative ai",
       "ai",
-      "generative ai"
+      "inference"
     ]
   },
   {
@@ -2615,10 +2615,10 @@
       }
     ],
     "keywords": [
-      "llm",
       "gpu",
-      "inference",
-      "ai"
+      "llm",
+      "ai",
+      "inference"
     ]
   },
   {
@@ -2707,8 +2707,8 @@
     ],
     "keywords": [
       "gpu",
-      "ai",
-      "deep learning"
+      "deep learning",
+      "ai"
     ]
   },
   {
@@ -2776,10 +2776,10 @@
       }
     ],
     "keywords": [
-      "cuda",
       "gpu",
       "hpc",
-      "ai"
+      "ai",
+      "cuda"
     ]
   },
   {
@@ -2969,10 +2969,10 @@
       }
     ],
     "keywords": [
-      "cuda",
       "gpu",
       "hpc",
-      "ai"
+      "ai",
+      "cuda"
     ]
   },
   {
@@ -3114,10 +3114,10 @@
     "technologies": [],
     "keywords": [
       "gpu",
-      "inference",
       "training",
-      "data center",
-      "ai"
+      "ai",
+      "inference",
+      "data center"
     ]
   },
   {
@@ -3183,8 +3183,8 @@
     ],
     "keywords": [
       "gpu",
-      "hpc",
       "training",
+      "hpc",
       "ai"
     ]
   },
@@ -3217,9 +3217,9 @@
     ],
     "technologies": [],
     "keywords": [
-      "cloud",
       "gpu",
       "hpc",
+      "cloud",
       "ai"
     ]
   },
@@ -3268,10 +3268,10 @@
     ],
     "technologies": [],
     "keywords": [
-      "cloud",
       "gpu",
-      "data center",
-      "ai"
+      "cloud",
+      "ai",
+      "data center"
     ]
   },
   {
@@ -3328,10 +3328,10 @@
     ],
     "keywords": [
       "gpu",
-      "inference",
       "training",
+      "deep learning",
       "ai",
-      "deep learning"
+      "inference"
     ]
   },
   {
@@ -3403,40 +3403,6 @@
     ],
     "keywords": [
       "gpu",
-      "ai"
-    ]
-  },
-  {
-    "url": "https://www.nvidia.com/en-us/ai/",
-    "title": "NVIDIA NIM - AI Inference Microservices | NVIDIA",
-    "description": "NVIDIA NIM delivers optimized AI inference microservices for deploying AI models at scale.",
-    "depth": 1,
-    "ecosystem": "technology",
-    "confidence": 0.8400000000000001,
-    "subcategory": "Ai",
-    "matched_patterns": [
-      "/ai/"
-    ],
-    "matched_keywords": [
-      "llm",
-      "inference"
-    ],
-    "products": [],
-    "technologies": [
-      {
-        "name": "NVIDIA AI Enterprise",
-        "category": "Other Software",
-        "description": "",
-        "url": "https://www.nvidia.com/en-us/ai/",
-        "related_products": []
-      }
-    ],
-    "keywords": [
-      "healthcare",
-      "llm",
-      "cloud",
-      "gpu",
-      "inference",
       "ai"
     ]
   },
@@ -3559,16 +3525,16 @@
       }
     ],
     "keywords": [
-      "gaming",
-      "cuda",
-      "professional visualization",
-      "cloud",
       "gpu",
-      "hpc",
+      "gaming",
       "accelerated computing",
-      "data center",
+      "professional visualization",
+      "hpc",
+      "deep learning",
+      "cloud",
       "ai",
-      "deep learning"
+      "data center",
+      "cuda"
     ]
   }
 ]

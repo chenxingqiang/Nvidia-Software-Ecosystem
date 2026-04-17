@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-04-16T03:32:11.622252",
+    "generated_at": "2026-04-17T01:19:34.232397",
     "crawl_start": "2026-04-16T03:32:05.931295",
     "crawl_end": "2026-04-16T03:32:05.931295",
     "total_pages": 60,
@@ -13,7 +13,7 @@
       "software": 9,
       "developer": 8,
       "business": 3,
-      "technology": 16
+      "technology": 15
     }
   },
   "ecosystems": {
@@ -367,9 +367,9 @@
         "automotive": 2,
         "healthcare": 2,
         "training": 1,
+        "edge": 1,
         "cloud": 1,
-        "inference": 1,
-        "edge": 1
+        "inference": 1
       },
       "urls": [
         "https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/",
@@ -380,13 +380,13 @@
     "technology": {
       "name": "Technology Ecosystem",
       "name_cn": "技术生态",
-      "total_pages": 16,
+      "total_pages": 15,
       "subcategories": {
         "Data Center": 8,
         "High Performance Computing": 1,
         "Tensorrt": 1,
         "Ai Data Science": 1,
-        "Ai": 2,
+        "Ai": 1,
         "Deep Learning Ai": 2,
         "Merlin": 1
       },
@@ -455,19 +455,18 @@
         ]
       },
       "keywords": {
-        "ai": 14,
-        "gpu": 13,
-        "inference": 9,
+        "ai": 13,
+        "gpu": 12,
         "training": 8,
-        "cloud": 4,
-        "llm": 4,
+        "inference": 8,
         "hpc": 3,
+        "cloud": 3,
         "deep learning": 3,
+        "llm": 3,
         "generative ai": 3,
         "accelerated computing": 2,
         "data center": 2,
-        "cuda": 1,
-        "healthcare": 1
+        "cuda": 1
       },
       "urls": [
         "https://www.nvidia.com/en-us/data-center/",
@@ -484,8 +483,7 @@
         "https://www.nvidia.com/en-us/data-center/nvlink/",
         "https://www.nvidia.com/zh-cn/data-center/",
         "https://www.nvidia.com/en-us/data-center/l40s/",
-        "https://developer.nvidia.com/merlin",
-        "https://www.nvidia.com/en-us/ai/"
+        "https://developer.nvidia.com/merlin"
       ]
     }
   }

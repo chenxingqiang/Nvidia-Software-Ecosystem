@@ -53,7 +53,7 @@ class NvidiaEcosystemCrawler:
         max_depth: int = 5,
         max_concurrent: int = 5,
         request_delay: float = 1.5,
-        max_pages: int = 10000,
+        max_pages: int = 5000,
         save_interval: int = 100,
         output_dir: Optional[Path] = None,
         crawl_all: bool = False,

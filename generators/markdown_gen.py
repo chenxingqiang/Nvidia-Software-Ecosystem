@@ -2,7 +2,7 @@
 from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Set
 
 import sys
 sys.path.insert(0, str(__file__).rsplit("/", 2)[0])
@@ -243,18 +243,25 @@ class MarkdownGenerator:
             lambda: {
                 "total_pages": 0,
                 "subcategories": defaultdict(int),
-                "products": defaultdict(list),
-                "technologies": defaultdict(list),
+                "products": defaultdict(set),
+                "technologies": defaultdict(set),
                 "top_keywords": [],
                 "sample_urls": [],
             }
         )
         
-        all_products: Dict[str, List[str]] = defaultdict(list)
-        all_technologies: Dict[str, List[str]] = defaultdict(list)
+        all_products: Dict[str, Set[str]] = defaultdict(set)
+        all_technologies: Dict[str, Set[str]] = defaultdict(set)
         keyword_counts: Dict[str, Dict[str, int]] = defaultdict(lambda: defaultdict(int))
+        seen_urls: Set[str] = set()
         
         for page in classified_pages:
+            url = page.get("url", "")
+            if url and url in seen_urls:
+                continue
+            if url:
+                seen_urls.add(url)
+            
             eco = page.get("ecosystem", "technology")
             eco_entry = ecosystem_data[eco]
             
@@ -264,7 +271,7 @@ class MarkdownGenerator:
             if subcat:
                 eco_entry["subcategories"][subcat] += 1
             
-            # Collect products
+            # Collect products (deduplicated via set)
             for product in page.get("products", []):
                 if isinstance(product, dict):
                     name = product.get("name", "")
@@ -274,10 +281,10 @@ class MarkdownGenerator:
                     category = "Other"
                 
                 if name:
-                    eco_entry["products"][category].append(name)
-                    all_products[category].append(name)
+                    eco_entry["products"][category].add(name)
+                    all_products[category].add(name)
             
-            # Collect technologies
+            # Collect technologies (deduplicated via set)
             for tech in page.get("technologies", []):
                 if isinstance(tech, dict):
                     name = tech.get("name", "")
@@ -287,8 +294,8 @@ class MarkdownGenerator:
                     category = "Other"
                 
                 if name:
-                    eco_entry["technologies"][category].append(name)
-                    all_technologies[category].append(name)
+                    eco_entry["technologies"][category].add(name)
+                    all_technologies[category].add(name)
             
             # Track keywords
             for keyword in page.get("keywords", []):
@@ -296,7 +303,19 @@ class MarkdownGenerator:
             
             # Sample URLs
             if len(eco_entry["sample_urls"]) < 10:
-                eco_entry["sample_urls"].append(page.get("url", ""))
+                eco_entry["sample_urls"].append(url)
+        
+        # Convert sets to sorted lists for report generation
+        for eco in ecosystem_data:
+            eco_entry = ecosystem_data[eco]
+            eco_entry["products"] = {
+                cat: sorted(names)
+                for cat, names in eco_entry["products"].items()
+            }
+            eco_entry["technologies"] = {
+                cat: sorted(names)
+                for cat, names in eco_entry["technologies"].items()
+            }
         
         # Sort keywords
         for eco in ecosystem_data:
