@@ -1,6 +1,6 @@
 # NVIDIA Ecosystem Landscape / NVIDIA 生态系统全景图
 
-> Generated: 2026-04-16 03:32:11
+> Generated: 2026-04-17 01:19:34
 
 ## Overview / 概览
 
@@ -12,7 +12,7 @@
 | Ecosystem | 生态 | Pages | Percentage |
 |-----------|------|-------|------------|
 | Hardware Ecosystem | 硬件生态 | 24 | 40.0% |
-| Technology Ecosystem | 技术生态 | 16 | 26.7% |
+| Technology Ecosystem | 技术生态 | 15 | 25.0% |
 | Software Ecosystem | 软件生态 | 9 | 15.0% |
 | Developer Ecosystem | 开发者生态 | 8 | 13.3% |
 | Business Ecosystem | 商业生态 | 3 | 5.0% |
@@ -32,23 +32,21 @@
 
 #### Consumer GPU
 
-- GeForce RTX 5090
-- GeForce RTX 5080
-- GeForce RTX 5070 Ti
-- GeForce RTX 5070
-- GeForce RTX 4090
-- GeForce RTX 4080
-- GeForce RTX 4070 Ti
-- GeForce RTX 4070
-- GeForce RTX 4060 Ti
+- GeForce RTX 40
 - GeForce RTX 4060
+- GeForce RTX 4060 Ti
+- GeForce RTX 4070
+- GeForce RTX 4070 Ti
+- GeForce RTX 4080
+- GeForce RTX 4090
+- GeForce RTX 50
+- GeForce RTX 5070
+- GeForce RTX 5070 Ti
 
 #### Data Center GPU
 
-- H100
 - A100
 - H100
-- A100
 
 #### Networking
 
@@ -56,25 +54,19 @@
 - BlueField-3
 - ConnectX-7
 - Spectrum-4
-- ConnectX-7
-- BlueField-3
-- ConnectX-7
-- Spectrum-4
 
 #### Edge AI / Embedded
 
 - Jetson AGX Orin
-- Jetson Orin
 - Jetson AGX Xavier
-- Jetson AGX Orin
 - Jetson Orin
 
 #### Automotive
 
 - DRIVE AGX
-- DRIVE Thor
 - DRIVE Hyperion
 - DRIVE Sim
+- DRIVE Thor
 
 #### Other Hardware
 
@@ -85,19 +77,15 @@
 #### Graphics Technology
 
 - DLSS
-- ray tracing
-- Reflex
-- DLSS 4
-- ray tracing
 - DLSS 3
-- ray tracing
-- DLSS
 - DLSS 4
 - Ray Tracing
+- Ray tracing
+- Reflex
+- ray tracing
 
 #### Speech & Audio AI
 
-- Broadcast
 - Broadcast
 
 #### Other Software
@@ -107,32 +95,25 @@
 #### Interconnect Technology
 
 - NVLink
-- NVLink
-- NVLink
 - NVSwitch
 
 #### Robotics
 
 - Isaac
-- Isaac platform
-- Isaac Sim
 - Isaac ROS
-- Isaac
+- Isaac Sim
+- Isaac platform
 - Isaac 平台
 - Isaac 机器人平台
-- Isaac Sim
 
 #### Omniverse Platform
 
-- Omniverse for
 - Omniverse 3D协作平台
 - Omniverse 3D協作平台
 - Omniverse for
 
 #### CUDA Platform
 
-- CUDA
-- CUDA
 - CUDA
 
 ### Key Topics / 关键主题
@@ -165,8 +146,8 @@
 #### Edge AI / Embedded
 
 - Jetson AGX Orin
-- Jetson Orin
 - Jetson AGX Xavier
+- Jetson Orin
 
 ### Technologies / 技术
 
@@ -174,19 +155,10 @@
 
 - CUDA
 - cuDNN
-- CUDA
-- cuDNN
-- CUDA
-- cuDNN
 - cuDNN 9
 
 #### AI Inference
 
-- TensorRT
-- TensorRT
-- Triton Inference Server
-- TensorRT
-- Triton Inference Server
 - TensorRT
 - Triton Inference Server
 
@@ -196,43 +168,39 @@
 
 #### Computer Vision
 
-- DeepStream for
-- DeepStream video
-- DeepStream
 - DeepStream
 - DeepStream SDK
+- DeepStream for
+- DeepStream video
 - Metropolis
 - Metropolis platform
 
 #### Other Software
 
-- TAO Toolkit
-- NVIDIA AI Enterprise
-- TAO Toolkit
 - NVIDIA AI Enterprise
 - TAO Toolkit
 
 #### AI Frameworks
 
-- RAPIDS data
-- NeMo large
-- Merlin recommender
-- Morpheus cybersecurity
-- RAPIDS
-- NeMo
 - Merlin
+- Merlin recommender
 - Morpheus
-- RAPIDS container
+- Morpheus AI
+- Morpheus cybersecurity
+- NeMo
 - NeMo framework
+- NeMo large
+- RAPIDS
+- RAPIDS container
 
 #### Omniverse Platform
 
-- Omniverse Platform
-- Omniverse is
-- Omniverse platform
 - Omniverse Cloud
 - Omniverse Enterprise
+- Omniverse Platform
 - Omniverse for
+- Omniverse is
+- Omniverse platform
 
 #### Graphics Technology
 
@@ -241,11 +209,11 @@
 #### Healthcare AI
 
 - Clara
-- Clara is
-- Clara healthcare
-- Clara Holoscan
 - Clara Discovery
+- Clara Holoscan
 - Clara Imaging
+- Clara healthcare
+- Clara is
 
 #### Speech & Audio AI
 
@@ -254,8 +222,8 @@
 #### Cloud & Containers
 
 - NGC Catalog
-- NGC is
 - NGC catalog
+- NGC is
 
 ### Key Topics / 关键主题
 
@@ -285,23 +253,18 @@
 #### CUDA Platform
 
 - CUDA
-- CUDA
-- CUDA
 - cuDNN
-- CUDA
 
 #### AI Inference
 
-- TensorRT
-- Triton Inference Server
 - TensorRT
 - Triton Inference Server
 
 #### AI Frameworks
 
 - RAPIDS
-- RAPIDS suite
 - RAPIDS open
+- RAPIDS suite
 
 #### Speech & Audio AI
 
@@ -340,14 +303,14 @@
 #### Robotics
 
 - Isaac
-- Isaac platform
-- Isaac robotics
-- Isaac Sim
+- Isaac Lab
+- Isaac Manipulator
+- Isaac Perceptor
 - Isaac ROS
 - Isaac SDK
-- Isaac Perceptor
-- Isaac Manipulator
-- Isaac Lab
+- Isaac Sim
+- Isaac platform
+- Isaac robotics
 
 #### Other Software
 
@@ -355,7 +318,7 @@
 
 ### Key Topics / 关键主题
 
-`ai`, `robotics`, `automotive`, `healthcare`, `training`, `cloud`, `inference`, `edge`
+`ai`, `robotics`, `automotive`, `healthcare`, `training`, `edge`, `cloud`, `inference`
 
 ### Sample Resources / 示例资源
 
@@ -368,11 +331,11 @@
 ### Categories / 分类
 
 - **Data Center**: 8 pages
-- **Ai**: 2 pages
 - **Deep Learning Ai**: 2 pages
 - **High Performance Computing**: 1 pages
 - **Tensorrt**: 1 pages
 - **Ai Data Science**: 1 pages
+- **Ai**: 1 pages
 - **Merlin**: 1 pages
 
 ### Products / 产品
@@ -380,35 +343,25 @@
 #### Other Hardware
 
 - H200
-- H200
-- H200
 
 #### Data Center GPU
 
-- H100
 - A100
-- L40
-- DGX H100
 - DGX A100
+- DGX H100
 - H100
-- A100
-- H100
-- H100
-- H100
+- L40
 
 #### Data Center Platform
 
-- Grace Hopper
-- Grace Hopper
 - Grace CPU
 - Grace Hopper
 
 #### DGX Systems
 
+- DGX Cloud
 - DGX Station
-- DGX Cloud
 - DGX SuperPOD
-- DGX Cloud
 
 ### Technologies / 技术
 
@@ -416,18 +369,10 @@
 
 - NVLink
 - NVSwitch
-- NVLink
-- NVSwitch
-- NVSwitch
-- NVLink
-- NVLink
-- NVSwitch
-- NVLink
 
 #### Other Software
 
 - Base Command
-- NVIDIA AI Enterprise
 - NVIDIA AI Enterprise
 
 #### CUDA Platform
@@ -439,27 +384,23 @@
 
 - TensorRT
 - TensorRT 10
-- TensorRT
-- TensorRT
-- TensorRT
 - Triton Inference Server
 
 #### AI Frameworks
 
-- NeMo Framework
-- NeMo is
-- NeMo framework
-- NeMo Guardrails
-- NeMo Curator
-- NeMo Retriever
-- RAPIDS
-- NeMo framework
 - Merlin
+- Merlin Models
+- Merlin Systems
+- Merlin is
+- Merlin recommender
 - Morpheus
+- NeMo Curator
+- NeMo Framework
+- NeMo Guardrails
+- NeMo Retriever
 
 #### Cloud & Containers
 
-- NGC
 - NGC
 
 #### Computer Vision
@@ -472,7 +413,7 @@
 
 ### Key Topics / 关键主题
 
-`ai`, `gpu`, `inference`, `training`, `cloud`, `llm`, `hpc`, `deep learning`, `generative ai`, `accelerated computing`
+`ai`, `gpu`, `training`, `inference`, `hpc`, `cloud`, `deep learning`, `llm`, `generative ai`, `accelerated computing`
 
 ### Sample Resources / 示例资源
 
