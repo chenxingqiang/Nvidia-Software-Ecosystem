@@ -1,6 +1,6 @@
 # NVIDIA Software Ecosystem Report
 
-> Generated: 2026-04-15 02:40 UTC
+> Generated: 2026-04-24 07:10 UTC
 > Crawl window: `2026-01-23T16:27:35.560600` → `2026-01-26T16:38:28.501775`
 > Pages in crawl aggregate: **10000**
 

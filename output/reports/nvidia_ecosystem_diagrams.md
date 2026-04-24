@@ -1,6 +1,6 @@
 # NVIDIA Ecosystem Diagrams / NVIDIA 生态系统图表
 
-> Generated: 2026-01-26 17:32:20
+> Generated: 2026-04-24 15:10:57
 
 ## Ecosystem Overview / 生态系统概览
 
@@ -39,8 +39,6 @@ mindmap
       En Gb
 ```
 
-
-
 ## Ecosystem Relationships / 生态系统关系
 
 ```mermaid
@@ -63,8 +61,6 @@ flowchart TD
     hardware -.->|"accelerates"| technology
 ```
 
-
-
 ## Distribution / 分布
 
 ```mermaid
@@ -76,90 +72,86 @@ pie title "NVIDIA Ecosystem Distribution"
     "Technology Ecosystem" : 1603
 ```
 
-
-
 ## Product Hierarchy / 产品层级
 
 ```mermaid
 mindmap
   root((NVIDIA Products))
     Automotive
-      drive agx
-      DRIVE ORIN
-      DRIVE Hyperion
+      Drive Orin
       Drive orin
-      Drive AGX
-      DRIVE SIM
-      DRIVE Orin
+      Drive sim
+      DRIVE Hyperion
       Drive Sim
+      DRIVE ORIN
+      drive thor
+      Drive Thor
     Consumer GPU
-      GeForce RTX 30
-      GeForce 940
-      RTX 3050 Ti
-      RTX 4080 Super
-      GeForce 8300
-      RTX  
-2060 Super
-      GeForce 10
-      Geforce GTX 16
+      GeForce 820
+      GeForce GTX 40
+      GeForce RTX 5080
+      GeForce RTX 4050
+      RTX 1000
+      RTX 5500
+      GeForce   
+RTX 3070
+      RTX 3090 TI
     DGX Systems
       DGX station
-      DGX SUPERPOD
       DGX STATION
-      DGX Station
+      DGX SUPERPOD
       DGX Superpod
-      DGX SuperPod
-      DGX CLoud
       DGX Cloud
+      DGX SuperPOD
+      DGX SuperPod
+      DGX Station
     Data Center GPU
-      a100
-      DGX H100
-      Tesla A100
-      Tesla V100
-      b100
-      Tesla K20
-      A100
       Tesla v100
+      h100
+      TESLA V100
+      Tesla K10
+      Tesla K20
+      Tesla V100
+      a100
+      B100
     Data Center Platform
       Grace CPU
       Grace Hopper
     Edge AI / Embedded
-      Jetson AGX orin
-      JETSON ORIN
-      JETSON AGX Xavier
-      Jetson xavier
-      Jetson AGX ORIN
+      jetson orin
+      JEtson nano
       jetson agx xavier
-      Jetson TX2
-      JETSON AGX ORIN
+      jetson agx orin
+      Jetson Orin
+      Jetson Xavier
+      jetson Xavier
+      JETSON ORIN
     Networking
-      spectrum-2
-      connectX-5
+      Connectx-3
       connectX
+      ConnectX-6
+      spectrum
       Spectrum-3
-      Bluefield-3
-      Connectx-7
-      Connectx-6
-      BlueField
+      Spectrum
+      bluefield-4
+      connectx-5
     Other Hardware
-      l4
       B200
-      b200
-      h200
       L4
+      l4
+      b200
       H200
+      h200
     Professional GPU
-      Quadro K500
-      Quadro 1200
-      Quadro K5200
-      Quadro K600
-      Quadro 5000
-      Quadro K6000
-      Quadro K2000
-      Quadro 4000
+      Quadro K5000
+      Quadro P520
+      Quadro K5100
+      Quadro P500
+      Quadro P2200
+      Quadro P3000
+      Quadro P4200
+      Quadro P1000
 ```
-
-
 
 ## Technology Stack / 技术栈
 
@@ -167,124 +159,121 @@ mindmap
 mindmap
   root((NVIDIA Software))
     AI Frameworks
-      NeMo 
-B
-      NeMo tutorials
-      RAPIDS RAFT
-      NeMo 
-NVIDIA
-      Merlin roadmap
-      NeMo 
-Framework
-      NeMo Curator50
-      nemo Q
+      NeMo for
+      RAPIDS cuGraph
+      RAPIDS 
+Available
+      NeMo  You
+      RAPIDS accelerated
+      nemo guardrails
+      NeMo enables
+      rapids topics
     AI Inference
-      TensorRT
-  4
-      triton inference server
-      TensorRT 8.4
-      TensorRT 10.14
-      Triton inference Server
-      TensorRT 8.6
-      TensorRT 6.3
-      TensorRT 7.2
+      tensorrt 10.8
+      tensorrt 8.6
+      NGC TensorRT
+      Morpheus Triton
+      Triton Inference Server
+      TensorRT 8.5
+      TRITON server
+      TensorRT 10.0
     CUDA Platform
+      CUDA 11.6
+      cuda 12.9
+      CUDA 8.0
+      CUDA 387.128
+      CUDA 5.0
+      CUDA 12.8
+      CUDA 11.8
       CUDA 11.7
-      cudnn
-      CUDA 396.64
-      cuDNN 8.0
-      cuda 
-  3
-      cuda 7
-      CUDNN
-      CUDA 4.2
     Cloud & Containers
-      NGC Login
-      NGC Remove
+      NGC is
+      NGC Containers
+      NGC Network
+      NGC Portal
+      NGC also
       NGC login
       NGC
-El
-      NGC umożliwia
-      NGC Portal
-      NGC SDK
-      NGC for
+A
+      NGC Command
     Computer Vision
-      Metropolis mikro
-      DeepStream with
-      Deepstream yolov8
-      Metropolis NVIDIA
-      Deepstream efficient
-      Deepstream Trilogy
-      DeepStream Libraries
-      DeepStream 7
+      DeepStream container
+      deepstream and
+      Metropolis puede
+      Metropolis platform
+      DeepStream not
+      Deepstream Python
+      DeepStream SGIE
+      Deepstream branch
     Graphics Technology
-      DLSS 2
-      RAY TRACING
-      DLSS 3
-      DLSS 3
-      DLSS 2
       ray tracing
-      Reflex
+      DLSS 4
+      ray Tracing
+      Ray tracing
+      dlss 1
+      DLSS
+      Ray Tracing
       DLSS 4
     Healthcare AI
-      clara
-      Clara  
-San
-      CLARA for
-      Clara
-      CLARA
+      Clara is
+      Clara integrates
+      Clara ParabricksEnglishGenome
       Clara para
-      Clara Parabricks
-      Clara Guardian
+      CLARA
+Uniwersalna
+      CLARA PARABRICKS
+      Clara SDK
+      clara to
     Interconnect Technology
-      NVLINK
-      NVSWITCH
-      NVLink
-      nvSwitch
-      nvlink
       NVSwitch
       NVlink
+      Nvlink
       nvswitch
+      NVLINK
+      NVLink
+      NVSWITCH
+      nvlink
     Omniverse Platform
-      Omniverse Opens
-      Omniverse with
-      Omniverse app
-      Omniverse Plugin
-      Omniverse isaac
-      Omniverse Wind
-      Omniverse Blueprintを活用しクラウドとAIでスケールするOmn
-      OMNIVERSE LICENSING
+      omniverse USD
+      Omniverse License
+      Omniverse 
+Mcity
+      Omniverse sample
+      Omniverse Applications
+      Omniverse portfolio
+      Omniverse son
+      omniverse usd
     Other Software
-      Canvas
-      NVIDIA AI Enterprise
-      TAO toolkit
       Base Command
+      ray tracing
+      Canvas
+      TAO toolkit
       tao toolkit
-      Fleet Command
+      Tao toolkit
       canvas
-      Tao Toolkit
+      NVIDIA   
+AI Enterprise
     Robotics
+      Isaac
+
+
+Análisis
+      Isaac AI
       Isaac 
-The
-      Isaac platforms
-      Isaac ROS3
-      ISAAC argus
-      Isaac Dispatch
+El
+      ISAAC ROS
+      ISAAC SIM
+      Isaac VDA5050
+      Isaac Nvidia
       Isaac
   3
-      Isaac simulator
-      ISAAC Gym
     Speech & Audio AI
-      Maxine 50
-      Riva Documentation
-      Maxine Surveys
-      Riva
-Use
-      NGC privata
-      Riva Benchmarks
-      riva conversion
-      RIva para
+      Maxine ARSDK
+      Riva server
+      Riva app
+      Riva Enterprise
+      Riva faces
+      Riva to
+      Maxine partner
+      Riva Learning
 ```
-
-
-
