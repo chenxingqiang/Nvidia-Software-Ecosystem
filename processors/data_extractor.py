@@ -45,50 +45,73 @@ class DataExtractor:
 
     # Known NVIDIA product patterns
     PRODUCT_PATTERNS = [
-        r"GeForce\s+(?:RTX|GTX)?\s*\d+(?:\s*Ti)?",
-        r"Quadro\s+(?:RTX|P|K)?\s*\d+",
-        r"Tesla\s+(?:V|A|H|K)\d+",
-        r"DGX\s+(?:A100|H100|Station|Cloud|SuperPOD)",
-        r"Jetson\s+(?:AGX\s+)?(?:Orin|Xavier|Nano|TX\d)",
-        r"DRIVE\s+(?:AGX|Orin|Thor|Hyperion|Sim)",
-        r"A100|H100|H200|B100|B200|L40|L4",
-        r"RTX\s+\d+(?:\s*Ti|\s*Super)?",
-        r"Grace\s+(?:Hopper|CPU)",
-        r"BlueField(?:-\d)?",
-        r"ConnectX(?:-\d)?",
-        r"Spectrum(?:-\d)?",
+        r"\bGeForce\s+(?:RTX|GTX)?\s*\d+(?:\s*Ti)?\b",
+        r"\bQuadro\s+(?:RTX|P|K)?\s*\d+\b",
+        r"\bTesla\s+(?:V|A|H|K)\d+\b",
+        r"\bDGX\s+(?:A100|H100|Station|Cloud|SuperPOD)\b",
+        r"\bJetson\s+(?:AGX\s+)?(?:Orin|Xavier|Nano|TX\d)\b",
+        r"\bDRIVE\s+(?:AGX|Orin|Thor|Hyperion|Sim)\b",
+        r"\b(?:A100|H100|H200|B100|B200|L40S?|L4)\b",
+        r"\bRTX\s+\d+(?:\s*Ti|\s*Super)?\b",
+        r"\bGrace\s+(?:Hopper|CPU)\b",
+        r"\bBlueField(?:-\d+)?\b",
+        r"\bConnectX(?:-\d+)?\b",
+        r"\bSpectrum(?:-\d+)?\b",
     ]
 
     # Known NVIDIA technology/software patterns
     TECH_PATTERNS = [
-        r"CUDA(?:\s+\d+(?:\.\d+)?)?",
-        r"cuDNN(?:\s+\d+(?:\.\d+)?)?",
-        r"TensorRT(?:\s+\d+(?:\.\d+)?)?",
-        r"Triton\s+(?:Inference\s+)?Server",
-        r"NVIDIA\s+(?:AI\s+)?Enterprise",
-        r"Omniverse(?:\s+\w+)?",
-        r"Clara(?:\s+\w+)?",
-        r"Isaac(?:\s+\w+)?",
-        r"RAPIDS(?:\s+\w+)?",
-        r"NeMo(?:\s+\w+)?",
-        r"Merlin(?:\s+\w+)?",
-        r"Morpheus(?:\s+\w+)?",
-        r"DeepStream(?:\s+\w+)?",
-        r"Metropolis(?:\s+\w+)?",
-        r"Maxine(?:\s+\w+)?",
-        r"Riva(?:\s+\w+)?",
-        r"TAO\s+Toolkit",
-        r"NGC(?:\s+\w+)?",
-        r"Base\s+Command",
-        r"Fleet\s+Command",
-        r"DLSS(?:\s+\d+)?",
-        r"Ray\s+Tracing",
-        r"Reflex",
-        r"Broadcast",
-        r"Canvas",
-        r"NVLink",
-        r"NVSwitch",
+        r"\bCUDA(?:\s+\d+(?:\.\d+)?)?\b",
+        r"\bcuDNN(?:\s+\d+(?:\.\d+)?)?\b",
+        r"\bTensorRT(?:\s+\d+(?:\.\d+)?)?\b",
+        r"\bTriton\s+(?:Inference\s+)?Server\b",
+        r"\bNVIDIA\s+(?:AI\s+)?Enterprise\b",
+        r"\bOmniverse(?:\s+\w+)*\b",
+        r"\bClara(?:\s+\w+)*\b",
+        r"\bIsaac(?:\s+\w+)*\b",
+        r"\bRAPIDS(?:\s+\w+)*\b",
+        r"\bNeMo(?:\s+\w+)*\b",
+        r"\bMerlin(?:\s+\w+)*\b",
+        r"\bMorpheus(?:\s+\w+)*\b",
+        r"\bDeepStream(?:\s+\w+)*\b",
+        r"\bMetropolis(?:\s+\w+)*\b",
+        r"\bMaxine(?:\s+\w+)*\b",
+        r"\bRiva(?:\s+\w+)*\b",
+        r"\bTAO\s+Toolkit\b",
+        r"\bNGC(?:\s+\w+)*\b",
+        r"\bBase\s+Command\b",
+        r"\bFleet\s+Command\b",
+        r"\bDLSS(?:\s+\d+)?\b",
+        r"\bRay\s+Tracing\b",
+        r"\bReflex\b",
+        r"\bBroadcast\b",
+        r"\bCanvas\b",
+        r"\bNVLink\b",
+        r"\bNVSwitch\b",
     ]
+
+    @staticmethod
+    def _clean_name(name: str) -> Optional[str]:
+        """Normalize and validate an extracted name.
+
+        Returns None if the name is noise (non-ASCII, empty, too short).
+        """
+        if not name:
+            return None
+        # Collapse internal whitespace and strip
+        cleaned = re.sub(r'\s+', ' ', name).strip()
+        if not cleaned:
+            return None
+        # Filter out non-ASCII fragments (Japanese, Chinese, Turkish, etc.)
+        if not all(ord(c) < 128 for c in cleaned):
+            return None
+        # Filter names that are too short to be meaningful (single letter, bare number)
+        if len(cleaned) < 2:
+            return None
+        # Filter names that are clearly garbage (e.g., concatenated URL fragments)
+        if len(cleaned) > 60:
+            return None
+        return cleaned
 
     def __init__(self):
         """Initialize data extractor."""
@@ -112,24 +135,29 @@ class DataExtractor:
         """
         products = []
         seen_names: Set[str] = set()
-        
+
         for regex in self._product_regex:
             matches = regex.findall(content)
             for match in matches:
-                name = match.strip()
-                if name and name not in seen_names:
-                    seen_names.add(name)
-                    
-                    # Determine category from product name
-                    category = self._categorize_product(name)
-                    
-                    products.append(ExtractedProduct(
-                        name=name,
-                        category=category,
-                        description="",
-                        url=url,
-                    ))
-        
+                name = self._clean_name(match)
+                if not name:
+                    continue
+                # Case-insensitive deduplication
+                key = name.lower()
+                if key in seen_names:
+                    continue
+                seen_names.add(key)
+
+                # Determine category from product name
+                category = self._categorize_product(name)
+
+                products.append(ExtractedProduct(
+                    name=name,
+                    category=category,
+                    description="",
+                    url=url,
+                ))
+
         return products
 
     def _categorize_product(self, name: str) -> str:
@@ -172,23 +200,28 @@ class DataExtractor:
         """
         technologies = []
         seen_names: Set[str] = set()
-        
+
         for regex in self._tech_regex:
             matches = regex.findall(content)
             for match in matches:
-                name = match.strip()
-                if name and name not in seen_names:
-                    seen_names.add(name)
-                    
-                    category = self._categorize_technology(name)
-                    
-                    technologies.append(ExtractedTechnology(
-                        name=name,
-                        category=category,
-                        description="",
-                        url=url,
-                    ))
-        
+                name = self._clean_name(match)
+                if not name:
+                    continue
+                # Case-insensitive deduplication
+                key = name.lower()
+                if key in seen_names:
+                    continue
+                seen_names.add(key)
+
+                category = self._categorize_technology(name)
+
+                technologies.append(ExtractedTechnology(
+                    name=name,
+                    category=category,
+                    description="",
+                    url=url,
+                ))
+
         return technologies
 
     def _categorize_technology(self, name: str) -> str:

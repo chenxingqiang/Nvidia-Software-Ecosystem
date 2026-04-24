@@ -64,3 +64,4 @@ output/pdfs/
 # Environment variables
 .env
 .env.local
+output/reports/.$*

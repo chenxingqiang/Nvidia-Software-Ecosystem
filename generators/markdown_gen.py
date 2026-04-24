@@ -1,4 +1,5 @@
 """Markdown report generator for NVIDIA ecosystem."""
+import re
 from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
@@ -7,6 +8,36 @@ from typing import Any, Dict, List, Optional, Set
 import sys
 sys.path.insert(0, str(__file__).rsplit("/", 2)[0])
 from config import ECOSYSTEM_NAMES, ECOSYSTEM_NAMES_CN
+
+# Noise filters (same logic as scripts/summarize_ecosystem.py)
+_LOCALE_PAIR = re.compile(r"^[A-Za-z]{2}\s+[A-Za-z]{2,3}$")
+_EN_US_SLUG = re.compile(r"^En\s+Us\b", re.I)
+_MISC_SLUG_PREFIX = re.compile(
+    r"^(Es|Fr|De|It|Pt|Nl|Pl|Ro|Fi|Sv|Nb|Da|Cs|Tr)\s+[A-Za-z]{2,3}\b",
+    re.I,
+)
+_JUNK_TOKENS = frozenset({
+    "object", "l", "%20", "tag", "en", "hot", "images", "search",
+    "categories", "kb", "shop", "help", "login", "account", "download",
+    "join", "dashboard", "gtc", "catalog", "faq", "forums", "home", "nvidia.com",
+    "c", "orgs",
+})
+
+
+def _is_noise_subcategory(name: str) -> bool:
+    """Check if a subcategory name is locale noise or junk."""
+    s = (name or "").strip()
+    if not s:
+        return True
+    if s.lower() in _JUNK_TOKENS:
+        return True
+    if _LOCALE_PAIR.match(s):
+        return True
+    if _EN_US_SLUG.match(s):
+        return True
+    if _MISC_SLUG_PREFIX.match(s):
+        return True
+    return False
 
 
 class MarkdownGenerator:
@@ -83,17 +114,21 @@ class MarkdownGenerator:
             lines.append(f"## {idx}. {name_en} / {name_cn}")
             lines.append("")
             
-            # Subcategories
+            # Subcategories (noise filtered)
             subcategories = eco_data.get("subcategories", {})
             if subcategories:
                 lines.append("### Categories / 分类")
                 lines.append("")
-                
+
+                clean_subcats = [
+                    (k, v) for k, v in subcategories.items()
+                    if not _is_noise_subcategory(str(k))
+                ]
                 for subcat, count in sorted(
-                    subcategories.items(), key=lambda x: x[1], reverse=True
+                    clean_subcats, key=lambda x: x[1], reverse=True
                 )[:15]:
                     lines.append(f"- **{subcat}**: {count} pages")
-                
+
                 lines.append("")
             
             # Products (for hardware)

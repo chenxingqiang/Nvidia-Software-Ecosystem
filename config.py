@@ -109,6 +109,28 @@ NON_TARGET_LOCALE_PATH_MARKERS: List[str] = [
     "/it-it/",
     "/pt-br/",
     "/ru-ru/",
+    # Regional English variants
+    "/en-gb/",
+    "/en-au/",
+    "/en-in/",
+    "/en-sg/",
+    "/en-eu/",
+    # Regional non-English variants
+    "/es-la/",
+    "/es-mx/",
+    "/fr-ca/",
+    "/fr-be/",
+    "/pt-pt/",
+    "/sv-se/",
+    "/nb-no/",
+    "/da-dk/",
+    "/tr-tr/",
+    "/pl-pl/",
+    "/nl-nl/",
+    "/nl-be/",
+    "/fi-fi/",
+    "/cs-cz/",
+    "/ro-ro/",
 ]
 
 URL_EXCLUDE_PATTERNS: List[str] = [

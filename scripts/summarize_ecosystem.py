@@ -8,7 +8,7 @@ import re
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict, List, Tuple
+from typing import Any, Dict, List, Set, Tuple
 
 # Two-token locale codes mistaken as subcategories (e.g. path segment "en-gb" -> "En Gb").
 _LOCALE_PAIR = re.compile(r"^[A-Za-z]{2}\s+[A-Za-z]{2,3}$")
@@ -61,15 +61,51 @@ def _is_noise_subcategory(name: str) -> bool:
     return False
 
 
-def _flatten_named_lists(bucket: Dict[str, List[str]]) -> Counter:
-    c: Counter = Counter()
+def _flatten_named_list_to_set(bucket: Dict[str, List[str]]) -> Set[str]:
+    """Return unique names from an ecosystem products/technologies bucket."""
+    result: Set[str] = set()
     for _cat, names in (bucket or {}).items():
         if not isinstance(names, list):
             continue
         for n in names:
             if isinstance(n, str) and n.strip():
-                c[n.strip()] += 1
-    return c
+                result.add(n.strip())
+    return result
+
+
+def _merge_counts(
+    ecosystems_data: Dict[str, Any],
+    eco_keys: List[str],
+    field: str,
+) -> Counter:
+    """Count items by how many ecosystems they appear in.
+
+    Each item is deduplicated within an ecosystem, then counted once
+    per ecosystem that contains it (max 5). Case-insensitive dedup
+    across ecosystems keeps the most common display form.
+    """
+    per_eco: List[Set[str]] = []
+    all_items: Dict[str, int] = {}  # lower_name -> count across ecosystems
+    best_form: Dict[str, str] = {}  # lower_name -> best display name
+
+    for eco in eco_keys:
+        info = ecosystems_data.get(eco) or {}
+        items = _flatten_named_list_to_set(info.get(field) or {})
+        per_eco.append(items)
+        for name in items:
+            key = name.lower()
+            if key not in all_items:
+                all_items[key] = 0
+                best_form[key] = name
+            all_items[key] += 1
+            # Keep the title-case or UPPER case form as best display
+            if name[0].isupper() and not best_form[key][0].isupper():
+                best_form[key] = name
+
+    result: Counter = Counter()
+    for key, cnt in all_items.items():
+        result[best_form[key]] = cnt
+    return result
 
 
 def _top(counter: Counter, n: int) -> List[Tuple[str, int]]:
@@ -114,8 +150,7 @@ def build_markdown(data: Dict[str, Any], top_n: int) -> str:
         lines.append(f"- **{name}** (`{eco}`): {cnt} pages ({pct:.1f}%)")
     lines.append("")
 
-    all_products: Counter = Counter()
-    all_tech: Counter = Counter()
+    eco_keys = ("hardware", "software", "developer", "business", "technology")
 
     lines.append("## Clean subcategories (top per ecosystem)")
     lines.append("")
@@ -125,7 +160,7 @@ def build_markdown(data: Dict[str, Any], top_n: int) -> str:
     )
     lines.append("")
 
-    for eco in ("hardware", "software", "developer", "business", "technology"):
+    for eco in eco_keys:
         info = ecosystems.get(eco) or {}
         name = info.get("name", eco)
         raw_sub = info.get("subcategories") or {}
@@ -142,8 +177,9 @@ def build_markdown(data: Dict[str, Any], top_n: int) -> str:
                 lines.append(f"- **{k}**: {v} pages")
         lines.append("")
 
-        all_products += _flatten_named_lists(info.get("products") or {})
-        all_tech += _flatten_named_lists(info.get("technologies") or {})
+    # Count products/technologies across ecosystems (deduplicated per ecosystem)
+    all_products = _merge_counts(ecosystems, eco_keys, "products")
+    all_tech = _merge_counts(ecosystems, eco_keys, "technologies")
 
     lines.append(f"## Top products (mentions across pages, top {top_n})")
     lines.append("")

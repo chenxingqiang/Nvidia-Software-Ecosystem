@@ -1,6 +1,6 @@
 # NVIDIA Ecosystem Diagrams / NVIDIA 生态系统图表
 
-> Generated: 2026-04-24 15:10:57
+> Generated: 2026-04-24 16:01:11
 
 ## Ecosystem Overview / 生态系统概览
 
@@ -8,35 +8,35 @@
 mindmap
   root((NVIDIA Ecosystem))
     Hardware Ecosystem
-      En Gb
-      En Au
-      En In
-      En Sg
-      En Eu
+      Geforce
+      Networking
+      Products
+      Design Visualization
+      Autonomous Machines
     Software Ecosystem
-      Tag
-      C
-      Cuda
-      Orgs
+      Omniverse
       Clara
+      Cuda
+      Ai Data Science
+      Data Center
     Developer Ecosystem
-      Search
-      Tag
       Docs
+      Ai Data Science
       Nvidia
       Downloads
+      Ngc
     Business Ecosystem
-      En In
-      En Au
-      En Gb
-      En Sg
-      En Eu
+      Industries
+      Solutions
+      Self Driving Cars
+      Deep Learning Ai
+      Design Visualization
     Technology Ecosystem
       Data Center
-      En In
-      En Sg
-      En Au
-      En Gb
+      Ai
+      Launchpad
+      Topics
+      Solutions
 ```
 
 ## Ecosystem Relationships / 生态系统关系
@@ -78,79 +78,66 @@ pie title "NVIDIA Ecosystem Distribution"
 mindmap
   root((NVIDIA Products))
     Automotive
-      Drive Orin
-      Drive orin
-      Drive sim
+      DRIVE AGX
       DRIVE Hyperion
-      Drive Sim
-      DRIVE ORIN
-      drive thor
-      Drive Thor
+      DRIVE Orin
+      DRIVE Sim
+      DRIVE Thor
     Consumer GPU
-      GeForce 820
-      GeForce GTX 40
-      GeForce RTX 5080
-      GeForce RTX 4050
-      RTX 1000
-      RTX 5500
-      GeForce   
-RTX 3070
-      RTX 3090 TI
+      GEFORCE GTX 1050
+      GEFORCE GTX 1050ti
+      GEFORCE GTX 1060
+      GEFORCE GTX 1070
+      GEFORCE GTX 1070 Ti
+      GEFORCE GTX 1080
+      GEFORCE GTX 1080 Ti
+      GEFORCE GTX 1650
     DGX Systems
-      DGX station
-      DGX STATION
-      DGX SUPERPOD
-      DGX Superpod
       DGX Cloud
-      DGX SuperPOD
-      DGX SuperPod
+      DGX SUPERPOD
       DGX Station
     Data Center GPU
-      Tesla v100
-      h100
-      TESLA V100
-      Tesla K10
-      Tesla K20
-      Tesla V100
-      a100
+      A100
       B100
+      DGX A100
+      DGX H100
+      H100
+      L40
+      L40S
+      TESLA V100
     Data Center Platform
       Grace CPU
       Grace Hopper
     Edge AI / Embedded
-      jetson orin
-      JEtson nano
-      jetson agx xavier
-      jetson agx orin
+      JETSON AGX Xavier
+      Jetson AGX ORIN
+      Jetson NANO
       Jetson Orin
+      Jetson TX1
+      Jetson TX2
       Jetson Xavier
-      jetson Xavier
-      JETSON ORIN
     Networking
-      Connectx-3
-      connectX
-      ConnectX-6
-      spectrum
-      Spectrum-3
-      Spectrum
-      bluefield-4
-      connectx-5
+      BlueField
+      BlueField-2
+      BlueField-3
+      BlueField-4
+      ConnectX
+      ConnectX-3
+      ConnectX-4
+      ConnectX-5
     Other Hardware
       B200
-      L4
-      l4
-      b200
       H200
-      h200
+      L4
     Professional GPU
-      Quadro K5000
-      Quadro P520
-      Quadro K5100
-      Quadro P500
-      Quadro P2200
-      Quadro P3000
-      Quadro P4200
-      Quadro P1000
+      Quadro 1200
+      Quadro 2000
+      Quadro 400
+      Quadro 4000
+      Quadro 410
+      Quadro 5000
+      Quadro 600
+      Quadro 6000
 ```
 
 ## Technology Stack / 技术栈
@@ -159,121 +146,102 @@ RTX 3070
 mindmap
   root((NVIDIA Software))
     AI Frameworks
-      NeMo for
-      RAPIDS cuGraph
-      RAPIDS 
-Available
-      NeMo  You
-      RAPIDS accelerated
-      nemo guardrails
-      NeMo enables
-      rapids topics
+      Merlin
+      Merlin Devzone Survey
+      Merlin Devzone Survey Form
+      Merlin Distributed Embeddings
+      Merlin Explore the components of NVIDIA 
+      Merlin Feature Engineering
+      Merlin HugeCTR
+      Merlin HugeCTR All
     AI Inference
-      tensorrt 10.8
-      tensorrt 8.6
-      NGC TensorRT
-      Morpheus Triton
-      Triton Inference Server
-      TensorRT 8.5
-      TRITON server
-      TensorRT 10.0
+      DeepStream SDK or TensorRT
+      DeepStream and NVIDIA Triton
+      DeepStream and NVIDIA Triton Inference S
+      Deepstream and TensorRT
+      Isaac ROS TensorRT Node with dynamic bat
+      Morpheus Triton Server Models container
+      Morpheus and Triton are located on the s
+      NGC TensorRT container version
     CUDA Platform
-      CUDA 11.6
-      cuda 12.9
-      CUDA 8.0
-      CUDA 387.128
-      CUDA 5.0
-      CUDA 12.8
-      CUDA 11.8
-      CUDA 11.7
+      CUDA
+      CUDA 10
+      CUDA 10.0
+      CUDA 10.1
+      CUDA 10.2
+      CUDA 101
+      CUDA 11
+      CUDA 11.0
     Cloud & Containers
-      NGC is
-      NGC Containers
-      NGC Network
-      NGC Portal
-      NGC also
-      NGC login
       NGC
-A
-      NGC Command
+      NGC A portal of enterprise services
+      NGC AI
+      NGC AI Enterprise catalog at
+      NGC AI catalog at
+      NGC AI products through
+      NGC AND GOOGLE CLOUD
+      NGC AND GOOGLE CLOUD Chintan Patel
     Computer Vision
-      DeepStream container
-      deepstream and
-      Metropolis puede
-      Metropolis platform
-      DeepStream not
-      Deepstream Python
-      DeepStream SGIE
-      Deepstream branch
+      DEEPSTREAM SDK
+      DEEPSTREAM SDK FOR INTELLIGENT VIDEO ANA
+      DeepStream
+      DeepStream 3D
+      DeepStream 6
+      DeepStream 7
+      DeepStream 8
+      DeepStream Alvin Clark
     Graphics Technology
-      ray tracing
-      DLSS 4
-      ray Tracing
-      Ray tracing
-      dlss 1
       DLSS
-      Ray Tracing
-      DLSS 4
+      DLSS 1
+      DLSS 2
+      DLSS 3
+      DLSS 4
+      RAY TRACING
+      REFLEX
     Healthcare AI
-      Clara is
-      Clara integrates
-      Clara ParabricksEnglishGenome
-      Clara para
       CLARA
-Uniwersalna
-      CLARA PARABRICKS
-      Clara SDK
-      clara to
+      CLARA AGX
+      CLARA PARABRICKS DOCUMENTATION
+      CLARA PARABRICKS PIPELINES
+      CLARA for HEALTHCARE
+      Clara AGX AI
+      Clara AGX KI
+      Clara AGX dev kit Not detecting RTX6000 
     Interconnect Technology
-      NVSwitch
-      NVlink
-      Nvlink
-      nvswitch
       NVLINK
-      NVLink
       NVSWITCH
-      nvlink
     Omniverse Platform
-      omniverse USD
-      Omniverse License
-      Omniverse 
-Mcity
-      Omniverse sample
-      Omniverse Applications
-      Omniverse portfolio
-      Omniverse son
-      omniverse usd
+      Isaac SIM in omniverse not launching
+      Isaac Sim does not open from Omniverse G
+      Isaac Sim into their software solutions 
+      Isaac Sim without Omniverse Editor
+      Isaac sim unity3d examples on isaac sim 
+      Metropolis and NVIDIA Omniverse
+      Metropolis e o NVIDIA Omniverse
+      Metropolis y NVIDIA Omniverse
     Other Software
       Base Command
-      ray tracing
       Canvas
-      TAO toolkit
-      tao toolkit
-      Tao toolkit
-      canvas
-      NVIDIA   
-AI Enterprise
+      Fleet Command
+      NVIDIA AI Enterprise
+      NVIDIA Enterprise
+      TAO Toolkit
     Robotics
-      Isaac
-
-
-Análisis
-      Isaac AI
-      Isaac 
-El
-      ISAAC ROS
+      ISAAC
+      ISAAC Gym does not run in headless mode 
+      ISAAC ROS Docker failed to inject CDI de
+      ISAAC ROS ESS Stereo Depth Estimation no
+      ISAAC ROS for Inference
+      ISAAC ROS vSLAM questions on localizatio
+      ISAAC ROS version for jetpack5
       ISAAC SIM
-      Isaac VDA5050
-      Isaac Nvidia
-      Isaac
-  3
     Speech & Audio AI
-      Maxine ARSDK
-      Riva server
-      Riva app
-      Riva Enterprise
-      Riva faces
-      Riva to
-      Maxine partner
-      Riva Learning
+      BROADCAST
+      Maxine
+      Maxine 3D
+      Maxine 4
+      Maxine 50
+      Maxine AI developer platform
+      Maxine AR
+      Maxine AR SDK Audio2Face 2D Effect Maxin
 ```

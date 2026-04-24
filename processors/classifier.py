@@ -217,7 +217,13 @@ class EcosystemClassifier:
             Subcategory string or None.
         """
         parsed = urlparse(url)
-        skip_locales = frozenset({"en-us", "zh-cn", "zh-tw"})
+        skip_locales = frozenset({
+            "en-us", "zh-cn", "zh-tw",
+            "en-gb", "en-au", "en-in", "en-sg", "en-eu",
+            "es-la", "es-mx", "fr-ca", "fr-be", "pt-pt",
+            "sv-se", "nb-no", "da-dk", "tr-tr", "pl-pl",
+            "nl-nl", "nl-be", "fi-fi", "cs-cz", "ro-ro",
+        })
         path_parts = [p for p in parsed.path.split("/") if p and p not in skip_locales]
         
         if len(path_parts) >= 1:

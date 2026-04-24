@@ -1,4 +1,5 @@
 """Mermaid diagram generator for NVIDIA ecosystem."""
+import re
 from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
@@ -7,6 +8,50 @@ from typing import Any, Dict, List, Optional, Set
 import sys
 sys.path.insert(0, str(__file__).rsplit("/", 2)[0])
 from config import ECOSYSTEM_NAMES, ECOSYSTEM_NAMES_CN
+
+# Noise filters (same logic as scripts/summarize_ecosystem.py)
+_LOCALE_PAIR = re.compile(r"^[A-Za-z]{2}\s+[A-Za-z]{2,3}$")
+_EN_US_SLUG = re.compile(r"^En\s+Us\b", re.I)
+_MISC_SLUG_PREFIX = re.compile(
+    r"^(Es|Fr|De|It|Pt|Nl|Pl|Ro|Fi|Sv|Nb|Da|Cs|Tr)\s+[A-Za-z]{2,3}\b",
+    re.I,
+)
+_JUNK_TOKENS = frozenset({
+    "object", "l", "%20", "tag", "en", "hot", "images", "search",
+    "categories", "kb", "shop", "help", "login", "account", "download",
+    "join", "dashboard", "gtc", "catalog", "faq", "forums", "home", "nvidia.com",
+    "c", "orgs",
+})
+
+
+def _is_noise_subcategory(name: str) -> bool:
+    """Check if a subcategory name is locale noise or junk."""
+    s = (name or "").strip()
+    if not s:
+        return True
+    if s.lower() in _JUNK_TOKENS:
+        return True
+    if _LOCALE_PAIR.match(s):
+        return True
+    if _EN_US_SLUG.match(s):
+        return True
+    if _MISC_SLUG_PREFIX.match(s):
+        return True
+    return False
+
+
+def _is_noise_name(name: str) -> bool:
+    """Check if an extracted product/tech name is noise."""
+    s = (name or "").strip()
+    if not s or len(s) < 2:
+        return True
+    # Filter non-ASCII
+    if not all(ord(c) < 128 for c in s):
+        return True
+    # Filter names with excessive internal whitespace (artifacts)
+    if re.search(r'\s{2,}', s):
+        return True
+    return False
 
 
 class MermaidGenerator:
@@ -71,14 +116,19 @@ class MermaidGenerator:
             # Second level: ecosystem
             lines.append(f"    {name}")
             
-            # Third level: top subcategories
+            # Third level: top subcategories (noise filtered)
             subcategories = eco_data.get("subcategories", {})
+            # Filter noise subcategories
+            clean_subcats = [
+                (k, v) for k, v in subcategories.items()
+                if not _is_noise_subcategory(str(k))
+            ]
             sorted_subcats = sorted(
-                subcategories.items(),
+                clean_subcats,
                 key=lambda x: x[1],
                 reverse=True,
             )[:5]
-            
+
             for subcat, _ in sorted_subcats:
                 subcat_clean = self._sanitize_label(subcat)
                 lines.append(f"      {subcat_clean}")
@@ -137,6 +187,18 @@ class MermaidGenerator:
         
         return "\n".join(lines)
 
+    @staticmethod
+    def _dedupe_case_insensitive(items: List[str]) -> List[str]:
+        """Deduplicate a list case-insensitively, keeping first occurrence."""
+        seen: Set[str] = set()
+        result: List[str] = []
+        for item in items:
+            key = str(item).lower()
+            if key not in seen:
+                seen.add(key)
+                result.append(str(item))
+        return result
+
     def generate_product_tree(
         self,
         products: Dict[str, List[str]],
@@ -156,16 +218,17 @@ class MermaidGenerator:
         for category, items in sorted(products.items()):
             if not items:
                 continue
-            
+
             cat_clean = self._sanitize_label(category)
             lines.append(f"    {cat_clean}")
-            
-            # Add unique products (limit to 8 per category)
-            unique_items = list(set(items))[:8]
+
+            # Add unique products (limit to 8 per category, noise + case filtered)
+            clean_items = [i for i in items if not _is_noise_name(str(i))]
+            unique_items = self._dedupe_case_insensitive(clean_items)[:8]
             for item in unique_items:
                 item_clean = self._sanitize_label(item)
                 lines.append(f"      {item_clean}")
-        
+
         return "\n".join(lines)
 
     def generate_technology_tree(
@@ -183,19 +246,20 @@ class MermaidGenerator:
         """
         lines = ["mindmap"]
         lines.append("  root((NVIDIA Software))")
-        
+
         for category, items in sorted(technologies.items()):
             if not items:
                 continue
-            
+
             cat_clean = self._sanitize_label(category)
             lines.append(f"    {cat_clean}")
-            
-            unique_items = list(set(items))[:8]
+
+            clean_items = [i for i in items if not _is_noise_name(str(i))]
+            unique_items = self._dedupe_case_insensitive(clean_items)[:8]
             for item in unique_items:
                 item_clean = self._sanitize_label(item)
                 lines.append(f"      {item_clean}")
-        
+
         return "\n".join(lines)
 
     def generate_ecosystem_pie(
