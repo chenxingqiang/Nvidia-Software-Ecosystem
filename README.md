@@ -16,23 +16,11 @@ A comprehensive web crawler and analyzer for mapping NVIDIA's complete ecosystem
 
 ## Installation
 
-Use a virtual environment if your Python is **PEP 668** “externally managed” (common with Homebrew):
-
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
+# Install dependencies
 pip install -r requirements.txt
-```
 
-Otherwise:
-
-```bash
-pip install -r requirements.txt
-```
-
-Then install crawl4ai browser dependencies:
-
-```bash
+# Setup crawl4ai browser dependencies
 crawl4ai-setup
 ```
 
@@ -59,7 +47,7 @@ python main.py --output-dir ./my_output
 If you have previously crawled data:
 
 ```bash
-python main.py --load-data output/crawl_data.json
+python main.py --load-data output/raw/crawl_data.json
 ```
 
 ### Command Line Options
@@ -102,42 +90,59 @@ python -m crawler.pdf_crawler --max-pages 1000 --download
 | `--concurrent` | 5        | Concurrent requests           |
 | `--delay`      | 1.5      | Request delay (seconds)       |
 | `--download`   | False    | Download PDFs to local folder |
-| `--output-dir` | ./output | Output directory              |
+| `--output-dir` | ./output/pdf | Output directory (under your project output root) |
 
 
 #### PDF Crawler Output
 
-- `nvidia_pdf_catalog.json` - Complete PDF catalog with metadata
-- `nvidia_pdf_urls.txt` - Plain text list of all PDF URLs
-- `nvidia_pdf_report.md` - Markdown report organized by category
-- `pdfs/` - Downloaded PDFs (if `--download` flag is used)
+Written under **`output/pdf/`** by default:
 
-## Output Files
+- `nvidia_pdf_catalog.json` — Complete PDF catalog with metadata
+- `nvidia_pdf_urls.txt` — Plain text list of all PDF URLs
+- `nvidia_pdf_report.md` — Markdown report organized by category
+- `pdfs/` — Downloaded PDFs (if `--download` flag is used)
 
-After running the ecosystem crawler, you'll find these files in the output directory:
+## Output layout
 
+Artifacts are grouped under **`output/`** (see also `output/README.md`):
 
-| File                           | Description                       |
-| ------------------------------ | --------------------------------- |
-| `nvidia_ecosystem_report.md`   | Comprehensive Markdown report     |
-| `nvidia_ecosystem.json`        | Full ecosystem data in JSON       |
-| `nvidia_products.json`         | Product catalog JSON              |
-| `nvidia_technologies.json`     | Technology stack JSON             |
-| `nvidia_ecosystem_diagrams.md` | Mermaid diagrams document         |
-| `classified_pages.json`        | All classified page data          |
-| `crawl_data.json`              | Raw crawl data (for reprocessing) |
-| `crawl.log`                    | Crawl log file                    |
+| Location | Role |
+|----------|------|
+| `output/raw/` | `crawl_data.json`, `classified_pages.json` |
+| `output/indices/` | `nvidia_ecosystem.json`, `nvidia_products.json`, `nvidia_technologies.json` |
+| `output/reports/` | Markdown / Mermaid reports |
+| `output/pdf/` | PDF crawler outputs |
+| `output/crawl.log` | Pipeline log |
 
-`crawl_data.json` and `classified_pages.json` can be very large; they are listed in `.gitignore` so they are not committed by default. The PDF crawler adds `nvidia_pdf_catalog.json`, `nvidia_pdf_urls.txt`, and `nvidia_pdf_report.md` (see above). You may also have extra Markdown under `output/` from past runs or manual notes; only the files in this table are produced by `main.py` in one pass.
+### Key report files (`reports/`)
+
+| File | Description |
+|------|-------------|
+| `nvidia_software_ecosystem_report.md` | **Software ecosystem synthesis** (indices + technology catalog) |
+| `nvidia_ecosystem_report.md` | Full five-ecosystem bilingual report |
+| `nvidia_ecosystem_diagrams.md` | Mermaid diagrams |
+| `nvidia_ecosystem_summary_clean.md` | Compact rollup (run `scripts/summarize_ecosystem.py`) |
+| `nvidia_software_ecosystem_tree.md`, `nvidia_hardware_ecosystem_tree.md` | Mindmaps |
+| `nvidia_software_detailed_analysis.md`, `nvidia_software_license_analysis.md` | Long-form software / license notes |
+
+Regenerate the filtered summary after a new `indices/nvidia_ecosystem.json` is produced:
+
+```bash
+python scripts/summarize_ecosystem.py
+```
+
+**Suggested sources of truth:** `raw/*.json` for evidence (often gitignored), `indices/*.json` for analytics, `reports/nvidia_software_ecosystem_report.md` for software narrative, `reports/nvidia_ecosystem_summary_clean.md` for a short rollup.
+
 
 ## Project Structure
 
 ```
 nvidia-ecosystem/
+├── scripts/
+│   └── summarize_ecosystem.py # Rollup MD from nvidia_ecosystem.json
 ├── crawler/
 │   ├── __init__.py
 │   ├── nvidia_crawler.py      # Main crawler using crawl4ai
-│   ├── pdf_crawler.py         # PDF link discovery and optional download
 │   ├── url_manager.py         # URL queue and filtering
 │   └── rate_limiter.py        # Request rate limiting
 ├── processors/
@@ -148,7 +153,8 @@ nvidia-ecosystem/
 │   ├── __init__.py
 │   ├── markdown_gen.py        # Markdown report generator
 │   ├── json_gen.py            # JSON data generator
-│   └── mermaid_gen.py         # Mermaid diagram generator
+│   ├── mermaid_gen.py         # Mermaid diagram generator
+│   └── software_ecosystem_report.py  # NVIDIA software ecosystem report
 ├── output/                    # Output directory
 ├── config.py                  # Configuration settings
 ├── main.py                    # Main entry point

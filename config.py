@@ -1,10 +1,31 @@
 """Configuration for NVIDIA Ecosystem Crawler."""
 from pathlib import Path
-from typing import Dict, List, Set
+from typing import Dict, List, Optional, Set
 
 # Base directories
 BASE_DIR = Path(__file__).parent
 OUTPUT_DIR = BASE_DIR / "output"
+
+
+def output_subdirs(root: Optional[Path] = None) -> Dict[str, Path]:
+    """
+    Standard layout under an output root directory.
+
+    raw/       — crawl_data.json, classified_pages.json
+    indices/   — nvidia_ecosystem.json, nvidia_products.json, nvidia_technologies.json
+    reports/   — Markdown and Mermaid narrative outputs
+    pdf/       — PDF catalog, URL list, PDF markdown report, optional pdfs/
+    """
+    r = Path(root) if root is not None else OUTPUT_DIR
+    d: Dict[str, Path] = {
+        "raw": r / "raw",
+        "indices": r / "indices",
+        "reports": r / "reports",
+        "pdf": r / "pdf",
+    }
+    for p in d.values():
+        p.mkdir(parents=True, exist_ok=True)
+    return d
 
 # Crawler settings
 CRAWLER_CONFIG = {

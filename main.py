@@ -10,7 +10,8 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Set
 
-from config import CRAWLER_CONFIG, OUTPUT_DIR, SEED_URLS
+from config import CRAWLER_CONFIG, OUTPUT_DIR, SEED_URLS, output_subdirs
+from generators.software_ecosystem_report import write_software_ecosystem_report
 from crawler.nvidia_crawler import NvidiaEcosystemCrawler, PageData
 from processors.classifier import EcosystemClassifier
 from processors.data_extractor import DataExtractor
@@ -55,21 +56,22 @@ class NvidiaEcosystemPipeline:
         """
         self.output_dir = output_dir or OUTPUT_DIR
         self.output_dir.mkdir(parents=True, exist_ok=True)
-        
+        self.layout = output_subdirs(self.output_dir)
+
         # Initialize components
         self.crawler = NvidiaEcosystemCrawler(
             max_depth=max_depth,
             max_pages=max_pages,
             max_concurrent=max_concurrent,
             request_delay=request_delay,
-            output_dir=self.output_dir,
+            output_dir=self.layout["raw"],
             crawl_all=crawl_all,
         )
         self.classifier = EcosystemClassifier()
         self.extractor = DataExtractor()
-        self.markdown_gen = MarkdownGenerator(self.output_dir)
-        self.json_gen = JSONGenerator(self.output_dir)
-        self.mermaid_gen = MermaidGenerator(self.output_dir)
+        self.markdown_gen = MarkdownGenerator(self.layout["reports"])
+        self.json_gen = JSONGenerator(self.layout["indices"])
+        self.mermaid_gen = MermaidGenerator(self.layout["reports"])
         
         # Results
         self.pages: List[PageData] = []
@@ -228,11 +230,18 @@ class NvidiaEcosystemPipeline:
         logger.info(f"Generated Mermaid diagrams: {outputs['mermaid']}")
         
         # Save classified data for reference
-        classified_output = self.output_dir / "classified_pages.json"
+        classified_output = self.layout["raw"] / "classified_pages.json"
         with open(classified_output, "w", encoding="utf-8") as f:
             json.dump(self.classified_pages, f, ensure_ascii=False, indent=2)
         outputs["classified_data"] = classified_output
-        
+
+        sw_report = write_software_ecosystem_report(
+            self.layout["indices"],
+            self.layout["reports"],
+        )
+        outputs["software_ecosystem"] = sw_report
+        logger.info(f"Generated software ecosystem report: {sw_report}")
+
         return outputs
 
     async def run_full_pipeline(

@@ -18,7 +18,13 @@ from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig
 
 import sys
 sys.path.insert(0, str(__file__).rsplit("/", 2)[0])
-from config import BROWSER_CONFIG, NON_TARGET_LOCALE_PATH_MARKERS, OUTPUT_DIR, SEED_URLS
+from config import (
+    BROWSER_CONFIG,
+    NON_TARGET_LOCALE_PATH_MARKERS,
+    OUTPUT_DIR,
+    SEED_URLS,
+    output_subdirs,
+)
 from crawler.rate_limiter import RateLimiter
 
 # Configure logging
@@ -116,7 +122,7 @@ class NvidiaPDFCrawler:
         self.max_concurrent = max_concurrent
         self.request_delay = request_delay
         self.download_pdfs = download_pdfs
-        self.output_dir = output_dir or OUTPUT_DIR
+        self.output_dir = output_dir or output_subdirs(OUTPUT_DIR)["pdf"]
         self.pdf_dir = self.output_dir / "pdfs"
         
         # Rate limiter
@@ -533,7 +539,12 @@ async def main():
     parser.add_argument("--concurrent", type=int, default=5, help="Concurrent requests")
     parser.add_argument("--delay", type=float, default=1.5, help="Request delay")
     parser.add_argument("--download", action="store_true", help="Download PDFs")
-    parser.add_argument("--output-dir", type=Path, default=OUTPUT_DIR, help="Output directory")
+    parser.add_argument(
+        "--output-dir",
+        type=Path,
+        default=output_subdirs(OUTPUT_DIR)["pdf"],
+        help="Output directory (default: output/pdf/)",
+    )
     
     args = parser.parse_args()
     

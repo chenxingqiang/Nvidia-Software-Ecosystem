@@ -46,9 +46,14 @@ Thumbs.db
 *.log
 output/*.log
 
-# Large crawl data files (uncomment to exclude from git)
-# output/crawl_data.json
-# output/classified_pages.json
+# Large crawl data files (can be regenerated)
+output/raw/crawl_data.json
+output/raw/classified_pages.json
+
+# Large derived indexes (optional; uncomment if you do not want them in git)
+# output/indices/nvidia_products.json
+# output/indices/nvidia_technologies.json
+# output/pdf/nvidia_pdf_catalog.json
 
 # Downloaded PDFs (if any)
 output/pdfs/
