@@ -66,19 +66,19 @@ class DataExtractor:
         r"\bTensorRT(?:\s+\d+(?:\.\d+)?)?\b",
         r"\bTriton\s+(?:Inference\s+)?Server\b",
         r"\bNVIDIA\s+(?:AI\s+)?Enterprise\b",
-        r"\bOmniverse(?:\s+\w+)*\b",
-        r"\bClara(?:\s+\w+)*\b",
-        r"\bIsaac(?:\s+\w+)*\b",
-        r"\bRAPIDS(?:\s+\w+)*\b",
-        r"\bNeMo(?:\s+\w+)*\b",
-        r"\bMerlin(?:\s+\w+)*\b",
-        r"\bMorpheus(?:\s+\w+)*\b",
-        r"\bDeepStream(?:\s+\w+)*\b",
-        r"\bMetropolis(?:\s+\w+)*\b",
-        r"\bMaxine(?:\s+\w+)*\b",
-        r"\bRiva(?:\s+\w+)*\b",
+        r"\bOmniverse(?:\s+\w+){0,2}\b",
+        r"\bClara(?:\s+\w+){0,2}\b",
+        r"\bIsaac(?:\s+\w+){0,2}\b",
+        r"\bRAPIDS(?:\s+\w+){0,2}\b",
+        r"\bNeMo(?:\s+\w+){0,2}\b",
+        r"\bMerlin(?:\s+\w+){0,2}\b",
+        r"\bMorpheus(?:\s+\w+){0,2}\b",
+        r"\bDeepStream(?:\s+\w+){0,2}\b",
+        r"\bMetropolis(?:\s+\w+){0,2}\b",
+        r"\bMaxine(?:\s+\w+){0,2}\b",
+        r"\bRiva(?:\s+\w+){0,2}\b",
         r"\bTAO\s+Toolkit\b",
-        r"\bNGC(?:\s+\w+)*\b",
+        r"\bNGC(?:\s+\w+){0,2}\b",
         r"\bBase\s+Command\b",
         r"\bFleet\s+Command\b",
         r"\bDLSS(?:\s+\d+)?\b",
@@ -89,6 +89,18 @@ class DataExtractor:
         r"\bNVLink\b",
         r"\bNVSwitch\b",
     ]
+
+    # Common English stop-words that indicate sentence-level extraction
+    _STOP_WORDS = frozenset({
+        "the", "a", "an", "is", "are", "to", "from", "and", "or",
+        "for", "you", "lets", "can", "in", "on", "at", "by", "with",
+        "this", "that", "it", "of", "be", "was", "were", "will",
+        "how", "what", "when", "where", "which", "who", "your",
+        "use", "has", "not", "no", "if", "as", "its", "all",
+        "also", "enables", "empowers", "includes", "provides",
+        "team", "developed", "provided", "used", "components",
+        "containers", "roadmap", "support", "data", "libraries",
+    })
 
     @staticmethod
     def _clean_name(name: str) -> Optional[str]:
@@ -110,6 +122,14 @@ class DataExtractor:
             return None
         # Filter names that are clearly garbage (e.g., concatenated URL fragments)
         if len(cleaned) > 60:
+            return None
+        # Reject names with stop-words indicating sentence-level extraction
+        words = cleaned.lower().split()
+        if any(w in DataExtractor._STOP_WORDS for w in words):
+            return None
+        # Reject sentence fragments: 5+ words or 1 generic word
+        word_count = len(words)
+        if word_count >= 5:
             return None
         return cleaned
 

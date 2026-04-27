@@ -85,13 +85,15 @@ class JSONGenerator:
                 else:
                     name = str(product)
                     category = "Other"
-                
+
                 if name:
                     if category not in eco_entry["products"]:
                         eco_entry["products"][category] = []
-                    if name not in eco_entry["products"][category]:
+                    key = name.lower()
+                    existing = eco_entry["products"][category]
+                    if not any(n.lower() == key for n in existing):
                         eco_entry["products"][category].append(name)
-            
+
             # Technologies
             for tech in page.get("technologies", []):
                 if isinstance(tech, dict):
@@ -100,11 +102,13 @@ class JSONGenerator:
                 else:
                     name = str(tech)
                     category = "Other"
-                
+
                 if name:
                     if category not in eco_entry["technologies"]:
                         eco_entry["technologies"][category] = []
-                    if name not in eco_entry["technologies"][category]:
+                    key = name.lower()
+                    existing = eco_entry["technologies"][category]
+                    if not any(n.lower() == key for n in existing):
                         eco_entry["technologies"][category].append(name)
             
             # Keywords
@@ -162,10 +166,9 @@ class JSONGenerator:
         Returns:
             Product catalog JSON.
         """
-        products: Dict[str, Dict[str, Set[str]]] = defaultdict(
-            lambda: defaultdict(set)
-        )
-        
+        # category -> name_lower -> {"display": name, "urls": set()}
+        products: Dict[str, Dict[str, Dict[str, Any]]] = defaultdict(dict)
+
         seen_urls: Set[str] = set()
         for page in classified_pages:
             url = page.get("url", "")
@@ -180,11 +183,14 @@ class JSONGenerator:
                 else:
                     name = str(product)
                     category = "Other"
-                
+
                 if name:
-                    products[category][name].add(page.get("url", ""))
-        
-        # Convert sets to lists for JSON serialization
+                    key = name.lower()
+                    if key not in products[category]:
+                        products[category][key] = {"display": name, "urls": set()}
+                    products[category][key]["urls"].add(page.get("url", ""))
+
+        # Convert to JSON-friendly structure
         result = {
             "generated_at": datetime.now().isoformat(),
             "total_products": sum(
@@ -192,16 +198,20 @@ class JSONGenerator:
             ),
             "categories": {},
         }
-        
-        for category, prods in sorted(products.items()):
+
+        for category in sorted(products):
+            prods = products[category]
             result["categories"][category] = {
                 "count": len(prods),
-                "products": [
-                    {"name": name, "urls": list(urls)[:5]}
-                    for name, urls in sorted(prods.items())
-                ],
+                "products": sorted(
+                    [
+                        {"name": v["display"], "urls": list(v["urls"])[:5]}
+                        for v in prods.values()
+                    ],
+                    key=lambda x: x["name"].lower(),
+                ),
             }
-        
+
         return result
 
     def generate_technology_json(
@@ -217,10 +227,9 @@ class JSONGenerator:
         Returns:
             Technology stack JSON.
         """
-        technologies: Dict[str, Dict[str, Set[str]]] = defaultdict(
-            lambda: defaultdict(set)
-        )
-        
+        # category -> name_lower -> {"display": name, "urls": set()}
+        technologies: Dict[str, Dict[str, Dict[str, Any]]] = defaultdict(dict)
+
         seen_urls: Set[str] = set()
         for page in classified_pages:
             url = page.get("url", "")
@@ -235,10 +244,13 @@ class JSONGenerator:
                 else:
                     name = str(tech)
                     category = "Other"
-                
+
                 if name:
-                    technologies[category][name].add(page.get("url", ""))
-        
+                    key = name.lower()
+                    if key not in technologies[category]:
+                        technologies[category][key] = {"display": name, "urls": set()}
+                    technologies[category][key]["urls"].add(page.get("url", ""))
+
         result = {
             "generated_at": datetime.now().isoformat(),
             "total_technologies": sum(
@@ -246,16 +258,20 @@ class JSONGenerator:
             ),
             "categories": {},
         }
-        
-        for category, techs in sorted(technologies.items()):
+
+        for category in sorted(technologies):
+            techs = technologies[category]
             result["categories"][category] = {
                 "count": len(techs),
-                "technologies": [
-                    {"name": name, "urls": list(urls)[:5]}
-                    for name, urls in sorted(techs.items())
-                ],
+                "technologies": sorted(
+                    [
+                        {"name": v["display"], "urls": list(v["urls"])[:5]}
+                        for v in techs.values()
+                    ],
+                    key=lambda x: x["name"].lower(),
+                ),
             }
-        
+
         return result
 
     def save_json(

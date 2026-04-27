@@ -224,8 +224,8 @@ class EcosystemClassifier:
             "sv-se", "nb-no", "da-dk", "tr-tr", "pl-pl",
             "nl-nl", "nl-be", "fi-fi", "cs-cz", "ro-ro",
         })
-        path_parts = [p for p in parsed.path.split("/") if p and p not in skip_locales]
-        
+        path_parts = [p for p in parsed.path.split("/") if p and p not in skip_locales and len(p) >= 2]
+
         if len(path_parts) >= 1:
             # Return first meaningful path segment as subcategory
             subcategory = path_parts[0].replace("-", " ").title()

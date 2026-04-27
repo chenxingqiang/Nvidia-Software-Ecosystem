@@ -1,6 +1,6 @@
 # NVIDIA Software Ecosystem Report
 
-> Generated: 2026-04-24 08:01 UTC
+> Generated: 2026-04-27 04:43 UTC
 > Crawl window: `2026-01-23T16:27:35.560600` → `2026-01-26T16:38:28.501775`
 > Pages in crawl aggregate: **10000**
 
@@ -24,15 +24,17 @@ The pipeline assigns each page to one of five ecosystems. **Software** and **Dev
 
 ### 2.1 Software ecosystem — thematic subcategories (noise filtered)
 
-- **Omniverse**: 98 pages
+- **Omniverse**: 181 pages
 - **Clara**: 94 pages
-- **Cuda**: 70 pages
-- **Ai Data Science**: 36 pages
+- **Cuda**: 73 pages
+- **Ai Data Science**: 37 pages
 - **Data Center**: 20 pages
 - **Deeplearning**: 17 pages
 - **Isaac**: 12 pages
 - **Courses**: 11 pages
+- **Robotics Edge Computing**: 9 pages
 - **Nvidia**: 8 pages
+- **Accelerated Computing**: 7 pages
 - **Autonomous Machines**: 6 pages
 - **Location Selector**: 5 pages
 - **Ai Enterprise**: 4 pages
@@ -41,11 +43,9 @@ The pipeline assigns each page to one of five ecosystems. **Software** and **Dev
 - **Base Command Manager**: 3 pages
 - **Compute**: 3 pages
 - **Design Visualization**: 3 pages
-- **T**: 3 pages
 - **Tegra Graphics Debugger**: 3 pages
+- **Agx Autonomous Machines**: 2 pages
 - **Authorize**: 2 pages
-- **Bionemo Framework**: 2 pages
-- **Embedded**: 2 pages
 
 ### 2.2 Developer ecosystem — top subcategories (noise filtered)
 
@@ -74,226 +74,222 @@ The extractor assigns technologies into **twelve** categories. Counts below are 
 
 | Category | Distinct technologies |
 |----------|------------------------|
-| Omniverse Platform | 756 |
-| AI Frameworks | 621 |
-| Cloud & Containers | 559 |
-| Robotics | 497 |
-| Speech & Audio AI | 258 |
-| Computer Vision | 240 |
-| CUDA Platform | 98 |
-| Healthcare AI | 72 |
-| AI Inference | 48 |
-| Graphics Technology | 13 |
-| Other Software | 12 |
-| Interconnect Technology | 8 |
+| Omniverse Platform | 523 |
+| AI Frameworks | 427 |
+| Cloud & Containers | 350 |
+| Robotics | 337 |
+| Speech & Audio AI | 192 |
+| Computer Vision | 151 |
+| CUDA Platform | 79 |
+| Healthcare AI | 63 |
+| AI Inference | 34 |
+| Graphics Technology | 7 |
+| Other Software | 6 |
+| Interconnect Technology | 2 |
 
 ### 3.1 Omniverse Platform
 
-*756 entries in index; showing up to 28 deduplicated names.*
+*523 entries in index; showing up to 28 deduplicated names.*
 
-- Omniverse and visualization application usage will need L40S
-- Omniverse Digital Twin A platform that uses NVIDIA Omniverse
-- Omniverse installation error when Downloading from bootstrap
-- Omniverse Launcher installers will no longer be downloadable
-- Omniverse render glass dispersion like offline render should
-- Omniverse Application Streaming within a Kuberentes cluster
-- Omniverse Audio2Face for Custom 3D Mascot Animation and TTS
-- Omniverse Kit native UI widgets are written with Dear Imgui
-- Omniverse libraries enable software makers to integrate pre
-- Omniverse para los gemelos digitales de robots industriales
-- Omniverse Software Branches In addition to Feature Branches
-- Omniverse Warning appeared when maya loading omniverse plug
-- Isaac Sim into their software solutions with Omniverse Kit
-- Omniverse APIs to enable designers and engineers to create
-- Omniverse developers are using Warp to help create new GPU
-- Omniverse Enterprise includes licensable software and full
-- Omniverse Foundational Technology Montage NVIDIA Omniverse
-- Omniverse Knowledge Base articles and submit support cases
-- Omniverse Replicator streamlines synthetic data generation
-- Omniverse en vivo para obtener respuestas a sus preguntas
-- Omniverse that enables developers to simulate and test AI
-- omniverse blueprint Filters Sort Sorting by Last Updated
-- Omniverse Community Connect with fellow 3D practitioners
-- Omniverse Digital Twin Compatible with AWS Ec2 instances
-- Omniverse extension allows developers to test animations
-- Omniverse Launcher continue to function past October 1st
-- Omniverse Replicator sythetic data generated on Rendered
-- Omniverse to bring facilities online as fast as possible
+- Omniverse Enterprise SupportedOmniverse
+- Omniverse Enterprise EssentialsNVIDIA
+- Omniverse Enterprise Subscriptions
+- Omniverse Enterprise installation
+- Omniverse Enterprise subscription
+- Omniverse Foundational Technology
+- Omniverse applications installed
+- Omniverse connected applications
+- Omniverse Developer Workstations
+- Omniverse Enterprise Evaluations
+- Omniverse Replicator streamlines
+- Omniverse streaming applications
+- Omniverse Technical Requirements
+- Omniverse viStoryboard Omniverse
+- Omniverse Application Streaming
+- Omniverse Blueprints simplifica
+- Omniverse Developer Ambassadors
+- Omniverse Documentation Explore
+- Omniverse Documentation Website
+- Omniverse Enterprise developers
+- Omniverse Enterprise Essentials
+- Omniverse Server Specifications
+- Omniverse Community Supporting
+- Omniverse composer application
+- Omniverse connector streamline
+- Omniverse Documentation Annual
+- Omniverse Enterprise combinado
+- Omniverse Enterprise Licensing
 
 ### 3.2 AI Frameworks
 
-*621 entries in index; showing up to 28 deduplicated names.*
+*427 entries in index; showing up to 28 deduplicated names.*
 
-- Morpheus is an open application framework that supports real
-- Morpheus is then built from source from within the container
-- RAPIDS CuIO ha logrado una mejora del rendimiento de hasta 4
-- RAPIDS XGBoost for Price Optimization in the Retail Industry
-- Merlin NVIDIA Merlin consists of Merlin Feature Engineering
-- NeMo Agent Toolkit test time compute module with searching
-- NeMo Curator Processing time for 20 million hours of video
-- NeMo Curator provides a customizable and modular interface
-- NeMo microservices allow you to customize guardrail models
-- NeMo microservices are not typically deployed on their own
-- NeMo para Construir e Implementar Modelos de IA Generativa
-- NeMo provides tools that enable each step of this workflow
-- NeMo to the A3 instances for faster training and inference
-- NeMo consiste en frameworks de entrenamiento e inferencia
-- NeMo Curator en DGX Cloud para curar videos a gran escala
-- NeMo Framework NVIDIA NeMo Framework supports pretraining
-- NeMo Guardrails integrates with frameworks like LangChain
-- NeMo Microservices Enterprise data is constantly changing
-- RAPIDS Accelerator for Apache Spark Learn how to take GPU
-- RAPIDS cuDF Watch as regular DataFrame operations are GPU
-- Morpheus and see how you can take advantage of the tools
-- NeMo Curator supports the processing of audio modalities
-- NeMo Curator supports the processing of image modalities
-- NeMo Curator supports the processing of video modalities
-- NeMo Desarrolle y mantenga a sus agentes con NVIDIA NeMo
-- RAPIDS to analyze massive amounts of data to make better
-- RAPIDS XGBOOST and can now replace hundreds of CPU nodes
-- Merlin NVTabular containers from the NVIDIA NGC catalog
+- NeMo Tutorial ModuleNotFoundError
+- Morpheus Cybersecurity Solutions
+- Merlin Distributed Embeddings
+- Merlin Reference Applications
+- Merlin Transformers4Rec Today
+- NeMo Guardrails Documentation
+- NeMo Guardrails microservices
+- NeMo microservices developers
+- NeMo Microservices Enterprise
+- RAPIDS Accelerator Deployment
+- Merlin NVTabular Performance
+- Morpheus developer framework
+- Morpheus proporciona ingesta
+- NeMo Customizer microservice
+- NeMo deployment requirements
+- NeMo Guardrails microservice
+- NeMo Guardrails orchestrates
+- NeMo Microservices Evaluator
+- NeMo Retriever microservices
+- Merlin Distributed Training
+- Morpheus software framework
+- NeMo Evaluator microservice
+- NeMo Framework Installation
+- NeMo Guardrails streamlines
+- NeMo Multimodale generative
+- RAPIDS Accelerator replaces
+- Merlin Feature Engineering
+- Merlin Inference Container
 
 ### 3.3 Cloud & Containers
 
-*559 entries in index; showing up to 28 deduplicated names.*
+*350 entries in index; showing up to 28 deduplicated names.*
 
-- NGC catalog can be deployed on Kubernetes based Edge systems
-- NGC Catalog that are only available for users with a product
-- NGC containers for easy deployment across AI tasks like NLP
-- NGC supports both Docker and Singularity container runtimes
-- NGC Containers are the easiest way to get started with DGL
-- NGC provides software to meet the needs of data scientists
-- NGC also hosts a catalog of HPC applications such as NAMD
-- NGC catalog software runs on a wide variety of NVIDIA GPU
-- NGC on Public Clouds On each of the major cloud providers
-- NGC org and active product subscriptions for each account
-- NGC API keys to authenticate with NGC CLI and Docker CLI
-- NGC catalog useful for Machine Learning Engineers and IT
-- NGC container registry supports the following user roles
-- NGC Image with Oracle Cloud Infrastructure Release Notes
-- NGC organization you want to share access to and select
-- NGC API Key to authenticate with Base Command Platform
-- NGC catalog provides a comprehensive collection of GPU
-- NGC Container is built with the latest versions of DGL
-- NGC Model Scripts Tensor Cores optimized training code
-- NGC org owners and user_admins can manage service keys
-- NGC AvgFlow model weights and other related artifacts
-- NGC Catalog Optimized AI Software For Developer Needs
-- NGC organization before starting the transfer process
-- NGC API key for access to the NGC container registry
-- NGC container with the latest stable DGL open source
-- NGC Modelos y SDK de IA acelerados y en contenedores
-- NGC proporciona un espacio seguro y nativo del cloud
-- NGC se puede implementar en sistemas de edge basados
+- NGC organization administrator
+- NGC Organization Subscriptions
+- NGC accelerates productivity
+- NGC organization permissions
+- NGC Entitlement Certificate
+- NGC authentication against
+- NGC NVIDIAn pilviratkaisut
+- NGC Organization Dashboard
+- NGC Activate Subscription
+- NGC catalog automatically
+- NGC Odkryj oprogramowanie
+- NGC proporcionan software
+- NGC ofrecen contenedores
+- NGC software development
+- NGC container available
+- NGC container standards
+- NGC Examples Repository
+- NGC ofrece contenedores
+- NGC organization before
+- ngc registry collection
+- NGC access permissions
+- NGC across distributed
+- NGC application issues
+- NGC Automotive Catalog
+- NGC container registry
+- NGC Container Security
+- NGC ofrece colecciones
+- NGC Org Authentication
 
 ### 3.4 Robotics
 
-*497 entries in index; showing up to 28 deduplicated names.*
+*337 entries in index; showing up to 28 deduplicated names.*
 
-- Isaac Ros April Tags no detections in sim or with usb camera
-- Isaac ROS Mission Client Fails when running isaac_ros_yolov8
-- ISAAC Gym does not run in headless mode on ISAAC SIM on aws
-- Isaac Lab While Working in Isaac Sim with the Same USD File
-- Isaac Perceptor or NVblox using ZED camera inside ISAAC SIM
-- Isaac ROS cuMotion MoveIt tutorial with UR5e in ROS 2 Jazzy
-- Isaac Sim into my software and redistribute it to customers
-- Isaac Sim MultiCamera and MultiGPU performance test is poor
-- Isaac Sim to simulate entire worlds and to generate diverse
-- Isaac Sim tutorials are not shown in the Action graph nodes
-- ISAAC ROS ESS Stereo Depth Estimation not working with pre
-- Isaac Sim RMPFlow and Lula Trayectory Generation Extension
-- Isaac ROS Nitros BridgeNoetic Container with ROS 1 Bridge
-- Isaac ROS packages can significantly increase performance
-- Isaac Sim Due to Python Version Conflict with ROS2 Humble
-- Isaac GR00T for Synthetic Manipulation Motion Generation
-- isaac sim with isaac lab even to clean VM with ubuntu 24
-- Isaac Sim with ROS2 bridge final installation test fails
-- Isaac platform to accelerate their robotics development
-- Isaac Sim and Isaac ROS for Advanced Autonomous Systems
-- Isaac Sim Headless native fails to initialize streaming
-- Isaac Sim supports Synthetic Data Generations workflows
-- Isaac Sim with OVD and exporting the results to Kit 108
-- Isaac for Healthcare See how NVIDIA is accelerating AI
-- Isaac ROS Assets Isaac ROS Assets used for quickstarts
-- Isaac ROS NVIDIA Isaac ROS is a collection of hardware
-- Isaac Sim can simulate rigid body and vehicle dynamics
-- Isaac Lab Newton is compatible with NVIDIA Isaac Lab
+- Isaac ROS image_segmentation
+- Isaac Manipulator Intrinsic
+- Isaac levert hoogwaardige
+- Isaac perceptor Tutorial
+- Isaac ros foundationpose
+- Isaac ROS SyntheticaDETR
+- Isaac Sim Implementation
+- Isaac do przyspieszenia
+- Isaac NVIDIA Metropolis
+- Isaac Perceptor product
+- Isaac Platformu Tedarik
+- Isaac Robotics Platform
+- Isaac ROS Documentation
+- Isaac SDK documentation
+- Isaac Sim Compatibility
+- Isaac Sim Documentation
+- Isaac Compute Odometry
+- Isaac Enhanced Factory
+- Isaac GR00T Foundation
+- Isaac Lab Installation
+- Isaac Manipulator ESDF
+- Isaac ROS applications
+- Isaac ROS h264_encoder
+- Isaac Sim installation
+- Isaac Sim technologies
+- Isaac GR00T Workflows
+- Isaac Gym Deprecation
+- Isaac Lab application
 
 ### 3.5 Speech & Audio AI
 
-*258 entries in index; showing up to 28 deduplicated names.*
+*192 entries in index; showing up to 28 deduplicated names.*
 
-- Riva as part of embedded control software on a Jetson Xavier
-- Riva Enterprise to augment customer service agents with real
-- Riva offers SOTA pretrained models on NGC that could be fine
-- Maxine VFX SDK Video Relighting Effect Maxine Updated today
-- NGC private registry and NVIDIA Enterprise Support accounts
-- Riva framework includes pretrained conversational AI models
-- Riva on NVIDIA LaunchPad Have an existing speech AI project
-- Riva para procesar varias solicitudes de IA conversacional
-- Riva Deployment Error following tutorial on AWS with EKS
-- riva NIM startup script when checking local cache folder
-- Maxine AR SDK Audio2Face 2D Effect Maxine Updated today
-- Riva Parakeet multilingual automatic speech recognition
-- Riva NMT NIM Riva NMT NIM provide easy access to state
-- Riva ASR not returning the final transcipt accurately
-- RIVA Conformer ASR Arabic does not provide diacritics
-- Riva de alto rendimiento que se puede implementar hoy
-- Riva SDK includes pretrained conversational AI models
-- Maxine AR SDK Facemesh detection support multi faces
-- Riva Explore technologies that integrate with Maxine
-- Riva on premises or in the cloud as a speech service
-- Maxine technology with a global developer community
-- Riva app framework for conversational AI services
-- Riva customers have priority access to new models
-- Riva faces difficulty in encoding a specific word
-- Riva for video conferencing transcription for 200
-- Riva Parakeet para casos de uso de agentes de voz
-- Riva ASR and TTS models in production with high
-- Riva ASR Server Setup on Nvidia Jetson AGX Orin
+- Maxine improves telepresence
+- Riva incluye reconocimiento
+- Riva Parakeet multilingual
+- Maxine Developer Platform
+- Maxine Partnerships Video
+- Riva Explore technologies
+- Maxine Augmented Reality
+- Maxine integrates NVIDIA
+- Maxine NIM Microservices
+- Maxine operating systems
+- Maxine Windows Augmented
+- Maxine Learning Library
+- Riva dla konwersacyjnej
+- Riva speech recognition
+- maxine ar gazeredirect
+- Maxine platform allows
+- Maxine requires tensor
+- Riva deployement error
+- Riva Documentation Hub
+- Riva Introductory Blog
+- Riva Licensing Options
+- Riva NIM microservices
+- RIVA Unified Conformer
+- Riva Virtual Assistant
+- Maxine EA Discussions
+- Maxine Event Sessions
+- Maxine Reinvents Real
+- Riva automatic speech
 
 ### 3.6 Computer Vision
 
-*240 entries in index; showing up to 28 deduplicated names.*
+*151 entries in index; showing up to 28 deduplicated names.*
 
-- DeepStream for Video Analytics on Jetson Nano In this course
-- Deepstream installed locally if I want to use it in a docker
-- Metropolis ecosystem is a large and growing family of over 1
-- Metropolis for Factories can be customized for your use case
-- DeepStream automatically assigns unique IDs for new objects
-- Deepstream dropping source after a while on jetson orin nx
-- DeepStream inference builder works to accelerate vision AI
-- DeepStream SDK provides a complete video stream processing
-- DeepStream supported on NVIDIA Blackwell architecture GPUs
-- Metropolis microservices to develop vision AI applications
-- DeepStream is available as a part of NVIDIA AI Enterprise
-- DeepStream supports several popular models out of the box
-- Riva dla konwersacyjnej SI i Metropolis dla analizy wideo
-- DeepStream for Jetson The latest release supports NVIDIA
-- DeepStream SDK is a complete streaming analytics toolkit
-- Metropolis NVIDIA Metropolis is an application framework
-- Metropolis para reducir la complejidad del entrenamiento
-- DeepStream SGIE Digit Detection Misses Objects While PT
-- Metropolis Blueprint for Video Search and Summarization
-- deepstream been used in sample object detector tracker
-- DeepStream development environment with the Jetson SDK
-- DeepStream FPS in Grafana is incorrect or not updating
-- DeepStream kickstarts the development of seamless real
-- Metropolis to enhance its video analytics capabilities
-- Deepstream 7 on AINVR app with SGIE running LPD model
-- Metropolis for Factories can be deployed from factory
-- DeepStream and how does the software stack look like
-- Deepstream yolov8 trition server load the model plan
+- Deepstream 7 deepstream_test1_rtsp_out
+- Metropolis Microservices Metropolis
+- DeepStream development environment
+- Metropolis microservices features
+- DeepStream automatically assigns
+- Deepstream Documentation webpage
+- deepstream interpolation methods
+- Deepstream nvurisrcbin reconnect
+- Metropolis enhance productivity
+- Metropolis Microservices Giving
+- Metropolis Automatice espacios
+- Metropolis ecosystem solutions
+- Metropolis mikro hizmetlerinde
+- Deepstream efficient pipeline
+- DeepStream GStreamer Pipeline
+- DeepStream inference metadata
+- DeepStream offers exceptional
+- Deepstream Python Application
+- DeepStream Container Builder
+- DeepStream Inference Builder
+- Deepstream installed locally
+- DeepStream SDK Documentation
+- Metropolis Automate physical
+- Metropolis NVIDIA Metropolis
+- DeepStream helps developers
+- DeepStream nvmsgbroker MQTT
+- DeepStream over Accelerated
+- DeepStream parseBoundingBox
 
 ### 3.7 CUDA Platform
 
-*98 entries in index; showing up to 28 deduplicated names.*
+*79 entries in index; showing up to 28 deduplicated names.*
 
-- ngc resource missing cudnn local and cross debs for amd64
-- Omniverse Digital Twin for building CUDA
-- Isaac ROS cuMotion is an NVIDIA CUDA
-- Isaac for Manipulation CUDA
-- NGC link for Aerial CUDA
+- NGC Catalog CUDA
 - CUDA 387.128
 - CUDA 387.178
 - CUDA 396.148
@@ -317,56 +313,54 @@ The extractor assigns technologies into **twelve** categories. Counts below are 
 - CUDA 11.7
 - CUDA 11.8
 - CUDA 12.0
+- CUDA 12.1
+- CUDA 12.2
+- CUDA 12.3
+- CUDA 12.4
 
 ### 3.8 Healthcare AI
 
-*72 entries in index; showing up to 28 deduplicated names.*
+*63 entries in index; showing up to 28 deduplicated names.*
 
-- Clara integrates directly with the NVIDIA AI software stack
-- Clara Viz offers a Python Wrapper for rapid experimentation
-- Clara Parabricks on a laptop equipped with an RTX 5080 GPU
-- Clara Parabricks with the output from the baseline tools
-- Isaac GR00T for robotics and NVIDIA Clara Read Article
-- Clara Viz is a platform for visualization of 2D
-- Clara includes AI foundation models for omics
-- Clara AGX dev kit Not detecting RTX6000 GPU
 - clara discoveryhealthcarehpcsupercomputing
-- Clara University Leavey School of Business
-- Clara Parabricks using an example dataset
-- Clara AGX software developer kit and the
-- Clara Parabricks has been tested on Dell
-- Clara Parabricks Pipelines Trial version
-- Clara para Soluciones de Salud Digital
-- Clara integrates directly with NVIDIA
-- Clara para Salud Digital NVIDIA Clara
-- Clara Parabricks can analyze 30x WGS
-- Clara AGX y el conjunto de software
-- Clara for Medical Devices platforms
-- Clara Parabricks When a crisis hits
-- Clara AGX with current SDK Manager
-- Clara for Digital Health Solutions
-- Clara End User License Agreement
-- Clara Models to Help Fight COVID
-- Clara Parabricks developer page
-- Clara Viz Widgets API Reference
-- CLARA PARABRICKS DOCUMENTATION
+- Clara Parabricks documentation
+- CLARA Uniwersalna platforma
+- Clara Parabricks developer
+- CLARA PARABRICKS Pipelines
+- Clara integrates directly
+- Clara Parabricks permite
+- Clara para Dispositivos
+- Clara University Leavey
+- Clara Parabricks using
+- Clara University Learn
+- Clara Discovery Clara
+- Clara Holoscan Deploy
+- Clara para planificar
+- Clara para Soluciones
+- Clara Parabricks uses
+- Clara AGX Obliczenia
+- Clara Nowa platforma
+- Clara AGX Computing
+- Clara AGX Procesare
+- Clara Parabricks es
+- Clara Parabricks v3
+- Clara Parabricks v4
+- clara que cualquier
+- Clara Updated today
+- Clara AGX software
+- Clara Headquarters
+- Clara Holoscan nos
 
 ### 3.9 AI Inference
 
-*48 entries in index; showing up to 28 deduplicated names.*
+*34 entries in index; showing up to 28 deduplicated names.*
 
-- Morpheus and Triton are located on the same machine
-- Isaac ROS TensorRT Node with dynamic batch size
-- DeepStream and NVIDIA Triton Inference Server
-- NeMo i serwera wnioskowania NVIDIA Triton
-- NeMo and NVIDIA TensorRT Model Optimizer
-- Morpheus Triton Server Models container
-- NGC TensorRT container version
-- DeepStream and NVIDIA Triton
-- DeepStream SDK or TensorRT
-- Deepstream and TensorRT
+- DeepStream Triton Server
 - Triton Inference Server
-- NeMo ve NVIDIA Triton
+- Morpheus Triton Models
+- Morpheus Triton Server
+- NGC TensorRT container
+- Isaac ROS TensorRT
 - deepstream triton
 - TensorRT 10.04
 - TensorRT 10.10
@@ -383,76 +377,82 @@ The extractor assigns technologies into **twelve** categories. Counts below are 
 - TensorRT 6.0
 - TensorRT 6.3
 - TensorRT 7.2
+- TensorRT 8.0
+- TensorRT 8.2
+- TensorRT 8.4
+- TensorRT 8.5
+- TensorRT 8.6
+- TensorRT 10
 
 ### 3.10 Graphics Technology
 
-*13 entries in index; showing up to 7 deduplicated names.*
+*7 entries in index; showing up to 7 deduplicated names.*
 
-- RAY TRACING
+- ray tracing
 - DLSS 1
 - DLSS 2
 - DLSS 3
 - DLSS 4
-- REFLEX
+- Reflex
 - DLSS
 
 ### 3.11 Other Software
 
-*12 entries in index; showing up to 6 deduplicated names.*
+*6 entries in index; showing up to 6 deduplicated names.*
 
 - NVIDIA AI Enterprise
 - NVIDIA Enterprise
 - Fleet Command
 - Base Command
 - TAO Toolkit
-- Canvas
+- canvas
 
 ### 3.12 Interconnect Technology
 
-*8 entries in index; showing up to 2 deduplicated names.*
+*2 entries in index; showing up to 2 deduplicated names.*
 
-- NVSWITCH
-- NVLINK
+- NVSwitch
+- nvlink
 
 ## 4. Technologies most associated with *Software*-classified pages
 
 Aggregated from `ecosystems.software.technologies` in `nvidia_ecosystem.json` (counts reflect co-occurrence across pages classified as **software**).
 
-- CUDA — **3**
-- cudnn — **3**
-- TensorRT — **3**
-- TAO Toolkit — **3**
-- NeMo — **3**
-- NeMo Guardrails — **3**
-- Omniverse Launcher — **3**
-- Isaac — **3**
-- Isaac Sim — **3**
-- Isaac Sim 4 — **3**
-- Isaac sim 2023 — **3**
-- deepstream — **3**
-- deepstream 8 — **3**
-- CUDA 13 — **2**
-- CUDA 3 — **2**
-- CUDA 11 — **2**
-- Triton Inference Server — **2**
-- TensorRT 10.8 — **2**
-- Triton Server — **2**
-- NVIDIA Enterprise — **2**
-- NeMo framework — **2**
-- RAPIDS — **2**
-- merlin — **2**
-- NeMo Microservices — **2**
-- NeMo Evaluator — **2**
-- NeMo Retriever — **2**
-- Riva — **2**
-- Broadcast — **2**
-- Maxine — **2**
-- ngc — **2**
-- NGC API Key — **2**
-- NVLink — **2**
-- omniverse — **2**
-- Omniverse Blueprint — **2**
-- Omniverse Kit — **2**
+- CUDA — **1**
+- cudnn — **1**
+- CUDA 11.6 — **1**
+- CUDA 418.163 — **1**
+- CUDA 418.105 — **1**
+- CUDA 410.130 — **1**
+- CUDA 396.148 — **1**
+- CUDA 396.64 — **1**
+- CUDA 387.178 — **1**
+- CUDA 387.128 — **1**
+- CUDA 387.99 — **1**
+- CUDA 9.0 — **1**
+- CUDA 8.0 — **1**
+- CUDA 7.5 — **1**
+- CUDA 7.0 — **1**
+- CUDA 6.5 — **1**
+- CUDA 6.0 — **1**
+- CUDA 5.5 — **1**
+- CUDA 5.0 — **1**
+- CUDA 4.2 — **1**
+- CUDA 4.1 — **1**
+- CUDA 4.0 — **1**
+- CUDA 3.2 — **1**
+- CUDA 3.1 — **1**
+- CUDA 12.6 — **1**
+- CUDA 13 — **1**
+- cudnn 3 — **1**
+- CUDA 12.0 — **1**
+- CUDA 3 — **1**
+- CUDA 12.9 — **1**
+- CUDA 12 — **1**
+- CUDA 13.1 — **1**
+- CUDA 13.0 — **1**
+- CUDA 11 — **1**
+- CUDA 11.0 — **1**
 
 ## 5. Related reports in `reports/`
 

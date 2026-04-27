@@ -1,309 +1,150 @@
 {
-  "generated_at": "2026-04-24T16:01:11.336081",
-  "total_products": 392,
+  "generated_at": "2026-04-27T12:43:09.992059",
+  "total_products": 291,
   "categories": {
     "Automotive": {
-      "count": 12,
+      "count": 5,
       "products": [
         {
           "name": "DRIVE AGX",
           "urls": [
-            "https://info.nvidia.com/xr-vcr-reg-page.html?ondemandrgt=yes",
-            "https://www.nvidia.com/cs-cz/geforce/gaming-laptops",
-            "https://www.nvidia.com/en-sg/solutions/ai-factories",
-            "https://www.nvidia.com/en-sg/data-center/buy-grid",
-            "https://www.nvidia.com/en-gb/industries?ncid=no-ncid"
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/40-series",
+            "https://www.nvidia.com/en-gb/networking/ethernet-switching/cumulus-linux",
+            "https://www.nvidia.com/en-eu/products/workstations/ai-workstations",
+            "https://www.nvidia.com/en-gb/self-driving-cars/drive-videos",
+            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/30-series/rtx-3090"
           ]
         },
         {
           "name": "DRIVE Hyperion",
           "urls": [
-            "https://www.nvidia.com/en-au/self-driving-cars/drive-chauffeur",
-            "https://www.nvidia.com/en-us/solutions/autonomous-vehicles/partners/byd",
-            "https://www.nvidia.com/en-sg/self-driving-cars/drive-chauffeur",
-            "https://www.nvidia.com/pt-br",
-            "https://www.nvidia.com/en-sg/solutions/autonomous-vehicles/partners"
+            "https://www.nvidia.com/nl-nl?ncid=em-anno-148913",
+            "https://www.nvidia.com/en-au/self-driving-cars/partners/mercedes",
+            "https://www.nvidia.com/en-us",
+            "https://www.nvidia.com/en-us/industries/automotive",
+            "https://www.nvidia.com/en-au/solutions/autonomous-vehicles/drive-hyperion"
           ]
         },
         {
           "name": "DRIVE Orin",
           "urls": [
-            "https://www.nvidia.com/en-in/self-driving-cars/partners/nio",
-            "https://www.nvidia.com/en-us/solutions/autonomous-vehicles/partners/byd",
-            "https://www.nvidia.com/en-sg/solutions/autonomous-vehicles/partners",
-            "https://www.nvidia.com/en-in/solutions/autonomous-vehicles/partners/xpeng",
-            "https://www.nvidia.com/en-us/self-driving-cars/partners"
+            "https://www.nvidia.com/en-gb/self-driving-cars/partners/xpeng",
+            "https://www.nvidia.com/en-us/industries/automotive",
+            "https://www.nvidia.com/en-sg/self-driving-cars/partners/pony-ai",
+            "https://www.nvidia.com/en-au/industries/automotive?ncid=pa-srch-goog-654707",
+            "https://www.nvidia.com/en-gb/solutions/autonomous-vehicles/partners/pony-ai"
           ]
         },
         {
           "name": "DRIVE Sim",
           "urls": [
-            "https://courses.nvidia.com/courses/course-v1:DLI+T-DS-02+V2",
-            "https://forums.developer.nvidia.com/c/omniverse/deprecated-apps-and-extensions/extensions/731/l/latest",
             "https://courses.nvidia.com/courses/course-v1:DLI+S-DS-01+V1",
-            "https://courses.nvidia.com/courses/course-v1:NVIDIA+S-FX-16+v1",
-            "https://developer.nvidia.com/drive?ncid=no-ncid"
+            "https://learn.nvidia.com/courses/course-detail?course_id=course-v1%3ADLI+L-FX-04+V2",
+            "https://developer.nvidia.com/drive/drive-sim",
+            "https://www.nvidia.com/en-gb/solutions/autonomous-vehicles/drive-videos",
+            "https://learn.nvidia.com/courses/course-detail?course_id=course-v1%3ADLI+S-FX-01+V1"
           ]
         },
         {
           "name": "DRIVE Thor",
           "urls": [
-            "https://www.nvidia.com/en-gb/solutions/autonomous-vehicles/partners/nuro",
-            "https://www.nvidia.com/en-us/solutions/autonomous-vehicles/partners/byd",
-            "https://www.nvidia.com/en-in/solutions/autonomous-vehicles/partners/xpeng",
-            "https://www.nvidia.com/en-au/solutions/autonomous-vehicles/in-vehicle-computing",
-            "https://www.nvidia.com/en-sg/self-driving-cars/in-vehicle-computing"
-          ]
-        },
-        {
-          "name": "Drive AGX",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/port",
-            "https://www.nvidia.com/en-us/solutions/autonomous-vehicles/news",
-            "https://docs.nvidia.com/cuda/gpudirect-rdma/index.html",
-            "https://www.nvidia.com/es-la/solutions/autonomous-vehicles/news",
-            "https://www.nvidia.com/en-gb/solutions/autonomous-vehicles/news"
-          ]
-        },
-        {
-          "name": "Drive Agx",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/isaac-sdk"
-          ]
-        },
-        {
-          "name": "Drive Orin",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/drive-platform-setup",
-            "https://forums.developer.nvidia.com/tag/profiling",
-            "https://forums.developer.nvidia.com/tag/driveos",
-            "https://forums.developer.nvidia.com/tag/driveos-dl",
-            "https://forums.developer.nvidia.com/tag/driveworks-lidar"
-          ]
-        },
-        {
-          "name": "Drive Thor",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/driveos",
-            "https://nvidianews.nvidia.com/in-the-news?year=2022"
-          ]
-        },
-        {
-          "name": "Drive orin",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/driveworks-imu-gps",
-            "https://forums.developer.nvidia.com/tag/drive-platform-bootup"
-          ]
-        },
-        {
-          "name": "drive orin",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/driveworks-radar"
-          ]
-        },
-        {
-          "name": "drive thor",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/driveos-dl"
+            "https://www.nvidia.com/nl-nl?ncid=em-anno-148913",
+            "https://www.nvidia.com/en-gb/self-driving-cars/partners/xpeng",
+            "https://www.nvidia.com/en-us/industries/automotive",
+            "https://www.nvidia.com/en-au/industries/automotive?ncid=pa-srch-goog-654707",
+            "https://www.nvidia.com/en-in/solutions/autonomous-vehicles/partners/li-auto"
           ]
         }
       ]
     },
     "Consumer GPU": {
-      "count": 254,
+      "count": 205,
       "products": [
-        {
-          "name": "GEFORCE GTX 1050",
-          "urls": [
-            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/ro-ro/geforce/products/10series/geforce-gtx-1080-ti",
-            "https://www.nvidia.com/ro-ro/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/pl-pl/geforce/products/10series/geforce-gtx-1080-ti",
-            "https://www.nvidia.com/en-us/geforce/products/10series"
-          ]
-        },
-        {
-          "name": "GEFORCE GTX 1050ti",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/software-and-drivers",
-            "https://forums.developer.nvidia.com/tag/drivers"
-          ]
-        },
-        {
-          "name": "GEFORCE GTX 1060",
-          "urls": [
-            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/ro-ro/geforce/products/10series/geforce-gtx-1080-ti",
-            "https://www.nvidia.com/ro-ro/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/pl-pl/geforce/products/10series/geforce-gtx-1080-ti",
-            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1080-ti"
-          ]
-        },
-        {
-          "name": "GEFORCE GTX 1070",
-          "urls": [
-            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/ro-ro/geforce/products/10series/geforce-gtx-1080-ti",
-            "https://www.nvidia.com/ro-ro/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/pl-pl/geforce/products/10series/geforce-gtx-1080-ti",
-            "https://www.nvidia.com/fr-be/geforce/10-series"
-          ]
-        },
-        {
-          "name": "GEFORCE GTX 1070 Ti",
-          "urls": [
-            "https://www.nvidia.com/en-us/geforce/products/10series"
-          ]
-        },
-        {
-          "name": "GEFORCE GTX 1080",
-          "urls": [
-            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/ro-ro/geforce/products/10series/geforce-gtx-1080-ti",
-            "https://www.nvidia.com/ro-ro/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/fr-be/geforce/10-series",
-            "https://www.nvidia.com/pl-pl/geforce/products/10series/geforce-gtx-1080-ti"
-          ]
-        },
-        {
-          "name": "GEFORCE GTX 1080 Ti",
-          "urls": [
-            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1080-ti",
-            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1080",
-            "https://www.nvidia.com/en-us/geforce/products/10series"
-          ]
-        },
-        {
-          "name": "GEFORCE GTX 1650",
-          "urls": [
-            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/gtx-1660-ti",
-            "https://www.nvidia.com/fr-be/geforce/graphics-cards/gtx-1650-super",
-            "https://www.nvidia.com/sv-se/geforce/graphics-cards/gtx-1660-super",
-            "https://www.nvidia.com/sv-se/geforce/graphics-cards/gtx-1660-ti",
-            "https://www.nvidia.com/fr-be/geforce/graphics-cards/gtx-1660-ti"
-          ]
-        },
-        {
-          "name": "GEFORCE GTX 1660 Ti",
-          "urls": [
-            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/gtx-1660-ti",
-            "https://www.nvidia.com/fr-be/geforce/graphics-cards/gtx-1650-super",
-            "https://www.nvidia.com/sv-se/geforce/graphics-cards/gtx-1660-super",
-            "https://www.nvidia.com/sv-se/geforce/graphics-cards/gtx-1660-ti",
-            "https://www.nvidia.com/fr-be/geforce/graphics-cards/gtx-1660-ti"
-          ]
-        },
-        {
-          "name": "GEFORCE RTX 30",
-          "urls": [
-            "https://www.nvidia.com/en-gb/geforce/campaigns/guardians-of-the-galaxy",
-            "https://www.nvidia.com/en-eu/geforce/technologies/directx-12-ultimate",
-            "https://www.nvidia.com/en-gb/geforce/technologies/dx12",
-            "https://www.nvidia.com/en-gb/geforce/technologies/directx-12-ultimate"
-          ]
-        },
-        {
-          "name": "GEFORCE RTX 3080",
-          "urls": [
-            "https://www.nvidia.com/fi-fi/geforce/broadcasting",
-            "https://www.nvidia.com/cs-cz/geforce/broadcasting",
-            "https://www.nvidia.com/nb-no/geforce/20-series/rtx-for-broadcasting",
-            "https://www.nvidia.com/pl-pl/geforce/broadcasting",
-            "https://www.nvidia.com/ro-ro/geforce/20-series/rtx-for-broadcasting"
-          ]
-        },
-        {
-          "name": "GEFORCE RTX 5050",
-          "urls": [
-            "https://forums.developer.nvidia.com/c/accelerated-computing/cuda/cuda-setup-and-installation/8"
-          ]
-        },
         {
           "name": "GeForce 10",
           "urls": [
-            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/es-la/geforce/drivers",
-            "https://developer.nvidia.com/vulkan-driver",
+            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1080",
             "https://www.nvidia.com/tr-tr/geforce/drivers",
-            "https://www.nvidia.com/en-us/geforce/technologies/reflex/supported-products"
+            "https://www.nvidia.com/en-eu/geforce/drivers",
+            "https://www.nvidia.com/en-us/geforce/drivers",
+            "https://www.nvidia.com/en-gb/geforce/products/10series/geforce-gtx-1080"
           ]
         },
         {
           "name": "GeForce 100",
           "urls": [
-            "https://www.nvidia.com/object/macosx-cuda-4.0.50-driver.html",
-            "https://www.nvidia.com/object/macosx-cuda-3.1-driver.html",
-            "https://www.nvidia.com/object/macosx-cuda-3.1.17-driver.html",
-            "https://www.nvidia.com/object/macosx-cuda-5.0.17-driver.html",
-            "https://www.nvidia.com/object/macosx-cuda-4.2.7-driver.html"
+            "https://www.nvidia.com/object/macosx-cuda-5.0.36-driver.html",
+            "https://www.nvidia.com/object/macosx-cuda-4.1.29-driver.html",
+            "https://www.nvidia.com/object/macosx-cuda-3.2.17-driver.html",
+            "https://www.nvidia.com/object/macosx-cuda-4.2.10-driver.html",
+            "https://www.nvidia.com/object/macosx-cuda-3.1-driver.html"
           ]
         },
         {
           "name": "GeForce 1060",
           "urls": [
-            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1060",
+            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1080",
+            "https://www.nvidia.com/pl-pl/geforce/products/10series/geforce-gtx-1080",
+            "https://www.nvidia.com/pl-pl/geforce/products/10series/geforce-gtx-1060",
             "https://www.nvidia.com/ro-ro/geforce/products/10series/geforce-gtx-1080-ti",
-            "https://www.nvidia.com/nl-nl/geforce/graphics-cards/compare",
-            "https://www.nvidia.com/ro-ro/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/pl-pl/geforce/products/10series/geforce-gtx-1080-ti"
+            "https://www.nvidia.com/en-au/geforce/10-series"
           ]
         },
         {
           "name": "GeForce 1070",
           "urls": [
-            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1060",
+            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1080",
+            "https://www.nvidia.com/pl-pl/geforce/products/10series/geforce-gtx-1080",
+            "https://www.nvidia.com/pl-pl/geforce/products/10series/geforce-gtx-1060",
             "https://www.nvidia.com/ro-ro/geforce/products/10series/geforce-gtx-1080-ti",
-            "https://www.nvidia.com/ro-ro/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/pl-pl/geforce/products/10series/geforce-gtx-1080-ti",
-            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1080-ti"
+            "https://www.nvidia.com/en-au/geforce/10-series"
           ]
         },
         {
           "name": "GeForce 1070 Ti",
           "urls": [
-            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1060",
+            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1080",
+            "https://www.nvidia.com/pl-pl/geforce/products/10series/geforce-gtx-1080",
+            "https://www.nvidia.com/pl-pl/geforce/products/10series/geforce-gtx-1060",
             "https://www.nvidia.com/ro-ro/geforce/products/10series/geforce-gtx-1080-ti",
-            "https://www.nvidia.com/ro-ro/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/pl-pl/geforce/products/10series/geforce-gtx-1080-ti",
-            "https://www.nvidia.com/fr-be/geforce/10-series"
+            "https://www.nvidia.com/en-au/geforce/10-series"
           ]
         },
         {
           "name": "GeForce 1080",
           "urls": [
-            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1060",
+            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1080",
+            "https://www.nvidia.com/pl-pl/geforce/products/10series/geforce-gtx-1080",
+            "https://www.nvidia.com/pl-pl/geforce/products/10series/geforce-gtx-1060",
             "https://www.nvidia.com/ro-ro/geforce/products/10series/geforce-gtx-1080-ti",
-            "https://www.nvidia.com/ro-ro/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/pl-pl/geforce/products/10series/geforce-gtx-1080-ti",
-            "https://www.nvidia.com/fr-be/geforce/10-series"
+            "https://www.nvidia.com/en-au/geforce/10-series"
           ]
         },
         {
           "name": "GeForce 1080 Ti",
           "urls": [
-            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/ro-ro/geforce/products/10series/geforce-gtx-1080-ti",
-            "https://www.nvidia.com/ro-ro/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/fr-be/geforce/10-series",
-            "https://www.nvidia.com/pl-pl/geforce/products/10series/geforce-gtx-1080-ti"
+            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1080",
+            "https://www.nvidia.com/pl-pl/geforce/products/10series/geforce-gtx-1080",
+            "https://www.nvidia.com/pl-pl/geforce/products/10series/geforce-gtx-1060",
+            "https://www.nvidia.com/en-gb/geforce/products/10series/geforce-gtx-1080",
+            "https://www.nvidia.com/ro-ro/geforce/products/10series/geforce-gtx-1080-ti"
           ]
         },
         {
           "name": "GeForce 16",
           "urls": [
             "https://www.nvidia.com/en-gb/geforce/drivers/results/260437",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://developer.nvidia.com/vulkan-driver"
+            "https://developer.nvidia.com/vulkan-driver",
+            "https://www.nvidia.com/en-us/geforce/drivers/results/260405"
           ]
         },
         {
           "name": "GeForce 1650",
           "urls": [
-            "https://forums.developer.nvidia.com/c/accelerated-computing/cuda/206/l/latest",
+            "https://forums.developer.nvidia.com/tag/drivers",
             "https://forums.developer.nvidia.com/c/accelerated-computing/cuda/cuda-setup-and-installation/8",
-            "https://forums.developer.nvidia.com/c/accelerated-computing/cuda/206",
-            "https://forums.developer.nvidia.com/tag/drivers"
+            "https://forums.developer.nvidia.com/c/accelerated-computing/cuda/206/l/latest",
+            "https://forums.developer.nvidia.com/c/accelerated-computing/cuda/206"
           ]
         },
         {
@@ -315,11 +156,11 @@
         {
           "name": "GeForce 200",
           "urls": [
-            "https://www.nvidia.com/object/macosx-cuda-4.0.50-driver.html",
-            "https://www.nvidia.com/object/macosx-cuda-3.1-driver.html",
-            "https://www.nvidia.com/object/macosx-cuda-3.1.17-driver.html",
-            "https://www.nvidia.com/object/macosx-cuda-5.0.17-driver.html",
-            "https://www.nvidia.com/object/macosx-cuda-4.2.7-driver.html"
+            "https://www.nvidia.com/object/macosx-cuda-5.0.36-driver.html",
+            "https://www.nvidia.com/object/macosx-cuda-4.1.29-driver.html",
+            "https://www.nvidia.com/object/macosx-cuda-3.2.17-driver.html",
+            "https://www.nvidia.com/object/macosx-cuda-4.2.10-driver.html",
+            "https://www.nvidia.com/object/macosx-cuda-3.1-driver.html"
           ]
         },
         {
@@ -331,8 +172,8 @@
         {
           "name": "GeForce 256",
           "urls": [
-            "https://www.nvidia.com/coolstuff/demos",
-            "https://www.nvidia.com/en-us/geforce/contests/winners"
+            "https://www.nvidia.com/en-us/geforce/contests/winners",
+            "https://www.nvidia.com/coolstuff/demos"
           ]
         },
         {
@@ -374,11 +215,21 @@
         {
           "name": "GeForce 50",
           "urls": [
-            "https://www.nvidia.com/en-gb/geforce/gaming-pcs",
-            "https://www.nvidia.com/en-us/geforce/contests/winners",
             "https://www.nvidia.com/nb-no/geforce/gaming-pcs",
-            "https://www.nvidia.com/tr-tr/geforce/gaming-pcs",
-            "https://www.nvidia.com/fi-fi/geforce/gaming-pcs"
+            "https://www.nvidia.com/nl-nl/geforce/gaming-pcs",
+            "https://www.nvidia.com/fi-fi/geforce/gaming-pcs",
+            "https://www.nvidia.com/en-us/geforce/contests/winners",
+            "https://www.nvidia.com/tr-tr/geforce/gaming-pcs"
+          ]
+        },
+        {
+          "name": "Geforce 5060 Ti",
+          "urls": [
+            "https://forums.developer.nvidia.com/hot",
+            "https://forums.developer.nvidia.com/tag/cuda/l/latest",
+            "https://forums.developer.nvidia.com/tag/boot",
+            "https://forums.developer.nvidia.com/tag/ubuntu",
+            "https://forums.developer.nvidia.com/tag/linux-driver"
           ]
         },
         {
@@ -408,11 +259,11 @@
         {
           "name": "GeForce 8",
           "urls": [
-            "https://www.nvidia.com/object/macosx-cuda-4.0.50-driver.html",
-            "https://www.nvidia.com/object/macosx-cuda-3.1-driver.html",
-            "https://www.nvidia.com/object/macosx-cuda-3.1.17-driver.html",
-            "https://www.nvidia.com/object/macosx-cuda-5.0.17-driver.html",
-            "https://www.nvidia.com/object/macosx-cuda-4.2.7-driver.html"
+            "https://www.nvidia.com/object/macosx-cuda-5.0.36-driver.html",
+            "https://www.nvidia.com/object/macosx-cuda-4.1.29-driver.html",
+            "https://www.nvidia.com/object/macosx-cuda-3.2.17-driver.html",
+            "https://www.nvidia.com/object/macosx-cuda-4.2.10-driver.html",
+            "https://www.nvidia.com/object/macosx-cuda-3.1-driver.html"
           ]
         },
         {
@@ -460,8 +311,8 @@
         {
           "name": "GeForce 900",
           "urls": [
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/en-us/geforce/technologies/reflex/supported-products"
+            "https://www.nvidia.com/en-us/geforce/technologies/reflex/supported-products",
+            "https://developer.nvidia.com/vulkan-driver"
           ]
         },
         {
@@ -497,135 +348,143 @@
         {
           "name": "GeForce GTX 10",
           "urls": [
-            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/en-au/geforce/products/10series/laptops",
-            "https://www.nvidia.com/nl-nl/geforce/technologies/vr",
-            "https://www.nvidia.com/tr-tr/contact",
-            "https://www.nvidia.com/en-us/geforce/technologies/whisper-mode"
+            "https://www.nvidia.com/da-dk/geforce/technologies/vr",
+            "https://www.nvidia.com/fi-fi/geforce/technologies/vr",
+            "https://www.nvidia.com/en-gb/geforce/products/10series/geforce-gtx-1080",
+            "https://www.nvidia.com/en-au/geforce/10-series",
+            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1080-ti"
           ]
         },
         {
           "name": "GeForce GTX 1050",
           "urls": [
             "https://www.nvidia.com/en-au/geforce/products/10series/laptops",
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://developer.nvidia.com/cuda/gpus/legacy",
-            "https://www.nvidia.com/en-au/geforce/10-series"
+            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1080",
+            "https://www.nvidia.com/pl-pl/geforce/products/10series/geforce-gtx-1080",
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
+            "https://www.nvidia.com/pl-pl/geforce/products/10series/geforce-gtx-1060"
           ]
         },
         {
           "name": "GeForce GTX 1050 Ti",
           "urls": [
-            "https://forums.developer.nvidia.com/tag/ubuntu",
             "https://www.nvidia.com/en-au/geforce/products/10series/laptops",
-            "https://developer.nvidia.com/vulkan-driver"
+            "https://developer.nvidia.com/vulkan-driver",
+            "https://forums.developer.nvidia.com/tag/ubuntu"
+          ]
+        },
+        {
+          "name": "GEFORCE GTX 1050ti",
+          "urls": [
+            "https://forums.developer.nvidia.com/tag/software-and-drivers",
+            "https://forums.developer.nvidia.com/tag/drivers"
           ]
         },
         {
           "name": "GeForce GTX 1060",
           "urls": [
-            "https://www.nvidia.com/en-au/geforce/products/10series/laptops",
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/Vulkan",
             "https://developer.nvidia.com/vulkan-driver",
-            "https://developer.nvidia.com/vulkan"
+            "https://developer.nvidia.com/cuda/gpus/legacy",
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
+            "https://news.developer.nvidia.com/vulkan-ray-tracing-production-drivers-and-quake-ii-rtx-cross-vendor-extensions",
+            "https://www.nvidia.com/en-au/geforce/10-series"
           ]
         },
         {
           "name": "GeForce GTX 1070",
           "urls": [
             "https://www.nvidia.com/en-au/geforce/products/10series/laptops",
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://developer.nvidia.com/cuda/gpus/legacy",
-            "https://www.nvidia.com/en-au/geforce/10-series"
+            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1080",
+            "https://www.nvidia.com/pl-pl/geforce/products/10series/geforce-gtx-1080",
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
+            "https://www.nvidia.com/pl-pl/geforce/products/10series/geforce-gtx-1060"
           ]
         },
         {
-          "name": "GeForce GTX 1070 Ti",
+          "name": "GEFORCE GTX 1070 Ti",
           "urls": [
             "https://developer.nvidia.com/vulkan-driver",
-            "https://developer.nvidia.com/cuda/gpus/legacy"
+            "https://developer.nvidia.com/cuda/gpus/legacy",
+            "https://www.nvidia.com/en-us/geforce/products/10series"
           ]
         },
         {
           "name": "GeForce GTX 1080",
           "urls": [
-            "https://www.nvidia.com/en-au/geforce/products/10series/laptops",
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
+            "https://developer.nvidia.com/geforce-development",
             "https://developer.nvidia.com/vulkan-driver",
             "https://developer.nvidia.com/cuda/gpus/legacy",
-            "https://www.nvidia.com/en-au/geforce/10-series"
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
+            "https://www.nvidia.com/en-gb/geforce/products/10series/geforce-gtx-1080"
           ]
         },
         {
           "name": "GeForce GTX 1080 Ti",
           "urls": [
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://developer.nvidia.com/cuda/gpus/legacy",
+            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1080",
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
             "https://www.nvidia.com/en-au/geforce/10-series",
-            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new"
+            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1080-ti",
+            "https://developer.nvidia.com/vulkan-driver"
           ]
         },
         {
           "name": "GeForce GTX 16",
           "urls": [
-            "https://www.nvidia.com/en-in/geforce/graphics-cards/16-series",
-            "https://www.nvidia.com/en-gb/geforce/graphics-cards/gtx-1650-super",
-            "https://developer.nvidia.com/vulkan-driver",
+            "https://www.nvidia.com/en-sg/geforce/graphics-cards/16-series",
+            "https://www.nvidia.com/en-us/geforce/drivers/results/260411",
             "https://www.nvidia.com/tr-tr/geforce/drivers/results/260492",
-            "https://www.nvidia.com/en-gb/geforce/graphics-cards/gtx-1660-super"
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/16-series",
+            "https://www.nvidia.com/en-in/geforce/graphics-cards/16-series"
           ]
         },
         {
           "name": "GeForce GTX 1630",
           "urls": [
-            "https://www.nvidia.com/en-gb/geforce/graphics-cards/16-series",
+            "https://www.nvidia.com/en-gb/geforce/drivers/results/260437",
             "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/en-gb/geforce/graphics-cards/gtx-1660-ti"
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
+            "https://www.nvidia.com/pl-pl/geforce/graphics-cards/16-series",
+            "https://www.nvidia.com/pl-pl/geforce/graphics-cards/gtx-1660-ti"
           ]
         },
         {
           "name": "GeForce GTX 1650",
           "urls": [
-            "https://www.nvidia.com/en-gb/geforce/graphics-cards/16-series",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
+            "https://www.nvidia.com/en-us/geforce/drivers/results/260411",
+            "https://forums.developer.nvidia.com/tag/machine-learning",
+            "https://forums.developer.nvidia.com/c/omniverse/platform/rtx-renderer/403/l/hot",
             "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/tr-tr/geforce/drivers/results/260492"
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/gtx-1650-super"
           ]
         },
         {
           "name": "GeForce GTX 1650 Ti",
           "urls": [
+            "https://developer.nvidia.com/cuda-gpus",
             "https://www.nvidia.com/en-us/geforce/drivers/results/260411",
             "https://www.nvidia.com/tr-tr/geforce/drivers/results/260492",
-            "https://developer.nvidia.com/cuda-gpus",
             "https://developer.nvidia.com/vulkan-driver"
           ]
         },
         {
           "name": "GeForce GTX 1660",
           "urls": [
-            "https://www.nvidia.com/en-gb/geforce/graphics-cards/16-series",
+            "https://www.nvidia.com/en-gb/geforce/drivers/results/260437",
             "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
             "https://developer.nvidia.com/Vulkan",
-            "https://developer.nvidia.com/vulkan-driver"
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/16-series"
           ]
         },
         {
           "name": "GeForce GTX 1660 Ti",
           "urls": [
-            "https://www.nvidia.com/en-gb/geforce/graphics-cards/16-series",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
+            "https://www.nvidia.com/en-us/geforce/drivers/results/260411",
             "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/tr-tr/geforce/drivers/results/260492"
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/gtx-1650-super",
+            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new"
           ]
         },
         {
@@ -655,9 +514,9 @@
         {
           "name": "GeForce GTX 285",
           "urls": [
-            "https://www.nvidia.com/object/macosx-cuda-3.1.17-driver.html",
             "https://www.nvidia.com/object/macosx-cuda-3.1-driver.html",
-            "https://developer.nvidia.com/cuda/gpus/legacy"
+            "https://developer.nvidia.com/cuda/gpus/legacy",
+            "https://www.nvidia.com/object/macosx-cuda-3.1.17-driver.html"
           ]
         },
         {
@@ -670,20 +529,20 @@
           "name": "GeForce GTX 30",
           "urls": [
             "https://www.nvidia.com/sv-se/geforce/gaming-laptops/gtx-1650",
-            "https://www.nvidia.com/sv-se/geforce/gaming-laptops/stem-degree",
-            "https://www.nvidia.com/sv-se/geforce/gaming-laptops/20-series",
+            "https://www.nvidia.com/sv-se/geforce/products/10series/laptops",
             "https://www.nvidia.com/sv-se/geforce/gaming-laptops",
-            "https://www.nvidia.com/sv-se/geforce/laptops"
+            "https://www.nvidia.com/sv-se/geforce/gaming-laptops/stem-degree",
+            "https://www.nvidia.com/sv-se/geforce/gaming-laptops/20-series"
           ]
         },
         {
           "name": "GeForce GTX 40",
           "urls": [
-            "https://www.nvidia.com/sv-se/geforce/campaigns/back-to-school",
             "https://www.nvidia.com/sv-se/geforce/gaming-laptops/gtx-1650",
+            "https://www.nvidia.com/sv-se/geforce/products/10series/laptops",
+            "https://www.nvidia.com/sv-se/geforce/gaming-laptops",
             "https://www.nvidia.com/sv-se/geforce/gaming-laptops/stem-degree",
-            "https://www.nvidia.com/sv-se/geforce/gaming-laptops/20-series",
-            "https://www.nvidia.com/sv-se/geforce/gaming-laptops"
+            "https://www.nvidia.com/sv-se/geforce/gaming-laptops/20-series"
           ]
         },
         {
@@ -721,10 +580,10 @@
           "name": "GeForce GTX 50",
           "urls": [
             "https://www.nvidia.com/sv-se/geforce/gaming-laptops/gtx-1650",
-            "https://www.nvidia.com/sv-se/geforce/gaming-laptops/stem-degree",
-            "https://www.nvidia.com/sv-se/geforce/gaming-laptops/20-series",
+            "https://www.nvidia.com/sv-se/geforce/products/10series/laptops",
             "https://www.nvidia.com/sv-se/geforce/gaming-laptops",
-            "https://www.nvidia.com/sv-se/geforce/laptops"
+            "https://www.nvidia.com/sv-se/geforce/gaming-laptops/stem-degree",
+            "https://www.nvidia.com/sv-se/geforce/gaming-laptops/20-series"
           ]
         },
         {
@@ -803,27 +662,27 @@
           "name": "GeForce GTX 745",
           "urls": [
             "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix",
-            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
-            "https://developer.nvidia.com/vulkan-driver"
-          ]
-        },
-        {
-          "name": "GeForce GTX 750",
-          "urls": [
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
             "https://developer.nvidia.com/vulkan-driver",
-            "https://developer.nvidia.com/cuda/gpus/legacy",
             "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
             "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix"
           ]
         },
         {
+          "name": "GeForce GTX 750",
+          "urls": [
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
+            "https://developer.nvidia.com/vulkan-driver",
+            "https://developer.nvidia.com/cuda/gpus/legacy",
+            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix",
+            "https://developer.nvidia.com/video-encode-decode-support-matrix"
+          ]
+        },
+        {
           "name": "GeForce GTX 750 Ti",
           "urls": [
-            "https://developer.nvidia.com/nsight-visual-studio-edition-4_0-new-features",
             "https://developer.nvidia.com/vulkan-driver",
-            "https://developer.nvidia.com/cuda/gpus/legacy"
+            "https://developer.nvidia.com/cuda/gpus/legacy",
+            "https://developer.nvidia.com/nsight-visual-studio-edition-4_0-new-features"
           ]
         },
         {
@@ -853,11 +712,11 @@
         {
           "name": "GeForce GTX 900",
           "urls": [
-            "https://www.nvidia.com/es-la/geforce/technologies/dx12",
-            "https://www.nvidia.com/sv-se/geforce/technologies/dx12",
             "https://www.nvidia.com/nl-nl/geforce/technologies/dx12",
-            "https://www.nvidia.com/en-gb/geforce/technologies/dx12",
-            "https://www.nvidia.com/coolstuff/demos"
+            "https://www.nvidia.com/nb-no/geforce/technologies/dx12",
+            "https://www.nvidia.com/es-la/geforce/technologies/dx12",
+            "https://www.nvidia.com/fi-fi/geforce/technologies/dx12",
+            "https://www.nvidia.com/en-gb/geforce/technologies/dx12"
           ]
         },
         {
@@ -878,8 +737,8 @@
           "name": "GeForce GTX 960 Ti",
           "urls": [
             "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix",
-            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new"
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
+            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix"
           ]
         },
         {
@@ -909,8 +768,8 @@
           "name": "GeForce GTX 980Ti",
           "urls": [
             "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix",
-            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new"
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
+            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix"
           ]
         },
         {
@@ -922,11 +781,11 @@
         {
           "name": "GeForce RTX 20",
           "urls": [
-            "https://www.nvidia.com/en-in/geforce/graphics-cards/rtx-2060",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/en-au/geforce/graphics-cards/rtx-2060",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/en-gb/geforce/technologies/dx12"
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series",
+            "https://www.nvidia.com/en-eu/geforce/drivers",
+            "https://www.nvidia.com/en-us/geforce/drivers",
+            "https://www.nvidia.com/en-au/geforce/graphics-cards/rtx-2080-super",
+            "https://www.nvidia.com/en-us/geforce/drivers/results/260411"
           ]
         },
         {
@@ -938,87 +797,87 @@
         {
           "name": "GeForce RTX 2050",
           "urls": [
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/tr-tr/geforce/drivers/results/260492",
             "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260411"
+            "https://www.nvidia.com/en-us/geforce/drivers/results/260411",
+            "https://www.nvidia.com/tr-tr/geforce/drivers/results/260492",
+            "https://developer.nvidia.com/vulkan-driver",
+            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix"
           ]
         },
         {
           "name": "GeForce RTX 2060",
           "urls": [
-            "https://www.nvidia.com/en-au/design-visualization/software/broadcast-app?ncid=pa-srch-goog-654707",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/es-la/design-visualization/software/broadcast-app",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/cs-cz/geforce/broadcasting/broadcast-app/faq"
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/en-in/design-visualization/software/broadcast-app",
+            "https://www.nvidia.com/en-in/geforce/guides/broadcast-app-setup-guide",
+            "https://www.nvidia.com/en-gb/design-visualization/software/broadcast-app?ncid=no-ncid",
+            "https://www.nvidia.com/en-us/geforce/drivers/results/260411"
           ]
         },
         {
           "name": "GeForce RTX 2070",
           "urls": [
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/en-gb/geforce/drivers/results/260437",
             "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://www.nvidia.com/en-gb/geforce/graphics-cards/rtx-2070-super",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/tr-tr/geforce/drivers/results/260492"
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
+            "https://www.nvidia.com/en-us/geforce/drivers/results/260411"
           ]
         },
         {
           "name": "GeForce RTX 2080",
           "urls": [
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/en-gb/geforce/drivers/results/260437",
             "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/rtx-2080-super",
-            "https://www.nvidia.com/en-gb/geforce/graphics-cards/rtx-2080-super"
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
+            "https://www.nvidia.com/en-us/geforce/drivers/results/260411"
           ]
         },
         {
           "name": "GeForce RTX 2080 Ti",
           "urls": [
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/object/manufacturer_warranty.html",
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://www.nvidia.com/en-au/geforce/graphics-cards/rtx-2060",
-            "https://developer.nvidia.com/vulkan-driver"
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/en-gb/geforce/drivers/results/260437",
+            "https://www.nvidia.com/en-sg/geforce/graphics-cards/rtx-2060-super",
+            "https://www.nvidia.com/en-us/geforce/20-series",
+            "https://www.nvidia.com/en-us/geforce/drivers/results/260405"
           ]
         },
         {
           "name": "GeForce RTX 2080Ti",
           "urls": [
             "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix",
-            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new"
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
+            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix"
           ]
         },
         {
           "name": "GeForce RTX 30",
           "urls": [
-            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/de-at/geforce/gaming-laptops",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/sv-se/geforce/technologies/dx12",
-            "https://www.nvidia.com/da-dk/geforce/news"
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/rtx-2060",
+            "https://www.nvidia.com/en-au/geforce/gaming-laptops/20-series",
+            "https://www.nvidia.com/en-gb/geforce/technologies/directx-12-ultimate",
+            "https://www.nvidia.com/en-us/geforce/laptops",
+            "https://www.nvidia.com/sv-se/geforce/news"
           ]
         },
         {
           "name": "GeForce RTX 3050",
           "urls": [
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/nl-nl/geforce/graphics-cards/compare",
-            "https://developer.nvidia.com/vulkan-driver",
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/fi-fi/geforce/graphics-cards/30-series",
+            "https://www.nvidia.com/tr-tr/geforce/graphics-cards/compare",
             "https://www.nvidia.com/en-us/geforce/drivers/results/260411",
-            "https://www.nvidia.com/de-at/geforce/graphics-cards/compare"
+            "https://developer.nvidia.com/vulkan-driver"
           ]
         },
         {
           "name": "GeForce RTX 3050 Ti",
           "urls": [
-            "https://www.nvidia.com/en-us/geforce/laptops/compare/30-series",
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/vulkan-driver",
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
+            "https://www.nvidia.com/en-us/geforce/drivers/results/260411",
             "https://www.nvidia.com/tr-tr/geforce/drivers/results/260492",
             "https://www.nvidia.com/da-dk/geforce/laptops/compare/30-series"
           ]
@@ -1026,326 +885,259 @@
         {
           "name": "GeForce RTX 3060",
           "urls": [
-            "https://www.nvidia.com/pl-pl/geforce/graphics-cards/30-series/rtx-3060-3060ti",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/sv-se/geforce/technologies/dx12",
-            "https://www.nvidia.com/sv-se/geforce/laptops/30-series",
-            "https://developer.nvidia.com/vulkan-driver"
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://forums.developer.nvidia.com/tag/debugging-and-troubleshooting",
+            "https://www.nvidia.com/es-la/geforce/laptops/30-series",
+            "https://www.nvidia.com/nl-nl/geforce/laptops/30-series",
+            "https://www.nvidia.com/pl-pl/geforce/graphics-cards/30-series/rtx-3060-ti"
           ]
         },
         {
           "name": "GeForce RTX 3060 Ti",
           "urls": [
-            "https://www.nvidia.com/pl-pl/geforce/graphics-cards/30-series/rtx-3060-3060ti",
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/en-gb/geforce/drivers/results/260437",
+            "https://www.nvidia.com/en-gb/geforce/technologies/4k",
             "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/sv-se/geforce/technologies/dx12",
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://www.nvidia.com/pl-pl/geforce/graphics-cards/30-series/rtx-3060-ti"
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new"
           ]
         },
         {
           "name": "GeForce RTX 3070",
           "urls": [
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/sv-se/geforce/technologies/dx12",
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/en-gb/geforce/technologies/4k",
+            "https://www.nvidia.com/en-us/geforce/drivers/results/260411",
             "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/en-gb/geforce/technologies/dx12",
             "https://www.nvidia.com/pl-pl/geforce/graphics-cards/30-series/rtx-3070"
           ]
         },
         {
           "name": "GeForce RTX 3070 Ti",
           "urls": [
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/sv-se/geforce/technologies/dx12",
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/en-gb/geforce/technologies/4k",
+            "https://www.nvidia.com/en-us/geforce/drivers/results/260411",
             "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/en-gb/geforce/technologies/dx12",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260411"
+            "https://www.nvidia.com/en-sg/geforce/graphics-cards/30-series/rtx-3070"
           ]
         },
         {
-          "name": "GeForce RTX 3080",
+          "name": "Geforce RTX 3080",
           "urls": [
-            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/sv-se/geforce/technologies/dx12",
-            "https://www.nvidia.com/sv-se/geforce/graphics-cards/30-series/rtx-3080-3080ti",
-            "https://developer.nvidia.com/vulkan-driver"
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/tr-tr/geforce/20-series/rtx-for-broadcasting",
+            "https://www.nvidia.com/fi-fi/geforce/graphics-cards/30-series",
+            "https://www.nvidia.com/en-gb/geforce/technologies/4k",
+            "https://www.nvidia.com/pl-pl/geforce/broadcasting"
           ]
         },
         {
           "name": "GeForce RTX 3080 Ti",
           "urls": [
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/sv-se/geforce/technologies/dx12",
-            "https://www.nvidia.com/en-us/geforce/laptops/compare/30-series",
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/vulkan-driver"
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/nl-nl/geforce/technologies/dx12",
+            "https://www.nvidia.com/en-gb/geforce/drivers/results/260437",
+            "https://www.nvidia.com/en-gb/geforce/technologies/4k",
+            "https://www.nvidia.com/en-us/geforce/drivers/results/260405"
           ]
         },
         {
           "name": "GeForce RTX 3090",
           "urls": [
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/sv-se/geforce/technologies/dx12",
-            "https://www.nvidia.com/tr-tr/geforce/tags",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/cs-cz/geforce/technologies/dx12"
-          ]
-        },
-        {
-          "name": "GeForce RTX 3090 TI",
-          "urls": [
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix",
-            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new"
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/en-gb/geforce/technologies/4k",
+            "https://www.nvidia.com/fi-fi/geforce/graphics-cards/30-series",
+            "https://forums.developer.nvidia.com/tag/installation",
+            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/30-series/rtx-3090"
           ]
         },
         {
           "name": "GeForce RTX 3090 Ti",
           "urls": [
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/en-gb/geforce/drivers/results/260437",
             "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/en-au/geforce/graphics-cards/30-series/rtx-3090",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/fr-be/geforce/graphics-cards/30-series/rtx-3090",
-            "https://developer.nvidia.com/cuda-gpus"
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
+            "https://www.nvidia.com/en-au/geforce/graphics-cards/30-series/rtx-3090"
           ]
         },
         {
           "name": "GeForce RTX 40",
           "urls": [
-            "https://www.nvidia.com/nb-no/geforce/pc-gaming-deals",
-            "https://www.nvidia.com/de-at/geforce/gaming-laptops",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/tr-tr/geforce/tags",
-            "https://www.nvidia.com/da-dk/geforce/news"
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/40-series",
+            "https://www.nvidia.com/en-in/geforce/gaming-laptops",
+            "https://www.nvidia.com/da-dk/geforce/graphics-cards/40-series/rtx-4060-4060ti",
+            "https://www.nvidia.com/da-dk/geforce/gaming-laptops/max-q-technologies",
+            "https://www.nvidia.com/en-au/geforce/gaming-laptops/20-series"
           ]
         },
         {
           "name": "GeForce RTX 4050",
           "urls": [
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/vulkan-driver",
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/cs-cz/geforce/laptops/40-series",
             "https://www.nvidia.com/tr-tr/geforce/laptops/40-series",
-            "https://www.nvidia.com/fi-fi/geforce/laptops/40-series",
-            "https://www.nvidia.com/tr-tr/geforce/drivers/results/260492"
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
+            "https://www.nvidia.com/de-at/geforce/laptops/40-series"
           ]
         },
         {
           "name": "GeForce RTX 4060",
           "urls": [
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/40-series/rtx-4060-4060ti",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/es-la/geforce/graphics-cards/40-series",
-            "https://www.nvidia.com/en-gb/ai-on-rtx"
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series",
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/tr-tr/geforce/drivers/results/260460",
+            "https://www.nvidia.com/en-in/ai-on-rtx?ncid=pa-srch-goog-654707",
+            "https://www.nvidia.com/ro-ro/ai-on-rtx"
           ]
         },
         {
           "name": "GeForce RTX 4060 Ti",
           "urls": [
-            "https://www.nvidia.com/en-us/geforce/technologies/dlss",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/en-me/geforce/technologies/dlss",
-            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/40-series/rtx-4060-4060ti",
-            "https://developer.nvidia.com/vulkan-driver"
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series",
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/tr-tr/geforce/drivers/results/260460",
+            "https://www.nvidia.com/da-dk/geforce/graphics-cards/40-series/rtx-4060-4060ti",
+            "https://www.nvidia.com/cs-cz/geforce/graphics-cards/40-series"
           ]
         },
         {
           "name": "GeForce RTX 4060TI",
           "urls": [
             "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix",
-            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new"
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
+            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix"
           ]
         },
         {
           "name": "GeForce RTX 4070",
           "urls": [
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/es-la/geforce/graphics-cards/40-series",
-            "https://www.nvidia.com/da-dk/geforce/campaigns/cyberpunk-2077",
-            "https://www.nvidia.com/tr-tr/geforce/drivers/results/260460"
-          ]
-        },
-        {
-          "name": "GeForce RTX 4070 TI",
-          "urls": [
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix",
-            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new"
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series",
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/40-series",
+            "https://www.nvidia.com/tr-tr/geforce/drivers/results/260460",
+            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/40-series/rtx-4070-family"
           ]
         },
         {
           "name": "GeForce RTX 4070 Ti",
           "urls": [
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/es-la/geforce/graphics-cards/40-series",
-            "https://www.nvidia.com/da-dk/geforce/campaigns/cyberpunk-2077",
-            "https://www.nvidia.com/tr-tr/geforce/drivers/results/260460"
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series",
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/40-series",
+            "https://www.nvidia.com/tr-tr/geforce/drivers/results/260460",
+            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/40-series/rtx-4070-family"
           ]
         },
         {
           "name": "GeForce RTX 4070ti",
           "urls": [
-            "https://www.nvidia.com/sv-se/geforce/graphics-cards/40-series/rtx-4070-family",
-            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4070-family",
-            "https://www.nvidia.com/fi-fi/geforce/graphics-cards/40-series/rtx-4070-family",
             "https://www.nvidia.com/ro-ro/geforce/graphics-cards/40-series/rtx-4070-family",
-            "https://www.nvidia.com/tr-tr/geforce/graphics-cards/40-series/rtx-4070-family"
+            "https://www.nvidia.com/pl-pl/geforce/graphics-cards/40-series/rtx-4070-family",
+            "https://www.nvidia.com/fi-fi/geforce/graphics-cards/40-series/rtx-4070-family",
+            "https://www.nvidia.com/da-dk/geforce/graphics-cards/40-series/rtx-4070-family",
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/40-series/rtx-4070-family"
           ]
         },
         {
           "name": "GeForce RTX 4080",
           "urls": [
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/tr-tr/geforce/tags",
-            "https://www.nvidia.com/da-dk/geforce/news",
-            "https://www.nvidia.com/cs-cz/geforce/broadcasting/broadcast-app/faq",
-            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/40-series/rtx-4080-family"
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/40-series",
+            "https://www.nvidia.com/fr-be/geforce/tags?tag=ray-tracing",
+            "https://www.nvidia.com/sv-se/geforce/news",
+            "https://www.nvidia.com/nb-no/geforce/rtx",
+            "https://developer.nvidia.com/vulkan-driver"
           ]
         },
         {
           "name": "GeForce RTX 4090",
           "urls": [
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/tr-tr/geforce/tags",
-            "https://www.nvidia.com/da-dk/geforce/news",
-            "https://www.nvidia.com/fr-be/geforce/technologies/8k",
-            "https://www.nvidia.com/en-in/ai-on-rtx?ncid=pa-srch-goog-654707"
+            "https://www.nvidia.com/da-dk/geforce/graphics-cards/40-series/rtx-4060-4060ti",
+            "https://www.nvidia.com/fr-be/geforce/tags?tag=ray-tracing",
+            "https://www.nvidia.com/sv-se/geforce/news",
+            "https://www.nvidia.com/nb-no/geforce/rtx",
+            "https://developer.nvidia.com/vulkan-driver"
           ]
         },
         {
           "name": "GeForce RTX 50",
           "urls": [
-            "https://www.nvidia.com/de-at/geforce/geforce-experience",
-            "https://www.nvidia.com/nl-nl/geforce/graphics-cards/compare",
-            "https://www.nvidia.com/da-dk/ai-on-rtx",
-            "https://www.nvidia.com/da-dk/geforce/technologies/dx12",
-            "https://www.nvidia.com/en-gb/geforce/geforce-experience"
+            "https://www.nvidia.com/en-in/geforce/geforce-experience/shadowplay",
+            "https://www.nvidia.com/da-dk/geforce/gaming-laptops/max-q-technologies",
+            "https://www.nvidia.com/nb-no/geforce/geforce-experience",
+            "https://www.nvidia.com/fr-be/geforce/geforce-experience",
+            "https://www.nvidia.com/nb-no/geforce/broadcasting/broadcast-app/release-notes"
           ]
         },
         {
           "name": "GeForce RTX 5050",
           "urls": [
-            "https://www.nvidia.com/en-gb/geforce/graphics-cards/50-series/rtx-5050",
-            "https://www.nvidia.com/en-sg/geforce/graphics-cards/50-series/rtx-5050",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/ro-ro/geforce/buy",
-            "https://www.nvidia.com/en-me/geforce/graphics-cards/50-series"
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/tr-tr/geforce/drivers/results/260460",
+            "https://www.nvidia.com/en-us/geforce/drivers/results/260411",
+            "https://www.nvidia.com/nb-no/geforce/graphics-cards/50-series",
+            "https://www.nvidia.com/en-gb/geforce/laptops/compare"
           ]
         },
         {
           "name": "GeForce RTX 5060",
           "urls": [
-            "https://www.nvidia.com/pl-pl/geforce/graphics-cards/50-series/rtx-5060-family",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/ro-ro/geforce/buy",
-            "https://www.nvidia.com/en-me/geforce/graphics-cards/50-series",
-            "https://www.nvidia.com/nl-nl/geforce/campaigns/back-to-school"
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/tr-tr/geforce/drivers/results/260460",
+            "https://www.nvidia.com/cs-cz/geforce/graphics-cards/50-series/rtx-5060-family",
+            "https://www.nvidia.com/en-us/geforce/drivers/results/260411",
+            "https://www.nvidia.com/nb-no/geforce/graphics-cards/50-series"
           ]
         },
         {
           "name": "GeForce RTX 5060 Ti",
           "urls": [
-            "https://www.nvidia.com/pl-pl/geforce/graphics-cards/50-series/rtx-5060-family",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/ro-ro/geforce/buy",
-            "https://www.nvidia.com/en-me/geforce/graphics-cards/50-series",
-            "https://developer.nvidia.com/vulkan-driver"
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/tr-tr/geforce/drivers/results/260460",
+            "https://www.nvidia.com/cs-cz/geforce/graphics-cards/50-series/rtx-5060-family",
+            "https://www.nvidia.com/nb-no/geforce/graphics-cards/50-series",
+            "https://www.nvidia.com/da-dk/geforce/graphics-cards/50-series/rtx-5060-family"
           ]
         },
         {
           "name": "GeForce RTX 5070",
           "urls": [
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/ro-ro/geforce/buy",
-            "https://www.nvidia.com/en-me/geforce/graphics-cards/50-series",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/fi-fi/geforce/graphics-cards/50-series"
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/tr-tr/geforce/drivers/results/260460",
+            "https://www.nvidia.com/fi-fi/geforce/graphics-cards/50-series/rtx-5070-family",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family",
+            "https://www.nvidia.com/en-us/geforce/drivers/results/260411"
           ]
         },
         {
           "name": "GeForce RTX 5070 Ti",
           "urls": [
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/ro-ro/geforce/buy",
-            "https://www.nvidia.com/en-me/geforce/graphics-cards/50-series",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/fi-fi/geforce/graphics-cards/50-series"
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/tr-tr/geforce/drivers/results/260460",
+            "https://www.nvidia.com/fi-fi/geforce/graphics-cards/50-series/rtx-5070-family",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family",
+            "https://www.nvidia.com/en-us/geforce/drivers/results/260411"
           ]
         },
         {
           "name": "GeForce RTX 5080",
           "urls": [
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/50-series",
-            "https://www.nvidia.com/nb-no/geforce/broadcasting/broadcast-app/release-notes",
-            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series",
-            "https://www.nvidia.com/tr-tr/geforce/graphics-cards/50-series/rtx-5080"
+            "https://www.nvidia.com/nl-nl?ncid=em-anno-148913",
+            "https://www.nvidia.com/fr-be/geforce/graphics-cards/50-series/rtx-5080",
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5080",
+            "https://www.nvidia.com/en-au/geforce/tags",
+            "https://developer.nvidia.com/vulkan-driver"
           ]
         },
         {
           "name": "GeForce RTX 5090",
           "urls": [
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/cs-cz/geforce/broadcasting/broadcast-app/faq",
-            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/50-series",
-            "https://www.nvidia.com/sv-se/geforce/gaming-pcs",
-            "https://www.nvidia.com/en-gb/geforce/rtx"
-          ]
-        },
-        {
-          "name": "Geforce 5060 Ti",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/cuda",
-            "https://forums.developer.nvidia.com/hot",
-            "https://forums.developer.nvidia.com/tag/boot",
-            "https://forums.developer.nvidia.com/tag/ubuntu",
-            "https://forums.developer.nvidia.com/tag/cuda/l/hot"
-          ]
-        },
-        {
-          "name": "Geforce GTX 10",
-          "urls": [
-            "https://www.nvidia.com/en-us/geforce/products/10series"
-          ]
-        },
-        {
-          "name": "Geforce RTX 30",
-          "urls": [
-            "https://www.nvidia.com/nl-nl/ai-on-rtx",
-            "https://www.nvidia.com/nl-nl/geforce/campaigns/cyberpunk-2077"
-          ]
-        },
-        {
-          "name": "Geforce RTX 3060",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/debugging-and-troubleshooting"
-          ]
-        },
-        {
-          "name": "Geforce RTX 3070",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/rapids"
-          ]
-        },
-        {
-          "name": "Geforce RTX 3080",
-          "urls": [
-            "https://www.nvidia.com/en-me/geforce/broadcasting",
-            "https://www.nvidia.com/en-gb/geforce/broadcasting",
-            "https://www.nvidia.com/en-sg/geforce/broadcasting?ncid=no-ncid",
-            "https://www.nvidia.com/en-in/geforce/broadcasting",
-            "https://www.nvidia.com/en-in/geforce/broadcasting?ncid=pa-srch-goog-654707"
-          ]
-        },
-        {
-          "name": "Geforce RTX 4070",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/deep-learning"
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family",
+            "https://www.nvidia.com/fr-be/geforce/graphics-cards/50-series/rtx-5080",
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5080",
+            "https://www.nvidia.com/en-au/geforce/tags",
+            "https://developer.nvidia.com/vulkan-driver"
           ]
         },
         {
@@ -1361,107 +1153,71 @@
           ]
         },
         {
-          "name": "QUADRO RTX 3000",
-          "urls": [
-            "https://developer.nvidia.com/cuda-gpus"
-          ]
-        },
-        {
-          "name": "QUADRO RTX 4000",
-          "urls": [
-            "https://developer.nvidia.com/cuda-gpus"
-          ]
-        },
-        {
-          "name": "QUADRO RTX 5000",
-          "urls": [
-            "https://developer.nvidia.com/cuda-gpus"
-          ]
-        },
-        {
-          "name": "QUADRO RTX 6000",
-          "urls": [
-            "https://developer.nvidia.com/cuda-gpus"
-          ]
-        },
-        {
-          "name": "QUADRO RTX 8000",
-          "urls": [
-            "https://developer.nvidia.com/cuda-gpus"
-          ]
-        },
-        {
           "name": "Quadro RTX 3000",
           "urls": [
-            "https://www.nvidia.com/en-au/design-visualization/software/broadcast-app?ncid=pa-srch-goog-654707",
-            "https://www.nvidia.com/es-la/design-visualization/software/broadcast-app",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/cs-cz/geforce/broadcasting/broadcast-app/faq",
-            "https://www.nvidia.com/en-us/geforce/guides/broadcast-app-setup-guide"
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/en-in/design-visualization/software/broadcast-app",
+            "https://www.nvidia.com/en-in/geforce/guides/broadcast-app-setup-guide",
+            "https://www.nvidia.com/en-au/products/workstations/resources/rtx-embedded",
+            "https://www.nvidia.com/en-gb/design-visualization/software/broadcast-app?ncid=no-ncid"
           ]
         },
         {
           "name": "Quadro RTX 4000",
           "urls": [
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
             "https://forums.developer.nvidia.com/c/omniverse/platform/397/l/hot",
             "https://forums.developer.nvidia.com/c/omniverse/platform/rtx-renderer/403",
-            "https://forums.developer.nvidia.com/c/omniverse/platform/rtx-renderer/403/l/hot",
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/vulkan-driver"
+            "https://forums.developer.nvidia.com/c/omniverse/platform/rtx-renderer/403/l/hot"
           ]
         },
         {
           "name": "Quadro RTX 5000",
           "urls": [
-            "https://www.nvidia.com/en-eu/products/workstations/resources/rtx-embedded?ncid=no-ncid",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/en-sg/products/workstations/resources/rtx-embedded",
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/es-la/products/workstations/nvlink-bridges",
             "https://www.nvidia.com/en-us/design-visualization/resources/rtx-embedded",
-            "https://www.nvidia.com/en-us/products/workstations/nvlink-bridges"
+            "https://www.nvidia.com/en-us/design-visualization/solutions/quadro-sync",
+            "https://www.nvidia.com/en-au/products/workstations/resources/rtx-embedded"
           ]
         },
         {
           "name": "Quadro RTX 6000",
           "urls": [
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://docs.nvidia.com/networking/display/COKAN10/Release+Notes",
-            "https://docs.nvidia.com/vgpu/gpus-supported-by-vgpu.html",
-            "https://www.nvidia.com/en-us/products/workstations/nvlink-bridges"
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/es-la/products/workstations/nvlink-bridges",
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
+            "https://www.nvidia.com/en-us/products/workstations/nvlink-bridges",
+            "https://forums.developer.nvidia.com/tag/kubernetes"
           ]
         },
         {
           "name": "Quadro RTX 8000",
           "urls": [
-            "https://forums.developer.nvidia.com/tag/tensorflow",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://developer.nvidia.com/gpudirectforvideo",
-            "https://forums.developer.nvidia.com/c/accelerated-computing/cuda/cuda-on-windows-subsystem-for-linux/303",
-            "http://resources.nvidia.com/en-us-xgboost"
-          ]
-        },
-        {
-          "name": "Quadro rtx 5000",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/revit"
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/es-la/products/workstations/nvlink-bridges",
+            "http://resources.nvidia.com/en-us-xgboost",
+            "https://www.nvidia.com/en-us/products/workstations/nvlink-bridges",
+            "https://docs.nvidia.com/vgpu/gpus-supported-by-vgpu.html"
           ]
         },
         {
           "name": "RTX 1",
           "urls": [
             "https://developer.nvidia.com/tensorrt-rtx",
-            "https://www.nvidia.com/es-la/products/workstations/quadro",
-            "https://news.developer.nvidia.com/vulkan-ray-tracing-production-drivers-and-quake-ii-rtx-cross-vendor-extensions"
+            "https://news.developer.nvidia.com/vulkan-ray-tracing-production-drivers-and-quake-ii-rtx-cross-vendor-extensions",
+            "https://www.nvidia.com/es-la/products/workstations/quadro"
           ]
         },
         {
           "name": "RTX 1000",
           "urls": [
-            "https://www.nvidia.com/es-la/design-visualization/solutions/vr-ready-systems",
-            "https://www.nvidia.com/en-gb/design-visualization/solutions/vr-ready-systems",
-            "https://www.nvidia.com/en-us/design-visualization/solutions/vr-ready-systems",
             "https://www.nvidia.com/en-sg/design-visualization/solutions/vr-ready-systems",
-            "https://developer.nvidia.com/video-encode-decode-support-matrix"
+            "https://www.nvidia.com/en-gb/design-visualization/solutions/vr-ready-systems",
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
+            "https://www.nvidia.com/es-la/design-visualization/solutions/vr-ready-systems",
+            "https://developer.nvidia.com/vulkan-driver"
           ]
         },
         {
@@ -1471,23 +1227,29 @@
           ]
         },
         {
+          "name": "rtx 2",
+          "urls": [
+            "https://forums.developer.nvidia.com/KB"
+          ]
+        },
+        {
           "name": "RTX 20",
           "urls": [
-            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/nl-nl/geforce/graphics-cards/compare",
-            "https://www.nvidia.com/en-gb/geforce/technologies/dx12",
-            "https://www.nvidia.com/object/index-paraview-cluster-plugin-download.html?ncid=no-ncid"
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family",
+            "https://www.nvidia.com/en-us/geforce/drivers",
+            "https://www.nvidia.com/tr-tr/geforce/graphics-cards/compare",
+            "https://www.nvidia.com/da-dk/geforce/graphics-cards/40-series/rtx-4060-4060ti",
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5080"
           ]
         },
         {
           "name": "RTX 2000",
           "urls": [
-            "https://www.nvidia.com/en-gb/products/workstations/rtx-2000",
-            "https://www.nvidia.com/en-us/design-visualization/solutions/vr-ready-systems",
-            "https://www.nvidia.com/en-sg/design-visualization/solutions/vr-ready-systems",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/en-gb/products/workstations/professional-desktop-gpus?ncid=no-ncid"
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/en-au/industries/smart-cities/partners",
+            "https://www.nvidia.com/en-gb/products/workstations/product-literature",
+            "https://resources.nvidia.com/en-us-briefcase-for-datasheets/proviz-rtx-2000-ada",
+            "https://developer.nvidia.com/vulkan-driver"
           ]
         },
         {
@@ -1505,318 +1267,273 @@
         {
           "name": "RTX 2050",
           "urls": [
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/tr-tr/geforce/drivers/results/260492",
             "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260411"
+            "https://www.nvidia.com/en-us/geforce/drivers/results/260411",
+            "https://www.nvidia.com/tr-tr/geforce/drivers/results/260492",
+            "https://developer.nvidia.com/vulkan-driver",
+            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix"
           ]
         },
         {
           "name": "RTX 2060",
           "urls": [
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/es-la/design-visualization/software/broadcast-app",
-            "https://www.nvidia.com/cs-cz/geforce/broadcasting/broadcast-app/faq",
-            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/50-series",
-            "https://www.nvidia.com/en-gb/geforce/technologies/dx12"
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family",
+            "https://www.nvidia.com/da-dk/geforce/graphics-cards/40-series/rtx-4060-4060ti",
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5080",
+            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/30-series/rtx-3060-3060ti",
+            "https://www.nvidia.com/en-sg/geforce/guides/broadcast-app-setup-guide"
           ]
         },
         {
           "name": "RTX 2060 SUPER",
           "urls": [
-            "https://www.nvidia.com/en-in/geforce/graphics-cards/50-series/rtx-5090",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/en-me/geforce/graphics-cards/50-series",
-            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5090",
-            "https://developer.nvidia.com/vulkan-driver"
-          ]
-        },
-        {
-          "name": "RTX 2060 Super",
-          "urls": [
-            "https://www.nvidia.com/en-au/geforce/graphics-cards/rtx-2060",
-            "https://www.nvidia.com/en-us/geforce/20-series",
-            "https://www.nvidia.com/en-gb/geforce/technologies/dx12",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series",
+            "https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-app",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family",
             "https://www.nvidia.com/en-au/geforce/graphics-cards/rtx-2080-super",
-            "https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-app"
+            "https://www.nvidia.com/da-dk/geforce/graphics-cards/40-series/rtx-4060-4060ti"
           ]
         },
         {
           "name": "RTX 2070",
           "urls": [
-            "https://www.nvidia.com/en-in/geforce/graphics-cards/50-series/rtx-5090",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/en-au/geforce/graphics-cards/rtx-2060",
-            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5090",
-            "https://developer.nvidia.com/vulkan-driver"
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series",
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-app",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family",
+            "https://www.nvidia.com/en-au/geforce/graphics-cards/rtx-2080-super"
           ]
         },
         {
           "name": "RTX 2070 SUPER",
           "urls": [
-            "https://www.nvidia.com/en-in/geforce/graphics-cards/50-series/rtx-5090",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5090",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/es-la/geforce/graphics-cards/40-series"
-          ]
-        },
-        {
-          "name": "RTX 2070 Super",
-          "urls": [
-            "https://www.nvidia.com/en-au/geforce/graphics-cards/rtx-2060",
-            "https://www.nvidia.com/broadcast-app",
-            "https://www.nvidia.com/en-us/geforce/20-series",
-            "https://www.nvidia.com/en-gb/geforce/technologies/dx12",
-            "https://www.nvidia.com/en-au/geforce/graphics-cards/rtx-2080-super"
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series",
+            "https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-app",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family",
+            "https://www.nvidia.com/en-au/geforce/graphics-cards/rtx-2080-super",
+            "https://www.nvidia.com/pl-pl/geforce/graphics-cards/40-series/rtx-4070-family"
           ]
         },
         {
           "name": "RTX 2080",
           "urls": [
-            "https://www.nvidia.com/en-in/geforce/graphics-cards/50-series/rtx-5090",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/en-au/geforce/graphics-cards/rtx-2060",
-            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5090",
-            "https://developer.nvidia.com/vulkan-driver"
-          ]
-        },
-        {
-          "name": "RTX 2080 SUPER",
-          "urls": [
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/pl-pl/geforce/graphics-cards/40-series/rtx-4080-family",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/es-la/geforce/graphics-cards/40-series",
-            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4080-family"
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-app",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family",
+            "https://www.nvidia.com/en-au/geforce/graphics-cards/rtx-2080-super",
+            "https://www.nvidia.com/en-us/geforce/drivers/results/260411"
           ]
         },
         {
           "name": "RTX 2080 Super",
           "urls": [
-            "https://www.nvidia.com/en-au/geforce/graphics-cards/rtx-2060",
-            "https://www.nvidia.com/broadcast-app",
-            "https://www.nvidia.com/en-us/geforce/20-series",
-            "https://www.nvidia.com/en-gb/geforce/technologies/dx12",
-            "https://www.nvidia.com/en-au/geforce/graphics-cards/rtx-2080-super"
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series",
+            "https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-app",
+            "https://www.nvidia.com/en-au/geforce/graphics-cards/rtx-2080-super",
+            "https://www.nvidia.com/en-us/geforce/drivers/results/260411",
+            "https://www.nvidia.com/cs-cz/geforce/graphics-cards/40-series"
           ]
         },
         {
           "name": "RTX 2080 Ti",
           "urls": [
-            "https://www.nvidia.com/en-in/geforce/graphics-cards/50-series/rtx-5090",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/en-au/geforce/graphics-cards/rtx-2060",
-            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5090",
-            "https://developer.nvidia.com/vulkan-driver"
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-app",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family",
+            "https://www.nvidia.com/en-au/geforce/graphics-cards/rtx-2080-super",
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5080"
           ]
         },
         {
           "name": "RTX 2080Ti",
           "urls": [
             "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix",
-            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new"
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
+            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix"
           ]
         },
         {
           "name": "RTX 3",
           "urls": [
+            "https://forums.developer.nvidia.com/tag/rtx",
             "https://www.nvidia.com/cs-cz/geforce/tags?tag=nvidia-dlss",
-            "https://www.nvidia.com/cs-cz/geforce/tags?tag=shader-execution-reordering",
+            "https://www.nvidia.com/cs-cz/geforce/tags?tag=nvidia-racer-rtx",
             "https://www.nvidia.com/cs-cz/geforce/tags?tag=featured-stories",
-            "https://www.nvidia.com/cs-cz/geforce/tags?tag=nvidia-reflex",
-            "https://www.nvidia.com/cs-cz/geforce/news"
+            "https://www.nvidia.com/cs-cz/geforce/rtx-remix"
           ]
         },
         {
           "name": "RTX 30",
           "urls": [
-            "https://www.nvidia.com/nb-no/geforce/pc-gaming-deals",
-            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/de-at/geforce/geforce-experience",
-            "https://www.nvidia.com/nl-nl/geforce/graphics-cards/compare",
-            "https://www.nvidia.com/en-gb/geforce/tags?tag=featured-stories"
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/40-series",
+            "https://www.nvidia.com/nb-no/geforce/tags?tag=geforce-experience",
+            "https://www.nvidia.com/da-dk/geforce/gaming-laptops/max-q-technologies",
+            "https://www.nvidia.com/en-gb/geforce/tags?tag=super-resolution",
+            "https://www.nvidia.com/tr-tr/geforce/gaming-pcs"
           ]
         },
         {
           "name": "RTX 3000",
           "urls": [
-            "https://www.nvidia.com/en-au/design-visualization/software/broadcast-app?ncid=pa-srch-goog-654707",
-            "https://www.nvidia.com/es-la/design-visualization/software/broadcast-app",
-            "https://www.nvidia.com/en-us/design-visualization/solutions/vr-ready-systems",
-            "https://www.nvidia.com/en-sg/design-visualization/solutions/vr-ready-systems",
-            "https://developer.nvidia.com/vulkan-driver"
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/en-in/design-visualization/software/broadcast-app",
+            "https://www.nvidia.com/en-au/industries/smart-cities/partners",
+            "https://www.nvidia.com/en-in/geforce/guides/broadcast-app-setup-guide",
+            "https://www.nvidia.com/en-au/products/workstations/resources/rtx-embedded"
           ]
         },
         {
           "name": "RTX 3050",
           "urls": [
-            "https://www.nvidia.com/en-gb/geforce/graphics-cards/50-series/rtx-5050",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/nl-nl/geforce/graphics-cards/compare",
-            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/50-series",
-            "https://forums.developer.nvidia.com/tag/video"
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family",
+            "https://www.nvidia.com/tr-tr/geforce/graphics-cards/compare",
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5080",
+            "https://forums.developer.nvidia.com/tag/gstreamer",
+            "https://developer.nvidia.com/vulkan-driver"
           ]
         },
         {
           "name": "RTX 3050 Ti",
           "urls": [
-            "https://www.nvidia.com/en-us/geforce/laptops/compare/30-series",
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://forums.developer.nvidia.com/tag/fedora",
-            "https://www.nvidia.com/tr-tr/geforce/drivers/results/260492"
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
+            "https://www.nvidia.com/en-us/geforce/drivers/results/260411",
+            "https://www.nvidia.com/tr-tr/geforce/drivers/results/260492",
+            "https://www.nvidia.com/da-dk/geforce/laptops/compare/30-series"
           ]
         },
         {
           "name": "RTX 3060",
           "urls": [
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/sv-se/geforce/technologies/dx12",
-            "https://www.nvidia.com/cs-cz/geforce/broadcasting/broadcast-app/faq",
-            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/50-series",
-            "https://forums.developer.nvidia.com/tag/debugging-and-troubleshooting"
+            "https://forums.developer.nvidia.com/tag/debugging-and-troubleshooting",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family",
+            "https://www.nvidia.com/da-dk/geforce/graphics-cards/40-series/rtx-4060-4060ti",
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5080",
+            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/30-series/rtx-3060-3060ti"
           ]
         },
         {
           "name": "RTX 3060 Ti",
           "urls": [
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/sv-se/geforce/technologies/dx12",
-            "https://www.nvidia.com/nl-nl/geforce/graphics-cards/compare",
-            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/50-series",
-            "https://www.nvidia.com/en-gb/geforce/technologies/dx12"
+            "https://www.nvidia.com/en-gb/geforce/technologies/4k",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family",
+            "https://www.nvidia.com/da-dk/geforce/graphics-cards/40-series/rtx-4060-4060ti",
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5080",
+            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/30-series/rtx-3060-3060ti"
           ]
         },
         {
           "name": "RTX 3070",
           "urls": [
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/sv-se/geforce/technologies/dx12",
-            "https://www.nvidia.com/en-gb/geforce/technologies/dx12",
-            "https://www.nvidia.com/en-sg/geforce/graphics-cards/50-series/rtx-5070-family",
-            "https://forums.developer.nvidia.com/c/omniverse/platform/rtx-renderer/403/l/hot"
-          ]
-        },
-        {
-          "name": "RTX 3070 TI",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/fedora"
+            "https://www.nvidia.com/en-gb/geforce/technologies/4k",
+            "https://www.nvidia.com/de-at/geforce/campaigns/holiday-deals",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family",
+            "https://www.nvidia.com/en-sg/geforce/campaigns/holiday-deals",
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5080"
           ]
         },
         {
           "name": "RTX 3070 Ti",
           "urls": [
-            "https://www.nvidia.com/en-in/geforce/graphics-cards/50-series/rtx-5090",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/sv-se/geforce/technologies/dx12",
-            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5090",
-            "https://developer.nvidia.com/vulkan-driver"
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series",
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/en-gb/geforce/technologies/4k",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family",
+            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/40-series/rtx-4070-family"
           ]
         },
         {
           "name": "RTX 3080",
           "urls": [
-            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/sv-se/geforce/technologies/dx12",
-            "https://www.nvidia.com/sv-se/geforce/graphics-cards/30-series/rtx-3080-3080ti",
-            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/30-series/rtx-3080-3080ti"
-          ]
-        },
-        {
-          "name": "RTX 3080 TI",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/ffmpeg",
-            "https://forums.developer.nvidia.com/tag/computer-vision",
-            "https://forums.developer.nvidia.com/tag/decoder"
+            "https://www.nvidia.com/en-gb/geforce/technologies/4k",
+            "https://www.nvidia.com/en-gb/geforce/broadcasting?ncid=no-ncid",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family",
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5080",
+            "https://developer.nvidia.com/vulkan-driver"
           ]
         },
         {
           "name": "RTX 3080 Ti",
           "urls": [
-            "https://www.nvidia.com/en-in/geforce/graphics-cards/50-series/rtx-5090",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/sv-se/geforce/technologies/dx12",
-            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5090",
-            "https://developer.nvidia.com/vulkan-driver"
+            "https://www.nvidia.com/en-gb/geforce/technologies/4k",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family",
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5080",
+            "https://developer.nvidia.com/vulkan-driver",
+            "https://www.nvidia.com/nl-nl/geforce/technologies/dx12"
           ]
         },
         {
           "name": "RTX 3090",
           "urls": [
-            "https://www.nvidia.com/en-in/geforce/graphics-cards/50-series/rtx-5090",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/sv-se/geforce/technologies/dx12",
-            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5090",
-            "https://www.nvidia.com/tr-tr/geforce/tags"
-          ]
-        },
-        {
-          "name": "RTX 3090 TI",
-          "urls": [
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix",
-            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new"
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/en-gb/geforce/technologies/4k",
+            "https://www.nvidia.com/fi-fi/geforce/graphics-cards/30-series",
+            "https://forums.developer.nvidia.com/tag/installation",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family"
           ]
         },
         {
           "name": "RTX 3090 Ti",
           "urls": [
-            "https://www.nvidia.com/en-in/geforce/graphics-cards/50-series/rtx-5090",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5090",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/es-la/geforce/graphics-cards/40-series"
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series",
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family",
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5080",
+            "https://www.nvidia.com/cs-cz/geforce/graphics-cards/40-series"
           ]
         },
         {
           "name": "RTX 3090ti",
           "urls": [
-            "https://forums.developer.nvidia.com/tag/linux-driver",
-            "https://forums.developer.nvidia.com/tag/vr"
+            "https://forums.developer.nvidia.com/tag/vr",
+            "https://forums.developer.nvidia.com/tag/linux-driver"
           ]
         },
         {
           "name": "RTX 3500",
           "urls": [
-            "https://www.nvidia.com/es-la/design-visualization/solutions/vr-ready-systems",
-            "https://www.nvidia.com/en-eu/products/workstations/resources/rtx-embedded?ncid=no-ncid",
+            "https://www.nvidia.com/en-sg/design-visualization/solutions/vr-ready-systems",
+            "https://www.nvidia.com/en-us/design-visualization/resources/rtx-embedded",
             "https://www.nvidia.com/en-gb/design-visualization/solutions/vr-ready-systems",
-            "https://www.nvidia.com/en-us/design-visualization/solutions/vr-ready-systems",
-            "https://www.nvidia.com/en-sg/design-visualization/solutions/vr-ready-systems"
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
+            "https://www.nvidia.com/es-la/design-visualization/resources/rtx-embedded"
+          ]
+        },
+        {
+          "name": "rtx 4",
+          "urls": [
+            "https://www.nvidia.com/zh-cn?ncid=no-ncid",
+            "https://www.nvidia.com/zh-cn"
           ]
         },
         {
           "name": "RTX 40",
           "urls": [
-            "https://www.nvidia.com/nb-no/geforce/pc-gaming-deals",
-            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/de-at/geforce/geforce-experience",
-            "https://www.nvidia.com/nl-nl/geforce/graphics-cards/compare",
-            "https://www.nvidia.com/en-us/geforce/technologies/dlss?ncid=em-anno-148913"
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/40-series",
+            "https://www.nvidia.com/nb-no/geforce/tags?tag=geforce-experience",
+            "https://www.nvidia.com/en-in/geforce/geforce-experience/shadowplay",
+            "https://www.nvidia.com/da-dk/geforce/gaming-laptops/max-q-technologies",
+            "https://www.nvidia.com/en-gb/geforce/tags?tag=super-resolution"
           ]
         },
         {
           "name": "RTX 4000",
           "urls": [
-            "https://www.nvidia.com/en-gb/products/workstations/professional-desktop-gpus?ncid=no-ncid",
-            "https://www.nvidia.com/en-us/design-visualization/solutions/vr-ready-systems",
-            "https://www.nvidia.com/en-sg/design-visualization/solutions/vr-ready-systems",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/en-us/products/workstations/a800?ncid=no-ncid"
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/en-au/industries/smart-cities/partners",
+            "https://www.nvidia.com/en-gb/products/workstations/a800",
+            "https://www.nvidia.com/en-gb/products/workstations/product-literature",
+            "https://forums.developer.nvidia.com/c/omniverse/platform/rtx-renderer/403"
           ]
         },
         {
           "name": "RTX 4050",
           "urls": [
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/vulkan-driver",
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/cs-cz/geforce/laptops/40-series",
             "https://www.nvidia.com/tr-tr/geforce/laptops/40-series",
-            "https://www.nvidia.com/fi-fi/geforce/laptops/40-series",
-            "https://www.nvidia.com/tr-tr/geforce/drivers/results/260492"
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
+            "https://www.nvidia.com/de-at/geforce/laptops/40-series"
           ]
         },
         {
@@ -1828,480 +1545,325 @@
         {
           "name": "RTX 4060",
           "urls": [
-            "https://www.nvidia.com/nb-no/geforce/pc-gaming-deals",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/50-series",
             "https://forums.developer.nvidia.com/tag/debugging-and-troubleshooting",
-            "https://www.nvidia.com/en-in/ai-on-rtx?ncid=pa-srch-goog-654707"
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family",
+            "https://www.nvidia.com/da-dk/geforce/graphics-cards/40-series/rtx-4060-4060ti",
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5080",
+            "https://developer.nvidia.com/vulkan-driver"
           ]
         },
         {
           "name": "RTX 4060 Ti",
           "urls": [
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/50-series",
-            "https://www.nvidia.com/nb-no/geforce/graphics-cards/40-series/rtx-4060-4060ti",
-            "https://www.nvidia.com/en-gb/geforce/graphics-cards/40-series/rtx-4060-4060ti",
-            "https://www.nvidia.com/ro-ro/geforce/campaigns/cyberpunk-2077"
-          ]
-        },
-        {
-          "name": "RTX 4060TI",
-          "urls": [
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix",
-            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new"
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family",
+            "https://www.nvidia.com/da-dk/geforce/graphics-cards/40-series/rtx-4060-4060ti",
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5080",
+            "https://developer.nvidia.com/vulkan-driver",
+            "https://www.nvidia.com/fi-fi/geforce/campaigns/cyberpunk-2077"
           ]
         },
         {
           "name": "RTX 4060Ti",
           "urls": [
-            "https://catalog.ngc.nvidia.com/orgs/nvidia/teams/isaac/models/synthetica_detr"
+            "https://developer.nvidia.com/video-encode-decode-support-matrix",
+            "https://catalog.ngc.nvidia.com/orgs/nvidia/teams/isaac/models/synthetica_detr",
+            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix",
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new"
           ]
         },
         {
           "name": "RTX 4070",
           "urls": [
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/50-series",
-            "https://www.nvidia.com/ro-ro/geforce/campaigns/cyberpunk-2077",
-            "https://www.nvidia.com/en-sg/geforce/graphics-cards/50-series/rtx-5070-family",
-            "https://www.nvidia.com/cs-cz/geforce/campaigns/cyberpunk-2077"
+            "https://www.nvidia.com/de-at/geforce/campaigns/holiday-deals",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family",
+            "https://www.nvidia.com/en-sg/geforce/campaigns/holiday-deals",
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5080",
+            "https://developer.nvidia.com/vulkan-driver"
           ]
         },
         {
           "name": "RTX 4070 SUPER",
           "urls": [
-            "https://www.nvidia.com/en-in/geforce/graphics-cards/50-series/rtx-5090",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5090",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/es-la/geforce/graphics-cards/40-series"
-          ]
-        },
-        {
-          "name": "RTX 4070 Super",
-          "urls": [
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix",
-            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new"
-          ]
-        },
-        {
-          "name": "RTX 4070 TI",
-          "urls": [
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix",
-            "https://forums.developer.nvidia.com/tag/deep-learning",
-            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new"
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series",
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/40-series",
+            "https://www.nvidia.com/tr-tr/geforce/drivers/results/260460",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family",
+            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/40-series/rtx-4070-family"
           ]
         },
         {
           "name": "RTX 4070 Ti",
           "urls": [
-            "https://www.nvidia.com/en-in/geforce/graphics-cards/50-series/rtx-5090",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/en-me/geforce/graphics-cards/50-series",
-            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5090",
-            "https://developer.nvidia.com/vulkan-driver"
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/40-series",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family",
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5080",
+            "https://developer.nvidia.com/vulkan-driver",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4070-family"
           ]
         },
         {
           "name": "RTX 4070ti",
           "urls": [
-            "https://www.nvidia.com/sv-se/geforce/graphics-cards/40-series/rtx-4070-family",
-            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4070-family",
-            "https://www.nvidia.com/fi-fi/geforce/graphics-cards/40-series/rtx-4070-family",
             "https://www.nvidia.com/ro-ro/geforce/graphics-cards/40-series/rtx-4070-family",
-            "https://www.nvidia.com/tr-tr/geforce/graphics-cards/40-series/rtx-4070-family"
+            "https://www.nvidia.com/pl-pl/geforce/graphics-cards/40-series/rtx-4070-family",
+            "https://www.nvidia.com/fi-fi/geforce/graphics-cards/40-series/rtx-4070-family",
+            "https://www.nvidia.com/da-dk/geforce/graphics-cards/40-series/rtx-4070-family",
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/40-series/rtx-4070-family"
           ]
         },
         {
           "name": "RTX 4080",
           "urls": [
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/tr-tr/geforce/tags",
-            "https://www.nvidia.com/da-dk/geforce/news",
-            "https://www.nvidia.com/cs-cz/geforce/broadcasting/broadcast-app/faq",
-            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/50-series"
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family",
+            "https://www.nvidia.com/fr-be/geforce/graphics-cards/50-series/rtx-5080",
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5080",
+            "https://www.nvidia.com/fr-be/geforce/tags?tag=ray-tracing",
+            "https://www.nvidia.com/sv-se/geforce/news"
           ]
         },
         {
           "name": "RTX 4080 SUPER",
           "urls": [
-            "https://www.nvidia.com/en-in/geforce/graphics-cards/50-series/rtx-5090",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/ro-ro/geforce/buy",
-            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5090",
-            "https://www.nvidia.com/en-eu/geforce/community-portal"
-          ]
-        },
-        {
-          "name": "RTX 4080 Super",
-          "urls": [
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix",
-            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new"
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series",
+            "https://www.nvidia.com/da-dk/geforce/community-portal",
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/40-series",
+            "https://www.nvidia.com/tr-tr/geforce/drivers/results/260460",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family"
           ]
         },
         {
           "name": "RTX 4090",
           "urls": [
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/tr-tr/geforce/tags",
-            "https://www.nvidia.com/da-dk/geforce/news",
-            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/50-series",
-            "https://www.nvidia.com/fr-be/geforce/technologies/8k"
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family",
+            "https://www.nvidia.com/da-dk/geforce/graphics-cards/40-series/rtx-4060-4060ti",
+            "https://developer.nvidia.com/isaac-sdk",
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/50-series/rtx-5080",
+            "https://www.nvidia.com/fr-be/geforce/tags?tag=ray-tracing"
           ]
         },
         {
           "name": "RTX 4500",
           "urls": [
-            "https://www.nvidia.com/en-gb/products/workstations/professional-desktop-gpus?ncid=no-ncid",
-            "https://www.nvidia.com/en-us/design-visualization/solutions/vr-ready-systems",
-            "https://www.nvidia.com/en-sg/design-visualization/solutions/vr-ready-systems",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/en-gb/products/workstations/product-literature"
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/en-au/industries/smart-cities/partners",
+            "https://www.nvidia.com/en-gb/products/workstations/product-literature",
+            "https://www.nvidia.com/en-gb/products/workstations/rtx-4500",
+            "https://developer.nvidia.com/vulkan-driver"
           ]
         },
         {
           "name": "RTX 5",
           "urls": [
-            "https://forums.developer.nvidia.com/tag/unreal-engine",
             "https://www.nvidia.com/es-la?ncid=em-anno-148913",
             "http://clm.nvidia.com",
             "http://arg.nvidia.com",
+            "https://forums.developer.nvidia.com/tag/unreal-engine",
             "https://www.nvidia.com/es-la?ncid=pa-srch-goog-654707"
           ]
         },
         {
           "name": "RTX 50",
           "urls": [
-            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/de-at/geforce/geforce-experience",
-            "https://www.nvidia.com/nl-nl/geforce/graphics-cards/compare",
-            "https://www.nvidia.com/en-us/geforce/technologies/dlss?ncid=em-anno-148913",
-            "https://www.nvidia.com/en-gb/geforce/tags?tag=featured-stories"
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/40-series",
+            "https://www.nvidia.com/nb-no/geforce/tags?tag=geforce-experience",
+            "https://www.nvidia.com/en-in/geforce/geforce-experience/shadowplay",
+            "https://www.nvidia.com/da-dk/geforce/gaming-laptops/max-q-technologies",
+            "https://www.nvidia.com/en-gb/geforce/tags?tag=super-resolution"
           ]
         },
         {
           "name": "RTX 500",
           "urls": [
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/en-us/geforce/contests/winners",
             "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
-            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix"
+            "https://www.nvidia.com/en-us/geforce/contests/winners",
+            "https://developer.nvidia.com/vulkan-driver",
+            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix",
+            "https://developer.nvidia.com/video-encode-decode-support-matrix"
           ]
         },
         {
           "name": "RTX 5000",
           "urls": [
-            "https://www.nvidia.com/en-gb/products/workstations/professional-desktop-gpus?ncid=no-ncid",
-            "https://www.nvidia.com/en-us/design-visualization/solutions/vr-ready-systems",
-            "https://www.nvidia.com/en-sg/design-visualization/solutions/vr-ready-systems",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/en-sg/products/workstations/resources/rtx-embedded"
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://resources.nvidia.com/en-us-briefcase-for-datasheets/rtx-5000-ada-datashe",
+            "https://www.nvidia.com/en-au/industries/smart-cities/partners",
+            "https://www.nvidia.com/en-gb/products/workstations/product-literature",
+            "https://www.nvidia.com/en-gb/products/workstations/rtx-5000"
           ]
         },
         {
           "name": "RTX 5050",
           "urls": [
-            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/de-at/geforce/geforce-experience",
-            "https://www.nvidia.com/en-us/geforce/technologies/dlss?ncid=em-anno-148913",
-            "https://www.nvidia.com/cs-cz/geforce/gaming-laptops",
-            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/40-series/rtx-4080-family"
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/40-series",
+            "https://www.nvidia.com/nb-no/geforce/tags?tag=geforce-experience",
+            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/30-series/rtx-3090",
+            "https://www.nvidia.com/en-in/geforce/geforce-experience/shadowplay",
+            "https://www.nvidia.com/da-dk/geforce/gaming-laptops/max-q-technologies"
           ]
         },
         {
           "name": "RTX 5060",
           "urls": [
-            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/de-at/geforce/geforce-experience",
-            "https://www.nvidia.com/en-us/geforce/technologies/dlss?ncid=em-anno-148913",
-            "https://www.nvidia.com/cs-cz/geforce/gaming-laptops",
-            "https://www.nvidia.com/en-gb/geforce/tags?tag=featured-stories"
-          ]
-        },
-        {
-          "name": "RTX 5060 TI",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/deepstream"
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/40-series",
+            "https://www.nvidia.com/nb-no/geforce/tags?tag=geforce-experience",
+            "https://www.nvidia.com/en-in/geforce/geforce-experience/shadowplay",
+            "https://www.nvidia.com/da-dk/geforce/gaming-laptops/max-q-technologies",
+            "https://www.nvidia.com/en-gb/geforce/tags?tag=super-resolution"
           ]
         },
         {
           "name": "RTX 5060 Ti",
           "urls": [
-            "https://www.nvidia.com/pl-pl/geforce/graphics-cards/50-series/rtx-5060-family",
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/ro-ro/geforce/buy",
-            "https://www.nvidia.com/en-me/geforce/graphics-cards/50-series",
-            "https://developer.nvidia.com/vulkan-driver"
-          ]
-        },
-        {
-          "name": "RTX 5060 ti",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/dp-display"
-          ]
-        },
-        {
-          "name": "RTX 5060Ti",
-          "urls": [
-            "https://forums.developer.nvidia.com/latest",
-            "https://forums.developer.nvidia.com/tag/gaming"
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/tr-tr/geforce/drivers/results/260460",
+            "https://www.nvidia.com/cs-cz/geforce/graphics-cards/50-series/rtx-5060-family",
+            "https://forums.developer.nvidia.com/c/accelerated-computing/cuda/206",
+            "https://forums.developer.nvidia.com/tag/llama"
           ]
         },
         {
           "name": "RTX 5060ti",
           "urls": [
+            "https://forums.developer.nvidia.com/latest",
+            "https://forums.developer.nvidia.com/c/ai-data-science/deep-learning/cudnn/90",
             "https://forums.developer.nvidia.com/tag/tensorflow",
             "https://forums.developer.nvidia.com/tag/cudnn",
-            "https://forums.developer.nvidia.com/c/ai-data-science/deep-learning/cudnn/90"
+            "https://forums.developer.nvidia.com/tag/gaming"
           ]
         },
         {
           "name": "RTX 5070",
           "urls": [
-            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/de-at/geforce/geforce-experience",
-            "https://www.nvidia.com/en-us/geforce/technologies/dlss?ncid=em-anno-148913",
-            "https://www.nvidia.com/cs-cz/geforce/gaming-laptops",
-            "https://www.nvidia.com/en-gb/geforce/tags?tag=featured-stories"
-          ]
-        },
-        {
-          "name": "RTX 5070 TI",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/audio2face"
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/40-series",
+            "https://www.nvidia.com/nb-no/geforce/tags?tag=geforce-experience",
+            "https://www.nvidia.com/en-in/geforce/geforce-experience/shadowplay",
+            "https://www.nvidia.com/da-dk/geforce/gaming-laptops/max-q-technologies",
+            "https://www.nvidia.com/en-gb/geforce/tags?tag=super-resolution"
           ]
         },
         {
           "name": "RTX 5070 Ti",
           "urls": [
-            "https://www.nvidia.com/en-us/geforce/drivers/results/260405",
-            "https://www.nvidia.com/ro-ro/geforce/buy",
-            "https://www.nvidia.com/en-me/geforce/graphics-cards/50-series",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/fi-fi/geforce/graphics-cards/50-series"
-          ]
-        },
-        {
-          "name": "RTX 5070 ti",
-          "urls": [
-            "https://forums.developer.nvidia.com/c/ai-data-science/deep-learning/maxine/360",
-            "https://forums.developer.nvidia.com/tag/gaming"
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/tr-tr/geforce/drivers/results/260460",
+            "https://www.nvidia.com/fi-fi/geforce/graphics-cards/50-series/rtx-5070-family",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family",
+            "https://forums.developer.nvidia.com/c/accelerated-computing/cuda/206"
           ]
         },
         {
           "name": "RTX 5080",
           "urls": [
-            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/de-at/geforce/geforce-experience",
-            "https://www.nvidia.com/en-us/geforce/technologies/dlss?ncid=em-anno-148913",
-            "https://www.nvidia.com/cs-cz/geforce/gaming-laptops",
-            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/40-series/rtx-4080-family"
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/40-series",
+            "https://www.nvidia.com/nb-no/geforce/tags?tag=geforce-experience",
+            "https://www.nvidia.com/fr-be/geforce/graphics-cards/50-series/rtx-5080",
+            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/30-series/rtx-3090",
+            "https://www.nvidia.com/en-in/geforce/geforce-experience/shadowplay"
           ]
         },
         {
           "name": "RTX 5090",
           "urls": [
-            "https://www.nvidia.com/sv-se/geforce/products/10series/geforce-gtx-1060",
-            "https://www.nvidia.com/de-at/geforce/geforce-experience",
-            "https://www.nvidia.com/en-us/geforce/technologies/dlss?ncid=em-anno-148913",
-            "https://www.nvidia.com/cs-cz/geforce/gaming-laptops",
-            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/40-series/rtx-4080-family"
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/40-series",
+            "https://www.nvidia.com/nb-no/geforce/tags?tag=geforce-experience",
+            "https://www.nvidia.com/fr-be/geforce/graphics-cards/50-series/rtx-5080",
+            "https://www.nvidia.com/ro-ro/geforce/graphics-cards/30-series/rtx-3090",
+            "https://www.nvidia.com/en-in/geforce/geforce-experience/shadowplay"
           ]
         },
         {
           "name": "RTX 5500",
           "urls": [
-            "https://www.nvidia.com/es-la/design-visualization/solutions/vr-ready-systems",
+            "https://www.nvidia.com/en-us/design-visualization/solutions/vr-ready-systems",
             "https://www.nvidia.com/en-gb/design-visualization/solutions/vr-ready-systems",
-            "https://www.nvidia.com/en-us/design-visualization/solutions/vr-ready-systems"
+            "https://www.nvidia.com/es-la/design-visualization/solutions/vr-ready-systems"
           ]
         },
         {
           "name": "RTX 5880",
           "urls": [
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://docs.nvidia.com/vgpu/gpus-supported-by-vgpu.html"
+            "https://docs.nvidia.com/vgpu/gpus-supported-by-vgpu.html",
+            "https://developer.nvidia.com/vulkan-driver"
           ]
         },
         {
           "name": "RTX 6",
           "urls": [
-            "https://www.nvidia.com/vi-vn/geforce",
-            "https://www.nvidia.com/id-id/geforce",
             "https://www.nvidia.com/en-my/geforce",
+            "https://www.nvidia.com/vi-vn/geforce",
+            "https://www.nvidia.com/en-ph/geforce",
             "http://www.nvidia.com/object/3dv-system-requirements-surround-technology.html",
-            "https://www.nvidia.com/en-ph/geforce"
+            "https://www.nvidia.com/id-id/geforce"
           ]
         },
         {
           "name": "RTX 6000",
           "urls": [
-            "https://www.nvidia.com/en-gb/products/workstations/professional-desktop-gpus?ncid=no-ncid",
-            "https://www.nvidia.com/es-la/products/workstations/nvlink-bridges",
-            "https://www.nvidia.com/en-gb/industries/media-and-entertainment",
-            "https://forums.developer.nvidia.com/c/omniverse/300/l/hot",
-            "https://www.nvidia.com/en-gb/products/workstations/rtx-a1000"
+            "https://www.nvidia.com/en-us/design-visualization/videos/vmotion-live-migration?ncid=so-twit-730988&ncid=no-ncid",
+            "https://www.nvidia.com/en-gb/data-center/rtx-pro-6000-blackwell-server-edition",
+            "https://developer.nvidia.com/vulkan-driver",
+            "https://www.nvidia.com/en-us/deep-learning-ai/products/titan-rtx",
+            "https://www.nvidia.com/en-in/design-visualization/solutions/vr-ready-systems"
           ]
         },
         {
           "name": "RTX 8000",
           "urls": [
-            "https://forums.developer.nvidia.com/tag/tensorflow",
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://developer.nvidia.com/gpudirectforvideo",
-            "https://forums.developer.nvidia.com/c/accelerated-computing/cuda/cuda-on-windows-subsystem-for-linux/303"
-          ]
-        },
-        {
-          "name": "Rtx 4070 ti",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/performance"
-          ]
-        },
-        {
-          "name": "Rtx 5090",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/rtx",
-            "https://forums.developer.nvidia.com/c/accelerated-computing/cuda/cuda-programming-and-performance/7"
-          ]
-        },
-        {
-          "name": "geforce RTX 5090",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/nvidia-smi"
-          ]
-        },
-        {
-          "name": "geforce gtx 1650",
-          "urls": [
-            "https://forums.developer.nvidia.com/c/omniverse/platform/rtx-renderer/403/l/hot",
-            "https://forums.developer.nvidia.com/tag/deep-learning",
-            "https://forums.developer.nvidia.com/tag/machine-learning"
-          ]
-        },
-        {
-          "name": "rtx 2",
-          "urls": [
-            "https://forums.developer.nvidia.com/KB"
-          ]
-        },
-        {
-          "name": "rtx 3",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/rtx"
-          ]
-        },
-        {
-          "name": "rtx 3060",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/software-and-drivers"
-          ]
-        },
-        {
-          "name": "rtx 4",
-          "urls": [
-            "https://www.nvidia.com/zh-cn",
-            "https://www.nvidia.com/zh-cn?ncid=no-ncid"
-          ]
-        },
-        {
-          "name": "rtx 4050",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/docker-machine-learning"
-          ]
-        },
-        {
-          "name": "rtx 4060",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/rtsp"
-          ]
-        },
-        {
-          "name": "rtx 5000",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/revit"
+            "https://developer.nvidia.com/cuda-gpus",
+            "https://www.nvidia.com/es-la/products/workstations/nvlink-bridges",
+            "https://www.nvidia.com/en-us/data-center/resources/vgpu-evaluation",
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
+            "http://resources.nvidia.com/en-us-xgboost"
           ]
         }
       ]
     },
     "DGX Systems": {
-      "count": 6,
+      "count": 3,
       "products": [
         {
           "name": "DGX Cloud",
           "urls": [
-            "https://www.nvidia.com/en-gb/solutions/ai/inference?ncid=no-ncid",
-            "https://info.nvidia.com/xr-vcr-reg-page.html?ondemandrgt=yes",
-            "https://www.nvidia.com/en-gb/data-center/dgx-b200?ncid=no-ncid",
-            "https://developer.nvidia.com/nvjpeg2000-downloads",
-            "https://www.nvidia.com/en-au/data-center/dgx-cloud"
-          ]
-        },
-        {
-          "name": "DGX SUPERPOD",
-          "urls": [
-            "https://www.nvidia.com/en-gb/data-center/dgx-systems",
-            "https://www.nvidia.com/es-la/data-center/dgx-systems?ncid=no-ncid",
-            "https://www.nvidia.com/es-la/data-center/dgx-systems"
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/40-series",
+            "https://www.nvidia.com/en-gb/networking/ethernet-switching/cumulus-linux",
+            "https://www.nvidia.com/en-eu/data-center/virtual-apps?ncid=no-ncid",
+            "https://www.nvidia.com/en-eu/products/workstations/ai-workstations",
+            "https://www.nvidia.com/en-gb/self-driving-cars/drive-videos"
           ]
         },
         {
           "name": "DGX Station",
           "urls": [
-            "https://www.nvidia.com/en-sg/products/workstations/dgx-station",
-            "https://www.nvidia.com/en-eu/ai-data-science/products/riva-enterprise?ncid=no-ncid",
-            "https://www.nvidia.com/en-au/customer-stories?ncid=no-ncid&page=1&usecase=Generative+AI",
-            "https://www.nvidia.com/en-au/data-center/dgx-cloud",
-            "https://www.nvidia.com/en-us/geforce/technologies/dlss?ncid=em-anno-148913"
+            "https://www.nvidia.com/en-us/design-visualization/virtual-workstation",
+            "https://www.nvidia.com/en-us/data-center/dgx-support?ncid=no-ncid",
+            "https://www.nvidia.com/en-us",
+            "https://www.nvidia.com/en-sg/data-center/dgx-superpod",
+            "https://www.nvidia.com/en-au/products/workstations/dgx-spark"
           ]
         },
         {
           "name": "DGX SuperPOD",
           "urls": [
-            "https://info.nvidia.com/xr-vcr-reg-page.html?ondemandrgt=yes",
-            "https://www.nvidia.com/en-sg/data-center/dgx-platform?ncid=no-ncid",
-            "https://www.nvidia.com/en-sg/data-center/magnum-io?ncid=no-ncid",
-            "https://www.nvidia.com/en-gb/data-center/dgx-b200?ncid=no-ncid",
-            "https://www.nvidia.com/en-us/data-center/virtual-apps"
-          ]
-        },
-        {
-          "name": "DGX Superpod",
-          "urls": [
-            "https://www.nvidia.com/en-us/industries/telecommunications/ai-factories",
-            "https://www.nvidia.com/en-us/industries/telecommunications/ai-factories?modal=connect-us",
-            "https://www.nvidia.com/en-eu/industries/telecommunications/ai-factories",
-            "https://www.nvidia.com/en-gb/industries/telecommunications/ai-factories",
-            "https://www.nvidia.com/en-sg/industries/telecommunications/ai-factories"
-          ]
-        },
-        {
-          "name": "DGX station",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/a100",
-            "https://docs.nvidia.com/clara/parabricks/latest/Documentation/ToolDocs/man_deepvariant.html"
+            "https://resources.nvidia.com/en-us-dgx-systems/gtc-live-2024-inside-dgx-architecture?ncid=no-ncid",
+            "https://www.nvidia.com/es-la/solutions/ai-factories?ncid=no-ncid",
+            "https://resources.nvidia.com/en-us-smart-cities-at-the-edge",
+            "https://www.nvidia.com/en-eu/data-center/virtual-apps?ncid=no-ncid",
+            "https://www.nvidia.com/en-us/data-center/dgx-support?ncid=no-ncid"
           ]
         }
       ]
     },
     "Data Center GPU": {
-      "count": 19,
+      "count": 13,
       "products": [
         {
           "name": "A100",
           "urls": [
-            "https://www.nvidia.com/en-au/data-center/dgx-cloud",
-            "https://www.nvidia.com/es-la/high-performance-computing/hpc-and-ai?ncid=no-ncid",
-            "https://www.nvidia.com/en-sg/data-center/dgx-cloud",
-            "https://developer.nvidia.com/ibm-spectrum-lsf",
-            "https://forums.developer.nvidia.com/tag/rhel"
+            "https://www.nvidia.com/en-us/data-center/dgx-support?ncid=no-ncid",
+            "https://www.nvidia.com/en-sg/data-center/dgx-superpod",
+            "https://www.nvidia.com/en-eu/data-center/gpu-cloud-computing",
+            "https://www.nvidia.com/en-au/data-center/dgx-superpod-gb200?ncid=no-ncid",
+            "https://www.nvidia.com/en-gb/data-center/products"
           ]
         },
         {
@@ -2314,74 +1876,58 @@
         {
           "name": "DGX A100",
           "urls": [
-            "https://www.nvidia.com/en-us/data-center/colocation-partners?ncid=no-ncid",
-            "https://www.nvidia.com/tr-tr/data-center/gpu-cloud-computing?ncid=no-ncid",
-            "https://www.nvidia.com/en-au/data-center/dgx-cloud",
-            "https://www.nvidia.com/en-eu/data-center/data-center-gpus/gpu-test-drive",
-            "https://www.nvidia.com/en-us/data-center/equinix-private-ai-with-dgx"
+            "https://www.nvidia.com/object/gpu-test-drive.html",
+            "https://www.nvidia.com/en-us/data-center/dgx-support?ncid=no-ncid",
+            "https://www.nvidia.com/en-sg/data-center/dgx-superpod",
+            "https://docs.nvidia.com/dgx-systems/index.html",
+            "https://www.nvidia.com/en-gb/data-center/dgx-systems"
           ]
         },
         {
           "name": "DGX H100",
           "urls": [
-            "https://www.nvidia.com/en-au/data-center/dgx-cloud",
-            "https://www.nvidia.com/en-sg/data-center/dgx-h100?ncid=no-ncid",
-            "https://www.nvidia.com/en-us/data-center/equinix-private-ai-with-dgx",
-            "https://www.nvidia.com/en-in/data-center/dgx-b300?ncid=no-ncid",
-            "https://www.nvidia.com/en-sg/data-center/dgx-cloud"
+            "https://www.nvidia.com/en-us/data-center/dgx-support?ncid=no-ncid",
+            "https://www.nvidia.com/en-sg/data-center/dgx-superpod",
+            "https://www.nvidia.com/en-gb/data-center/dgx-h100?ncid=no-ncid",
+            "https://docs.nvidia.com/dgx-systems/index.html",
+            "https://www.nvidia.com/en-gb/data-center/dgx-systems"
           ]
         },
         {
           "name": "H100",
           "urls": [
-            "https://www.nvidia.com/en-gb/solutions/ai/inference?ncid=no-ncid",
-            "https://www.nvidia.com/en-sg/data-center/dgx-platform?ncid=no-ncid",
-            "https://www.nvidia.com/en-sg/data-center/magnum-io?ncid=no-ncid",
-            "https://www.nvidia.com/cs-cz/geforce/ada-lovelace-architecture",
-            "https://www.nvidia.com/en-in/data-center/base-command-manager"
+            "https://www.nvidia.com/es-la/solutions/ai-factories?ncid=no-ncid",
+            "https://www.nvidia.com/en-in/solutions/ai/inference?ncid=pa-srch-goog-654707",
+            "https://www.nvidia.com/en-us/data-center/dgx-support?ncid=no-ncid",
+            "https://www.nvidia.com/en-sg/data-center/dgx-superpod",
+            "https://www.nvidia.com/en-us//ai-data-science/products/nim-microservices"
           ]
         },
         {
           "name": "L40",
           "urls": [
-            "https://www.nvidia.com/en-au/data-center/dgx-cloud",
-            "https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara/containers/monai-toolkit",
+            "https://build.nvidia.com/nvidia/streaming-data-to-rag",
             "https://www.nvidia.com/es-la/data-center/omniverse-dgx-cloud",
-            "https://www.nvidia.com/en-in/data-center/resources",
-            "https://www.nvidia.com/en-sg/data-center/dgx-cloud"
+            "https://www.nvidia.com/en-eu/data-center/virtualization/resources?ncid=no-ncid",
+            "https://www.nvidia.com/es-la/data-center/resources?ncid=no-ncid",
+            "https://www.nvidia.com/en-us/data-center/resources/vgpu-evaluation"
           ]
         },
         {
           "name": "L40S",
           "urls": [
-            "https://www.nvidia.com/en-gb/solutions/ai/inference?ncid=no-ncid",
-            "https://www.nvidia.com/en-us/industries/telecommunications/partners",
-            "https://forums.developer.nvidia.com/tag/video",
-            "https://www.nvidia.com/es-la/networking/products/data-processing-unit",
-            "https://forums.developer.nvidia.com/c/omniverse/300/l/hot"
-          ]
-        },
-        {
-          "name": "L40s",
-          "urls": [
-            "https://developer.nvidia.com/tao-toolkit",
-            "https://developer.nvidia.com/tao",
-            "https://developer.nvidia.com/transfer-learning-toolkit",
-            "https://developer.nvidia.com/TAO",
-            "https://forums.developer.nvidia.com/tag/rdma-and-roce"
-          ]
-        },
-        {
-          "name": "TESLA V100",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/connector"
+            "https://build.nvidia.com/nvidia/streaming-data-to-rag",
+            "https://www.nvidia.com/en-in/solutions/ai/inference?ncid=pa-srch-goog-654707",
+            "https://www.nvidia.com/en-sg/solutions/ai/inference?ncid=pa-srch-goog-654707",
+            "https://www.nvidia.com/en-gb/omniverse/platform/ovx?ncid=no-ncid",
+            "https://www.nvidia.com/en-au/solutions/ai/inference?ncid=pa-srch-goog-654707"
           ]
         },
         {
           "name": "Tesla A100",
           "urls": [
-            "https://docs.nvidia.com/cuda/ampere-tuning-guide/index.html",
-            "https://forums.developer.nvidia.com/tag/a100"
+            "https://forums.developer.nvidia.com/tag/a100",
+            "https://docs.nvidia.com/cuda/ampere-tuning-guide/index.html"
           ]
         },
         {
@@ -2393,8 +1939,8 @@
         {
           "name": "Tesla K20",
           "urls": [
-            "https://forums.developer.nvidia.com/tag/data-center-solutions",
-            "https://developer.nvidia.com/cuda/gpus/legacy"
+            "https://developer.nvidia.com/cuda/gpus/legacy",
+            "https://forums.developer.nvidia.com/tag/data-center-solutions"
           ]
         },
         {
@@ -2407,53 +1953,21 @@
         {
           "name": "Tesla K80",
           "urls": [
+            "https://developer.nvidia.com/nsight-visual-studio-edition-4_2",
             "https://www.nvidia.com/en-au/legal-info",
-            "https://forums.developer.nvidia.com/c/omniverse/platform/rtx-renderer/403/l/hot",
-            "https://www.nvidia.com/en-sg/legal-info",
-            "https://developer.nvidia.com/cuda/gpus/legacy",
-            "https://www.nvidia.com/en-sg/legal-info?ncid=no-ncid"
+            "https://devblogs.nvidia.com/nvidia-data-center-gpu-manager-cluster-administration",
+            "https://www.nvidia.com/en-sg/legal-info?ncid=pa-srch-goog-654707",
+            "https://forums.developer.nvidia.com/c/omniverse/platform/rtx-renderer/403/l/hot"
           ]
         },
         {
           "name": "Tesla V100",
           "urls": [
-            "https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html",
-            "https://www.nvidia.com/en-us/data-center/data-center-gpus?ncid=pa-srch-goog-654707",
-            "https://www.nvidia.com/es-la/gpu-cloud",
             "https://forums.developer.nvidia.com/c/ai-data-science/deep-learning/cudnn/90",
-            "https://www.nvidia.com/en-us/data-center/data-center-gpus"
-          ]
-        },
-        {
-          "name": "Tesla v100",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/linux-driver-solutions"
-          ]
-        },
-        {
-          "name": "a100",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/port",
-            "https://forums.developer.nvidia.com/tag/ai-training",
-            "https://www.nvidia.com/en-gb/data-center/dgx-support?ncid=no-ncid",
-            "https://forums.developer.nvidia.com/tag/pcie",
-            "https://forums.developer.nvidia.com/c/ai-data-science/deep-learning/jax/607"
-          ]
-        },
-        {
-          "name": "h100",
-          "urls": [
-            "https://www.nvidia.com/en-us/data-center/technologies/hopper-architecture?ncid=no-ncid",
-            "https://www.nvidia.com/es-la/data-center/technologies/hopper-architecture?ncid=no-ncid",
-            "https://www.nvidia.com/en-eu/data-center/dgx-basepod",
-            "https://forums.developer.nvidia.com/tag/korean",
-            "https://www.nvidia.com/en-sg/data-center/dgx-h200?ncid=no-ncid"
-          ]
-        },
-        {
-          "name": "l40",
-          "urls": [
-            "https://www.nvidia.com/es-la/design-visualization/desktop-graphics"
+            "https://www.nvidia.com/es-la/data-center/tesla-v100",
+            "https://www.nvidia.com/en-eu/data-center/data-center-gpus?ncid=no-ncid",
+            "https://forums.developer.nvidia.com/tag/linux-driver-solutions",
+            "https://www.nvidia.com/es-la/gpu-cloud?ncid=no-ncid"
           ]
         }
       ]
@@ -2464,389 +1978,231 @@
         {
           "name": "Grace CPU",
           "urls": [
-            "https://info.nvidia.com/xr-vcr-reg-page.html?ondemandrgt=yes",
-            "https://www.nvidia.com/en-gb/data-center/dgx-b200?ncid=no-ncid",
-            "https://www.nvidia.com/cs-cz/geforce/gaming-laptops",
-            "https://www.nvidia.com/en-sg/solutions/ai-factories",
-            "https://www.nvidia.com/en-sg/data-center/buy-grid"
+            "https://www.nvidia.com/sv-se/geforce/graphics-cards/40-series",
+            "https://www.nvidia.com/en-gb/networking/ethernet-switching/cumulus-linux",
+            "https://www.nvidia.com/en-eu/data-center/virtual-apps?ncid=no-ncid",
+            "https://www.nvidia.com/en-eu/products/workstations/ai-workstations",
+            "https://www.nvidia.com/en-gb/self-driving-cars/drive-videos"
           ]
         },
         {
           "name": "Grace Hopper",
           "urls": [
-            "https://info.nvidia.com/xr-vcr-reg-page.html?ondemandrgt=yes",
-            "https://www.nvidia.com/en-sg/data-center/dgx-platform?ncid=no-ncid",
-            "https://www.nvidia.com/en-sg/data-center/magnum-io?ncid=no-ncid",
-            "https://www.nvidia.com/en-in/data-center/base-command-manager",
-            "https://www.nvidia.com/en-sg/data-center/buy-grid"
+            "https://resources.nvidia.com/en-us-dgx-systems/gtc-live-2024-inside-dgx-architecture?ncid=no-ncid",
+            "https://www.nvidia.com/es-la/solutions/ai-factories?ncid=no-ncid",
+            "https://resources.nvidia.com/en-us-smart-cities-at-the-edge",
+            "https://www.nvidia.com/en-in/data-center/h200?ncid=no-ncid",
+            "https://www.nvidia.com/en-sg/data-center/dgx-cloud/trial?ncid=no-ncid"
           ]
         }
       ]
     },
     "Edge AI / Embedded": {
-      "count": 22,
+      "count": 7,
       "products": [
-        {
-          "name": "JETSON AGX Xavier",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/tensorflow"
-          ]
-        },
-        {
-          "name": "Jetson AGX ORIN",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/kubernetes"
-          ]
-        },
         {
           "name": "Jetson AGX Orin",
           "urls": [
-            "https://docs.nvidia.com/jetson/archives/r36.4.4/DeveloperGuide/index.html",
-            "https://forums.developer.nvidia.com/tag/matlab",
+            "https://www.nvidia.com/tr-tr/autonomous-machines",
             "https://forums.developer.nvidia.com/tag/debugging-and-troubleshooting",
-            "https://forums.developer.nvidia.com/c/ai-data-science/deep-learning/cudnn/90",
-            "https://forums.developer.nvidia.com/tag/robot-pose"
+            "https://forums.developer.nvidia.com/tag/gstreamer",
+            "https://www.nvidia.com/es-la/autonomous-machines",
+            "https://forums.developer.nvidia.com/tag/pcie"
           ]
         },
         {
           "name": "Jetson AGX Xavier",
           "urls": [
-            "https://forums.developer.nvidia.com/tag/architecture-and-design",
+            "https://www.nvidia.com/tr-tr/autonomous-machines",
             "https://forums.developer.nvidia.com/tag/debugging-and-troubleshooting",
-            "https://docs.nvidia.com/jetson/archives/l4t-archived/l4t-3276/index.html",
-            "https://forums.developer.nvidia.com/tag/generative_ai",
-            "https://forums.developer.nvidia.com/tag/dsi-display"
-          ]
-        },
-        {
-          "name": "Jetson AGX orin",
-          "urls": [
-            "https://forums.developer.nvidia.com/search?q=TensorRT-LLM",
-            "https://forums.developer.nvidia.com/tag/ros"
-          ]
-        },
-        {
-          "name": "Jetson Agx Orin",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/dpdk",
-            "https://forums.developer.nvidia.com/c/robotics-edge-computing/isaac/isaac-gym/322",
-            "https://forums.developer.nvidia.com/c/robotics-edge-computing/isaac/isaac-gym/322/l/latest",
-            "https://forums.developer.nvidia.com/c/ai-data-science/deep-learning/jax/607"
-          ]
-        },
-        {
-          "name": "Jetson Agx Xavier",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/power"
-          ]
-        },
-        {
-          "name": "Jetson NANO",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/radar-plugin",
-            "https://forums.developer.nvidia.com/tag/port",
-            "https://forums.developer.nvidia.com/tag/rl"
+            "https://www.nvidia.com/es-la/autonomous-machines",
+            "https://www.nvidia.com/en-in/autonomous-machines/embedded-systems/jetson-xavier-series",
+            "https://docs.nvidia.com/jetson/archives/l4t-archived/l4t-3276/index.html"
           ]
         },
         {
           "name": "Jetson Nano",
           "urls": [
-            "https://forums.developer.nvidia.com/tag/matlab",
-            "https://www.nvidia.com/en-sg/autonomous-machines/intelligent-video-analytics-platform?ncid=no-ncid",
-            "https://www.nvidia.com/en-gb/edge-computing?ncid=no-ncid",
-            "https://www.nvidia.com/en-au/edge-computing/products/igx",
-            "https://forums.developer.nvidia.com/tag/jetson-orin"
+            "https://www.nvidia.com/en-eu/autonomous-machines/intelligent-video-analytics-platform",
+            "https://www.nvidia.com/en-gb/autonomous-machines/intelligent-video-analytics-platform",
+            "https://forums.developer.nvidia.com/tag/dli",
+            "https://forums.developer.nvidia.com/tag/ethernet",
+            "https://www.nvidia.com/en-in/autonomous-machines/embedded-systems/jetson-thor"
           ]
         },
         {
           "name": "Jetson Orin",
           "urls": [
-            "https://www.nvidia.com/en-sg/industries/manufacturing",
-            "https://forums.developer.nvidia.com/tag/matlab",
-            "https://forums.developer.nvidia.com/tag/data-science",
-            "https://docs.nvidia.com/jetson/jps/index.html",
-            "https://forums.developer.nvidia.com/tag/isaac-sdk"
+            "https://forums.developer.nvidia.com/tag/debugging-and-troubleshooting",
+            "https://www.nvidia.com/en-eu/autonomous-machines/intelligent-video-analytics-platform",
+            "https://www.nvidia.com/en-gb/autonomous-machines/intelligent-video-analytics-platform",
+            "https://forums.developer.nvidia.com/tag/dli",
+            "https://forums.developer.nvidia.com/tag/ethernet"
           ]
         },
         {
           "name": "Jetson TX1",
           "urls": [
-            "https://forums.developer.nvidia.com/tag/sdk",
-            "https://developer.nvidia.com/embedded/lifecycle",
-            "https://www.nvidia.com/en-sg/legal-info",
-            "https://docs.nvidia.com/jetson/archives/l4t-archived/l4t-3276/index.html",
-            "https://www.nvidia.com/en-us/product-security?ncid=no-ncid"
+            "https://developer.nvidia.com/buy-jetson?location=SG&product=all",
+            "https://developer.nvidia.com/nsight-systems/get-started",
+            "https://www.nvidia.com/en-sg/legal-info?ncid=pa-srch-goog-654707",
+            "https://developer.nvidia.com/buy-jetson?location=AU&product=all",
+            "https://docs.nvidia.com/jetson/archives/l4t-archived/l4t-3276/index.html"
           ]
         },
         {
           "name": "Jetson TX2",
           "urls": [
-            "https://developer.nvidia.com/embedded/jetson-xavier-nx",
-            "https://www.nvidia.com/en-us/autonomous-machines/intelligent-video-analytics-platform?ncid=no-ncid",
+            "https://www.nvidia.com/tr-tr/autonomous-machines",
             "https://forums.developer.nvidia.com/tag/debugging-and-troubleshooting",
-            "https://docs.nvidia.com/jetson/archives/l4t-archived/l4t-3276/index.html",
-            "https://www.nvidia.com/es-la/autonomous-machines/embedded-systems/jetson-orin"
+            "https://www.nvidia.com/en-sg/data-center/edge-computing",
+            "https://www.nvidia.com/en-eu/autonomous-machines/intelligent-video-analytics-platform",
+            "https://www.nvidia.com/en-gb/autonomous-machines/intelligent-video-analytics-platform"
           ]
         },
         {
           "name": "Jetson Xavier",
           "urls": [
-            "https://forums.developer.nvidia.com/c/ai-data-science/deep-learning/93/l/latest",
-            "https://www.nvidia.com/en-sg/autonomous-machines/intelligent-video-analytics-platform?ncid=no-ncid",
-            "https://www.nvidia.com/en-gb/edge-computing?ncid=no-ncid",
-            "https://www.nvidia.com/en-au/edge-computing/products/igx",
-            "https://forums.developer.nvidia.com/tag/cuda"
-          ]
-        },
-        {
-          "name": "Jetson nano",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/24-ubuntu"
-          ]
-        },
-        {
-          "name": "Jetson orin",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/fpga",
-            "https://forums.developer.nvidia.com/tag/unreal-5",
-            "https://forums.developer.nvidia.com/tag/getting-started"
-          ]
-        },
-        {
-          "name": "Jetson xavier",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/yocto"
-          ]
-        },
-        {
-          "name": "jetson Xavier",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/isaac-ros-vslam"
-          ]
-        },
-        {
-          "name": "jetson nano",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/dsi-display",
-            "https://forums.developer.nvidia.com/tag/aws",
-            "https://forums.developer.nvidia.com/tag/docker-machine-learning",
-            "https://forums.developer.nvidia.com/tag/ai-model-training",
-            "https://forums.developer.nvidia.com/tag/spi"
-          ]
-        },
-        {
-          "name": "jetson orin",
-          "urls": [
-            "https://forums.developer.nvidia.com/c/robotics-edge-computing/isaac/67",
-            "https://forums.developer.nvidia.com/c/robotics-edge-computing/isaac/67/l/latest",
-            "https://devtalk.nvidia.com/%20?ncid=no-ncid",
-            "https://forums.developer.nvidia.com/tag/tensorrt",
-            "https://forums.developer.nvidia.com/c/agx-autonomous-machines/isaac/isaac-ros/600"
-          ]
-        },
-        {
-          "name": "jetson tx1",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/jetracer",
-            "https://forums.developer.nvidia.com/tag/matlab"
-          ]
-        },
-        {
-          "name": "jetson tx2",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/getting-started"
-          ]
-        },
-        {
-          "name": "jetson xavier",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/pytorch",
-            "https://forums.developer.nvidia.com/tag/nvbugs",
-            "https://forums.developer.nvidia.com/tag/jetbot"
+            "https://www.nvidia.com/en-eu/autonomous-machines/intelligent-video-analytics-platform",
+            "https://www.nvidia.com/en-gb/autonomous-machines/intelligent-video-analytics-platform",
+            "https://www.nvidia.com/en-in/autonomous-machines/embedded-systems/jetson-thor",
+            "https://forums.developer.nvidia.com/tag/optix",
+            "https://www.nvidia.com/en-eu/autonomous-machines/embedded-systems/jetson-agx-xavier"
           ]
         }
       ]
     },
     "Networking": {
-      "count": 36,
+      "count": 19,
       "products": [
         {
           "name": "BlueField",
           "urls": [
-            "https://www.nvidia.com/en-sg/data-center/dgx-platform?ncid=no-ncid",
-            "https://www.nvidia.com/es-la/networking/products/ethernet",
-            "https://www.nvidia.com/en-sg/data-center/magnum-io?ncid=no-ncid",
-            "https://www.nvidia.com/en-in/data-center/base-command-manager",
-            "https://docs.nvidia.com/networking/display/XLIOv3208LTS"
+            "https://www.nvidia.com/en-gb/networking/ethernet-switching/cumulus-linux",
+            "https://www.nvidia.com/es-la/solutions/ai-factories?ncid=no-ncid",
+            "https://www.nvidia.com/en-us",
+            "https://www.nvidia.com/en-au/networking/infiniband-adapters",
+            "https://www.nvidia.com/en-in/networking/network-virtualization"
           ]
         },
         {
           "name": "BlueField-2",
           "urls": [
-            "https://docs.nvidia.com/networking/display/COKAN10/Release+Notes",
-            "https://docs.nvidia.com/cloudera/reference-architecture-reference-build.html",
-            "https://www.nvidia.com/en-gb/networking/products/lts-releases",
-            "https://www.nvidia.com/en-gb/networking/products/data-processing-unit",
-            "https://docs.nvidia.com/networking/display/400G50GPAM4Listpub"
+            "https://www.nvidia.com/en-sg/networking/products/infiniband",
+            "https://www.nvidia.com/en-au/networking/infiniband-adapters",
+            "https://www.nvidia.com/en-in/networking/network-virtualization",
+            "https://www.nvidia.com/en-sg/networking/ethernet-switching/air",
+            "https://www.nvidia.com/en-sg/networking/network-automation"
           ]
         },
         {
           "name": "BlueField-3",
           "urls": [
-            "https://www.nvidia.com/es-la/networking/products/ethernet",
-            "https://www.nvidia.com/en-us/industries/telecommunications/partners",
-            "https://www.nvidia.com/en-sg/networking/products/ethernet",
-            "https://www.nvidia.com/en-sg/networking/products?ncid=no-ncid",
-            "https://www.nvidia.com/en-us/data-center/dgx-b200?ncid=no-ncid"
+            "https://docs.nvidia.com/networking/display/400G100GPAM4Listpub",
+            "https://forums.developer.nvidia.com/tag/installation",
+            "https://www.nvidia.com/en-gb/omniverse/platform/ovx?ncid=no-ncid",
+            "https://www.nvidia.com/en-au/networking/products",
+            "https://docs.nvidia.com/networking/display/400g50gpam4ovpub"
           ]
         },
         {
-          "name": "BlueField-4",
+          "name": "bluefield-4",
           "urls": [
-            "https://info.nvidia.com/xr-vcr-reg-page.html?ondemandrgt=yes",
-            "https://developer.nvidia.com/blog",
-            "https://www.nvidia.com/ko-kr",
-            "https://www.nvidia.com/en-sg/data-center/vera-rubin-nvl72",
-            "https://www.nvidia.com/pt-br"
-          ]
-        },
-        {
-          "name": "Bluefield",
-          "urls": [
-            "https://www.nvidia.com/en-us/data-center/products/converged-accelerator?ncid=no-ncid",
-            "https://www.nvidia.com/en-us/security?ncid=no-ncid",
-            "https://www.nvidia.com/en-us/product-security?ncid=no-ncid",
-            "https://docs.nvidia.com/networking/display/xliov3503",
-            "https://www.nvidia.com/tr-tr/product-security"
-          ]
-        },
-        {
-          "name": "Bluefield-3",
-          "urls": [
-            "https://www.nvidia.com/en-eu/omniverse/platform/ovx",
-            "https://forums.developer.nvidia.com/tag/ethernet",
-            "https://www.nvidia.com/en-us/omniverse/platform/ovx?ncid=no-ncid",
-            "https://docs.nvidia.com/networking/display/xliov3511",
-            "https://www.nvidia.com/en-gb/omniverse/platform/ovx?ncid=no-ncid"
+            "https://resources.nvidia.com/en-us-dgx-systems/gtc-live-2024-inside-dgx-architecture?ncid=no-ncid",
+            "https://www.nvidia.com/nl-nl?ncid=em-anno-148913",
+            "https://resources.nvidia.com/en-us-smart-cities-at-the-edge",
+            "https://resources.nvidia.com/en-us-fsi-solution-briefs/finance-solutions",
+            "https://resources.nvidia.com/en-us-it-resources-blogs"
           ]
         },
         {
           "name": "ConnectX",
           "urls": [
-            "https://www.nvidia.com/en-sg/products/workstations/dgx-station",
-            "https://www.nvidia.com/es-la/networking/products/ethernet",
-            "https://docs.nvidia.com/networking/display/XLIOv3208LTS",
-            "https://www.nvidia.com/en-gb/networking/quantum2",
-            "https://www.nvidia.com/en-sg/networking/products/ethernet"
+            "https://www.nvidia.com/en-gb/networking/ethernet-switching/cumulus-linux",
+            "https://www.nvidia.com/en-au/networking/infiniband-adapters",
+            "https://www.nvidia.com/en-in/networking/network-virtualization",
+            "https://www.nvidia.com/en-us/networking/infiniband-adapters",
+            "https://www.nvidia.com/es-la/networking/infiniband-long-haul-systems"
           ]
         },
         {
           "name": "ConnectX-3",
           "urls": [
-            "https://forums.developer.nvidia.com/tag/port",
-            "https://www.nvidia.com/en-sg/networking/infiniband-adapters",
-            "https://developer.nvidia.com/networking/infiniband-software",
-            "https://www.nvidia.com/en-eu/networking/infiniband-adapters",
-            "https://www.nvidia.com/en-au/networking/infiniband-adapters"
+            "https://forums.developer.nvidia.com/tag/drivers",
+            "https://www.nvidia.com/en-au/networking/infiniband-adapters",
+            "https://forums.developer.nvidia.com/tag/rdma-and-roce",
+            "https://www.nvidia.com/en-in/networking/infiniband-adapters",
+            "https://www.nvidia.com/en-sg/networking/infiniband-adapters"
           ]
         },
         {
           "name": "ConnectX-4",
           "urls": [
-            "https://forums.developer.nvidia.com/tag/port",
-            "https://forums.developer.nvidia.com/tag/include",
-            "https://forums.developer.nvidia.com/latest",
-            "https://www.nvidia.com/en-sg/networking/infiniband-adapters",
-            "https://developer.nvidia.com/networking/infiniband-software"
+            "https://docs.nvidia.com/networking/display/FREEBSDv371/Release+Notes",
+            "https://www.nvidia.com/en-au/networking/infiniband-adapters",
+            "https://www.nvidia.com/en-in/networking/infiniband-adapters",
+            "https://docs.nvidia.com/networking/adapters/index.html",
+            "https://docs.nvidia.com/networking/software/adapter-firmware/index.html"
           ]
         },
         {
           "name": "ConnectX-5",
           "urls": [
-            "https://docs.nvidia.com/networking/display/vmav9871",
-            "https://forums.developer.nvidia.com/tag/port",
-            "https://www.nvidia.com/en-sg/networking/infiniband-adapters",
-            "https://forums.developer.nvidia.com/tag/data-center-solutions",
-            "https://docs.nvidia.com/networking/display/vmav9880"
+            "https://www.nvidia.com/en-au/networking/infiniband-adapters",
+            "https://www.nvidia.com/en-in/networking/infiniband-adapters",
+            "https://docs.nvidia.com/networking/adapters/index.html",
+            "https://docs.nvidia.com/networking/software/adapter-firmware/index.html",
+            "https://forums.developer.nvidia.com/tag/pcie"
           ]
         },
         {
           "name": "ConnectX-6",
           "urls": [
-            "https://forums.developer.nvidia.com/tag/include",
-            "https://www.nvidia.com/en-sg/networking/infiniband-adapters",
-            "https://developer.nvidia.com/networking/rivermax",
-            "https://docs.nvidia.com/networking/display/COKAN10/Release+Notes",
-            "https://forums.developer.nvidia.com/tag/cables-and-transceivers"
+            "https://www.nvidia.com/en-au/networking/interconnect",
+            "https://www.nvidia.com/en-au/networking/infiniband-adapters",
+            "https://docs.nvidia.com/networking/display/400g50gpam4listpub",
+            "https://docs.nvidia.com/morpheus/getting_started.html",
+            "https://www.nvidia.com/en-in/networking/infiniband-adapters"
           ]
         },
         {
           "name": "ConnectX-7",
           "urls": [
-            "https://docs.nvidia.com/ngc/ngc-deploy-on-premises/nvidia-certified-systems/index.html",
-            "https://www.nvidia.com/en-sg/networking/infiniband-adapters",
-            "https://resources.nvidia.com/en-us-accelerated-networking-resource-library/connectx-7-datasheet",
-            "https://docs.nvidia.com/networking/display/COKAN10/Release+Notes",
-            "https://www.nvidia.com/en-au/data-center/dgx-h200?ncid=no-ncid"
+            "https://www.nvidia.com/en-au/networking/interconnect",
+            "https://docs.nvidia.com/networking/display/400G100GPAM4Listpub",
+            "https://www.nvidia.com/en-au/data-center/dgx-h200?ncid=no-ncid",
+            "https://www.nvidia.com/en-au/networking/infiniband-adapters",
+            "https://www.nvidia.com/en-gb/omniverse/platform/ovx?ncid=no-ncid"
           ]
         },
         {
           "name": "ConnectX-8",
           "urls": [
-            "https://www.nvidia.com/en-sg/products/workstations/dgx-station",
-            "https://www.nvidia.com/en-sg/networking/infiniband-adapters",
-            "https://www.nvidia.com/en-au/networking/spectrumx?ncid=no-ncid",
-            "https://www.nvidia.com/en-gb/data-center/gb200-nvl72?ncid=so-twit-266831&ncid=no-ncid",
-            "https://www.nvidia.com/en-us/networking/spectrumx?srsltid=AfmBOoqzzup-4t-BdBnuzz7XbqoHw-cwx-L-xmnPrR5LD2ytOJHvVmMi"
+            "https://resources.nvidia.com/en-us-accelerated-networking-resource-library/connectx-datasheet-c?ncid=no-ncid",
+            "https://www.nvidia.com/en-us/networking/spectrumx",
+            "https://www.nvidia.com/en-au/networking/infiniband-adapters",
+            "https://www.nvidia.com/en-us/networking/infiniband-adapters",
+            "https://www.nvidia.com/en-in/networking/infiniband-adapters"
           ]
         },
         {
           "name": "ConnectX-9",
           "urls": [
-            "https://www.nvidia.com/zh-cn",
-            "https://www.nvidia.com/en-sg/networking/infiniband-adapters",
-            "https://www.nvidia.com/en-us/networking/products/infiniband/quantum-x800?ncid=no-ncid",
-            "https://www.nvidia.com/en-sg/data-center/vera-rubin-nvl72",
-            "https://www.nvidia.com/pt-br"
-          ]
-        },
-        {
-          "name": "Connectx",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/cuda",
-            "https://forums.developer.nvidia.com/tag/cuda/l/latest",
-            "https://forums.developer.nvidia.com/tag/pcie",
-            "https://forums.developer.nvidia.com/tag/jetson-orin",
-            "https://forums.developer.nvidia.com/tag/cuda/l/hot"
-          ]
-        },
-        {
-          "name": "Connectx-3",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/drivers"
-          ]
-        },
-        {
-          "name": "Connectx-7",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/rdma-and-roce"
-          ]
-        },
-        {
-          "name": "SPECTRUM",
-          "urls": [
-            "https://www.nvidia.com/en-gb/data-center/dgx-pod-reference-architecture?ncid=no-ncid",
-            "https://docs.nvidia.com/networking/planning-resources/index.html"
+            "https://www.nvidia.com/en-us/data-center/vera-rubin-nvl72",
+            "https://www.nvidia.com/en-au/networking/infiniband-adapters",
+            "https://www.nvidia.com/en-us/networking/infiniband-adapters",
+            "https://www.nvidia.com/en-in/networking/infiniband-adapters",
+            "https://docs.nvidia.com/networking/adapters/index.html"
           ]
         },
         {
           "name": "Spectrum",
           "urls": [
-            "https://www.nvidia.com/es-la/networking/products/ethernet",
-            "https://www.nvidia.com/en-eu/industries/industrial-sector",
-            "https://www.nvidia.com/en-gb/networking/quantum2",
-            "https://www.nvidia.com/en-sg/networking/products/ethernet",
-            "https://www.nvidia.com/en-sg/data-center/dgx-cloud"
+            "https://www.nvidia.com/en-gb/networking/ethernet-switching/cumulus-linux",
+            "https://www.nvidia.com/en-us",
+            "https://www.nvidia.com/en-in/networking/network-virtualization",
+            "https://www.nvidia.com/es-la/networking/infiniband-long-haul-systems",
+            "https://www.nvidia.com/gtc/connect-with-experts?ncid=no-ncid"
           ]
         },
         {
@@ -2858,131 +2214,11 @@
         {
           "name": "Spectrum-2",
           "urls": [
+            "https://www.nvidia.com/en-gb/networking/interconnect",
             "https://www.nvidia.com/en-us/networking/ethernet-switching",
-            "https://docs.nvidia.com/networking/display/400g50gpam4ovpub",
+            "https://www.nvidia.com/en-au/networking/interconnect",
             "https://docs.nvidia.com/networking/switches/index.html",
-            "https://docs.nvidia.com/networking/display/400G50GPAM4Ovpub",
-            "https://www.nvidia.com/en-gb/networking/interconnect"
-          ]
-        },
-        {
-          "name": "Spectrum-3",
-          "urls": [
-            "https://www.nvidia.com/en-us/networking/ethernet-switching",
-            "https://docs.nvidia.com/networking/display/400g50gpam4ovpub",
-            "https://docs.nvidia.com/networking/switches/index.html",
-            "https://docs.nvidia.com/networking/display/400G100GPAM4Ovpub",
-            "https://docs.nvidia.com/networking/display/400G50GPAM4Ovpub"
-          ]
-        },
-        {
-          "name": "Spectrum-4",
-          "urls": [
-            "https://www.nvidia.com/en-in/data-center/products/certified-systems?ncid=no-ncid",
-            "https://www.nvidia.com/en-us/data-center/products/converged-accelerator?ncid=no-ncid",
-            "https://docs.nvidia.com/dgx-superpod/index.html?ncid=no-ncid",
-            "https://www.nvidia.com/en-au/data-center/products/certified-systems?ncid=no-ncid",
-            "https://www.nvidia.com/es-la/networking/spectrumx"
-          ]
-        },
-        {
-          "name": "Spectrum-6",
-          "urls": [
-            "https://www.nvidia.com/zh-cn",
-            "https://www.nvidia.com/es-la/networking/products/ethernet",
-            "https://www.nvidia.com/en-in/networking?ncid=pa-srch-goog-654707",
-            "https://www.nvidia.com/en-us/data-center/products/converged-accelerator?ncid=no-ncid",
-            "https://www.nvidia.com/pt-br"
-          ]
-        },
-        {
-          "name": "bluefield",
-          "urls": [
-            "https://resources.nvidia.com/en-us-grace-cpu/grace-hopper-superchip?_gl=1%2A10oqrm7%2A_gcl_au%2ANjczNzYyMzkzLjE3MTY5MjgyMzM.&ncid=no-ncid",
-            "https://forums.developer.nvidia.com/tag/security-acceleration",
-            "https://resources.nvidia.com/en-us-speech-ai-content/low-code-building-blocks-for-speech-ai-robotics?lx=h9TPm5",
-            "https://forums.developer.nvidia.com/tag/gds",
-            "https://nvidianews.nvidia.com/news?page=3"
-          ]
-        },
-        {
-          "name": "bluefield-2",
-          "urls": [
-            "https://www.nvidia.com/en-in/networking/products/ethernet/supernic",
-            "https://www.nvidia.com/en-in/networking/products/data-processing-unit/hpc",
-            "https://www.nvidia.com/en-sg/networking/products/ethernet",
-            "https://www.nvidia.com/en-sg/networking/products?ncid=no-ncid",
-            "https://www.nvidia.com/en-sg/networking/products/ethernet/supernic"
-          ]
-        },
-        {
-          "name": "bluefield-3",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/installation"
-          ]
-        },
-        {
-          "name": "bluefield-4",
-          "urls": [
-            "https://developer.nvidia.com/nvidia-nsight-visual-studio-code-edition-provide-feedback",
-            "https://developer.nvidia.com/",
-            "https://developer.nvidia.com/networking/doca?ncid=no-ncid",
-            "https://developer.nvidia.com/?ncid=em-anno-148913",
-            "https://developer.nvidia.com/nvidia-perfhud"
-          ]
-        },
-        {
-          "name": "connectx",
-          "urls": [
-            "https://docs.nvidia.com/dgx/dgxb200-service-manual/index.html",
-            "https://docs.nvidia.com/dgx/dgxh100-service-manual"
-          ]
-        },
-        {
-          "name": "connectx-4",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/firmware-tools"
-          ]
-        },
-        {
-          "name": "connectx-5",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/cuda",
-            "https://forums.developer.nvidia.com/tag/cuda/l/latest",
-            "https://forums.developer.nvidia.com/tag/pcie",
-            "https://forums.developer.nvidia.com/tag/jetson-orin",
-            "https://forums.developer.nvidia.com/tag/cuda/l/hot"
-          ]
-        },
-        {
-          "name": "connectx-6",
-          "urls": [
-            "https://www.nvidia.com/es-la/data-center/products/certified-systems?ncid=no-ncid",
-            "https://docs.nvidia.com/networking/adapters/index.html"
-          ]
-        },
-        {
-          "name": "connectx-7",
-          "urls": [
-            "https://www.nvidia.com/es-la/networking/products?ncid=no-ncid",
-            "https://www.nvidia.com/en-sg/networking/products",
-            "https://docs.nvidia.com/networking/adapters/index.html"
-          ]
-        },
-        {
-          "name": "connectx-8",
-          "urls": [
-            "https://www.nvidia.com/en-in/data-center/products/rtx-pro-server?ncid=no-ncid"
-          ]
-        },
-        {
-          "name": "spectrum",
-          "urls": [
-            "https://www.nvidia.com/en-sg/data-center/resources/mlperf-benchmarks?ncid=no-ncid",
-            "https://www.nvidia.com/en-in/data-center/resources/mlperf-benchmarks?ncid=pa-srch-goog-654707",
-            "https://www.nvidia.com/en-in/products/workstations/professional-desktop-gpus/rtx-pro-6000-family",
-            "https://build.nvidia.com/nvidia/streaming-data-to-rag",
-            "https://developer.nvidia.com/networking/rivermax"
+            "https://www.nvidia.com/en-us/networking/interconnect"
           ]
         },
         {
@@ -2990,71 +2226,76 @@
           "urls": [
             "https://docs.nvidia.com/networking/planning-resources/index.html"
           ]
+        },
+        {
+          "name": "Spectrum-3",
+          "urls": [
+            "https://www.nvidia.com/en-us/networking/ethernet-switching",
+            "https://www.nvidia.com/en-gb/networking/interconnect",
+            "https://www.nvidia.com/en-au/networking/interconnect",
+            "https://docs.nvidia.com/networking/switches/index.html",
+            "https://www.nvidia.com/en-us/networking/interconnect"
+          ]
+        },
+        {
+          "name": "Spectrum-4",
+          "urls": [
+            "https://www.nvidia.com/en-au/data-center/products/certified-systems",
+            "https://www.nvidia.com/en-us/networking/ethernet-switching",
+            "https://www.nvidia.com/en-gb/data-center/products/certified-systems?ncid=no-ncid",
+            "https://www.nvidia.com/en-au/networking/interconnect",
+            "https://www.nvidia.com/en-us/data-center/products/converged-accelerator?ncid=no-ncid"
+          ]
+        },
+        {
+          "name": "Spectrum-6",
+          "urls": [
+            "https://www.nvidia.com/nl-nl?ncid=em-anno-148913",
+            "https://www.nvidia.com/en-us/networking/ethernet-switching",
+            "https://www.nvidia.com/en-us",
+            "https://www.nvidia.com/en-us/data-center/products/converged-accelerator?ncid=no-ncid",
+            "https://resources.nvidia.com/en-us-vgpu-in-healthcare/windows-10-vdi-video?ncid=pa-srch-goog-654707"
+          ]
         }
       ]
     },
     "Other Hardware": {
-      "count": 6,
+      "count": 3,
       "products": [
         {
           "name": "B200",
           "urls": [
-            "https://www.nvidia.com/en-sg/industries/manufacturing",
-            "https://www.nvidia.com/en-gb/solutions/ai/inference?ncid=no-ncid",
-            "https://www.nvidia.com/en-gb/data-center/dgx-b200?ncid=no-ncid",
-            "https://www.nvidia.com/en-us/data-center/virtual-apps",
-            "https://www.nvidia.com/en-eu/industries/industrial-sector/cadence"
+            "https://www.nvidia.com/en-eu/data-center/virtual-apps?ncid=no-ncid",
+            "https://www.nvidia.com/en-in/solutions/ai/inference?ncid=pa-srch-goog-654707",
+            "https://www.nvidia.com/en-us/data-center/dgx-support?ncid=no-ncid",
+            "https://www.nvidia.com/en-sg/data-center/dgx-superpod",
+            "https://www.nvidia.com/en-eu/data-center/virtual-pc?ncid=no-ncid"
           ]
         },
         {
           "name": "H200",
           "urls": [
-            "https://www.nvidia.com/en-gb/solutions/ai/inference?ncid=no-ncid",
-            "https://www.nvidia.com/en-sg/data-center/dgx-platform?ncid=no-ncid",
-            "https://www.nvidia.com/en-sg/data-center/magnum-io?ncid=no-ncid",
-            "https://www.nvidia.com/en-gb/data-center/dgx-b200?ncid=no-ncid",
-            "https://www.nvidia.com/en-us/data-center/virtual-apps"
+            "https://www.nvidia.com/en-eu/data-center/virtual-apps?ncid=no-ncid",
+            "https://www.nvidia.com/es-la/solutions/ai-factories?ncid=no-ncid",
+            "https://www.nvidia.com/en-in/solutions/ai/inference?ncid=pa-srch-goog-654707",
+            "https://www.nvidia.com/en-us/data-center/dgx-support?ncid=no-ncid",
+            "https://www.nvidia.com/en-sg/data-center/dgx-superpod"
           ]
         },
         {
           "name": "L4",
           "urls": [
-            "https://www.nvidia.com/en-sg/data-center/buy-grid",
-            "https://www.nvidia.com/en-sg/solutions/ai-factories",
-            "https://www.nvidia.com/en-gb/industries?ncid=no-ncid",
-            "https://www.nvidia.com/en-in/research?ncid=no-ncid",
-            "https://www.nvidia.com/en-sg/technologies"
-          ]
-        },
-        {
-          "name": "b200",
-          "urls": [
-            "https://www.nvidia.com/it-it?ncid=no-ncid",
-            "https://nvidianews.nvidia.com/in-the-news?year=2024",
-            "https://www.nvidia.com/es-es?ncid=no-ncid"
-          ]
-        },
-        {
-          "name": "h200",
-          "urls": [
-            "https://www.nvidia.com/en-au/data-center/h200?ncid=no-ncid",
-            "https://developer.nvidia.com/dynamo"
-          ]
-        },
-        {
-          "name": "l4",
-          "urls": [
-            "https://nvidianews.nvidia.com/helper-search-news?ct=releases&page=2&q=robotics",
-            "https://www.nvidia.com/en-in/data-center/sustainable-computing?ncid=no-ncid",
-            "https://www.nvidia.com/en-in/data-center/sustainable-computing?ncid=pa-srch-goog-654707",
-            "https://www.nvidia.com/en-au/data-center/l4?ncid=no-ncid",
-            "https://www.nvidia.com/en-in/data-center/sustainable-computing"
+            "https://www.nvidia.com/en-gb/networking/ethernet-switching/cumulus-linux",
+            "https://www.nvidia.com/en-gb/self-driving-cars/drive-videos",
+            "https://www.nvidia.com/en-in/geforce/geforce-experience/shadowplay",
+            "https://www.nvidia.com/en-in/data-center/h200?ncid=no-ncid",
+            "https://www.nvidia.com/object/macosx-cuda-8.0.57-driver.html"
           ]
         }
       ]
     },
     "Professional GPU": {
-      "count": 35,
+      "count": 34,
       "products": [
         {
           "name": "Quadro 1200",
@@ -3065,8 +2306,8 @@
         {
           "name": "Quadro 2000",
           "urls": [
-            "https://developer.nvidia.com/capture-sdk-software-license-agreement",
-            "https://developer.nvidia.com/cuda/gpus/legacy"
+            "https://developer.nvidia.com/cuda/gpus/legacy",
+            "https://developer.nvidia.com/capture-sdk-software-license-agreement"
           ]
         },
         {
@@ -3078,9 +2319,9 @@
         {
           "name": "Quadro 4000",
           "urls": [
-            "https://www.nvidia.com/object/macosx-cuda-3.2.17-driver.html",
             "https://developer.nvidia.com/gpudirectforvideo",
-            "https://developer.nvidia.com/cuda/gpus/legacy"
+            "https://developer.nvidia.com/cuda/gpus/legacy",
+            "https://www.nvidia.com/object/macosx-cuda-3.2.17-driver.html"
           ]
         },
         {
@@ -3110,9 +2351,9 @@
         {
           "name": "Quadro K1200",
           "urls": [
-            "https://developer.nvidia.com/cuda/gpus/legacy",
+            "https://www.nvidia.com/object/manufacturer_warranty.html",
             "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/object/manufacturer_warranty.html"
+            "https://developer.nvidia.com/cuda/gpus/legacy"
           ]
         },
         {
@@ -3124,11 +2365,11 @@
         {
           "name": "Quadro K2200",
           "urls": [
-            "https://forums.developer.nvidia.com/tag/tensorflow",
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
+            "https://forums.developer.nvidia.com/tag/machine-learning",
+            "https://forums.developer.nvidia.com/tag/blender",
             "https://developer.nvidia.com/vulkan-driver",
-            "https://developer.nvidia.com/cuda/gpus/legacy",
-            "https://forums.developer.nvidia.com/tag/deep-learning"
+            "https://developer.nvidia.com/cuda/gpus/legacy"
           ]
         },
         {
@@ -3141,8 +2382,8 @@
         {
           "name": "Quadro K420",
           "urls": [
-            "https://developer.nvidia.com/cuda/gpus/legacy",
-            "https://www.nvidia.com/object/manufacturer_warranty.html"
+            "https://www.nvidia.com/object/manufacturer_warranty.html",
+            "https://developer.nvidia.com/cuda/gpus/legacy"
           ]
         },
         {
@@ -3173,37 +2414,37 @@
         {
           "name": "Quadro K6000",
           "urls": [
-            "https://developer.nvidia.com/nsight-visual-studio-edition-3_2-new-features",
-            "https://developer.nvidia.com/cuda/gpus/legacy"
+            "https://developer.nvidia.com/cuda/gpus/legacy",
+            "https://developer.nvidia.com/nsight-visual-studio-edition-3_2-new-features"
           ]
         },
         {
           "name": "Quadro K620",
           "urls": [
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
             "https://developer.nvidia.com/vulkan-driver",
             "https://developer.nvidia.com/cuda/gpus/legacy",
-            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
-            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix"
+            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix",
+            "https://developer.nvidia.com/video-encode-decode-support-matrix"
           ]
         },
         {
           "name": "Quadro P1000",
           "urls": [
             "https://forums.developer.nvidia.com/tag/wayland",
-            "https://developer.nvidia.com/cuda/gpus/legacy",
+            "https://www.nvidia.com/object/manufacturer_warranty.html",
             "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/object/manufacturer_warranty.html"
+            "https://developer.nvidia.com/cuda/gpus/legacy"
           ]
         },
         {
           "name": "Quadro P2000",
           "urls": [
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
+            "https://forums.developer.nvidia.com/tag/visual-studio",
             "https://developer.nvidia.com/vulkan-driver",
             "https://developer.nvidia.com/cuda/gpus/legacy",
-            "https://forums.developer.nvidia.com/tag/visual-studio",
-            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new"
+            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix"
           ]
         },
         {
@@ -3223,31 +2464,31 @@
         {
           "name": "Quadro P3200",
           "urls": [
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
+            "https://forums.developer.nvidia.com/tag/linux-driver-solutions",
             "https://developer.nvidia.com/vulkan-driver",
             "https://developer.nvidia.com/cuda/gpus/legacy",
-            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
             "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix"
           ]
         },
         {
           "name": "Quadro P400",
           "urls": [
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
             "https://developer.nvidia.com/vulkan-driver",
             "https://developer.nvidia.com/cuda/gpus/legacy",
-            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
-            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix"
+            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix",
+            "https://developer.nvidia.com/video-encode-decode-support-matrix"
           ]
         },
         {
           "name": "Quadro P4000",
           "urls": [
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
             "https://developer.nvidia.com/vulkan-driver",
             "https://developer.nvidia.com/cuda/gpus/legacy",
-            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
-            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix"
+            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix",
+            "https://developer.nvidia.com/video-encode-decode-support-matrix"
           ]
         },
         {
@@ -3260,28 +2501,28 @@
         {
           "name": "Quadro P500",
           "urls": [
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
             "https://developer.nvidia.com/vulkan-driver",
             "https://developer.nvidia.com/cuda/gpus/legacy",
-            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
-            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix"
+            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix",
+            "https://developer.nvidia.com/video-encode-decode-support-matrix"
           ]
         },
         {
           "name": "Quadro P5000",
           "urls": [
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
             "https://developer.nvidia.com/vulkan-driver",
             "https://developer.nvidia.com/cuda/gpus/legacy",
-            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
-            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix"
+            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix",
+            "https://developer.nvidia.com/video-encode-decode-support-matrix"
           ]
         },
         {
           "name": "Quadro P520",
           "urls": [
-            "https://forums.developer.nvidia.com/tag/wayland",
-            "https://developer.nvidia.com/vulkan-driver"
+            "https://developer.nvidia.com/vulkan-driver",
+            "https://forums.developer.nvidia.com/tag/wayland"
           ]
         },
         {
@@ -3294,35 +2535,29 @@
         {
           "name": "Quadro P600",
           "urls": [
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
+            "https://forums.developer.nvidia.com/c/accelerated-computing/cuda/206",
             "https://developer.nvidia.com/vulkan-driver",
             "https://developer.nvidia.com/cuda/gpus/legacy",
-            "https://forums.developer.nvidia.com/c/accelerated-computing/cuda/206/l/latest",
-            "https://forums.developer.nvidia.com/c/accelerated-computing/cuda/cuda-setup-and-installation/8"
+            "https://developer.nvidia.com/video-encode-decode-gpu-support-matrix"
           ]
         },
         {
           "name": "Quadro P6000",
           "urls": [
-            "https://developer.nvidia.com/video-encode-decode-support-matrix",
-            "https://developer.nvidia.com/vulkan-driver",
-            "https://developer.nvidia.com/tegra-system-profiler",
-            "https://developer.nvidia.com/cuda/gpus/legacy",
-            "https://forums.developer.nvidia.com/tag/linux"
+            "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
+            "https://forums.developer.nvidia.com/tag/linux",
+            "https://developer.nvidia.com/nsight-systems",
+            "https://developer.nvidia.com/embedded/nvidia-system-profiler",
+            "https://developer.nvidia.com/vulkan-driver"
           ]
         },
         {
           "name": "Quadro P620",
           "urls": [
-            "https://developer.nvidia.com/cuda/gpus/legacy",
+            "https://www.nvidia.com/object/manufacturer_warranty.html",
             "https://developer.nvidia.com/vulkan-driver",
-            "https://www.nvidia.com/object/manufacturer_warranty.html"
-          ]
-        },
-        {
-          "name": "quadro p3200",
-          "urls": [
-            "https://forums.developer.nvidia.com/tag/linux-driver-solutions"
+            "https://developer.nvidia.com/cuda/gpus/legacy"
           ]
         }
       ]

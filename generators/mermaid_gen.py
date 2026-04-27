@@ -85,7 +85,15 @@ class MermaidGenerator:
         text = text.replace(">", "")
         text = text.replace("[", "(")
         text = text.replace("]", ")")
-        return text[:40]  # Limit length
+        # Word-boundary-aware truncation: avoid cutting mid-word
+        if len(text) > 40:
+            # Find last space before position 37
+            last_space = text.rfind(" ", 0, 37)
+            if last_space > 0:
+                text = text[:last_space] + "..."
+            else:
+                text = text[:37] + "..."
+        return text
 
     def generate_ecosystem_mindmap(
         self,

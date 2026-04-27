@@ -1,6 +1,6 @@
 # NVIDIA Ecosystem Diagrams / NVIDIA 生态系统图表
 
-> Generated: 2026-04-24 16:01:11
+> Generated: 2026-04-27 12:43:10
 
 ## Ecosystem Overview / 生态系统概览
 
@@ -148,21 +148,21 @@ mindmap
     AI Frameworks
       Merlin
       Merlin Devzone Survey
-      Merlin Devzone Survey Form
       Merlin Distributed Embeddings
-      Merlin Explore the components of NVIDIA 
+      Merlin Distributed Training
       Merlin Feature Engineering
       Merlin HugeCTR
-      Merlin HugeCTR All
+      Merlin HugeCTR Core
+      Merlin HugeCTR Framework
     AI Inference
-      DeepStream SDK or TensorRT
-      DeepStream and NVIDIA Triton
-      DeepStream and NVIDIA Triton Inference S
-      Deepstream and TensorRT
-      Isaac ROS TensorRT Node with dynamic bat
-      Morpheus Triton Server Models container
-      Morpheus and Triton are located on the s
-      NGC TensorRT container version
+      DeepStream Triton Server
+      Isaac ROS TensorRT
+      Morpheus Triton Models
+      Morpheus Triton Server
+      NGC TensorRT container
+      TENSORRT
+      TensorRT 10
+      TensorRT 10.0
     CUDA Platform
       CUDA
       CUDA 10
@@ -174,22 +174,22 @@ mindmap
       CUDA 11.0
     Cloud & Containers
       NGC
-      NGC A portal of enterprise services
+      NGC ACROSS PLATFORMS
       NGC AI
-      NGC AI Enterprise catalog at
-      NGC AI catalog at
-      NGC AI products through
-      NGC AND GOOGLE CLOUD
-      NGC AND GOOGLE CLOUD Chintan Patel
+      NGC AI Enterprise
+      NGC AI catalog
+      NGC AI products
+      NGC API
+      NGC API Documentation
     Computer Vision
       DEEPSTREAM SDK
-      DEEPSTREAM SDK FOR INTELLIGENT VIDEO ANA
       DeepStream
       DeepStream 3D
       DeepStream 6
       DeepStream 7
       DeepStream 8
       DeepStream Alvin Clark
+      DeepStream Composer
     Graphics Technology
       DLSS
       DLSS 1
@@ -203,22 +203,22 @@ mindmap
       CLARA AGX
       CLARA PARABRICKS DOCUMENTATION
       CLARA PARABRICKS PIPELINES
-      CLARA for HEALTHCARE
+      CLARA SDK Pakiet
+      CLARA Uniwersalna platforma
       Clara AGX AI
-      Clara AGX KI
-      Clara AGX dev kit Not detecting RTX6000 
+      Clara AGX Calcul
     Interconnect Technology
       NVLINK
       NVSWITCH
     Omniverse Platform
-      Isaac SIM in omniverse not launching
-      Isaac Sim does not open from Omniverse G
-      Isaac Sim into their software solutions 
-      Isaac Sim without Omniverse Editor
-      Isaac sim unity3d examples on isaac sim 
-      Metropolis and NVIDIA Omniverse
-      Metropolis e o NVIDIA Omniverse
-      Metropolis y NVIDIA Omniverse
+      NGC NVIDIA Omniverse
+      NGC Omniverse Base
+      NGC Omniverse Kit
+      OMNIVERSE CONFERENCE SESSIONS
+      OMNIVERSE CONNECTOR crashing
+      OMNIVERSE ISAAC SIM
+      OMNIVERSE LICENSING
+      Omniverse
     Other Software
       Base Command
       Canvas
@@ -228,20 +228,20 @@ mindmap
       TAO Toolkit
     Robotics
       ISAAC
-      ISAAC Gym does not run in headless mode 
-      ISAAC ROS Docker failed to inject CDI de
-      ISAAC ROS ESS Stereo Depth Estimation no
-      ISAAC ROS for Inference
-      ISAAC ROS vSLAM questions on localizatio
-      ISAAC ROS version for jetpack5
+      ISAAC Gym does
+      ISAAC ROS Docker
+      ISAAC ROS ESS
+      ISAAC ROS vSLAM
+      ISAAC ROS version
       ISAAC SIM
+      ISAAC SIM URDF
     Speech & Audio AI
       BROADCAST
       Maxine
       Maxine 3D
       Maxine 4
       Maxine 50
-      Maxine AI developer platform
+      Maxine AI developer
       Maxine AR
-      Maxine AR SDK Audio2Face 2D Effect Maxin
+      Maxine AR SDK
 ```

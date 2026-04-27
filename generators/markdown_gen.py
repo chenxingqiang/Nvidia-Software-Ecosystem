@@ -278,35 +278,35 @@ class MarkdownGenerator:
             lambda: {
                 "total_pages": 0,
                 "subcategories": defaultdict(int),
-                "products": defaultdict(set),
-                "technologies": defaultdict(set),
+                "products": defaultdict(dict),       # cat -> {name_lower: display_name}
+                "technologies": defaultdict(dict),    # cat -> {name_lower: display_name}
                 "top_keywords": [],
                 "sample_urls": [],
             }
         )
-        
-        all_products: Dict[str, Set[str]] = defaultdict(set)
-        all_technologies: Dict[str, Set[str]] = defaultdict(set)
+
+        all_products: Dict[str, Dict[str, str]] = defaultdict(dict)
+        all_technologies: Dict[str, Dict[str, str]] = defaultdict(dict)
         keyword_counts: Dict[str, Dict[str, int]] = defaultdict(lambda: defaultdict(int))
         seen_urls: Set[str] = set()
-        
+
         for page in classified_pages:
             url = page.get("url", "")
             if url and url in seen_urls:
                 continue
             if url:
                 seen_urls.add(url)
-            
+
             eco = page.get("ecosystem", "technology")
             eco_entry = ecosystem_data[eco]
-            
+
             eco_entry["total_pages"] += 1
-            
+
             subcat = page.get("subcategory")
             if subcat:
                 eco_entry["subcategories"][subcat] += 1
-            
-            # Collect products (deduplicated via set)
+
+            # Collect products (case-insensitive dedup)
             for product in page.get("products", []):
                 if isinstance(product, dict):
                     name = product.get("name", "")
@@ -314,12 +314,15 @@ class MarkdownGenerator:
                 else:
                     name = str(product)
                     category = "Other"
-                
+
                 if name:
-                    eco_entry["products"][category].add(name)
-                    all_products[category].add(name)
-            
-            # Collect technologies (deduplicated via set)
+                    key = name.lower()
+                    if key not in eco_entry["products"][category]:
+                        eco_entry["products"][category][key] = name
+                    if key not in all_products[category]:
+                        all_products[category][key] = name
+
+            # Collect technologies (case-insensitive dedup)
             for tech in page.get("technologies", []):
                 if isinstance(tech, dict):
                     name = tech.get("name", "")
@@ -327,28 +330,31 @@ class MarkdownGenerator:
                 else:
                     name = str(tech)
                     category = "Other"
-                
+
                 if name:
-                    eco_entry["technologies"][category].add(name)
-                    all_technologies[category].add(name)
-            
+                    key = name.lower()
+                    if key not in eco_entry["technologies"][category]:
+                        eco_entry["technologies"][category][key] = name
+                    if key not in all_technologies[category]:
+                        all_technologies[category][key] = name
+
             # Track keywords
             for keyword in page.get("keywords", []):
                 keyword_counts[eco][keyword] += 1
-            
+
             # Sample URLs
             if len(eco_entry["sample_urls"]) < 10:
                 eco_entry["sample_urls"].append(url)
-        
-        # Convert sets to sorted lists for report generation
+
+        # Convert dicts to sorted lists for report generation
         for eco in ecosystem_data:
             eco_entry = ecosystem_data[eco]
             eco_entry["products"] = {
-                cat: sorted(names)
+                cat: sorted(names.values(), key=str.lower)
                 for cat, names in eco_entry["products"].items()
             }
             eco_entry["technologies"] = {
-                cat: sorted(names)
+                cat: sorted(names.values(), key=str.lower)
                 for cat, names in eco_entry["technologies"].items()
             }
         
